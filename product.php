@@ -1,3 +1,4 @@
+<?php include 'config.php';?>
 <!DOCTYPE html> 
 <html lang="en-US">
    <head>
@@ -6,13 +7,25 @@
       <meta name="format-detection" content="telephone=no"/>
       <link rel="profile" href="//gmpg.org/xfn/11">
       <title>T1 Circle Pendant &#8211; Goldish</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css?family=Jost%3A200%2Cregular%2Citalic%2C500%2C600%2C700%2C900%26subset%3Dlatin%2Clatin-ext&#038;display=swap"
+    />
       <meta name='robots' content='max-image-preview:large' />
       <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Jost%3A200%2Cregular%2Citalic%2C500%2C600%2C700%2C900%26subset%3Dlatin%2Clatin-ext&#038;display=swap">
-      <link rel="stylesheet" href="asset/goldish/demo/wp-content/themes/goldish/assets/font/theme-icons.css">
+      <link rel="stylesheet" href="<?php echo $domain;?>/asset/goldish/demo/wp-content/themes/goldish/assets/font/theme-icons.css">
       <style>@font-face { font-family:"Boska Light";src:url(https://parkofideas.com/goldish/demo/wp-content/uploads/2023/03/goldish-1203323592.woff2) format('woff2');font-display: auto;}@font-face { font-family:"Boska Regular";src:url(https://parkofideas.com/goldish/demo/wp-content/uploads/2023/03/goldish-1323852144.woff2) format('woff2');font-display: auto;}</style>
       <link rel="alternate" type="application/rss+xml" title="Goldish &raquo; Feed" href="https://parkofideas.com/goldish/demo/feed/" />
       <link rel="alternate" type="application/rss+xml" title="Goldish &raquo; Comments Feed" href="https://parkofideas.com/goldish/demo/comments/feed/" />
       <link rel="alternate" type="application/rss+xml" title="Goldish &raquo; T1 Circle Pendant Comments Feed" href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/feed/" />
+      <link
+      rel="stylesheet"
+      id="elementor-post-4619-css"
+      href="<?php echo $domain;?>/asset/goldish/demo/wp-content/uploads/elementor/css/post-4619.css"
+      type="text/css"
+      media="all"
+    />
       <style id='wp-emoji-styles-inline-css' type='text/css'>
          img.wp-smiley, img.emoji {
          display: inline !important;
@@ -30,11 +43,11 @@
          /*! This file is auto-generated */
          .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
       </style>
-      <link rel='stylesheet' id='contact-form-7-css' href='asset/goldish/demo/wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
+      <link rel='stylesheet' id='contact-form-7-css' href='<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
       <style id='woocommerce-inline-inline-css' type='text/css'>
          .woocommerce form .form-row .required { visibility: visible; }
       </style>
-      <link rel='stylesheet' id='woo-variation-swatches-css' href='asset/goldish/demo/wp-content/plugins/woo-variation-swatches/assets/css/frontend.min.css' type='text/css' media='all' />
+      <link rel='stylesheet' id='woo-variation-swatches-css' href='<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/woo-variation-swatches/assets/css/frontend.min.css' type='text/css' media='all' />
       <style id='woo-variation-swatches-inline-css' type='text/css'>
          :root {
          --wvs-tick:url("data:image/svg+xml;utf8,%3Csvg filter='drop-shadow(0px 0px 2px rgb(0 0 0 / .8))' xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 30 30'%3E%3Cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='4' d='M4 16L11 23 27 7'/%3E%3C/svg%3E");
@@ -43,9 +56,9 @@
          --wvs-single-product-item-height:54px;
          --wvs-single-product-item-font-size:14px}
       </style>
-      <link rel='stylesheet' id='ideapark_fonts-icons-css' href='asset/goldish/demo/wp-content/uploads/ideapark_fonts/font-style-c6af5625.min.css' type='text/css' media='all' />
-      <link rel='stylesheet' id='ideapark-entry-content-css' href='asset/goldish/demo/wp-content/themes/goldish/assets/css/entry-content.css' type='text/css' media='all' />
-      <link rel='stylesheet' id='ideapark-core-css' href='asset/goldish/demo/wp-content/themes/goldish/style.css' type='text/css' media='all' />
+      <link rel='stylesheet' id='ideapark_fonts-icons-css' href='<?php echo $domain;?>/asset/goldish/demo/wp-content/uploads/ideapark_fonts/font-style-c6af5625.min.css' type='text/css' media='all' />
+      <link rel='stylesheet' id='ideapark-entry-content-css' href='<?php echo $domain;?>/asset/goldish/demo/wp-content/themes/goldish/assets/css/entry-content.css' type='text/css' media='all' />
+      <link rel='stylesheet' id='ideapark-core-css' href='<?php echo $domain;?>/asset/goldish/demo/wp-content/themes/goldish/style.css' type='text/css' media='all' />
       <style id='ideapark-core-inline-css' type='text/css'>
          :root { --text-color: #181818; --text-color-body: #464646; --text-color-light: #6A6A6A; --text-color-med-light: #A7A7A7; --text-color-extra-light: #E1E1E1; --text-color-tr: rgba(24, 24, 24, 0.15); --text-color-tr-50: rgba(24, 24, 24, 0.5); --background-color: #ffffff; --background-color-light: #FFFFFF; --background-color-dark: #F7F7F7; --accent-color: #c6ad8a; --accent-color-dark: #B29C7C; --accent-background-color: #FDF9F2; --accent-button-color: #FFFFFF; --accent-button-background-color: #c6ad8a; --accent-button-hover-background-color: #181818; --white-color: #FFFFFF; --smart-color: #181818; --star-rating-color: #FFBB54; --font-text: "Jost", sans-serif; --font-icons: "theme-icons"; --text-transform: capitalize; --logo-size: 140px; --logo-size-sticky: 140px; --logo-size-mobile: 120px; --shadow-color-desktop: rgba(255, 255, 255, 0.95); --search-color-desktop: #181818; --text-align-left: left; --text-align-right: right; --custom-transform-transition: visibility 0.5s cubic-bezier(0.86, 0, 0.07, 1), opacity 0.5s cubic-bezier(0.86, 0, 0.07, 1), transform 0.5s cubic-bezier(0.86, 0, 0.07, 1), box-shadow 0.5s cubic-bezier(0.86, 0, 0.07, 1); --opacity-transition: opacity 0.3s linear, visibility 0.3s linear; --opacity-transform-transition: opacity 0.3s linear, visibility 0.3s linear, transform 0.3s ease-out, box-shadow 0.3s ease-out; --hover-transition: opacity 0.15s linear, visibility 0.15s linear, color 0.15s linear, border-color 0.15s linear, background-color 0.15s linear, box-shadow 0.15s linear; --star-rating-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTAiIGZpbGw9IiNGRkJCNTQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTguOTU2IDkuNzgyYy4wNS4xNTMtLjEzMi4yOC0uMjcuMTg2TDUuNSA3Ljc5OGwtMy4xOSAyLjE2OGMtLjEzNy4wOTMtLjMyLS4wMzMtLjI2OS0uMTg3bDEuMTc4LTMuNTYzTC4wNyAzLjk5Yy0uMTM1LS4wOTUtLjA2NS0uMy4xMDMtLjMwMmwzLjkxNi0uMDMyTDUuMzM1LjExNGMuMDUzLS4xNTIuMjgtLjE1Mi4zMzMgMEw2LjkxIDMuNjU4bDMuOTE2LjAzNWMuMTY4LjAwMS4yMzguMjA2LjEwMy4zMDJMNy43OCA2LjIxN2wxLjE3NSAzLjU2NXoiLz48L3N2Zz4="); --select-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iNyIgdmlld0JveD0iMCAwIDEwIDciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0uNDcgMS41MyAxLjUzLjQ3IDUgMy45NCA4LjQ3LjQ3bDEuMDYgMS4wNkw1IDYuMDYuNDcgMS41M3oiIGZpbGw9IiMxODE4MTgiLz48L3N2Zz4="); --select-ordering-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNiIgaGVpZ2h0PSI0IiB2aWV3Qm94PSIwIDAgNiA0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMyAyLjU1MS42MzMuMTg0IDAgLjgxNmwzIDMgMy0zLS42MzMtLjYzMkwzIDIuNTVaIiBmaWxsPSIjNkE2QTZBIi8+PC9zdmc+"); --reset-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzE4MTgxOCI+PHBhdGggZD0iTTE5IDYuNDFMMTcuNTkgNSAxMiAxMC41OSA2LjQxIDUgNSA2LjQxIDEwLjU5IDEyIDUgMTcuNTkgNi40MSAxOSAxMiAxMy40MSAxNy41OSAxOSAxOSAxNy41OSAxMy40MSAxMnoiLz48L3N2Zz4="); --image-grid-prop: 100%; --image-product-prop: 100%; --image-product-prop-qv-mobile: 88%; --image-product-aspect-ratio: 100 / 100; --icon-divider: "\f110" /* ip-divider */; --icon-zoom: "\f145" /* ip-plus-zoom */; --icon-user: "\f158" /* ip-user */; --icon-close-small: "\f10d" /* ip-close-small */; --icon-check: "\f10b" /* ip-check */; --icon-select: "\f113" /* ip-down_arrow */; --icon-select-bold: "\f112" /* ip-down */; --icon-romb: "\f14d" /* ip-romb */; --icon-calendar: "\f106" /* ip-calendar */; --icon-li: "\f111" /* ip-dot */; --icon-submenu: "\f12b" /* ip-menu-right */; --icon-depth: "\f165" /* ip-z-depth */; --icon-eye-back: "\f115" /* ip-eye-back */; --icon-heart-back: "\f11c" /* ip-heart-active */; --image-background-color: #F7F7F7; --fullwidth-limit: 1920px; --container-default-padding-block-start: 0px; --container-default-padding-block-end: 0px; --container-default-padding-inline-start: 0px; --container-default-padding-inline-end: 0px; } .woobt-wrap:before { content: "Frequently Bought Together"; } .owl-nav { --disable-color: rgba(24, 24, 24, 0.2); } .c-badge { --badge-bgcolor-featured: #181818; --badge-bgcolor-new: #181818; --badge-bgcolor-sale: #181818; --badge-bgcolor-outofstock: #ff5555; } .c-to-top-button { --to-top-button-color: #C6AD8A; } .c-top-menu__list { --top-menu-submenu-color: #000000; --top-menu-submenu-bg-color: #FFFFFF; --top_menu_submenu_accent_color: #c6ad8a; --top-menu-font-size: 14px; --top-menu-item-space: 20px; } .c-product-grid__item { --font-size: 24px; --font-size-mobile-1-rows: 23px; --font-size-mobile-2-rows: 20px; --font-size-compact: 18px; --font-size-compact-mobile: 17px; --color-variations-size: 16px; } .product { --summary-bg-color: #FDF9F2; --font-size-desktop: 45px; --font-size-desktop-qv: 34px; --font-size-mobile: 40px; --font-size-mobile-qv: 34px; } .l-header { --top-color: #181818; --top-accent-color: #C6AD8A; --top-background-color: #ffffff; --top-border-color: currentColor; --header-color-mobile: #000000; --header-color-bg-mobile: #FFFFFF; --transparent-header-color: #FFFFFF; --transparent-header-accent: #181818; --header-height-mobile: 60px; --sticky-header-height-mobile: 60px; } .woocommerce-store-notice { --store-notice-color: #FFFFFF; --store-notice-background-color: #CF3540; } input[type=radio], input[type=checkbox], .woocommerce-widget-layered-nav-list__item, .c-ip-attribute-filter__list { --border-color: #D1D1D1; } .c-product-features { --feature-text-color: #181818; --feature-description-color: #6A6A6A; --feature-background-color: #FDF9F2; --feature-border: dashed 1px #c6ad8a; } .c-product__slider-item--video .mejs-mediaelement .wp-video-shortcode, .c-product__slider-item--video .c-inline-video { object-fit: cover; } 
          @font-face {
@@ -60,8 +73,8 @@
          }
          .ip-buy-now{position:fixed;z-index:100001;-webkit-transform-origin: right center;transform-origin: right center;}.ip-buy-now.loading{-webkit-transform: translateX(100%);transform: translateX(100%);}.ip-buy-now{right:0;bottom:205px;transition:transform 0.3s linear,box-shadow 0.3s linear}.ip-buy-now:hover{-webkit-transform: scale(1.2);transform: scale(1.2);box-shadow: 10px 5px 12px rgba(0, 0, 0, 0.2);}@media (max-width: 767px){.ip-buy-now{display:none}}@media (max-width: 1189px){ul.c-lang-demo{display:none;}}
       </style>
-      <link rel='stylesheet' id='ideapark-elementor-css' href='asset/goldish/demo/wp-content/plugins/ideapark-goldish/assets/css/style.min.css' type='text/css' media='all' />
-      <link rel='stylesheet' id='elementor-frontend-css' href='asset/goldish/demo/wp-content/uploads/elementor/css/custom-frontend-lite.min.css' type='text/css' media='all' />
+      <link rel='stylesheet' id='ideapark-elementor-css' href='<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/ideapark-goldish/assets/css/style.min.css' type='text/css' media='all' />
+      <link rel='stylesheet' id='elementor-frontend-css' href='<?php echo $domain;?>/asset/goldish/demo/wp-content/uploads/elementor/css/custom-frontend-lite.min.css' type='text/css' media='all' />
       <style id='elementor-frontend-inline-css' type='text/css'>
          .elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated,
          .elementor-column-gap-default > .elementor-column > .elementor-element-populated { padding: 0; }
@@ -72,34 +85,35 @@
          --container-default-padding-right: 0;
          }
       </style>
-      <link rel='stylesheet' id='elementor-post-1664-css' href='asset/goldish/demo/wp-content/uploads/elementor/css/post-1664.css' type='text/css' media='all' />
+      
+      <link rel='stylesheet' id='elementor-post-1664-css' href='<?php echo $domain;?>/asset/goldish/demo/wp-content/uploads/elementor/css/post-1664.css' type='text/css' media='all' />
       <script type="text/template" id="tmpl-variation-template">
          <div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
          <div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
          <div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
       </script> <script type="text/template" id="tmpl-unavailable-variation-template">
          <p>Sorry, this product is unavailable. Please choose a different combination.</p>
-      </script> <script type="text/javascript" src="asset/goldish/demo/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script> <script type="text/javascript" src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js" id="jquery-blockui-js" data-wp-strategy="defer"></script> <script type="text/javascript" id="wc-add-to-cart-js-extra">
+      </script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js" id="jquery-blockui-js" data-wp-strategy="defer"></script> <script type="text/javascript" id="wc-add-to-cart-js-extra">
          /* <![CDATA[ */
          var wc_add_to_cart_params = {"ajax_url":"\/goldish\/demo\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/goldish\/demo\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/parkofideas.com\/goldish\/demo\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
          /* ]]> */
-      </script> <script type="text/javascript" src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script> <script type="text/javascript" id="wc-single-product-js-extra">
+      </script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script> <script type="text/javascript" id="wc-single-product-js-extra">
          /* <![CDATA[ */
          var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"","zoom_options":[],"photoswipe_enabled":"","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":""};
          /* ]]> */
-      </script> <script type="text/javascript" src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js" id="wc-single-product-js" defer="defer" data-wp-strategy="defer"></script> <script type="text/javascript" src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js" id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script> <script type="text/javascript" id="woocommerce-js-extra">
+      </script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js" id="wc-single-product-js" defer="defer" data-wp-strategy="defer"></script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js" id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script> <script type="text/javascript" id="woocommerce-js-extra">
          /* <![CDATA[ */
          var woocommerce_params = {"ajax_url":"\/goldish\/demo\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/goldish\/demo\/?wc-ajax=%%endpoint%%"};
          /* ]]> */
-      </script> <script type="text/javascript" src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script> <script type="text/javascript" src="asset/goldish/demo/wp-includes/js/underscore.min.js" id="underscore-js"></script> <script type="text/javascript" id="wp-util-js-extra">
+      </script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/underscore.min.js" id="underscore-js"></script> <script type="text/javascript" id="wp-util-js-extra">
          /* <![CDATA[ */
          var _wpUtilSettings = {"ajax":{"url":"\/goldish\/demo\/wp-admin\/admin-ajax.php"}};
          /* ]]> */
-      </script> <script type="text/javascript" src="asset/goldish/demo/wp-includes/js/wp-util.min.js" id="wp-util-js"></script> <script type="text/javascript" id="wc-cart-fragments-js-extra">
+      </script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/wp-util.min.js" id="wp-util-js"></script> <script type="text/javascript" id="wc-cart-fragments-js-extra">
          /* <![CDATA[ */
          var wc_cart_fragments_params = {"ajax_url":"\/goldish\/demo\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/goldish\/demo\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_2bfaa0db018ed7d4de7313c6cef366a0","fragment_name":"wc_fragments_2bfaa0db018ed7d4de7313c6cef366a0","request_timeout":"5000"};
          /* ]]> */
-      </script> <script type="text/javascript" src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js" id="wc-cart-fragments-js" defer="defer" data-wp-strategy="defer"></script> 
+      </script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js" id="wc-cart-fragments-js" defer="defer" data-wp-strategy="defer"></script> 
       <link rel="https://api.w.org/" href="https://parkofideas.com/goldish/demo/wp-json/" />
       <link rel="alternate" type="application/json" href="https://parkofideas.com/goldish/demo/wp-json/wp/v2/product/121" />
       <link rel="edituri" type="application/rsd+xml" title="RSD" href="https://parkofideas.com/goldish/demo/xmlrpc.php?rsd" />
@@ -108,7 +122,7 @@
       <meta name="generator" content="WooCommerce 8.9.2" />
       <meta name="generator" content="Goldish 3.30" />
       <link rel="canonical" href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/" />
-      <link rel='shortlink' href='https://parkofideas.com/goldish/demo/?p=121' />
+
       <link rel="alternate" type="application/json+oembed" href="https://parkofideas.com/goldish/demo/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fparkofideas.com%2Fgoldish%2Fdemo%2Fshop%2Ft1-circle-pendant%2F" />
       <link rel="alternate" type="text/xml+oembed" href="https://parkofideas.com/goldish/demo/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fparkofideas.com%2Fgoldish%2Fdemo%2Fshop%2Ft1-circle-pendant%2F&#038;format=xml" />
       <meta name="description" content="Jewelry Store WooCommerce Theme" />
@@ -116,22 +130,22 @@
          <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
       </noscript>
       <meta name="generator" content="Elementor 3.21.8; features: e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
-      <link rel="icon" href="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-0759231255-32x32.png" sizes="32x32" />
-      <link rel="icon" href="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-0759231255-192x192.png" sizes="192x192" />
-      <link rel="apple-touch-icon" href="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-0759231255-180x180.png" />
-      <meta name="msapplication-TileImage" content="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-0759231255-270x270.png" />
+      <link rel="icon" href="asset/images/uploads/#" sizes="32x32" />
+      <link rel="icon" href="asset/images/uploads/#" sizes="192x192" />
+      <link rel="apple-touch-icon" href="asset/images/uploads/#" />
+      <meta name="msapplication-TileImage" content="asset/images/uploads/#" />
    </head>
    <body class="product-template-default single single-product postid-121 theme-goldish woocommerce woocommerce-page woocommerce-no-js woo-variation-swatches wvs-behavior-blur wvs-theme-goldish wvs-tooltip elementor-default elementor-kit-12 h-preload woocommerce-on h-ltr h-wpml">
       <div class="l-wrap">
-         
+         <?php include 'c-header.php';?>
          <div class="l-inner">
             <div class="woocommerce-notices-wrapper"></div>
             <div id="product-121" class="c-product c-product--layout-1 l-section c-product--tabs-compact c-product--additional-inline l-section--container product type-product post-121 status-publish first instock product_cat-necklaces product_tag-diamond product_tag-gold product_tag-necklace has-post-thumbnail shipping-taxable purchasable product-type-simple">
                <nav class="c-breadcrumbs">
                   <ol class="c-breadcrumbs__list">
-                     <li class="c-breadcrumbs__item"><a href="https://parkofideas.com/goldish/demo/">Home</a><i class="ip-breadcrumb c-breadcrumbs__separator"></i></li>
-                     <li class="c-breadcrumbs__item"><a href="https://parkofideas.com/goldish/demo/shop/">Shop</a><i class="ip-breadcrumb c-breadcrumbs__separator"></i></li>
-                     <li class="c-breadcrumbs__item"><a href="https://parkofideas.com/goldish/demo/product-category/necklaces/">Necklaces</a><i class="ip-breadcrumb c-breadcrumbs__separator"></i></li>
+                     <li class="c-breadcrumbs__item"><a href="https://parkofideas.com/goldish/demo/">Home</a><i class="fa fa-angle-right c-breadcrumbs__separator"></i></li>
+                     <li class="c-breadcrumbs__item"><a href="https://parkofideas.com/goldish/demo/shop/">Shop</a><i class="fa fa-angle-right c-breadcrumbs__separator"></i></li>
+                     <li class="c-breadcrumbs__item"><a href="https://parkofideas.com/goldish/demo/product-category/necklaces/">Necklaces</a><i class="fa fa-angle-right c-breadcrumbs__separator"></i></li>
                      <li class="c-breadcrumbs__item">T1 Circle Pendant</li>
                   </ol>
                </nav>
@@ -143,7 +157,6 @@
                            <div class="c-product__slider-item c-product__slider-item--zoom woocommerce-product-gallery__image"><a download href="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1040574216.jpg" class="c-product__image-link js-product-modal" data-size="960x960" data-index="0" data-product-id="121" data-elementor-open-lightbox="no" onclick="return false;"><img loading="lazy" src="https://parkofideas.com/"><span class="c-product__round"></span><span class="c-product__loading js-loading-wrap"></span></a></div>
                            <div class="c-product__slider-item c-product__slider-item--zoom woocommerce-product-gallery__image"><a download href="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041815908.jpg" class="c-product__image-link js-product-modal" data-size="960x960" data-index="1" data-product-id="121" data-elementor-open-lightbox="no" onclick="return false;"><img loading="lazy" src="https://parkofideas.com/"><span class="c-product__round"></span><span class="c-product__loading js-loading-wrap"></span></a></div>
                            <div class="c-product__slider-item c-product__slider-item--zoom woocommerce-product-gallery__image"><a download href="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041272294.jpg" class="c-product__image-link js-product-modal" data-size="960x960" data-index="2" data-product-id="121" data-elementor-open-lightbox="no" onclick="return false;"><img loading="lazy" src="https://parkofideas.com/"><span class="c-product__round"></span><span class="c-product__loading js-loading-wrap"></span></a></div>
-                           <div class="c-product__slider-item c-product__slider-item--video"><a download href="https://www.youtube.com/watch?v=YmqPGmwneVg" class="c-product__image-link js-product-modal" data-index="3" data-product-id="121" data-elementor-open-lightbox="no" onclick="return false;"><span class="c-product__slider--video" style="background-image: url(https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1055305143-900x900.jpg)"><span class="c-product__video-mask"></span></span><i class="c-play c-play--large c-play--disabled"></i></a></div>
                            <div class="c-product__slider-item c-product__slider-item--zoom woocommerce-product-gallery__image"><a download href="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041907079.jpg" class="c-product__image-link js-product-modal" data-size="960x960" data-index="4" data-product-id="121" data-elementor-open-lightbox="no" onclick="return false;"><img loading="lazy" src="https://parkofideas.com/"><span class="c-product__round"></span><span class="c-product__loading js-loading-wrap"></span></a></div>
                            <div class="c-product__slider-item c-product__slider-item--zoom woocommerce-product-gallery__image"><a download href="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041103247.jpg" class="c-product__image-link js-product-modal" data-size="960x960" data-index="5" data-product-id="121" data-elementor-open-lightbox="no" onclick="return false;"><img loading="lazy" src="https://parkofideas.com/"><span class="c-product__round"></span><span class="c-product__loading js-loading-wrap"></span></a></div>
                         </div>
@@ -151,7 +164,6 @@
                            <div class="c-product__thumbs-item active"><button type="button" class="h-cb js-single-product-thumb" data-index="0" ><img loading="lazy" src="https://parkofideas.com/"></button></div>
                            <div class="c-product__thumbs-item"><button type="button" class="h-cb js-single-product-thumb" data-index="1" ><img loading="lazy" src="https://parkofideas.com/"></button></div>
                            <div class="c-product__thumbs-item"><button type="button" class="h-cb js-single-product-thumb" data-index="2" ><img loading="lazy" src="https://parkofideas.com/"></button></div>
-                           <div class="c-product__thumbs-item"><button type="button" class="h-cb js-single-product-thumb c-product__thumbs-video" data-index="3" style="background-image: url(https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1055305143-100x100.jpg)"><span class="c-product__thumbs-video-mask"></span><span class="c-product__thumbs-video-mask-active"></span><i class="c-play c-play--thumb"></i></button></div>
                            <div class="c-product__thumbs-item"><button type="button" class="h-cb js-single-product-thumb" data-index="4" ><img loading="lazy" src="https://parkofideas.com/"></button></div>
                            <div class="c-product__thumbs-item"><button type="button" class="h-cb js-single-product-thumb" data-index="5" ><img loading="lazy" src="https://parkofideas.com/"></button></div>
                         </div>
@@ -172,14 +184,14 @@
                               </div>
                               <div class="c-product__atc-wrap">
                                  <form class="cart" action="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/" method="post" enctype='multipart/form-data'>
-                                    <div class="c-product__quantity quantity"> <label class="screen-reader-text" for="quantity_666171e34a9b8">T1 Circle Pendant quantity</label> <input type="number" id="quantity_666171e34a9b8" class="input-text qty text c-product__quantity-value" name="quantity" value="1" title="Qty" size="4" min="1" max="" step="1" placeholder="" inputmode="numeric" autocomplete="off" /> <button class="h-cb c-product__quantity-minus js-quantity-minus" type="button"><i class="ip-minus"></i></button> <button class="h-cb c-product__quantity-plus js-quantity-plus" type="button"><i class="ip-plus_big"></i></button> </div>
+                                    <div class="c-product__quantity quantity"> <label class="screen-reader-text" for="quantity_666171e34a9b8">T1 Circle Pendant quantity</label> <input type="number" id="quantity_666171e34a9b8" class="input-text qty text c-product__quantity-value" name="quantity" value="1" title="Qty" size="4" min="1" max="" step="1" placeholder="" inputmode="numeric" autocomplete="off" /> <button class="h-cb c-product__quantity-minus js-quantity-minus" type="button"><i class="fa fa-minus"></i></button> <button class="h-cb c-product__quantity-plus js-quantity-plus" type="button"><i class="fa fa-plus"></i></button> </div>
                                     <button type="submit" name="add-to-cart" value="121" class="single_add_to_cart_button button alt">Add to cart</button> 
                                  </form>
                               </div>
                               <div class="c-product__buttons-wrap">
-                                 <div class="c-product__wishlist"><button data-size="12px" class="js-wishlist-btn c-wishlist__btn c-wishlist__item-121-btn h-cb c-product__wishlist-button" data-product-id="121" data-title="Wishlist" aria-label="Wishlist"><i class="ip-heart-sm c-product__wishlist-icon c-wishlist__btn-icon c-wishlist__btn-icon--normal"></i><i class="ip-heart-sm-active c-product__wishlist-icon c-wishlist__btn-icon c-wishlist__btn-icon--active"></i><span class="c-product__wishlist-text c-wishlist__btn-text-add">Add to Wishlist</span><span class="c-product__wishlist-text c-wishlist__btn-text-remove">Remove from Wishlist</span></button></div>
+                                 <div class="c-product__wishlist"><button data-size="12px" class="js-wishlist-btn c-wishlist__btn c-wishlist__item-121-btn h-cb c-product__wishlist-button" data-product-id="121" data-title="Wishlist" aria-label="Wishlist"><i class="fa fa-heart-o c-product__wishlist-icon c-wishlist__btn-icon c-wishlist__btn-icon--normal"></i><i class="fa fa-heart-o c-product__wishlist-icon c-wishlist__btn-icon c-wishlist__btn-icon--active"></i><span class="c-product__wishlist-text c-wishlist__btn-text-add">Add to Wishlist</span><span class="c-product__wishlist-text c-wishlist__btn-text-remove">Remove from Wishlist</span></button></div>
                                  <div class="c-product__share">
-                                    <i class="ip-share c-product__share-icon"></i> 
+                                    <i class="fa fa-share c-product__share-icon"></i> 
                                     <div class="c-product__share-title">Share</div>
                                     <div class="c-post-share"><a class="c-post-share__link" target="_blank" href="//www.facebook.com/sharer.php?u=https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/" title="Share on Facebook"><i class="ip-facebook c-post-share__icon c-post-share__icon--facebook"></i></a><a class="c-post-share__link" target="_blank" href="//twitter.com/share?url=https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/" title="Share on Twitter"><i class="ip-twitter c-post-share__icon c-post-share__icon--twitter"></i></a><a class="c-post-share__link" target="_blank" href="//pinterest.com/pin/create/button/?url=https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/&amp;media=https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1040574216.jpg&amp;description=T1+Circle+Pendant" title="Pin on Pinterest"><i class="ip-pinterest c-post-share__icon c-post-share__icon--pinterest"></i></a><a class="c-post-share__link" target="_blank" href="//wa.me/?text=https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/" title="Share on Whatsapp"><i class="ip-whatsapp c-post-share__icon c-post-share__icon--whatsapp"></i></a></div>
                                  </div>
@@ -197,7 +209,7 @@
                      <div class="c-product__tabs-item description_tab">
                         <a onclick="return false" class="c-product__tabs-item-link js-tabs-item-link" href="https://parkofideas.com/#tab-description">
                            <div class="c-product__tabs-item-header"> Description </div>
-                           <i class="ip-plus_big c-product__tabs-item-expand"></i> 
+                           <i class="fa fa-plus c-product__tabs-item-expand"></i> 
                         </a>
                         <div class="c-product__tabs-panel entry-content" id="tab-description" >
                            <p>Feugiat mattis vel turpis venenatis, faucibus amet arcu. Nunc, scelerisque sit nunc, tincidunt gravida id enim. Dictum sagittis, nunc, sit purus facilisi vitae. Aenean ullamcorper vestibulum porttitor dui sed urna, pellentesque in. Vel proin venenatis mi, vitae tempus, metus imperdiet diam quis. Tortor ullamcorper egestas sem amet senectus. Sollicitudin praesent vitae sem dignissim neque scelerisque id leo fringilla. Aliquet dignissim id.</p>
@@ -206,7 +218,7 @@
                      <div class="c-product__tabs-item additional_information_tab">
                         <a onclick="return false" class="c-product__tabs-item-link js-tabs-item-link" href="https://parkofideas.com/#tab-additional_information">
                            <div class="c-product__tabs-item-header"> Additional information </div>
-                           <i class="ip-plus_big c-product__tabs-item-expand"></i> 
+                           <i class="fa fa-plus c-product__tabs-item-expand"></i> 
                         </a>
                         <div class="c-product__tabs-panel" id="tab-additional_information" >
                            <table class="woocommerce-product-attributes shop_attributes">
@@ -222,7 +234,7 @@
                      <div class="c-product__tabs-item reviews_tab">
                         <a onclick="return false" class="c-product__tabs-item-link js-tabs-item-link" href="https://parkofideas.com/#tab-reviews">
                            <div class="c-product__tabs-item-header"> Reviews (2) </div>
-                           <i class="ip-plus_big c-product__tabs-item-expand"></i> 
+                           <i class="fa fa-plus c-product__tabs-item-expand"></i> 
                         </a>
                         <div class="c-product__tabs-panel" id="tab-reviews" >
                            <div id="reviews" class="woocommerce-Reviews">
@@ -292,30 +304,26 @@
                      <div class="c-product__products-title">Related products</div>
                      <div class="c-product-grid__wrap c-product-grid__wrap--4-per-row c-product-grid__wrap--1-per-row-mobile c-product-grid__wrap--fullwidth c-product-grid__wrap--cnt-4">
                         <div class="c-product-grid__list c-product-grid__list--4-per-row c-product-grid__list--fullwidth c-product-grid__list--1-per-row-mobile c-product-grid__list--below c-product-grid__list--below-mobile c-product-grid__list--carousel js-product-grid-carousel h-carousel h-carousel--border h-carousel--round h-carousel--hover h-carousel--default-dots h-carousel--flex" data-count="4" data-layout="4-per-row" data-layout-width="fullwidth" data-layout-mobile="1-per-row-mobile">
-                           <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-115 status-publish first instock product_cat-rings product_tag-diamond product_tag-platinum product_tag-ring has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                        <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-123 status-publish instock product_cat-necklaces product_tag-gold product_tag-necklace has-post-thumbnail featured shipping-taxable purchasable product-type-simple">
                               <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
-                                 <a href="https://parkofideas.com/goldish/demo/shop/diamond-vine-ring-in-platinum/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
-                                    <video class="c-inline-video js-inline-video c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--video js-grid-video" muted loop playsinline disablepictureinpicture preload="none" poster="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041562705-900x900.jpg"/>
-                                       <source type="video/mp4" src="https://parkofideas.com/goldish/demo/wp-content/uploads/2024/02/goldish-0651052483.mp4" />
-                                    </video>
-                                 </a>
-                                 <div class="c-product-grid__badges c-badge__list"></div>
-                                 <div class="c-product-grid__thumb-button-list"> <button class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom" type="button" data-lang="en_US" data-product-id="115" aria-label="Quick view"> <i class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"></i> <span class="c-product-grid__icon-text">Quick view</span> </button> <button data-size="" class="js-wishlist-btn c-wishlist__btn c-wishlist__item-115-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist" data-product-id="115" data-title="Wishlist" aria-label="Wishlist"><i class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"></i><i class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"></i><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add">Add to Wishlist</span><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove">Remove from Wishlist</span></button> </div>
+                                 <a href="https://parkofideas.com/goldish/demo/shop/x-closed-interlocking-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" src="https://parkofideas.com/"><img loading="lazy" src="https://parkofideas.com/"></a>
+                                 <div class="c-product-grid__badges c-badge__list"><span class="c-badge c-badge--featured">Featured</span></div>
+                                 <div class="c-product-grid__thumb-button-list"> <button class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom" type="button" data-lang="en_US" data-product-id="123" aria-label="Quick view"> <i class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"></i> <span class="c-product-grid__icon-text">Quick view</span> </button> <button data-size="" class="js-wishlist-btn c-wishlist__btn c-wishlist__item-123-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist" data-product-id="123" data-title="Wishlist" aria-label="Wishlist"><i class="fa fa-heart-o c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"></i><i class="fa fa-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"></i><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add">Add to Wishlist</span><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove">Remove from Wishlist</span></button> </div>
                               </div>
-                              <a href="https://parkofideas.com/?add-to-cart=115" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="115" data-product_sku="9832598236" aria-label="Add to cart: &ldquo;Diamond Vine Ring in Platinum&rdquo;" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
+                              <a href="https://parkofideas.com/?add-to-cart=123" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="123" data-product_sku="6513561132" aria-label="Add to cart: &ldquo;X Closed Interlocking Pendant&rdquo;" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
                               <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                                  <div class="c-product-grid__title-wrap">
-                                    <div class="c-product-grid__category-list"> <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/rings/" title="View all posts in Rings" >Rings</a> </div>
-                                    <a href="https://parkofideas.com/goldish/demo/shop/diamond-vine-ring-in-platinum/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
-                                       <h2 class="woocommerce-loop-product__title">Diamond Vine Ring in Platinum</h2>
+                                    <div class="c-product-grid__category-list"> <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/necklaces/" title="View all posts in Necklaces" >Necklaces</a> </div>
+                                    <a href="https://parkofideas.com/goldish/demo/shop/x-closed-interlocking-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                       <h2 class="woocommerce-loop-product__title">X Closed Interlocking Pendant</h2>
                                     </a>
-                                    <a href="https://parkofideas.com/goldish/demo/shop/diamond-vine-ring-in-platinum/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                    <a href="https://parkofideas.com/goldish/demo/shop/x-closed-interlocking-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                        <div class="c-product-grid__short-desc">
-                                          <p>With an intensity that rivals the night sky, Tiffany Victoria celebrates the blazing brilliance of Tiffany diamonds.</p>
+                                          <p>A delicate 18k yellow gold chain combined with two interlocking circles defines this modern pendant.</p>
                                        </div>
                                     </a>
                                  </div>
-                                 <div class="c-product-grid__price-wrap"> <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>1,800</bdi></span></span> </div>
+                                 <div class="c-product-grid__price-wrap"> <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>1,750</bdi></span></span> </div>
                                  <div class="c-product-grid__star-rating"></div>
                               </div>
                            </div>
@@ -325,7 +333,7 @@
                                  <div class="c-product-grid__badges c-badge__list"><span class="c-badge c-badge--featured">Featured</span></div>
                                  <div class="c-product-grid__thumb-button-list"> <button class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom" type="button" data-lang="en_US" data-product-id="123" aria-label="Quick view"> <i class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"></i> <span class="c-product-grid__icon-text">Quick view</span> </button> <button data-size="" class="js-wishlist-btn c-wishlist__btn c-wishlist__item-123-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist" data-product-id="123" data-title="Wishlist" aria-label="Wishlist"><i class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"></i><i class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"></i><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add">Add to Wishlist</span><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove">Remove from Wishlist</span></button> </div>
                               </div>
-                              <a href="https://parkofideas.com/?add-to-cart=123" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="123" data-product_sku="6513561132" aria-label="Add to cart: &ldquo;X Closed Interlocking Pendant&rdquo;" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
+                              <a href="https://parkofideas.com/?add-to-cart=123" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="123" data-product_sku="6513561132" aria-label="Add to cart: &ldquo;X Closed Interlocking Pendant&rdquo;" aria-describedby="" rel="nofollow"><i class="fa fa-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
                               <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                                  <div class="c-product-grid__title-wrap">
                                     <div class="c-product-grid__category-list"> <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/necklaces/" title="View all posts in Necklaces" >Necklaces</a> </div>
@@ -348,7 +356,7 @@
                                  <div class="c-product-grid__badges c-badge__list"></div>
                                  <div class="c-product-grid__thumb-button-list"> <button class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom" type="button" data-lang="en_US" data-product-id="113" aria-label="Quick view"> <i class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"></i> <span class="c-product-grid__icon-text">Quick view</span> </button> <button data-size="" class="js-wishlist-btn c-wishlist__btn c-wishlist__item-113-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist" data-product-id="113" data-title="Wishlist" aria-label="Wishlist"><i class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"></i><i class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"></i><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add">Add to Wishlist</span><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove">Remove from Wishlist</span></button> </div>
                               </div>
-                              <a href="https://parkofideas.com/?add-to-cart=113" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="113" data-product_sku="78078686" aria-label="Add to cart: &ldquo;Olive Leaf Band Ring&rdquo;" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
+                              <a href="https://parkofideas.com/?add-to-cart=113" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="113" data-product_sku="78078686" aria-label="Add to cart: &ldquo;Olive Leaf Band Ring&rdquo;" aria-describedby="" rel="nofollow"><i class="fa fa-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
                               <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                                  <div class="c-product-grid__title-wrap">
                                     <div class="c-product-grid__category-list"> <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/rings/" title="View all posts in Rings" >Rings</a> </div>
@@ -394,164 +402,7 @@
                </div>
             </div>
          </div>
-         <footer class="l-section c-footer">
-            <div class="l-section">
-               <div data-elementor-type="wp-post" data-elementor-id="1664" class="elementor elementor-1664">
-                  <section class="elementor-section elementor-top-section elementor-element elementor-element-3a89ef4 elementor-section-full_width h-hide-home h-1820 elementor-section-height-default elementor-section-height-default" data-id="3a89ef4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                     <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0e883ae" data-id="0e883ae" data-element_type="column">
-                           <div class="elementor-widget-wrap elementor-element-populated">
-                              <div class="elementor-element elementor-element-d05955c elementor-widget elementor-widget-ideapark-icon-list-1" data-id="d05955c" data-element_type="widget" data-widget_type="ideapark-icon-list-1.default">
-                                 <div class="elementor-widget-container">
-                                    <div class="c-ip-icon-list-1 l-section">
-                                       <ul class="c-ip-icon-list-1__list c-ip-icon-list-1__list--layout-1">
-                                          <li class="c-ip-icon-list-1__item c-ip-icon-list-1__item--layout-1">
-                                             <div class="c-ip-icon-list-1__item-wrap c-ip-icon-list-1__item-wrap--layout-1">
-                                                <i aria-hidden="true" class="c-ip-icon-list-1__icon fibd21- fi-bd21-shipping"></i> 
-                                                <div class="c-ip-icon-list-1__title">Free Delivery</div>
-                                             </div>
-                                          </li>
-                                          <li class="c-ip-icon-list-1__item c-ip-icon-list-1__item--layout-1">
-                                             <div class="c-ip-icon-list-1__item-wrap c-ip-icon-list-1__item-wrap--layout-1">
-                                                <i aria-hidden="true" class="c-ip-icon-list-1__icon fibd21- fi-bd21-moneyback"></i> 
-                                                <div class="c-ip-icon-list-1__title">Money Back Guarantee</div>
-                                             </div>
-                                          </li>
-                                          <li class="c-ip-icon-list-1__item c-ip-icon-list-1__item--layout-1">
-                                             <div class="c-ip-icon-list-1__item-wrap c-ip-icon-list-1__item-wrap--layout-1">
-                                                <i aria-hidden="true" class="c-ip-icon-list-1__icon fibd21- fi-bd21-support"></i> 
-                                                <div class="c-ip-icon-list-1__title">24/7 Support</div>
-                                             </div>
-                                          </li>
-                                          <li class="c-ip-icon-list-1__item c-ip-icon-list-1__item--layout-1">
-                                             <div class="c-ip-icon-list-1__item-wrap c-ip-icon-list-1__item-wrap--layout-1">
-                                                <i aria-hidden="true" class="c-ip-icon-list-1__icon fibd21- fi-bd21-quality"></i> 
-                                                <div class="c-ip-icon-list-1__title">High Quality</div>
-                                             </div>
-                                          </li>
-                                       </ul>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </section>
-                  <section class="elementor-section elementor-top-section elementor-element elementor-element-9f71014 elementor-section-full_width h-1820 elementor-section-height-default elementor-section-height-default" data-id="9f71014" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                     <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-252af98" data-id="252af98" data-element_type="column">
-                           <div class="elementor-widget-wrap elementor-element-populated">
-                              <div class="elementor-element elementor-element-098d3a7 elementor-widget elementor-widget-ideapark-heading" data-id="098d3a7" data-element_type="widget" data-widget_type="ideapark-heading.default">
-                                 <div class="elementor-widget-container">
-                                    <div class="c-ip-heading c-ip-heading--default c-ip-heading--left c-ip-heading--bullet-hide">
-                                       <div class="c-ip-heading__inner">
-                                          <p class="c-ip-heading_p">MY ACCOUNT</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="elementor-element elementor-element-c723bf6 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="c723bf6" data-element_type="widget" data-widget_type="icon-list.default">
-                                 <div class="elementor-widget-container">
-                                    <link rel="stylesheet" href="asset/goldish/demo/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css">
-                                    <ul class="elementor-icon-list-items">
-                                       <li class="elementor-icon-list-item"> <a href="https://parkofideas.com/goldish/demo/my-account/"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fibd21- fi-bd21-romb"></i> </span> <span class="elementor-icon-list-text">My account</span> </a> </li>
-                                       <li class="elementor-icon-list-item"> <a href="https://parkofideas.com/goldish/demo/wishlist/"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fibd21- fi-bd21-romb"></i> </span> <span class="elementor-icon-list-text">Wishlist</span> </a> </li>
-                                       <li class="elementor-icon-list-item"> <a href="https://parkofideas.com/goldish/demo/cart/"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fibd21- fi-bd21-romb"></i> </span> <span class="elementor-icon-list-text">Cart</span> </a> </li>
-                                       <li class="elementor-icon-list-item"> <a href="https://parkofideas.com/goldish/demo/checkout/"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fibd21- fi-bd21-romb"></i> </span> <span class="elementor-icon-list-text">Checkout</span> </a> </li>
-                                       <li class="elementor-icon-list-item"> <a href="https://parkofideas.com/goldish/demo/maintenance-mode/" target="_blank"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fibd21- fi-bd21-romb"></i> </span> <span class="elementor-icon-list-text">Maintenance Mode</span> </a> </li>
-                                       <li class="elementor-icon-list-item"> <a href="https://parkofideas.com/goldish/demo/my-account/"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fibd21- fi-bd21-romb"></i> </span> <span class="elementor-icon-list-text">Register Now</span> </a> </li>
-                                    </ul>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-fccf806" data-id="fccf806" data-element_type="column">
-                           <div class="elementor-widget-wrap elementor-element-populated">
-                              <div class="elementor-element elementor-element-0752da0 elementor-widget elementor-widget-ideapark-heading" data-id="0752da0" data-element_type="widget" data-widget_type="ideapark-heading.default">
-                                 <div class="elementor-widget-container">
-                                    <div class="c-ip-heading c-ip-heading--default c-ip-heading--left c-ip-heading--bullet-hide">
-                                       <div class="c-ip-heading__inner">
-                                          <p class="c-ip-heading_p">INFORMATION</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="elementor-element elementor-element-feb7fac elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="feb7fac" data-element_type="widget" data-widget_type="icon-list.default">
-                                 <div class="elementor-widget-container">
-                                    <ul class="elementor-icon-list-items">
-                                       <li class="elementor-icon-list-item"> <a href="https://parkofideas.com/goldish/demo/about/"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fibd21- fi-bd21-romb"></i> </span> <span class="elementor-icon-list-text">About Us</span> </a> </li>
-                                       <li class="elementor-icon-list-item"> <a href="https://parkofideas.com/goldish/demo/blog/"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fibd21- fi-bd21-romb"></i> </span> <span class="elementor-icon-list-text">Our Blog</span> </a> </li>
-                                       <li class="elementor-icon-list-item"> <a href="https://parkofideas.com/goldish/demo/faq/"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fibd21- fi-bd21-romb"></i> </span> <span class="elementor-icon-list-text">FAQ</span> </a> </li>
-                                       <li class="elementor-icon-list-item"> <a href="https://parkofideas.com/goldish/demo/contacts/"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fibd21- fi-bd21-romb"></i> </span> <span class="elementor-icon-list-text">Contacts</span> </a> </li>
-                                       <li class="elementor-icon-list-item"> <a href="https://parkofideas.com/goldish/demo/privacy-policy/"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fibd21- fi-bd21-romb"></i> </span> <span class="elementor-icon-list-text">Terms & Conditions</span> </a> </li>
-                                       <li class="elementor-icon-list-item"> <a href="https://parkofideas.com/goldish/demo/refund_returns/"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fibd21- fi-bd21-romb"></i> </span> <span class="elementor-icon-list-text">Refund and Returns Policy</span> </a> </li>
-                                    </ul>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-c93dfe3" data-id="c93dfe3" data-element_type="column">
-                           <div class="elementor-widget-wrap elementor-element-populated">
-                              <div class="elementor-element elementor-element-4d16061 elementor-widget elementor-widget-ideapark-heading" data-id="4d16061" data-element_type="widget" data-widget_type="ideapark-heading.default">
-                                 <div class="elementor-widget-container">
-                                    <div class="c-ip-heading c-ip-heading--default c-ip-heading--left c-ip-heading--bullet-hide">
-                                       <div class="c-ip-heading__inner">
-                                          <p class="c-ip-heading_p">OUR CONTACTS</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="elementor-element elementor-element-4f434df elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="4f434df" data-element_type="widget" data-widget_type="icon-list.default">
-                                 <div class="elementor-widget-container">
-                                    <ul class="elementor-icon-list-items">
-                                       <li class="elementor-icon-list-item"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fibd21- fi-bd21-map-pin"></i> </span> <span class="elementor-icon-list-text">283 N. Glenwood Street, Levittown, NY 11756</span> </li>
-                                       <li class="elementor-icon-list-item"> <a href="https://parkofideas.com/tel:7123399294"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fibd21- fi-bd21-phone"></i> </span> <span class="elementor-icon-list-text">712-339-9294</span> </a> </li>
-                                       <li class="elementor-icon-list-item"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fibd21- fi-bd21-time"></i> </span> <span class="elementor-icon-list-text">Mon - Fri: 10:00 - 18:00</span> </li>
-                                       <li class="elementor-icon-list-item"> <a href="https://parkofideas.com/mailto:info@goldish-jew.com"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fibd21- fi-bd21-email"></i> </span> <span class="elementor-icon-list-text">info@goldish-jew.com</span> </a> </li>
-                                    </ul>
-                                 </div>
-                              </div>
-                              <div class="elementor-element elementor-element-45ac55d elementor-mobile-align-center elementor-widget elementor-widget-ideapark-social" data-id="45ac55d" data-element_type="widget" data-widget_type="ideapark-social.default">
-                                 <div class="elementor-widget-container">
-                                    <div class="c-ip-social"> <a href="https://parkofideas.com/#" class="c-ip-social__link c-ip-social__link--rounded" aria-label="Facebook"><i class="ip-facebook c-ip-social__icon c-ip-social__icon--facebook"> </i></a> <a href="https://parkofideas.com/#" class="c-ip-social__link c-ip-social__link--rounded" aria-label="Instagram"><i class="ip-instagram c-ip-social__icon c-ip-social__icon--instagram"> </i></a> <a href="https://parkofideas.com/#" class="c-ip-social__link c-ip-social__link--rounded" aria-label="Twitter"><i class="ip-twitter c-ip-social__icon c-ip-social__icon--twitter"> </i></a> <a href="https://parkofideas.com/#" class="c-ip-social__link c-ip-social__link--rounded" aria-label="YouTube"><i class="ip-youtube c-ip-social__icon c-ip-social__icon--youtube"> </i></a> </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </section>
-                  <section class="elementor-section elementor-top-section elementor-element elementor-element-78188d6 elementor-section-full_width h-1820 elementor-section-height-default elementor-section-height-default" data-id="78188d6" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                     <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-309d054" data-id="309d054" data-element_type="column">
-                           <div class="elementor-widget-wrap elementor-element-populated">
-                              <div class="elementor-element elementor-element-f04adab elementor-widget elementor-widget-ideapark-heading" data-id="f04adab" data-element_type="widget" data-widget_type="ideapark-heading.default">
-                                 <div class="elementor-widget-container">
-                                    <div class="c-ip-heading c-ip-heading--default c-ip-heading--left c-ip-heading--bullet-hide c-ip-heading--block-align-center">
-                                       <div class="c-ip-heading__inner">
-                                          <p class="c-ip-heading_p">© 2021 Goldish Theme. All rights reserved.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-dcd7272" data-id="dcd7272" data-element_type="column">
-                           <div class="elementor-widget-wrap elementor-element-populated">
-                              <div class="elementor-element elementor-element-5287436 elementor-widget elementor-widget-image" data-id="5287436" data-element_type="widget" data-widget_type="image.default">
-                                 <div class="elementor-widget-container">
-                                    <style>/*! elementor - v3.21.0 - 26-05-2024 */
-                                       .elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}
-                                    </style>
-                                    <img loading="lazy" src="https://parkofideas.com/"> 
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </section>
-               </div>
-            </div>
-         </footer>
+         <?php include 'footer.php'; ?>
          <div class="woocommerce-notices-wrapper woocommerce-notices-wrapper--ajax"></div>
          <div class="c-header__callback-popup c-header__callback-popup--disabled js-callback-popup js-quickview-popup">
             <div class="c-header__callback-bg js-callback-close"></div>
@@ -600,30 +451,30 @@
             	document.body.className = c;
             })();
          </script> 
-         <link rel='stylesheet' id='wc-blocks-style-css' href='asset/goldish/demo/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css' type='text/css' media='all' />
-         <link rel='stylesheet' id='elementor-post-2225-css' href='asset/goldish/demo/wp-content/uploads/elementor/css/post-2225.css' type='text/css' media='all' />
-         <link rel='stylesheet' id='elementor-post-2297-css' href='asset/goldish/demo/wp-content/uploads/elementor/css/post-2297.css' type='text/css' media='all' />
-         <link rel='stylesheet' id='mediaelement-css' href='asset/goldish/demo/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css' type='text/css' media='all' />
-         <link rel='stylesheet' id='wp-mediaelement-css' href='asset/goldish/demo/wp-includes/js/mediaelement/wp-mediaelement.min.css' type='text/css' media='all' />
-         <link rel='stylesheet' id='swiper-css' href='asset/goldish/demo/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css' type='text/css' media='all' />
-         <link rel='stylesheet' id='elementor-post-12-css' href='asset/goldish/demo/wp-content/uploads/elementor/css/post-12.css' type='text/css' media='all' />
-         <script type="text/javascript" src="asset/goldish/demo/wp-content/plugins/contact-form-7/includes/swv/js/index.js" id="swv-js"></script> <script type="text/javascript" id="contact-form-7-js-extra">
+         <link rel='stylesheet' id='wc-blocks-style-css' href='<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css' type='text/css' media='all' />
+         <link rel='stylesheet' id='elementor-post-2225-css' href='<?php echo $domain;?>/asset/goldish/demo/wp-content/uploads/elementor/css/post-2225.css' type='text/css' media='all' />
+         <link rel='stylesheet' id='elementor-post-2297-css' href='<?php echo $domain;?>/asset/goldish/demo/wp-content/uploads/elementor/css/post-2297.css' type='text/css' media='all' />
+         <link rel='stylesheet' id='mediaelement-css' href='<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css' type='text/css' media='all' />
+         <link rel='stylesheet' id='wp-mediaelement-css' href='<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/mediaelement/wp-mediaelement.min.css' type='text/css' media='all' />
+         <link rel='stylesheet' id='swiper-css' href='<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css' type='text/css' media='all' />
+         <link rel='stylesheet' id='elementor-post-12-css' href='<?php echo $domain;?>/asset/goldish/demo/wp-content/uploads/elementor/css/post-12.css' type='text/css' media='all' />
+         <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/contact-form-7/includes/swv/js/index.js" id="swv-js"></script> <script type="text/javascript" id="contact-form-7-js-extra">
             /* <![CDATA[ */
             var wpcf7 = {"api":{"root":"https:\/\/parkofideas.com\/goldish\/demo\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
             /* ]]> */
-         </script> <script type="text/javascript" src="asset/goldish/demo/wp-content/plugins/contact-form-7/includes/js/index.js" id="contact-form-7-js"></script> <script type="text/javascript" src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js" id="sourcebuster-js-js"></script> <script type="text/javascript" id="wc-order-attribution-js-extra">
+         </script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/contact-form-7/includes/js/index.js" id="contact-form-7-js"></script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js" id="sourcebuster-js-js"></script> <script type="text/javascript" id="wc-order-attribution-js-extra">
             /* <![CDATA[ */
             var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"ajaxurl":"https:\/\/parkofideas.com\/goldish\/demo\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
             /* ]]> */
-         </script> <script type="text/javascript" src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js" id="wc-order-attribution-js"></script> <script type="text/javascript" id="wp-api-request-js-extra">
+         </script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js" id="wc-order-attribution-js"></script> <script type="text/javascript" id="wp-api-request-js-extra">
             /* <![CDATA[ */
             var wpApiSettings = {"root":"https:\/\/parkofideas.com\/goldish\/demo\/wp-json\/","nonce":"e93d5860a6","versionString":"wp\/v2\/"};
             /* ]]> */
-         </script> <script type="text/javascript" src="asset/goldish/demo/wp-includes/js/api-request.min.js" id="wp-api-request-js"></script> <script type="text/javascript" src="asset/goldish/demo/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js" id="wp-polyfill-inert-js"></script> <script type="text/javascript" src="asset/goldish/demo/wp-includes/js/dist/vendor/regenerator-runtime.min.js" id="regenerator-runtime-js"></script> <script type="text/javascript" src="asset/goldish/demo/wp-includes/js/dist/vendor/wp-polyfill.min.js" id="wp-polyfill-js"></script> <script type="text/javascript" src="asset/goldish/demo/wp-includes/js/dist/hooks.min.js" id="wp-hooks-js"></script> <script type="text/javascript" src="asset/goldish/demo/wp-includes/js/dist/i18n.min.js" id="wp-i18n-js"></script> <script type="text/javascript" id="wp-i18n-js-after">
+         </script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/api-request.min.js" id="wp-api-request-js"></script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js" id="wp-polyfill-inert-js"></script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/dist/vendor/regenerator-runtime.min.js" id="regenerator-runtime-js"></script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/dist/vendor/wp-polyfill.min.js" id="wp-polyfill-js"></script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/dist/hooks.min.js" id="wp-hooks-js"></script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/dist/i18n.min.js" id="wp-i18n-js"></script> <script type="text/javascript" id="wp-i18n-js-after">
             /* <![CDATA[ */
             wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
             /* ]]> */
-         </script> <script type="text/javascript" src="asset/goldish/demo/wp-includes/js/dist/url.min.js" id="wp-url-js"></script> <script type="text/javascript" src="asset/goldish/demo/wp-includes/js/dist/api-fetch.min.js" id="wp-api-fetch-js"></script> <script type="text/javascript" id="wp-api-fetch-js-after">
+         </script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/dist/url.min.js" id="wp-url-js"></script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/dist/api-fetch.min.js" id="wp-api-fetch-js"></script> <script type="text/javascript" id="wp-api-fetch-js-after">
             /* <![CDATA[ */
             wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://parkofideas.com/goldish/demo/wp-json/" ) );
             wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "e93d5860a6" );
@@ -635,35 +486,25 @@
             /* <![CDATA[ */
             var woo_variation_swatches_options = {"show_variation_label":"","clear_on_reselect":"","variation_label_separator":":","is_mobile":"","show_variation_stock":"","stock_label_threshold":"5","cart_redirect_after_add":"no","enable_ajax_add_to_cart":"yes","cart_url":"https:\/\/parkofideas.com\/goldish\/demo\/cart\/","is_cart":""};
             /* ]]> */
-         </script> <script type="text/javascript" src="asset/goldish/demo/wp-content/plugins/woo-variation-swatches/assets/js/frontend.min.js" id="woo-variation-swatches-js"></script> <script type="text/javascript" src="asset/goldish/demo/wp-includes/js/comment-reply.min.js" id="comment-reply-js" async="async" data-wp-strategy="async"></script> <script type="text/javascript" id="ideapark-core-js-extra">
+         </script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/woo-variation-swatches/assets/js/frontend.min.js" id="woo-variation-swatches-js"></script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/comment-reply.min.js" id="comment-reply-js" async="async" data-wp-strategy="async"></script> <script type="text/javascript" id="ideapark-core-js-extra">
             /* <![CDATA[ */
             var ideapark_wp_vars = {"themeDir":"\/usr\/www\/parkofideas.com\/goldish\/demo\/wp-content\/themes\/goldish","themeUri":"https:\/\/parkofideas.com\/goldish\/demo\/wp-content\/themes\/goldish","ajaxUrl":"https:\/\/parkofideas.com\/goldish\/demo\/wp-admin\/admin-ajax.php","searchUrl":"https:\/\/parkofideas.com\/goldish\/demo\/?s=","lazyload":"1","isRtl":"","stickySidebar":"1","stickyMenuDesktop":"1","stickyMenuMobile":"1","headerType":"header-type-1","popupCartLayout":"default","popupCartOpenMobile":"","popupCartOpenDesktop":"","viewMore":"View More","imagesloadedUrl":"https:\/\/parkofideas.com\/goldish\/demo\/wp-includes\/js\/imagesloaded.min.js?v=5.0.0","scriptsHash":"79b929e8","stylesHash":"01e92212","cookiePath":"\/goldish\/demo\/","cookieDomain":"","cookieHash":"7fcb66746431f61f68b05a36e3e170ba","locale":"en_US","masonryUrl":"https:\/\/parkofideas.com\/goldish\/demo\/wp-includes\/js\/masonry.min.js?v=4.2.2","elementorPreview":"","jsDelay":"1","withButtons":"1","hideButtons":"","ajaxAddToCart":"1","menuItemSpace":"20","wishlistCookieName":"ip-wishlist-items","wishlistTitleAdd":"Add to Wishlist","wishlistTitleRemove":"Remove from Wishlist"};
             /* ]]> */
-         </script> <script type="text/javascript" src="asset/goldish/demo/wp-content/uploads/goldish/min.js" id="ideapark-core-js"></script> <script type="text/javascript" id="ideapark-core-js-after">
-            /* <![CDATA[ */
-            ideapark_defer_action_add(function () {setTimeout(function(){document.body.insertAdjacentHTML("beforeEnd", '<a href="https://themeforest.net/item/goldish-jewelry-store-woocommerce-theme/33978103" target="_parent"><img class="ip-buy-now loading" id="ip-buy-now" src="https://parkofideas.com/goldish/demo/wp-content/plugins/ideapark-theme/img/buy-now.svg" alt="Buy Now!"/></a>');setTimeout(function(){document.getElementById("ip-buy-now").classList.remove("loading")}, 100);}, 2000);});ideapark_defer_action_add(function () {
-               (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-               m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-               (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-               ym(85537360, "init", {
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true
-               });});;if (typeof wpcf7 !== "undefined"){wpcf7.cached = 0;};
-            /* ]]> */
+         </script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-content/uploads/goldish/min.js" id="ideapark-core-js"></script> <script type="text/javascript" id="ideapark-core-js-after">
+        
          </script> <script type="text/javascript" id="wc-add-to-cart-variation-js-extra">
             /* <![CDATA[ */
             var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/goldish\/demo\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination.","woo_variation_swatches_ajax_variation_threshold_min":"30","woo_variation_swatches_ajax_variation_threshold_max":"100","woo_variation_swatches_total_children":{}};
             /* ]]> */
-         </script> <script type="text/javascript" src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js" id="wc-add-to-cart-variation-js" data-wp-strategy="defer"></script> <script type="text/javascript" src="asset/goldish/demo/wp-content/themes/goldish/assets/js/add-to-cart-variation-fix.js" id="wc-add-to-cart-variation-fix-js"></script> <script type="text/javascript" id="mediaelement-core-js-before">
+         </script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js" id="wc-add-to-cart-variation-js" data-wp-strategy="defer"></script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-content/themes/goldish/assets/js/add-to-cart-variation-fix.js" id="wc-add-to-cart-variation-fix-js"></script> <script type="text/javascript" id="mediaelement-core-js-before">
             /* <![CDATA[ */
             var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
             /* ]]> */
-         </script> <script type="text/javascript" src="asset/goldish/demo/wp-includes/js/mediaelement/mediaelement-and-player.min.js" id="mediaelement-core-js"></script> <script type="text/javascript" src="asset/goldish/demo/wp-includes/js/mediaelement/mediaelement-migrate.min.js" id="mediaelement-migrate-js"></script> <script type="text/javascript" id="mediaelement-js-extra">
+         </script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/mediaelement/mediaelement-and-player.min.js" id="mediaelement-core-js"></script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/mediaelement/mediaelement-migrate.min.js" id="mediaelement-migrate-js"></script> <script type="text/javascript" id="mediaelement-js-extra">
             /* <![CDATA[ */
             var _wpmejsSettings = {"pluginPath":"\/goldish\/demo\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive","audioShortcodeLibrary":"mediaelement","videoShortcodeLibrary":"mediaelement","hideVideoControlsOnLoad":"1","youtube":{"playsinline":1}};
             /* ]]> */
-         </script> <script type="text/javascript" src="asset/goldish/demo/wp-includes/js/mediaelement/wp-mediaelement.min.js" id="wp-mediaelement-js"></script> <script type="text/javascript" src="asset/goldish/demo/wp-includes/js/mediaelement/renderers/vimeo.min.js" id="mediaelement-vimeo-js"></script> <script type="text/javascript" src="asset/goldish/demo/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script> <script type="text/javascript" src="asset/goldish/demo/wp-content/plugins/elementor/assets/js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script> <script type="text/javascript" src="asset/goldish/demo/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js" id="elementor-waypoints-js"></script> <script type="text/javascript" src="asset/goldish/demo/wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js"></script> <input type="hidden" id="js-elementor-defer" value="{&quot;code&quot;:&quot;&lt;script type=\&quot;text\/javascript\&quot; id=\&quot;elementor-frontend-js-before\&quot;&gt;\n\/* &lt;![CDATA[ *\/\nvar elementorFrontendConfig = {\&quot;environmentMode\&quot;:{\&quot;edit\&quot;:false,\&quot;wpPreview\&quot;:false,\&quot;isScriptDebug\&quot;:false},\&quot;i18n\&quot;:{\&quot;shareOnFacebook\&quot;:\&quot;Share on Facebook\&quot;,\&quot;shareOnTwitter\&quot;:\&quot;Share on Twitter\&quot;,\&quot;pinIt\&quot;:\&quot;Pin it\&quot;,\&quot;download\&quot;:\&quot;Download\&quot;,\&quot;downloadImage\&quot;:\&quot;Download image\&quot;,\&quot;fullscreen\&quot;:\&quot;Fullscreen\&quot;,\&quot;zoom\&quot;:\&quot;Zoom\&quot;,\&quot;share\&quot;:\&quot;Share\&quot;,\&quot;playVideo\&quot;:\&quot;Play Video\&quot;,\&quot;previous\&quot;:\&quot;Previous\&quot;,\&quot;next\&quot;:\&quot;Next\&quot;,\&quot;close\&quot;:\&quot;Close\&quot;,\&quot;a11yCarouselWrapperAriaLabel\&quot;:\&quot;Carousel | Horizontal scrolling: Arrow Left &amp; Right\&quot;,\&quot;a11yCarouselPrevSlideMessage\&quot;:\&quot;Previous slide\&quot;,\&quot;a11yCarouselNextSlideMessage\&quot;:\&quot;Next slide\&quot;,\&quot;a11yCarouselFirstSlideMessage\&quot;:\&quot;This is the first slide\&quot;,\&quot;a11yCarouselLastSlideMessage\&quot;:\&quot;This is the last slide\&quot;,\&quot;a11yCarouselPaginationBulletMessage\&quot;:\&quot;Go to slide\&quot;},\&quot;is_rtl\&quot;:false,\&quot;breakpoints\&quot;:{\&quot;xs\&quot;:0,\&quot;sm\&quot;:480,\&quot;md\&quot;:768,\&quot;lg\&quot;:1190,\&quot;xl\&quot;:1440,\&quot;xxl\&quot;:1600},\&quot;responsive\&quot;:{\&quot;breakpoints\&quot;:{\&quot;mobile\&quot;:{\&quot;label\&quot;:\&quot;Mobile Portrait\&quot;,\&quot;value\&quot;:767,\&quot;default_value\&quot;:767,\&quot;direction\&quot;:\&quot;max\&quot;,\&quot;is_enabled\&quot;:true},\&quot;mobile_extra\&quot;:{\&quot;label\&quot;:\&quot;Mobile Landscape\&quot;,\&quot;value\&quot;:880,\&quot;default_value\&quot;:880,\&quot;direction\&quot;:\&quot;max\&quot;,\&quot;is_enabled\&quot;:false},\&quot;tablet\&quot;:{\&quot;label\&quot;:\&quot;Tablet Portrait\&quot;,\&quot;value\&quot;:1189,\&quot;default_value\&quot;:1024,\&quot;direction\&quot;:\&quot;max\&quot;,\&quot;is_enabled\&quot;:true},\&quot;tablet_extra\&quot;:{\&quot;label\&quot;:\&quot;Tablet Landscape\&quot;,\&quot;value\&quot;:1200,\&quot;default_value\&quot;:1200,\&quot;direction\&quot;:\&quot;max\&quot;,\&quot;is_enabled\&quot;:false},\&quot;laptop\&quot;:{\&quot;label\&quot;:\&quot;Laptop\&quot;,\&quot;value\&quot;:1366,\&quot;default_value\&quot;:1366,\&quot;direction\&quot;:\&quot;max\&quot;,\&quot;is_enabled\&quot;:false},\&quot;widescreen\&quot;:{\&quot;label\&quot;:\&quot;Widescreen\&quot;,\&quot;value\&quot;:2400,\&quot;default_value\&quot;:2400,\&quot;direction\&quot;:\&quot;min\&quot;,\&quot;is_enabled\&quot;:false}}},\&quot;version\&quot;:\&quot;3.21.8\&quot;,\&quot;is_static\&quot;:false,\&quot;experimentalFeatures\&quot;:{\&quot;e_optimized_assets_loading\&quot;:true,\&quot;e_optimized_css_loading\&quot;:true,\&quot;additional_custom_breakpoints\&quot;:true,\&quot;e_swiper_latest\&quot;:true,\&quot;container_grid\&quot;:true,\&quot;home_screen\&quot;:true,\&quot;ai-layout\&quot;:true,\&quot;landing-pages\&quot;:true},\&quot;urls\&quot;:{\&quot;assets\&quot;:\&quot;https:\\\/\\\/parkofideas.com\\\/goldish\\\/demo\\\/wp-content\\\/plugins\\\/elementor\\\/assets\\\/\&quot;},\&quot;swiperClass\&quot;:\&quot;swiper\&quot;,\&quot;settings\&quot;:{\&quot;page\&quot;:[],\&quot;editorPreferences\&quot;:[]},\&quot;kit\&quot;:{\&quot;viewport_tablet\&quot;:1189,\&quot;active_breakpoints\&quot;:[\&quot;viewport_mobile\&quot;,\&quot;viewport_tablet\&quot;],\&quot;global_image_lightbox\&quot;:\&quot;yes\&quot;,\&quot;lightbox_enable_counter\&quot;:\&quot;yes\&quot;,\&quot;lightbox_enable_fullscreen\&quot;:\&quot;yes\&quot;,\&quot;lightbox_enable_zoom\&quot;:\&quot;yes\&quot;,\&quot;lightbox_enable_share\&quot;:\&quot;yes\&quot;,\&quot;lightbox_title_src\&quot;:\&quot;title\&quot;,\&quot;lightbox_description_src\&quot;:\&quot;description\&quot;},\&quot;post\&quot;:{\&quot;id\&quot;:121,\&quot;title\&quot;:\&quot;T1%20Circle%20Pendant%20%E2%80%93%20Goldish\&quot;,\&quot;excerpt\&quot;:\&quot;Traced in scintillating diamonds, the beveled edge design of this circle pendant makes a powerful style statement.\&quot;,\&quot;featuredImage\&quot;:\&quot;https:\\\/\\\/parkofideas.com\\\/goldish\\\/demo\\\/wp-content\\\/uploads\\\/2021\\\/09\\\/goldish-1040574216-900x900.jpg\&quot;}};\n\/* ]]&gt; *\/\n&lt;\/script&gt;\n&lt;script type=\&quot;text\/javascript\&quot; src=\&quot;https:\/\/parkofideas.com\/goldish\/demo\/wp-content\/plugins\/elementor\/assets\/js\/frontend.min.js?ver=3.21.8\&quot; id=\&quot;elementor-frontend-js\&quot;&gt;&lt;\/script&gt;\n&quot;}"><script>ideapark_defer_action_add(function () {var elementor_defer=jQuery('#js-elementor-defer');if (elementor_defer.length) {var a = JSON.parse(elementor_defer.val());jQuery('body').append(a.code);elementor_defer.remove();}});</script>
+         </script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/mediaelement/wp-mediaelement.min.js" id="wp-mediaelement-js"></script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/mediaelement/renderers/vimeo.min.js" id="mediaelement-vimeo-js"></script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/elementor/assets/js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js" id="elementor-waypoints-js"></script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js"></script> <input type="hidden" id="js-elementor-defer" value="{&quot;code&quot;:&quot;&lt;script type=\&quot;text\/javascript\&quot; id=\&quot;elementor-frontend-js-before\&quot;&gt;\n\/* &lt;![CDATA[ *\/\nvar elementorFrontendConfig = {\&quot;environmentMode\&quot;:{\&quot;edit\&quot;:false,\&quot;wpPreview\&quot;:false,\&quot;isScriptDebug\&quot;:false},\&quot;i18n\&quot;:{\&quot;shareOnFacebook\&quot;:\&quot;Share on Facebook\&quot;,\&quot;shareOnTwitter\&quot;:\&quot;Share on Twitter\&quot;,\&quot;pinIt\&quot;:\&quot;Pin it\&quot;,\&quot;download\&quot;:\&quot;Download\&quot;,\&quot;downloadImage\&quot;:\&quot;Download image\&quot;,\&quot;fullscreen\&quot;:\&quot;Fullscreen\&quot;,\&quot;zoom\&quot;:\&quot;Zoom\&quot;,\&quot;share\&quot;:\&quot;Share\&quot;,\&quot;playVideo\&quot;:\&quot;Play Video\&quot;,\&quot;previous\&quot;:\&quot;Previous\&quot;,\&quot;next\&quot;:\&quot;Next\&quot;,\&quot;close\&quot;:\&quot;Close\&quot;,\&quot;a11yCarouselWrapperAriaLabel\&quot;:\&quot;Carousel | Horizontal scrolling: Arrow Left &amp; Right\&quot;,\&quot;a11yCarouselPrevSlideMessage\&quot;:\&quot;Previous slide\&quot;,\&quot;a11yCarouselNextSlideMessage\&quot;:\&quot;Next slide\&quot;,\&quot;a11yCarouselFirstSlideMessage\&quot;:\&quot;This is the first slide\&quot;,\&quot;a11yCarouselLastSlideMessage\&quot;:\&quot;This is the last slide\&quot;,\&quot;a11yCarouselPaginationBulletMessage\&quot;:\&quot;Go to slide\&quot;},\&quot;is_rtl\&quot;:false,\&quot;breakpoints\&quot;:{\&quot;xs\&quot;:0,\&quot;sm\&quot;:480,\&quot;md\&quot;:768,\&quot;lg\&quot;:1190,\&quot;xl\&quot;:1440,\&quot;xxl\&quot;:1600},\&quot;responsive\&quot;:{\&quot;breakpoints\&quot;:{\&quot;mobile\&quot;:{\&quot;label\&quot;:\&quot;Mobile Portrait\&quot;,\&quot;value\&quot;:767,\&quot;default_value\&quot;:767,\&quot;direction\&quot;:\&quot;max\&quot;,\&quot;is_enabled\&quot;:true},\&quot;mobile_extra\&quot;:{\&quot;label\&quot;:\&quot;Mobile Landscape\&quot;,\&quot;value\&quot;:880,\&quot;default_value\&quot;:880,\&quot;direction\&quot;:\&quot;max\&quot;,\&quot;is_enabled\&quot;:false},\&quot;tablet\&quot;:{\&quot;label\&quot;:\&quot;Tablet Portrait\&quot;,\&quot;value\&quot;:1189,\&quot;default_value\&quot;:1024,\&quot;direction\&quot;:\&quot;max\&quot;,\&quot;is_enabled\&quot;:true},\&quot;tablet_extra\&quot;:{\&quot;label\&quot;:\&quot;Tablet Landscape\&quot;,\&quot;value\&quot;:1200,\&quot;default_value\&quot;:1200,\&quot;direction\&quot;:\&quot;max\&quot;,\&quot;is_enabled\&quot;:false},\&quot;laptop\&quot;:{\&quot;label\&quot;:\&quot;Laptop\&quot;,\&quot;value\&quot;:1366,\&quot;default_value\&quot;:1366,\&quot;direction\&quot;:\&quot;max\&quot;,\&quot;is_enabled\&quot;:false},\&quot;widescreen\&quot;:{\&quot;label\&quot;:\&quot;Widescreen\&quot;,\&quot;value\&quot;:2400,\&quot;default_value\&quot;:2400,\&quot;direction\&quot;:\&quot;min\&quot;,\&quot;is_enabled\&quot;:false}}},\&quot;version\&quot;:\&quot;3.21.8\&quot;,\&quot;is_static\&quot;:false,\&quot;experimentalFeatures\&quot;:{\&quot;e_optimized_assets_loading\&quot;:true,\&quot;e_optimized_css_loading\&quot;:true,\&quot;additional_custom_breakpoints\&quot;:true,\&quot;e_swiper_latest\&quot;:true,\&quot;container_grid\&quot;:true,\&quot;home_screen\&quot;:true,\&quot;ai-layout\&quot;:true,\&quot;landing-pages\&quot;:true},\&quot;urls\&quot;:{\&quot;assets\&quot;:\&quot;https:\\\/\\\/parkofideas.com\\\/goldish\\\/demo\\\/wp-content\\\/plugins\\\/elementor\\\/assets\\\/\&quot;},\&quot;swiperClass\&quot;:\&quot;swiper\&quot;,\&quot;settings\&quot;:{\&quot;page\&quot;:[],\&quot;editorPreferences\&quot;:[]},\&quot;kit\&quot;:{\&quot;viewport_tablet\&quot;:1189,\&quot;active_breakpoints\&quot;:[\&quot;viewport_mobile\&quot;,\&quot;viewport_tablet\&quot;],\&quot;global_image_lightbox\&quot;:\&quot;yes\&quot;,\&quot;lightbox_enable_counter\&quot;:\&quot;yes\&quot;,\&quot;lightbox_enable_fullscreen\&quot;:\&quot;yes\&quot;,\&quot;lightbox_enable_zoom\&quot;:\&quot;yes\&quot;,\&quot;lightbox_enable_share\&quot;:\&quot;yes\&quot;,\&quot;lightbox_title_src\&quot;:\&quot;title\&quot;,\&quot;lightbox_description_src\&quot;:\&quot;description\&quot;},\&quot;post\&quot;:{\&quot;id\&quot;:121,\&quot;title\&quot;:\&quot;T1%20Circle%20Pendant%20%E2%80%93%20Goldish\&quot;,\&quot;excerpt\&quot;:\&quot;Traced in scintillating diamonds, the beveled edge design of this circle pendant makes a powerful style statement.\&quot;,\&quot;featuredImage\&quot;:\&quot;https:\\\/\\\/parkofideas.com\\\/goldish\\\/demo\\\/wp-content\\\/uploads\\\/2021\\\/09\\\/goldish-1040574216-900x900.jpg\&quot;}};\n\/* ]]&gt; *\/\n&lt;\/script&gt;\n&lt;script type=\&quot;text\/javascript\&quot; src=\&quot;https:\/\/parkofideas.com\/goldish\/demo\/wp-content\/plugins\/elementor\/assets\/js\/frontend.min.js?ver=3.21.8\&quot; id=\&quot;elementor-frontend-js\&quot;&gt;&lt;\/script&gt;\n&quot;}"><script>ideapark_defer_action_add(function () {var elementor_defer=jQuery('#js-elementor-defer');if (elementor_defer.length) {var a = JSON.parse(elementor_defer.val());jQuery('body').append(a.code);elementor_defer.remove();}});</script>
       </div>
    </body>
 </html>
