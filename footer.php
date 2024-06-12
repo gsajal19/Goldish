@@ -231,7 +231,7 @@
                             <span class="elementor-icon-list-icon">
                               <i
                                 aria-hidden="true"
-                                class="fibd21- fi-bd21-map-pin"
+                                class="fibd21- fa fa-map-marker"
                               ></i>
                             </span>
                             <span class="elementor-icon-list-text"
@@ -243,7 +243,7 @@
                               <span class="elementor-icon-list-icon">
                                 <i
                                   aria-hidden="true"
-                                  class="fibd21- fi-bd21-phone"
+                                  class="fibd21- fa fa-phone"
                                 ></i>
                               </span>
                               <span class="elementor-icon-list-text"
@@ -255,7 +255,7 @@
                             <span class="elementor-icon-list-icon">
                               <i
                                 aria-hidden="true"
-                                class="fibd21- fi-bd21-time"
+                                class="fibd21- fa fa-clock-o"
                               ></i>
                             </span>
                             <span class="elementor-icon-list-text"
@@ -269,7 +269,7 @@
                               <span class="elementor-icon-list-icon">
                                 <i
                                   aria-hidden="true"
-                                  class="fibd21- fi-bd21-email"
+                                  class="fibd21- fa fa-envelope-o"
                                 ></i>
                               </span>
                               <span class="elementor-icon-list-text"
