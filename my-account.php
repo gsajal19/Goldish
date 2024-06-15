@@ -24,6 +24,7 @@
 		background: none !important;
 		padding: 0 !important;
 	}
+	
 </style>
 <style id='classic-theme-styles-inline-css' type='text/css'>
 /*! This file is auto-generated */
@@ -45,7 +46,44 @@
 --wvs-single-product-item-font-size:14px}
 </style>
 <link rel='stylesheet' id='ideapark_fonts-icons-css' href='asset/goldish/demo/wp-content/uploads/ideapark_fonts/font-style-c6af5625.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='ideapark-core-css' href='asset/goldish/demo/wp-content/uploads/goldish/min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ideapark-core-css' href='asset/goldish/demo/wp-content/uploads/goldish/min.css?cache=<?php echo uniqid();?>' type='text/css' media='all' />
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+
+button:focus,
+input:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+
+
+
+
+/*------------------  */
+.otp-form-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.otp-inputbar{
+    width: 40px;
+
+    height: 40px !important;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #333;
+	padding : 12px 10px 13px 10px !important;
+	min-width:unset !important;
+}
+#errmsg
+{
+color: red;
+}
+	</style>
 <style id='ideapark-core-inline-css' type='text/css'>
 
 @font-face {
@@ -130,9 +168,9 @@ var wc_cart_fragments_params = {"ajax_url":"\/goldish\/demo\/wp-admin\/admin-aja
 <meta name="description" content="Jewelry Store WooCommerce Theme" />
 	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
 	<meta name="generator" content="Elementor 3.21.8; features: e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
-<link rel="icon" href="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-0759231255-32x32.png" sizes="32x32" />
-<link rel="icon" href="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-0759231255-192x192.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-0759231255-180x180.png" />
+<link rel="icon" href="asset/images/favicon/favicon-32x32.ico" sizes="32x32" />
+<link rel="icon" href="asset/images/favicon/favicon-192x192.ico" sizes="192x192" />
+<link rel="apple-touch-icon" href="asset/images/favicon/favicon-192x192.ico" />
 <meta name="msapplication-TileImage" content="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-0759231255-270x270.png" />
 </head>
 <body class="page-template-default page page-id-10 theme-goldish woocommerce-account woocommerce-page woocommerce-no-js woo-variation-swatches wvs-behavior-blur wvs-theme-goldish wvs-tooltip elementor-default elementor-kit-12 h-preload woocommerce-on h-ltr h-wpml">
@@ -216,6 +254,17 @@ var wc_cart_fragments_params = {"ajax_url":"\/goldish\/demo\/wp-admin\/admin-aja
 					   href="https://parkofideas.com/goldish/demo/my-account/lost-password/">Lost your password?</a>
 				</div>
 			</div>
+			<div class="c-form__row">
+				<div style="margin:10px;"class="c-form__row">OTP Verification (XXXXXXX6565)</div>
+			<div class="form-group-input otp-form-group mb-3">
+                  <input type="text" minlength="1" maxlength="1" class="form-control otp-inputbar">
+                  <input type="text" minlength="1" maxlength="1" class="form-control otp-inputbar">
+                  <input type="text" minlength="1" maxlength="1" class="form-control otp-inputbar">
+                  <input type="text" minlength="1" maxlength="1" class="form-control otp-inputbar">
+                  <input type="text" minlength="1" maxlength="1" class="form-control otp-inputbar">
+                  <input type="text" minlength="1" maxlength="1" class="form-control otp-inputbar">
+                </div>
+  </div>
 
 			<div class="c-form__row c-login__login-row">
 				<button type="submit" class="c-button c-button--accent c-button--large c-button--full" name="login"
@@ -239,25 +288,64 @@ var wc_cart_fragments_params = {"ajax_url":"\/goldish\/demo\/wp-admin\/admin-aja
 			<form method="post" class="c-form register" >
 
 				
-				
+			<div class="c-form__row">
+					<label class="c-form__label"
+						   for="reg_username">Full Name						<span class="required">*</span></label>
+					<input type="email"
+						   class="c-form__input c-form__input--full c-form__input--fill woocommerce-Input woocommerce-Input--text input-text"
+						   name="name" id="reg_name" autocomplete="name"
+						   value=""/>
+				</div>
 				<div class="c-form__row">
 					<label class="c-form__label"
 						   for="reg_username">Email address						<span class="required">*</span></label>
-					<input type="email"
+					<input type="text"
 						   class="c-form__input c-form__input--full c-form__input--fill woocommerce-Input woocommerce-Input--text input-text"
 						   name="email" id="reg_email" autocomplete="email"
 						   value=""/>
 				</div>
 
 				
-					<div
-						class="c-form__row c-login__sent">A link to set a new password will be sent to your email address.</div>
-
+				<div class="c-form__row">
+					<label class="c-form__label"
+						   for="reg_username">Phone Number						<span class="required">*</span></label>
+					<input type="number"
+						   class="c-form__input c-form__input--full c-form__input--fill woocommerce-Input woocommerce-Input--text input-text"
+						   name="phone" id="reg_phone" autocomplete="phone"
+						   value=""/>
+				</div>
+				<div class="c-form__row">
+					<label class="c-form__label"
+						   for="reg_username">Password						<span class="required">*</span></label>
+					<input type="password"
+						   class="c-form__input c-form__input--full c-form__input--fill woocommerce-Input woocommerce-Input--text input-text"
+						   name="password" id="reg_password" autocomplete=false
+						   value=""/>
+						   <br>
+						   <br>
+						   <label class="c-form__label"
+						   for="reg_username">Confirm Password						<span class="required"></span></label>
+						   <input type="text"
+						   class="c-form__input c-form__input--full c-form__input--fill woocommerce-Input woocommerce-Input--text input-text"
+						    id="reg_showpassword" autocomplete="email"
+						   value="" disabled/>
+				</div>
+				<div class="c-form__row">
+				<div style="margin:10px;"class="c-form__row">Verify OTP</div>
+			<div class="form-group-input otp-form-group mb-3">
+                  <input type="text" minlength="1" maxlength="1" class="form-control otp-inputbar">
+                  <input type="text" minlength="1" maxlength="1" class="form-control otp-inputbar">
+                  <input type="text" minlength="1" maxlength="1" class="form-control otp-inputbar">
+                  <input type="text" minlength="1" maxlength="1" class="form-control otp-inputbar">
+                  <input type="text" minlength="1" maxlength="1" class="form-control otp-inputbar">
+                  <input type="text" minlength="1" maxlength="1" class="form-control otp-inputbar">
+                </div>
+  </div>
 				
-				<wc-order-attribution-inputs></wc-order-attribution-inputs><div class="woocommerce-privacy-policy-text"><p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a href="https://parkofideas.com/goldish/demo/privacy-policy/" class="woocommerce-privacy-policy-link" target="_blank">privacy policy</a>.</p>
-</div>
 				<div class="c-form__row c-login__register-row">
-					<input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce" value="afe028b9cd" /><input type="hidden" name="_wp_http_referer" value="/goldish/demo/my-account/" />					<button type="submit" class="c-button c-button--accent c-button--large c-button--full"
+					<input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce" value="afe028b9cd" />
+					<input type="hidden" name="_wp_http_referer" value="/goldish/demo/my-account/" />					
+					<button type="submit" class="c-button c-button--accent c-button--large c-button--full"
 							name="register"
 							value="Register">Register</button>
 				</div>
@@ -411,12 +499,65 @@ var ideapark_wp_vars = {"themeDir":"\/usr\/www\/parkofideas.com\/goldish\/demo\/
 var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/goldish\/demo\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination."};
 /* ]]> */
 </script>
+
 <script type="text/javascript" src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js" id="wc-add-to-cart-variation-js" data-wp-strategy="defer"></script>
 <script type="text/javascript" src="asset/goldish/demo/wp-content/themes/goldish/assets/js/add-to-cart-variation-fix.js" id="wc-add-to-cart-variation-fix-js"></script>
 <script type="text/javascript" src="asset/goldish/demo/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script>
 <script type="text/javascript" src="asset/goldish/demo/wp-content/plugins/elementor/assets/js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
 <script type="text/javascript" src="asset/goldish/demo/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js" id="elementor-waypoints-js"></script>
 <script type="text/javascript" src="asset/goldish/demo/wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var passwordInput = document.getElementById("reg_password");
+    var showPasswordInput = document.getElementById("reg_showpassword");
+
+    passwordInput.addEventListener("input", function() {
+        showPasswordInput.value = this.value;
+    });
+});
+
+	// --------otp section------
+// Using plain JavaScript for handling keypress event
+document.querySelectorAll(".otp-inputbar").forEach(function(input) {
+    input.addEventListener("keypress", function(e) {
+        if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+            document.getElementById("errmsg").innerHTML = "Digits Only";
+            document.getElementById("errmsg").style.display = "block";
+            setTimeout(function() {
+                document.getElementById("errmsg").style.display = "none";
+            }, 1000);
+            e.preventDefault();
+        }
+    });
+
+    // Using keyup, keydown, keypress for managing focus and clearing input
+    input.addEventListener("keyup", function(e) {
+        if (this.value) {
+            this.nextElementSibling.focus();
+        }
+        var KeyID = e.keyCode || e.which;
+        switch (KeyID) {
+            case 8:
+                this.value = "";
+                this.previousElementSibling.focus();
+                break;
+            case 46:
+                this.value = "";
+                this.previousElementSibling.focus();
+                break;
+            default:
+                break;
+        }
+    });
+
+    input.addEventListener("keydown", function(e) {
+        if (e.which === 8 || e.which === 46) {
+            e.preventDefault();
+        }
+    });
+});
+
+	</script>
 <input type="hidden" id="js-elementor-defer" value="{&quot;code&quot;:&quot;&lt;script type=\&quot;text\/javascript\&quot; id=\&quot;elementor-frontend-js-before\&quot;&gt;\n\/* &lt;![CDATA[ *\/\nvar elementorFrontendConfig = {\&quot;environmentMode\&quot;:{\&quot;edit\&quot;:false,\&quot;wpPreview\&quot;:false,\&quot;isScriptDebug\&quot;:false},\&quot;i18n\&quot;:{\&quot;shareOnFacebook\&quot;:\&quot;Share on Facebook\&quot;,\&quot;shareOnTwitter\&quot;:\&quot;Share on Twitter\&quot;,\&quot;pinIt\&quot;:\&quot;Pin it\&quot;,\&quot;download\&quot;:\&quot;Download\&quot;,\&quot;downloadImage\&quot;:\&quot;Download image\&quot;,\&quot;fullscreen\&quot;:\&quot;Fullscreen\&quot;,\&quot;zoom\&quot;:\&quot;Zoom\&quot;,\&quot;share\&quot;:\&quot;Share\&quot;,\&quot;playVideo\&quot;:\&quot;Play Video\&quot;,\&quot;previous\&quot;:\&quot;Previous\&quot;,\&quot;next\&quot;:\&quot;Next\&quot;,\&quot;close\&quot;:\&quot;Close\&quot;,\&quot;a11yCarouselWrapperAriaLabel\&quot;:\&quot;Carousel | Horizontal scrolling: Arrow Left &amp; Right\&quot;,\&quot;a11yCarouselPrevSlideMessage\&quot;:\&quot;Previous slide\&quot;,\&quot;a11yCarouselNextSlideMessage\&quot;:\&quot;Next slide\&quot;,\&quot;a11yCarouselFirstSlideMessage\&quot;:\&quot;This is the first slide\&quot;,\&quot;a11yCarouselLastSlideMessage\&quot;:\&quot;This is the last slide\&quot;,\&quot;a11yCarouselPaginationBulletMessage\&quot;:\&quot;Go to slide\&quot;},\&quot;is_rtl\&quot;:false,\&quot;breakpoints\&quot;:{\&quot;xs\&quot;:0,\&quot;sm\&quot;:480,\&quot;md\&quot;:768,\&quot;lg\&quot;:1190,\&quot;xl\&quot;:1440,\&quot;xxl\&quot;:1600},\&quot;responsive\&quot;:{\&quot;breakpoints\&quot;:{\&quot;mobile\&quot;:{\&quot;label\&quot;:\&quot;Mobile Portrait\&quot;,\&quot;value\&quot;:767,\&quot;default_value\&quot;:767,\&quot;direction\&quot;:\&quot;max\&quot;,\&quot;is_enabled\&quot;:true},\&quot;mobile_extra\&quot;:{\&quot;label\&quot;:\&quot;Mobile Landscape\&quot;,\&quot;value\&quot;:880,\&quot;default_value\&quot;:880,\&quot;direction\&quot;:\&quot;max\&quot;,\&quot;is_enabled\&quot;:false},\&quot;tablet\&quot;:{\&quot;label\&quot;:\&quot;Tablet Portrait\&quot;,\&quot;value\&quot;:1189,\&quot;default_value\&quot;:1024,\&quot;direction\&quot;:\&quot;max\&quot;,\&quot;is_enabled\&quot;:true},\&quot;tablet_extra\&quot;:{\&quot;label\&quot;:\&quot;Tablet Landscape\&quot;,\&quot;value\&quot;:1200,\&quot;default_value\&quot;:1200,\&quot;direction\&quot;:\&quot;max\&quot;,\&quot;is_enabled\&quot;:false},\&quot;laptop\&quot;:{\&quot;label\&quot;:\&quot;Laptop\&quot;,\&quot;value\&quot;:1366,\&quot;default_value\&quot;:1366,\&quot;direction\&quot;:\&quot;max\&quot;,\&quot;is_enabled\&quot;:false},\&quot;widescreen\&quot;:{\&quot;label\&quot;:\&quot;Widescreen\&quot;,\&quot;value\&quot;:2400,\&quot;default_value\&quot;:2400,\&quot;direction\&quot;:\&quot;min\&quot;,\&quot;is_enabled\&quot;:false}}},\&quot;version\&quot;:\&quot;3.21.8\&quot;,\&quot;is_static\&quot;:false,\&quot;experimentalFeatures\&quot;:{\&quot;e_optimized_assets_loading\&quot;:true,\&quot;e_optimized_css_loading\&quot;:true,\&quot;additional_custom_breakpoints\&quot;:true,\&quot;e_swiper_latest\&quot;:true,\&quot;container_grid\&quot;:true,\&quot;home_screen\&quot;:true,\&quot;ai-layout\&quot;:true,\&quot;landing-pages\&quot;:true},\&quot;urls\&quot;:{\&quot;assets\&quot;:\&quot;https:\\\/\\\/parkofideas.com\\\/goldish\\\/demo\\\/wp-content\\\/plugins\\\/elementor\\\/assets\\\/\&quot;},\&quot;swiperClass\&quot;:\&quot;swiper\&quot;,\&quot;settings\&quot;:{\&quot;page\&quot;:[],\&quot;editorPreferences\&quot;:[]},\&quot;kit\&quot;:{\&quot;viewport_tablet\&quot;:1189,\&quot;active_breakpoints\&quot;:[\&quot;viewport_mobile\&quot;,\&quot;viewport_tablet\&quot;],\&quot;global_image_lightbox\&quot;:\&quot;yes\&quot;,\&quot;lightbox_enable_counter\&quot;:\&quot;yes\&quot;,\&quot;lightbox_enable_fullscreen\&quot;:\&quot;yes\&quot;,\&quot;lightbox_enable_zoom\&quot;:\&quot;yes\&quot;,\&quot;lightbox_enable_share\&quot;:\&quot;yes\&quot;,\&quot;lightbox_title_src\&quot;:\&quot;title\&quot;,\&quot;lightbox_description_src\&quot;:\&quot;description\&quot;},\&quot;post\&quot;:{\&quot;id\&quot;:10,\&quot;title\&quot;:\&quot;My%20account%20%E2%80%93%20Goldish\&quot;,\&quot;excerpt\&quot;:\&quot;\&quot;,\&quot;featuredImage\&quot;:false}};\n\/* ]]&gt; *\/\n&lt;\/script&gt;\n&lt;script type=\&quot;text\/javascript\&quot; src=\&quot;https:\/\/parkofideas.com\/goldish\/demo\/wp-content\/plugins\/elementor\/assets\/js\/frontend.min.js?ver=3.21.8\&quot; id=\&quot;elementor-frontend-js\&quot;&gt;&lt;\/script&gt;\n&quot;}"><script>ideapark_defer_action_add(function () {var elementor_defer=jQuery('#js-elementor-defer');if (elementor_defer.length) {var a = JSON.parse(elementor_defer.val());jQuery('body').append(a.code);elementor_defer.remove();}});</script></div><!-- /.l-wrap --></body>
 </html>
 

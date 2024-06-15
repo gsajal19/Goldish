@@ -5552,7 +5552,7 @@ input[type="text"].c-header-search__input.no-ajax {
   margin-top: 40px;
 }
 .c-login__form input:not([type="checkbox"]):not([type="radio"]) {
-  width: 100%;
+  /* width: 100%; */
 }
 .c-login a,
 .woocommerce-ResetPassword a {

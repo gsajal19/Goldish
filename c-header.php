@@ -1,3 +1,5 @@
+<?php include 'config.php'?>
+
 <div class="c-header-search disabled js-ajax-search">
         <div class="c-header-search__wrap">
           <div class="c-header-search__shadow js-search-close"></div>
@@ -8,7 +10,7 @@
               role="search"
               class="js-search-form"
               method="get"
-              action="https://parkofideas.com/goldish/demo/"
+              action=" /"
             >
               <div class="c-header-search__input-block">
                 <input
@@ -47,20 +49,6 @@
           </button>
         </div>
       </div>
-<?php
-// Get the current URL
-$current_url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-
-// Check if the current URL is the home page
-if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
-    // If it's the home page, set the link to #
-    $home_url = "#";
-} else {
-    // If it's not the home page, set the link to the root URL
-    $home_url = "http://$_SERVER[HTTP_HOST]/";
-}
-?>
-
 
       <header class="l-section l-header" id="main-header">
         <div
@@ -79,7 +67,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
               </button>
               <div class="c-header__logo c-header__logo--mobile">
                 <a
-                  href="https://parkofideas.com/goldish/demo/"
+                  href=" /"
                   class="c-header__logo-link"
                 >
                   <img
@@ -97,7 +85,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                 <div class="c-header__cart c-header__cart--default js-cart">
                   <a
                     class="c-header__button-link js-cart-sidebar-open"
-                    href="https://parkofideas.com/goldish/demo/cart/"
+                    href="<?php echo $domain;?>shop/cart/"
                     aria-label="Shopping cart"
                   >
                   <i class="fa fa-shopping-cart c-header__cart-icon h-hide-mobile"></i
@@ -156,21 +144,21 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                   id="menu-item-207"
                   class="c-mobile-menu__item menu-item-207 "
                 >
-                  <a href="<?php echo $home_url; ?>">Home</a>
+                  <a href="<?php echo $domain; ?>">Home</a>
                   
                 </li>
                 <li
                   id="menu-item-209"
                   class="c-mobile-menu__item menu-item-209"
                 >
-                  <a href="https://parkofideas.com/goldish/demo/blog/">Shop</a>
+                  <a href=" /blog/">Shop</a>
                   
                 </li>
                 <li
                   id="menu-item-208"
                   class="c-mobile-menu__item c-mobile-menu__item--has-children menu-item-208"
                 >
-                  <a href="https://parkofideas.com/goldish/demo/shop/">Explore</a>
+                  <a href=" /shop/">Explore</a>
                   <ul class="c-mobile-menu__submenu">
                     <li
                       id="menu-item-1949"
@@ -185,7 +173,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-2038"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/?set=4,6,37"
+                            href=" /shop/?set=4,6,37"
                             >With sidebar</a
                           >
                         </li>
@@ -194,7 +182,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-1994"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/?set=2,40"
+                            href=" /shop/?set=2,40"
                             >2 per row</a
                           >
                         </li>
@@ -203,7 +191,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-1993"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/?set=3,38,39"
+                            href=" /shop/?set=3,38,39"
                             >3 per row</a
                           >
                         </li>
@@ -212,7 +200,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-1992"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/?set=4"
+                            href=" /shop/?set=4"
                             >4 per row</a
                           >
                         </li>
@@ -221,7 +209,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-1995"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/?set=1,37"
+                            href=" /shop/?set=1,37"
                             >Compact</a
                           >
                         </li>
@@ -230,7 +218,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-2039"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/?set=3,22,6"
+                            href=" /shop/?set=3,22,6"
                             >Boxed</a
                           >
                         </li>
@@ -239,7 +227,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-2037"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/?set=35"
+                            href=" /shop/?set=35"
                             >Inverse</a
                           >
                         </li>
@@ -248,7 +236,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-3092"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/?set=4,40"
+                            href=" /shop/?set=4,40"
                             >With faded layer</a
                           >
                         </li>
@@ -257,7 +245,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-3463"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/?set=42"
+                            href=" /shop/?set=42"
                             ><span class="c-menu-badge__wrap"
                               >Custom Shop Page<span
                                 class="c-menu-badge"
@@ -272,7 +260,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-3503"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/?set=55"
+                            href="$domain/shop/?set=55"
                             >Sidebar cart</a
                           >
                         </li>
@@ -281,7 +269,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-4871"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/product-category/rings/"
+                            href=" /product-category/rings/"
                             >Inline Video</a
                           >
                         </li>
@@ -300,7 +288,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-3510"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/?set=14"
+                            href=" /shop/t1-circle-pendant/?set=14"
                             >Layout &#8220;Goldish&#8221;</a
                           >
                         </li>
@@ -309,7 +297,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-1958"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/?set=13"
+                            href=" /shop/t1-circle-pendant/?set=13"
                             >Layout &#8220;Classic&#8221;</a
                           >
                         </li>
@@ -318,7 +306,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-1963"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/?set=15"
+                            href=" /shop/color-by-the-yard-emerald-pendant/?set=15"
                             >Layout &#8220;Modern&#8221;</a
                           >
                         </li>
@@ -327,7 +315,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-1967"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/diamond-vine-climber-earrings/?set=34,13"
+                            href=" /shop/diamond-vine-climber-earrings/?set=34,13"
                             >Product image zoom</a
                           >
                         </li>
@@ -336,7 +324,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-3500"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/green-rhombus/?set=53,13"
+                            href=" /shop/green-rhombus/?set=53,13"
                             >Fullwidth tabs</a
                           >
                         </li>
@@ -345,7 +333,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-3501"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/?set=54,13"
+                            href=" /shop/t1-circle-pendant/?set=54,13"
                             >Expanded tabs</a
                           >
                         </li>
@@ -354,7 +342,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-3499"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/?set=52"
+                            href=" /shop/t1-circle-pendant/?set=52"
                             >With Features</a
                           >
                         </li>
@@ -363,7 +351,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-3502"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/?set=48,51"
+                            href=" /shop/t1-circle-pendant/?set=48,51"
                             >Recently Viewed Products</a
                           >
                         </li>
@@ -372,7 +360,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-4146"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/diamond-vine-ring-in-platinum/"
+                            href=" /shop/diamond-vine-ring-in-platinum/"
                             >Bought Together 1</a
                           >
                         </li>
@@ -381,7 +369,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-4147"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/diamond-vine-ring-in-platinum/?set=60"
+                            href=" /shop/diamond-vine-ring-in-platinum/?set=60"
                             >Bought Together 2</a
                           >
                         </li>
@@ -390,7 +378,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-4870"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/diamond-vine-ring-in-platinum/"
+                            href=" /shop/diamond-vine-ring-in-platinum/"
                             ><span class="c-menu-badge__wrap"
                               >Inline Video<span
                                 class="c-menu-badge"
@@ -415,7 +403,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-3495"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/?set=43"
+                            href=" /shop/?set=43"
                             >Load More</a
                           >
                         </li>
@@ -424,7 +412,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-3496"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/?set=44"
+                            href=" /shop/?set=44"
                             >Infinity</a
                           >
                         </li>
@@ -443,7 +431,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-1953"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/"
+                            href=" /shop/t1-circle-pendant/"
                             >Simple product</a
                           >
                         </li>
@@ -452,7 +440,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-1954"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/"
+                            href=" /shop/color-by-the-yard-emerald-pendant/"
                             >Variable product</a
                           >
                         </li>
@@ -461,7 +449,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-1956"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/necklace-stacking-set/"
+                            href=" /shop/necklace-stacking-set/"
                             >Grouped product</a
                           >
                         </li>
@@ -470,7 +458,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-1955"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/starfish-brooch/"
+                            href=" /shop/starfish-brooch/"
                             >External &#038; affiliate product</a
                           >
                         </li>
@@ -479,7 +467,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-3476"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/wire-bangle/"
+                            href=" /shop/wire-bangle/"
                             ><span class="c-menu-badge__wrap"
                               >Variation images gallery<span
                                 class="c-menu-badge"
@@ -504,7 +492,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-2041"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/?set=10"
+                            href=" /shop/?set=10"
                             >1 per row</a
                           >
                         </li>
@@ -513,7 +501,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-2042"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/?set=11"
+                            href=" /shop/?set=11"
                             >2 per row</a
                           >
                         </li>
@@ -522,7 +510,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-2043"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/?set=12"
+                            href=" /shop/?set=12"
                             >Compact</a
                           >
                         </li>
@@ -541,7 +529,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-2057"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/brands-1/"
+                            href=" /brands-1/"
                             >Brand list 1</a
                           >
                         </li>
@@ -550,7 +538,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-2056"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/brands-2/"
+                            href=" /brands-2/"
                             >Brand list 2</a
                           >
                         </li>
@@ -559,7 +547,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-2058"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/heart-locket/?set=29"
+                            href=" /shop/heart-locket/?set=29"
                             >Brand (product page)</a
                           >
                         </li>
@@ -568,7 +556,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-2059"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/?set=29"
+                            href=" /shop/?set=29"
                             >Brands (product grid)</a
                           >
                         </li>
@@ -587,7 +575,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-1986"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/?set=31"
+                            href=" /shop/?set=31"
                             >Categories in header</a
                           >
                         </li>
@@ -596,7 +584,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-1988"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/?set=30"
+                            href=" /shop/?set=30"
                             >Categories in content</a
                           >
                         </li>
@@ -605,7 +593,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-3094"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/shop/?set=41"
+                            href=" /shop/?set=41"
                             >Without categories</a
                           >
                         </li>
@@ -614,7 +602,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                           class="c-mobile-menu__subitem menu-item-3169"
                         >
                           <a
-                            href="https://parkofideas.com/goldish/demo/product-category/earrings/"
+                            href=" /product-category/earrings/"
                             >With description</a
                           >
                         </li>
@@ -641,7 +629,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                   id="menu-item-223"
                   class="c-mobile-menu__item menu-item-223"
                 >
-                  <a href="https://parkofideas.com/goldish/demo/contacts/"
+                  <a href=" /contacts/"
                     >Contacts</a
                   >
                 </li>
@@ -656,8 +644,8 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                     <i
                       class="fa fa-phone c-header__top-row-icon c-header__top-row-icon--phone"
                     ></i>
-                    <a href="https://parkofideas.com/tel:7123399294"
-                      >712-339-9294</a
+                    <a href="<?php echo $domain;?>tel:7123399294"
+                      ><?php echo $phone;?></a
                     >
                   </div>
                   <div
@@ -667,8 +655,8 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                       class="fa fa-envelope-o c-header__top-row-icon c-header__top-row-icon--email"
                     ></i>
                     <a
-                      href="https://parkofideas.com/mailto:info@goldish-jew.com"
-                      >info@goldish-jew.com</a
+                      href="https://parkofideas.com/mailto:<?php echo $email;?>"
+                      ><?php echo $email;?></a
                     >
                   </div>
                   <div
@@ -677,7 +665,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                     <i
                       class="fa fa-map-marker c-header__top-row-icon c-header__top-row-icon--address"
                     ></i>
-                    283 N. Glenwood Street, Levittown, NY
+                    <?php echo $address;?>
                   </div>
                   <div
                     class="c-header__top-row-item c-header__top-row-item--hours"
@@ -685,42 +673,13 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                     <i
                       class="fa fa-clock-o c-header__top-row-icon c-header__top-row-icon--hours"
                     ></i>
-                    Mon-Fri: 10:00 - 18:00
+                    <?php echo $timing;?>
                   </div>
-                  <div
-                    class="c-header__top-row-item c-header__top-row-item--lang"
-                  >
-                    <div class="c-lang-demo">
-                      <a
-                        href="https://parkofideas.com/#"
-                        class="c-lang-demo__link"
-                        onclick="return false;"
-                        >English</a
-                      >
-                      <ul class="c-lang-demo__list">
-                        <li class="c-lang-demo__item">
-                          <a
-                            class="c-lang-demo__sublink"
-                            href="https://parkofideas.com/#"
-                            onclick="return false;"
-                            >English</a
-                          >
-                        </li>
-                        <li class="c-lang-demo__item">
-                          <a
-                            class="c-lang-demo__sublink"
-                            href="https://parkofideas.com/#"
-                            onclick="return false;"
-                            >German</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
+                  
                   <div
                     class="c-header__top-row-item c-header__top-row-item--other"
                   >
-                    Best special offers every week! 40% Off!
+                    <?php echo $special_line;?>
                   </div>
                   <div
                     class="c-header__top-row-item c-header__top-row-item--social"
@@ -780,7 +739,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
             <a
               class="c-header__button-link c-header__button-link--account"
               title="Login"
-              href="https://parkofideas.com/goldish/demo/my-account/"
+              href="<?php echo $domain;?>account/"
               rel="nofollow"
               aria-label="My Account"
               ><i class="fa fa-user-o h-hide-mobile"></i
@@ -791,7 +750,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
               <a
                 class="c-header__button-link"
                 aria-label="Wishlist"
-                href="https://parkofideas.com/goldish/demo/wishlist/"
+                href="<?php echo $domain;?>shop/wishlist/"
                 ><i
             class="fa fa-heart-o c-header__wishlist-icon h-hide-mobile"
           ></i
@@ -804,7 +763,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
             <div class="c-header__cart c-header__cart--default js-cart">
               <a
                 class="c-header__button-link js-cart-sidebar-open"
-                href="https://parkofideas.com/goldish/demo/cart/"
+                href=" /cart/"
                 aria-label="Shopping cart"
               >
               <i class="fa fa-shopping-cart c-header__cart-icon h-hide-mobile"></i
@@ -829,13 +788,13 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                   <i
                     class="fa fa-map-marker c-header__top-row-icon c-header__top-row-icon--address"
                   ></i>
-                  283 N. Glenwood Street, Levittown, NY
+                  <?php echo $address;?>
                 </div>
               </div>
               <div class="c-header__cell c-header__cell--top-center">
                 <div class="c-header__logo c-header__logo--desktop">
                   <a
-                    href="https://parkofideas.com/goldish/demo/"
+                    href=" /"
                     class="c-header__logo-link"
                   >
                     <img
@@ -862,7 +821,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                   <a
                     class="c-header__button-link c-header__button-link--account"
                     title="Login"
-                    href="https://parkofideas.com/goldish/demo/my-account/"
+                    href="<?php echo $domain;?>account/"
                     rel="nofollow"
                     aria-label="My Account"
                     ><i class="fa fa-user-o h-hide-mobile"></i
@@ -872,7 +831,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                     <a
                       class="c-header__button-link"
                       aria-label="Wishlist"
-                      href="https://parkofideas.com/goldish/demo/wishlist/"
+                      href="<?php echo $domain;?>shop/wishlist/"
                       ><i
                   class="fa fa-heart-o c-header__wishlist-icon h-hide-mobile"
                 ></i
@@ -885,7 +844,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                   <div class="c-header__cart c-header__cart--default js-cart">
                     <a
                       class="c-header__button-link"
-                      href="https://parkofideas.com/goldish/demo/cart/"
+                      href="<?php echo $domain;?>shop/cart/"
                       aria-label="Shopping cart"
                     >
                     <i class="fa fa-shopping-cart c-header__cart-icon h-hide-mobile"></i
@@ -907,8 +866,8 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                   <i
                     class="fa fa-phone c-header__top-row-icon c-header__top-row-icon--phone"
                   ></i>
-                  <a href="https://parkofideas.com/tel:7123399294"
-                    >712-339-9294</a
+                  <a href="<?php echo $domain;?>tel:7123399294"
+                    ><?php echo $phone;?></a
                   >
                 </div>
               </div>
@@ -925,7 +884,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                     <li
                       class="c-top-menu__item menu-item-207 js-menu-item"
                     >
-                      <a href="<?php echo $home_url; ?>">Home</a>
+                      <a href="<?php echo $domain; ?>">Home</a>
                       
                     </li>
                     <li
@@ -948,7 +907,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-2038 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=4,6,37"
+                                href=" /shop/?set=4,6,37"
                                 >Necklace</a
                               >
                             </li>
@@ -956,7 +915,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-1994 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=2,40"
+                                href=" /shop/?set=2,40"
                                 >Long Haar</a
                               >
                             </li>
@@ -964,7 +923,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-1993 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=3,38,39"
+                                href=" /shop/?set=3,38,39"
                                 >Choker</a
                               >
                             </li>
@@ -972,7 +931,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-1992 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=4"
+                                href=" /shop/?set=4"
                                 >Mangalsutra</a
                               >
                             </li>
@@ -986,7 +945,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-2038 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=4,6,37"
+                                href=" /shop/?set=4,6,37"
                                 >Pendant</a
                               >
                             </li>
@@ -994,7 +953,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-1994 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=2,40"
+                                href=" /shop/?set=2,40"
                                 >God Pendant</a
                               >
                             </li>
@@ -1002,7 +961,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-1993 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=3,38,39"
+                                href=" /shop/?set=3,38,39"
                                 >Pendant Set</a
                               >
                             </li>
@@ -1010,7 +969,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-1992 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=4"
+                                href=" /shop/?set=4"
                                 >Mangalsutra</a
                               >
                             </li>
@@ -1024,7 +983,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-2038 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=4,6,37"
+                                href=" /shop/?set=4,6,37"
                                 >Chain "Gents"</a
                               >
                             </li>
@@ -1032,7 +991,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-1994 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=2,40"
+                                href=" /shop/?set=2,40"
                                 >Chain "Ladies"</a
                               >
                             </li>
@@ -1050,7 +1009,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-3510 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/?set=14"
+                                href=" /shop/t1-circle-pendant/?set=14"
                                 >Studs</a
                               >
                             </li>
@@ -1058,7 +1017,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-1958 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/?set=13"
+                                href=" /shop/t1-circle-pendant/?set=13"
                                 >Bali</a
                               >
                             </li>
@@ -1066,7 +1025,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-1963 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/?set=15"
+                                href=" /shop/color-by-the-yard-emerald-pendant/?set=15"
                                 >Jhala</a
                               >
                             </li>
@@ -1074,7 +1033,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-1967 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/diamond-vine-climber-earrings/?set=34,13"
+                                href=" /shop/diamond-vine-climber-earrings/?set=34,13"
                                 >Jhumki</a
                               >
                             </li>
@@ -1088,7 +1047,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-2038 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=4,6,37"
+                                href=" /shop/?set=4,6,37"
                                 >Kada "Gents"</a
                               >
                             </li>
@@ -1096,7 +1055,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-1994 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=2,40"
+                                href=" /shop/?set=2,40"
                                 >Kada "Ladies"</a
                               >
                             </li>
@@ -1104,7 +1063,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-1993 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=3,38,39"
+                                href=" /shop/?set=3,38,39"
                                 >Baby Kada </a
                               >
                             </li>
@@ -1123,7 +1082,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-3495 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=43"
+                                href=" /shop/?set=43"
                                 >Watch "Gents"</a
                               >
                             </li>
@@ -1131,7 +1090,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-3496 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=44"
+                                href=" /shop/?set=44"
                                 >Watch "Ladies"</a
                               >
                             </li>
@@ -1148,7 +1107,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-1953 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/"
+                                href=" /shop/t1-circle-pendant/"
                                 >Bracelet "Gents"</a
                               >
                             </li>
@@ -1156,7 +1115,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-1954 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/"
+                                href=" /shop/color-by-the-yard-emerald-pendant/"
                                 >Bracelet "Ladies"</a
                               >
                             </li>
@@ -1174,7 +1133,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-2041 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=10"
+                                href=" /shop/?set=10"
                                 >Anklet</a
                               >
                             </li>
@@ -1182,7 +1141,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-2042 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=11"
+                                href=" /shop/?set=11"
                                 >Baby Anklet</a
                               >
                             </li>
@@ -1200,7 +1159,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-2057 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/brands-1/"
+                                href=" /brands-1/"
                                 >Ring "Gents"</a
                               >
                             </li>
@@ -1208,7 +1167,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-2056 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/brands-2/"
+                                href=" /brands-2/"
                                 >Ring "Ladies"</a
                               >
                             </li>
@@ -1216,7 +1175,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                               class="c-top-menu__subitem menu-item-2058 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/heart-locket/?set=29"
+                                href=" /shop/heart-locket/?set=29"
                                 >Ring "Couple"</a
                               >
                             </li>
@@ -1230,7 +1189,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                         class="c-top-menu__subitem menu-item-2041 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=10"
+                          href=" /shop/?set=10"
                           >Toe Ring </a
                         >
                       </li>
@@ -1248,7 +1207,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                         class="c-top-menu__subitem menu-item-3495 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=43"
+                          href=" /shop/?set=43"
                           >"Gold" Coin </a
                         >
                       </li>
@@ -1256,7 +1215,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                         class="c-top-menu__subitem menu-item-3496 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=44"
+                          href=" /shop/?set=44"
                           >"Silver" Coin </a
                         >
                       </li>
@@ -1264,7 +1223,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                         class="c-top-menu__subitem menu-item-3496 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=44"
+                          href=" /shop/?set=44"
                           >Murti Emerald </a
                         >
                       </li>
@@ -1277,7 +1236,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                         class="c-top-menu__subitem menu-item-2057 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/brands-1/"
+                          href=" /brands-1/"
                           >Bowl</a
                         >
                       </li>
@@ -1285,7 +1244,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                         class="c-top-menu__subitem menu-item-2056 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/brands-2/"
+                          href=" /brands-2/"
                           >Glass</a
                         >
                       </li>
@@ -1293,7 +1252,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                         class="c-top-menu__subitem menu-item-2058 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/heart-locket/?set=29"
+                          href=" /shop/heart-locket/?set=29"
                           >Plate</a
                         >
                       </li>
@@ -1301,7 +1260,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                         class="c-top-menu__subitem menu-item-2059 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=29"
+                          href=" /shop/?set=29"
                           >Spoon</a
                         >
                       </li>
@@ -1309,7 +1268,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                         class="c-top-menu__subitem menu-item-2059 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=29"
+                          href=" /shop/?set=29"
                           >Utensil "Set"</a
                         >
                       </li>
@@ -1322,7 +1281,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                         class="c-top-menu__subitem menu-item-1986 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=31"
+                          href=" /shop/?set=31"
                           >Coughling</a
                         >
                       </li>
@@ -1352,7 +1311,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                       
                     </li>
                     <li class="c-top-menu__item menu-item-223 js-menu-item">
-                      <a href="https://parkofideas.com/goldish/demo/contacts/"
+                      <a href=" /contacts/"
                         >Contacts</a
                       >
                     </li>
@@ -1363,7 +1322,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                 <div
                   class="c-header__top-row-item c-header__top-row-item--other"
                 >
-                  Best special offers every week! 40% Off!
+                <?php echo $special_line;?>
                 </div>
               </div>
             </div>
