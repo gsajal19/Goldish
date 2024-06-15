@@ -1,3 +1,10 @@
+<?php
+
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_LOG', true );
+define( 'WP_DEBUG_DISPLAY', false );
+@ini_set( 'display_errors', 0 );
+?>
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -7,7 +14,6 @@
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
     />
     <meta name="format-detection" content="telephone=no" />
-    <link rel="profile" href="//gmpg.org/xfn/11" />
     <title>Cart &#8211; Goldish</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -23,13 +29,13 @@
     <style>
       @font-face {
         font-family: "Boska Light";
-        src: url(https://parkofideas.com/goldish/demo/wp-content/uploads/2023/03/goldish-1203323592.woff2)
+        src: url(<?php echo $domain ?>wp-content/uploads/2023/03/goldish-1203323592.woff2)
           format("woff2");
         font-display: auto;
       }
       @font-face {
         font-family: "Boska Regular";
-        src: url(https://parkofideas.com/goldish/demo/wp-content/uploads/2023/03/goldish-1323852144.woff2)
+        src: url(<?php echo $domain ?>wp-content/uploads/2023/03/goldish-1323852144.woff2)
           format("woff2");
         font-display: auto;
       }
@@ -38,13 +44,13 @@
       rel="alternate"
       type="application/rss+xml"
       title="Goldish &raquo; Feed"
-      href="https://parkofideas.com/goldish/demo/feed/"
+      href="<?php echo $domain ?>feed/"
     />
     <link
       rel="alternate"
       type="application/rss+xml"
       title="Goldish &raquo; Comments Feed"
-      href="https://parkofideas.com/goldish/demo/comments/feed/"
+      href="<?php echo $domain ?>comments/feed/"
     />
     <style id="wp-emoji-styles-inline-css" type="text/css">
       img.wp-smiley,
@@ -406,34 +412,34 @@
     ></script>
     <link
       rel="https://api.w.org/"
-      href="https://parkofideas.com/goldish/demo/wp-json/"
+      href="<?php echo $domain ?>wp-json/"
     />
     <link
       rel="alternate"
       type="application/json"
-      href="https://parkofideas.com/goldish/demo/wp-json/wp/v2/pages/8"
+      href="<?php echo $domain ?>wp-json/wp/v2/pages/8"
     />
     <link
       rel="edituri"
       type="application/rsd+xml"
       title="RSD"
-      href="https://parkofideas.com/goldish/demo/xmlrpc.php?rsd"
+      href="<?php echo $domain ?>xmlrpc.php?rsd"
     />
     <meta name="generator" content="WordPress 6.5.4" />
     <meta name="generator" content="Theme Plugin 3.30" />
     <meta name="generator" content="WooCommerce 8.9.2" />
     <meta name="generator" content="Goldish 3.30" />
-    <link rel="canonical" href="https://parkofideas.com/goldish/demo/cart/" />
-    <link rel="shortlink" href="https://parkofideas.com/goldish/demo/?p=8" />
+    <link rel="canonical" href="<?php echo $domain ?>cart/" />
+    <link rel="shortlink" href="<?php echo $domain ?>?p=8" />
     <link
       rel="alternate"
       type="application/json+oembed"
-      href="https://parkofideas.com/goldish/demo/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fparkofideas.com%2Fgoldish%2Fdemo%2Fcart%2F"
+      href="<?php echo $domain ?>wp-json/oembed/1.0/embed?url=https%3A%2F%2Fparkofideas.com%2Fgoldish%2Fdemo%2Fcart%2F"
     />
     <link
       rel="alternate"
       type="text/xml+oembed"
-      href="https://parkofideas.com/goldish/demo/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fparkofideas.com%2Fgoldish%2Fdemo%2Fcart%2F&#038;format=xml"
+      href="<?php echo $domain ?>wp-json/oembed/1.0/embed?url=https%3A%2F%2Fparkofideas.com%2Fgoldish%2Fdemo%2Fcart%2F&#038;format=xml"
     />
     <meta name="description" content="Jewelry Store WooCommerce Theme" />
     <noscript
@@ -449,21 +455,21 @@
     />
     <link
       rel="icon"
-      href="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-0759231255-32x32.png"
+      href="<?php echo $domain ?>wp-content/uploads/2021/09/goldish-0759231255-32x32.png"
       sizes="32x32"
     />
     <link
       rel="icon"
-      href="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-0759231255-192x192.png"
+      href="<?php echo $domain ?>wp-content/uploads/2021/09/goldish-0759231255-192x192.png"
       sizes="192x192"
     />
     <link
       rel="apple-touch-icon"
-      href="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-0759231255-180x180.png"
+      href="<?php echo $domain ?>wp-content/uploads/2021/09/goldish-0759231255-180x180.png"
     />
     <meta
       name="msapplication-TileImage"
-      content="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-0759231255-270x270.png"
+      content="<?php echo $domain ?>wp-content/uploads/2021/09/goldish-0759231255-270x270.png"
     />
   </head>
   <body
@@ -490,7 +496,7 @@
                   <a
                     itemprop="item"
                     title="Home"
-                    href="https://parkofideas.com/goldish/demo/"
+                    href="<?php echo $domain ?>"
                     ><span itemprop="name">Home</span></a
                   >
                   <!--
@@ -529,7 +535,7 @@
                 </h2>
                 <a
                   class="c-button c-button--outline c-cart-empty__backward"
-                  href="https://parkofideas.com/goldish/demo/shop/"
+                  href="<?php echo $domain ?>shop/"
                 >
                   Return to shop
                 </a>
@@ -786,7 +792,7 @@
         /* <![CDATA[ */
         wp.apiFetch.use(
           wp.apiFetch.createRootURLMiddleware(
-            "https://parkofideas.com/goldish/demo/wp-json/"
+            "<?php echo $domain ?>wp-json/"
           )
         );
         wp.apiFetch.nonceMiddleware =
@@ -794,7 +800,7 @@
         wp.apiFetch.use(wp.apiFetch.nonceMiddleware);
         wp.apiFetch.use(wp.apiFetch.mediaUploadMiddleware);
         wp.apiFetch.nonceEndpoint =
-          "https://parkofideas.com/goldish/demo/wp-admin/admin-ajax.php?action=rest-nonce";
+          "<?php echo $domain ?>wp-admin/admin-ajax.php?action=rest-nonce";
         /* ]]> */
       </script>
       <script type="text/javascript" id="woo-variation-swatches-js-extra">
