@@ -3044,7 +3044,7 @@
 .c-ip-slider__wrap--layout-2 {
   position: absolute;
   z-index: 2;
-  right: 7%;
+  
   top: 50%;
   transform: translateY(-50%);
   width: 620px;

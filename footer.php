@@ -1,4 +1,5 @@
 <!-- footer -->
+ 
 <footer class="l-section c-footer">
         <div class="l-section">
             
@@ -52,7 +53,7 @@
                         <ul class="elementor-icon-list-items">
                           <li class="elementor-icon-list-item">
                             <a
-                              href="https://parkofideas.com/goldish/demo/my-account/"
+                              href="<?php echo $domain; ?>/my-account/"
                             >
                               <span class="elementor-icon-list-text"
                                 >My account</span
@@ -61,7 +62,7 @@
                           </li>
                           <li class="elementor-icon-list-item">
                             <a
-                              href="https://parkofideas.com/goldish/demo/wishlist/"
+                              href="<?php echo $domain; ?>/wishlist/"
                             >
                               <span class="elementor-icon-list-text"
                                 >Wishlist</span
@@ -70,14 +71,14 @@
                           </li>
                           <li class="elementor-icon-list-item">
                             <a
-                              href="https://parkofideas.com/goldish/demo/cart/"
+                              href="<?php echo $domain; ?>/cart/"
                             >
                               <span class="elementor-icon-list-text">Cart</span>
                             </a>
                           </li>
                           <li class="elementor-icon-list-item">
                             <a
-                              href="https://parkofideas.com/goldish/demo/checkout/"
+                              href="<?php echo $domain; ?>/checkout/"
                             >
                               <span class="elementor-icon-list-text"
                                 >Checkout</span
@@ -86,7 +87,7 @@
                           </li>
                           <li class="elementor-icon-list-item">
                             <a
-                              href="https://parkofideas.com/goldish/demo/maintenance-mode/"
+                              href="<?php echo $domain; ?>/maintenance-mode/"
                               target="_blank"
                             >
                               <span class="elementor-icon-list-text"
@@ -96,7 +97,7 @@
                           </li>
                           <li class="elementor-icon-list-item">
                             <a
-                              href="https://parkofideas.com/goldish/demo/my-account/"
+                              href="<?php echo $domain; ?>/my-account/"
                             >
                               <span class="elementor-icon-list-text"
                                 >Register Now</span
@@ -142,7 +143,7 @@
                         <ul class="elementor-icon-list-items">
                           <li class="elementor-icon-list-item">
                             <a
-                              href="https://parkofideas.com/goldish/demo/about/"
+                              href="<?php echo $domain; ?>/about/"
                             >
                               <span class="elementor-icon-list-text"
                                 >About Us</span
@@ -151,7 +152,7 @@
                           </li>
                           <li class="elementor-icon-list-item">
                             <a
-                              href="https://parkofideas.com/goldish/demo/blog/"
+                              href="<?php echo $domain; ?>/blog/"
                             >
                               <span class="elementor-icon-list-text"
                                 >Our Blog</span
@@ -159,13 +160,13 @@
                             </a>
                           </li>
                           <li class="elementor-icon-list-item">
-                            <a href="https://parkofideas.com/goldish/demo/faq/">
+                            <a href="<?php echo $domain; ?>/faq/">
                               <span class="elementor-icon-list-text">FAQ</span>
                             </a>
                           </li>
                           <li class="elementor-icon-list-item">
                             <a
-                              href="https://parkofideas.com/goldish/demo/contacts/"
+                              href="<?php echo $domain; ?>/contacts/"
                             >
                               <span class="elementor-icon-list-text"
                                 >Contacts</span
@@ -174,7 +175,7 @@
                           </li>
                           <li class="elementor-icon-list-item">
                             <a
-                              href="https://parkofideas.com/goldish/demo/privacy-policy/"
+                              href="<?php echo $domain; ?>/privacy-policy/"
                             >
                               <span class="elementor-icon-list-text"
                                 >Terms & Conditions</span
@@ -183,7 +184,7 @@
                           </li>
                           <li class="elementor-icon-list-item">
                             <a
-                              href="https://parkofideas.com/goldish/demo/refund_returns/"
+                              href="<?php echo $domain; ?>/refund_returns/"
                             >
                               <span class="elementor-icon-list-text"
                                 >Refund and Returns Policy</span
@@ -235,11 +236,11 @@
                               ></i>
                             </span>
                             <span class="elementor-icon-list-text"
-                              >283 N. Glenwood Street, Levittown, NY 11756</span
+                              ><?php echo $address;?></span
                             >
                           </li>
                           <li class="elementor-icon-list-item">
-                            <a href="https://parkofideas.com/tel:7123399294">
+                            <a href="$domaintel:<?php echo $phone;?>">
                               <span class="elementor-icon-list-icon">
                                 <i
                                   aria-hidden="true"
@@ -247,7 +248,7 @@
                                 ></i>
                               </span>
                               <span class="elementor-icon-list-text"
-                                >712-339-9294</span
+                                ><?php echo $phone;?></span
                               >
                             </a>
                           </li>
@@ -259,12 +260,12 @@
                               ></i>
                             </span>
                             <span class="elementor-icon-list-text"
-                              >Mon - Fri: 10:00 - 18:00</span
+                              ><?php echo $timing;?></span
                             >
                           </li>
                           <li class="elementor-icon-list-item">
                             <a
-                              href="https://parkofideas.com/mailto:gsajal.official@gmail.com"
+                              href="$domainmailto:<?php echo $email;?>"
                             >
                               <span class="elementor-icon-list-icon">
                                 <i
@@ -273,7 +274,7 @@
                                 ></i>
                               </span>
                               <span class="elementor-icon-list-text"
-                                >gsajal.official@gmail.com</span
+                                ><?php echo $email;?></span
                               >
                             </a>
                           </li>
@@ -289,7 +290,7 @@
                       <div class="elementor-widget-container">
                         <div class="c-ip-social">
                           <a
-                            href="https://parkofideas.com/#"
+                            href="<?php echo $facebook_url?>#"
                             class="c-ip-social__link c-ip-social__link--rounded"
                             aria-label="Facebook"
                             ><i
@@ -298,7 +299,7 @@
                             </i
                           ></a>
                           <a
-                            href="https://parkofideas.com/#"
+                            href="<?php echo $instagram_url?>"
                             class="c-ip-social__link c-ip-social__link--rounded"
                             aria-label="Instagram"
                             ><i
@@ -307,12 +308,12 @@
                             </i
                           ></a>
                           <a
-                            href="https://parkofideas.com/#"
+                            href="<?php echo $twitter_url?>"
                             class="c-ip-social__link c-ip-social__link--rounded"
                             aria-label="Twitter"
                             ><i class="fa fa-twitter c-ip-social__icon c-ip-social__icon--twitter"></i></a>
                           <a
-                            href="https://parkofideas.com/#"
+                            href="<?php echo $youtube_url?>"
                             class="c-ip-social__link c-ip-social__link--rounded"
                             aria-label="YouTube"
                             ><i
@@ -399,10 +400,10 @@
                           <div class="c-ip-heading__inner">
                             <p class="c-ip-heading_p" style="font-size: 13px;
     font-family: 'Jost';">
-                              <a href="#" style="margin-right:10px;color:#ffffffcc;">Home</a>
-                              <a href="#" style="margin-right:10px;color:#ffffffcc;">Policy</a>
-                              <a href="#" style="margin-right:10px;color:#ffffffcc;">T&C</a>
-                              <a href="#" style="margin-right:10px;color:#ffffffcc;">About Us</a>
+                              <a href="<?php echo $domain;?>" style="margin-right:10px;color:#ffffffcc;">Home</a>
+                              <a href="<?php echo $domain;?>policy/" style="margin-right:10px;color:#ffffffcc;">Policy</a>
+                              <a href="<?php echo $domain;?>tc/" style="margin-right:10px;color:#ffffffcc;">T&C</a>
+                              <a href="<?php echo $domain;?>about-us/" style="margin-right:10px;color:#ffffffcc;">About Us</a>
                             </p>
                           </div>
                         </div>

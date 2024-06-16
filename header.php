@@ -1,3 +1,4 @@
+<?php include 'config.php';?>
 <div class="c-header-search disabled js-ajax-search">
   <div class="c-header-search__wrap">
     <div class="c-header-search__shadow js-search-close"></div>
@@ -142,25 +143,13 @@
         itemtype="http://schema.org/SiteNavigationElement"
         class="c-mobile-menu c-mobile-menu--top-menu js-mobile-top-menu"
       >
-      <?php
-// Get the current URL
-$current_url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
-// Check if the current URL is the home page
-if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
-    // If it's the home page, set the link to #
-    $home_url = "#";
-} else {
-    // If it's not the home page, set the link to the root URL
-    $home_url = "http://$_SERVER[HTTP_HOST]/";
-}
-?>
         <ul id="mobile-top-menu" class="c-mobile-menu__list">
           <li
             id="menu-item-207"
             class="c-mobile-menu__item menu-item-207 "
           >
-            <a href="<?php echo $home_url; ?>">Home</a>
+            <a href="<?php echo $domain; ?>">Home</a>
             
           </li>
           <li
@@ -665,8 +654,8 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
               <i
                 class="fa fa-phone c-header__top-row-icon c-header__top-row-icon--phone"
               ></i>
-              <a href="https://parkofideas.com/tel:7123399294"
-                >712-339-9294</a
+              <a href="https://parkofideas.com/tel:<?php echo $phone;?>"
+                ><?php echo $phone;?></a
               >
             </div>
             <div
@@ -676,8 +665,8 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                 class="fa fa-envelope-o c-header__top-row-icon c-header__top-row-icon--email"
               ></i>
               <a
-                href="https://parkofideas.com/mailto:info@goldish-jew.com"
-                >gsajal.official@gmail.com</a
+                href="https://parkofideas.com/mailto:<?php echo $email;?>"
+                ><?php echo $email;?></a
               >
             </div>
             <div
@@ -686,7 +675,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
               <i
                 class="fa fa-map-marker c-header__top-row-icon c-header__top-row-icon--address"
               ></i>
-              283 N. Glenwood Street, Levittown, NY
+              <?php echo $address;?>
             </div>
             <div
               class="c-header__top-row-item c-header__top-row-item--hours"
@@ -694,43 +683,11 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
               <i
                 class="fa fa-clock-o c-header__top-row-icon c-header__top-row-icon--hours"
               ></i>
-              Mon-Fri: 10:00 - 18:00
+              <?php echo $timing;?>
+
             </div>
-            <div
-              class="c-header__top-row-item c-header__top-row-item--lang"
-            >
-              <div class="c-lang-demo">
-                <a
-                  href="https://parkofideas.com/#"
-                  class="c-lang-demo__link"
-                  onclick="return false;"
-                  >English</a
-                >
-                <ul class="c-lang-demo__list">
-                  <li class="c-lang-demo__item">
-                    <a
-                      class="c-lang-demo__sublink"
-                      href="https://parkofideas.com/#"
-                      onclick="return false;"
-                      >English</a
-                    >
-                  </li>
-                  <li class="c-lang-demo__item">
-                    <a
-                      class="c-lang-demo__sublink"
-                      href="https://parkofideas.com/#"
-                      onclick="return false;"
-                      >German</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div
-              class="c-header__top-row-item c-header__top-row-item--other"
-            >
-              Best special offers every week! 40% Off!
-            </div>
+           
+           
             <div
               class="c-header__top-row-item c-header__top-row-item--social"
             >
@@ -789,7 +746,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
       <a
         class="c-header__button-link c-header__button-link--account"
         title="Login"
-        href="https://parkofideas.com/goldish/demo/my-account/"
+        href="<?php echo $domain;?>account/"
         rel="nofollow"
         aria-label="My Account"
         ><i class="fa fa-user-o h-hide-mobile"></i
@@ -799,7 +756,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
         <a
           class="c-header__button-link"
           aria-label="Wishlist"
-          href="https://parkofideas.com/goldish/demo/wishlist/"
+          href="<?php echo $domain;?>shop/wishlist/"
           ><i
             class="fa fa-heart-o c-header__wishlist-icon h-hide-mobile"
           ></i
@@ -836,7 +793,8 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
             <i
               class="fa fa-map-marker c-header__top-row-icon c-header__top-row-icon--address"
             ></i>
-            283 N. Glenwood Street, Levittown, NY
+            <?php echo $address;?>
+
           </div>
         </div>
         <div class="c-header__cell c-header__cell--top-center">
@@ -878,7 +836,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
             <a
               class="c-header__button-link c-header__button-link--account"
               title="Login"
-              href="https://parkofideas.com/goldish/demo/my-account/"
+              href="<?php echo $domain;?>/account/"
               rel="nofollow"
               aria-label="My Account"
               ><i class="fa fa-user-o h-hide-mobile"></i
@@ -888,7 +846,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
               <a
                 class="c-header__button-link"
                 aria-label="Wishlist"
-                href="https://parkofideas.com/goldish/demo/wishlist/"
+                href="<?php echo $domain;?>shop/wishlist/"
                 ><i
                   class="fa fa-heart-o c-header__wishlist-icon h-hide-mobile"
                 ></i
@@ -923,8 +881,9 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
             <i
               class="fa fa-phone c-header__top-row-icon c-header__top-row-icon--phone"
             ></i>
-            <a href="https://parkofideas.com/tel:7123399294"
-              >712-339-9294</a
+            <a href="https://parkofideas.com/tel:<?php echo $phone;?>"
+              >              <?php echo $phone;?>
+              </a
             >
           </div>
         </div>
@@ -941,7 +900,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
               <li
                 class="c-top-menu__item menu-item-207 js-menu-item"
               >
-                <a href="<?php echo $home_url; ?>">Home</a>
+                <a href="<?php echo $domain; ?>">Home</a>
                 
               </li>
               <li
@@ -1374,7 +1333,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
           <div
             class="c-header__top-row-item c-header__top-row-item--other"
           >
-            Best special offers every week! 40% Off!
+            <?php echo $special_line;?>
           </div>
         </div>
       </div>

@@ -191,8 +191,8 @@ include 'config.php';
         --background-color: #ffffff;
         --background-color-light: #ffffff;
         --background-color-dark: #f7f7f7;
-        --accent-color: #404040;
-        --accent-color-dark: #3a3a3a;
+        --accent-color: #c6ad8a;
+        --accent-color-dark: #b29c7c;
         --accent-background-color: #fdf9f2;
         --accent-button-color: #ffffff;
         --accent-button-background-color: #404040;
@@ -320,7 +320,15 @@ include 'config.php';
       .c-product__slider-item--video .c-inline-video {
         object-fit: cover;
       }
-
+      .slider-layer2-pg1-position{
+          right:7%;
+        }
+        .slider-layer2-pg2-position{
+          right:7%;
+        }
+        .slider-layer2-pg3-position{
+          left:7%;
+        }
       @font-face {
         font-family: "star";
         src: url("//parkofideas.com/goldish/demo/wp-content/plugins/woocommerce/assets/fonts/star.eot");
@@ -460,6 +468,7 @@ include 'config.php';
         .woocommerce-product-gallery {
           opacity: 1 !important;
         }
+        
       </style></noscript
     >
     <meta
@@ -500,19 +509,19 @@ include 'config.php';
                                         <div class="c-ip-slider c-ip-slider--header-type-1 c-ip-slider--layout-2 js-slider">
                                             <div class="c-ip-slider__list c-ip-slider__list--layout-2 js-slider-carousel h-carousel h-carousel--big-dots c-ip-slider__list--dots h-carousel--dot-animated" data-autoplay="yes" data-animation="owl-fade-scale" data-animation-timeout="5000" data-widget-id="b1b923b">
                                                 <div class="c-ip-slider__item c-ip-slider__item--layout-2 elementor-repeater-item-5049669" data-dot="&lt;svg role=&quot;button&quot; data-index=&quot;0&quot; class=&quot;c-ip-slider__circle&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid&quot;&gt;&lt;path d=&quot;M0,0 &quot; id=&quot;arc-b1b923b-0&quot; fill=&quot;none&quot; stroke=&quot;inherit&quot; stroke-width=&quot;1&quot;/&gt;&lt;/svg&gt;&lt;button role=&quot;button&quot; class=&quot;h-cb c-ip-slider__dot&quot; &gt;&lt;/button&gt;" data-index="0"> <img decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--desktop" width="3360" height="2080" src="asset/images/slider/6.jpg" srcset="asset/images/slider/6.jpg 3360w, asset/images/slider/6.jpg 300w, asset/images/slider/6.jpg 900w, asset/images/slider/6.jpg 600w, asset/images/slider/6.jpg 1536w, asset/images/slider/6.jpg 2048w, asset/images/slider/6.jpg 145w" sizes="(max-width: 3360px) 100vw, 3360px" alt="slider-2-1@2x-pichi" loading="eager" data-index="0" /><img decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--mobile" width="720" height="1200" src="asset/images/slider/6.jpg" srcset="asset/images/slider/6.jpg 720w, asset/images/slider/6.jpg 300w, asset/images//slider/6.jpg 600w, asset/images/slider/6.jpg 145w" sizes="(max-width: 720px) 100vw, 720px" alt="slider-2-1-mobile@2x-pichi" loading="eager" data-index="0" />
-                                                    <div class="c-ip-slider__wrap c-ip-slider__wrap--layout-2"> 
-                                                        <div class="c-ip-slider__title c-ip-slider__title--layout-2"><span class="c-ip-slider__title-inner">Amadeus Jewelry Collection</span></div>
+                                                    <div class="c-ip-slider__wrap c-ip-slider__wrap--layout-2 slider-layer2-pg1-position" > 
+                                                        <div class="c-ip-slider__title c-ip-slider__title--layout-2 " ><span class="c-ip-slider__title-inner">Amadeus Jewelry Collection</span></div>
                                                         <div class="c-ip-slider__subtitle c-ip-slider__subtitle--layout-2"><span class="c-ip-slider__subtitle-inner">New in our shop</span></div> <a href="https://parkofideas.com/#" class="c-button c-button--default c-ip-slider__button c-ip-slider__button--layout-2">Shop now</a>
                                                     </div>
                                                 </div>
-                                                <div class="c-ip-slider__item c-ip-slider__item--layout-2 elementor-repeater-item-141ccf7" data-dot="&lt;svg role=&quot;button&quot; data-index=&quot;1&quot; class=&quot;c-ip-slider__circle&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid&quot;&gt;&lt;path d=&quot;M0,0 &quot; id=&quot;arc-b1b923b-1&quot; fill=&quot;none&quot; stroke=&quot;inherit&quot; stroke-width=&quot;1&quot;/&gt;&lt;/svg&gt;&lt;button role=&quot;button&quot; class=&quot;h-cb c-ip-slider__dot&quot; &gt;&lt;/button&gt;" data-index="1"> <img loading="lazy" decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--desktop" width="3360" height="2080" src="asset/images/uploads/goldish-1910450793.jpg" srcset="asset/images/uploads/goldish-1910450793.jpg 3360w, asset/images/uploads/goldish-1910450793-300x186.jpg 300w, asset/images/uploads/goldish-1910450793-900x557.jpg 900w, asset/images/uploads/goldish-1910450793-600x371.jpg 600w, asset/images/uploads/goldish-1910450793-1536x951.jpg 1536w, asset/images/uploads/goldish-1910450793-2048x1268.jpg 2048w, asset/images/uploads/goldish-1910450793-145x90.jpg 145w" sizes="(max-width: 3360px) 100vw, 3360px" alt="slide-2-2@2x-pichi"><img loading="lazy" decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--mobile" width="720" height="1300" src="asset/images/uploads/goldish-1910549979.jpg" srcset="asset/images/uploads/goldish-1910549979.jpg 720w, asset/images/uploads/goldish-1910549979-300x542.jpg 300w, asset/images/uploads/goldish-1910549979-600x1083.jpg 600w, asset/images/uploads/goldish-1910549979-145x262.jpg 145w" sizes="(max-width: 720px) 100vw, 720px" alt="slide-2-2-mobile@2x-pichi">
-                                                    <div class="c-ip-slider__wrap c-ip-slider__wrap--layout-2"> 
+                                                <div class="c-ip-slider__item c-ip-slider__item--layout-2 elementor-repeater-item-141ccf7" data-dot="&lt;svg role=&quot;button&quot; data-index=&quot;1&quot; class=&quot;c-ip-slider__circle&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid&quot;&gt;&lt;path d=&quot;M0,0 &quot; id=&quot;arc-b1b923b-1&quot; fill=&quot;none&quot; stroke=&quot;inherit&quot; stroke-width=&quot;1&quot;/&gt;&lt;/svg&gt;&lt;button role=&quot;button&quot; class=&quot;h-cb c-ip-slider__dot&quot; &gt;&lt;/button&gt;" data-index="1"> <img loading="lazy" decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--desktop" width="3360" height="2080" src="asset/images/slider/3.jpg" srcset="asset/images/slider/3.jpg 3360w, asset/images/slider/3.jpg 300w, asset/images/slider/3.jpg 900w, asset/images/slider/3.jpg 600w, asset/images/slider/3.jpg 1536w, asset/images/slider/3.jpg 2048w, asset/images/slider/3.jpg 145w" sizes="(max-width: 3360px) 100vw, 3360px" alt="slide-2-2@2x-pichi"><img loading="lazy" decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--mobile" width="720" height="1300" src="asset/images/slider/3.jpg" srcset="asset/images/slider/3.jpg 720w, asset/images/slider/3.jpg 300w, asset/images/slider/3.jpg 600w, asset/images/slider/3.jpg 145w" sizes="(max-width: 720px) 100vw, 720px" alt="slide-2-2-mobile@2x-pichi">
+                                                    <div class="c-ip-slider__wrap c-ip-slider__wrap--layout-2 slider-layer2-pg2-position"> 
                                                       <div class="c-ip-slider__title c-ip-slider__title--layout-2"><span class="c-ip-slider__title-inner">Diamond Sisters</span></div>
                                                         <div class="c-ip-slider__subtitle c-ip-slider__subtitle--layout-2"><span class="c-ip-slider__subtitle-inner">New Collection Set</span></div> <a href="https://parkofideas.com/#" class="c-button c-button--default c-ip-slider__button c-ip-slider__button--layout-2">Shop now</a>
                                                     </div>
                                                 </div>
-                                                <div class="c-ip-slider__item c-ip-slider__item--layout-2 elementor-repeater-item-3121379" data-dot="&lt;svg role=&quot;button&quot; data-index=&quot;2&quot; class=&quot;c-ip-slider__circle&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid&quot;&gt;&lt;path d=&quot;M0,0 &quot; id=&quot;arc-b1b923b-2&quot; fill=&quot;none&quot; stroke=&quot;inherit&quot; stroke-width=&quot;1&quot;/&gt;&lt;/svg&gt;&lt;button role=&quot;button&quot; class=&quot;h-cb c-ip-slider__dot&quot; &gt;&lt;/button&gt;" data-index="2"> <img loading="lazy" decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--desktop" width="3360" height="2080" src="asset/images/uploads/goldish-1910099979.jpg" srcset="asset/images/uploads/goldish-1910099979.jpg 3360w, asset/images/uploads/goldish-1910099979-300x186.jpg 300w, asset/images/uploads/goldish-1910099979-900x557.jpg 900w, asset/images/uploads/goldish-1910099979-600x371.jpg 600w, asset/images/uploads/goldish-1910099979-1536x951.jpg 1536w, asset/images/uploads/goldish-1910099979-2048x1268.jpg 2048w, asset/images/uploads/goldish-1910099979-145x90.jpg 145w" sizes="(max-width: 3360px) 100vw, 3360px" alt="slide-2-1@2x-pichi"><img loading="lazy" decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--mobile" width="720" height="1300" src="asset/images/uploads/goldish-1910967492.jpg" srcset="asset/images/uploads/goldish-1910967492.jpg 720w, asset/images/uploads/goldish-1910967492-300x542.jpg 300w, asset/images/uploads/goldish-1910967492-600x1083.jpg 600w, asset/images/uploads/goldish-1910967492-145x262.jpg 145w" sizes="(max-width: 720px) 100vw, 720px" alt="slide-2-1-mobile@2x-pichi">
-                                                    <div class="c-ip-slider__wrap c-ip-slider__wrap--layout-2"> 
+                                                <div class="c-ip-slider__item c-ip-slider__item--layout-2 elementor-repeater-item-3121379" data-dot="&lt;svg role=&quot;button&quot; data-index=&quot;2&quot; class=&quot;c-ip-slider__circle&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid&quot;&gt;&lt;path d=&quot;M0,0 &quot; id=&quot;arc-b1b923b-2&quot; fill=&quot;none&quot; stroke=&quot;inherit&quot; stroke-width=&quot;1&quot;/&gt;&lt;/svg&gt;&lt;button role=&quot;button&quot; class=&quot;h-cb c-ip-slider__dot&quot; &gt;&lt;/button&gt;" data-index="2"> <img loading="lazy" decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--desktop" width="3360" height="2080" src="asset/images/slider/7.jpg" srcset="asset/images/slider/7.jpg 3360w, asset/images/slider/7.jpg 300w, asset/images/slider/7.jpg 900w, asset/images/slider/7.jpg 600w, asset/images/slider/7.jpg 1536w, asset/images/slider/7.jpg 2048w, asset/images/slider/7.jpg 145w" sizes="(max-width: 3360px) 100vw, 3360px" alt="slide-2-1@2x-pichi"><img loading="lazy" decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--mobile" width="720" height="1300" src="asset/images/slider/7.jpg" srcset="asset/images/slider/7.jpg 720w, asset/images/slider/7.jpg 300w, asset/images/slider/7.jpg 600w, asset/images/slider/7.jpg 145w" sizes="(max-width: 720px) 100vw, 720px" alt="slide-2-1-mobile@2x-pichi">
+                                                    <div class="c-ip-slider__wrap c-ip-slider__wrap--layout-2 slider-layer2-pg3-position"> 
                                                         <div class="c-ip-slider__title c-ip-slider__title--layout-2"><span class="c-ip-slider__title-inner">Golden Sphere</span></div>
                                                         <div class="c-ip-slider__subtitle c-ip-slider__subtitle--layout-2"><span class="c-ip-slider__subtitle-inner">Necklace With History</span></div> <a href="https://parkofideas.com/#" class="c-button c-button--default c-ip-slider__button c-ip-slider__button--layout-2">Shop now</a>
                                                     </div>
@@ -577,7 +586,7 @@ include 'config.php';
                         </div>
                         <div class="product-category product c-page-header__sub-cat-item">
                            <a aria-label="Visit product category Sets" href="<?php echo $domain;?>">
-                              <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="asset/images/store_collection/5-100x100.jpg" alt="Sets" width="100" height="100" srcset="asset/images/store_collection/5-100x100.jpg 100w, asset/images/store_collection/5-145x145.jpg 145w, asset/images/store_collection/5.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
+                              <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="asset/images/store_collection/6-100x100.jpg" alt="Sets" width="100" height="100" srcset="asset/images/store_collection/6-100x100.jpg 100w, asset/images/store_collection/6-145x145.jpg 145w, asset/images/store_collection/6.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
                               <h2 class="woocommerce-loop-category__title"> Sets <mark class="count">4</mark> </h2>
                            </a>
                         </div>
@@ -3834,5 +3843,3 @@ include 'config.php';
     </div>
   </body>
 </html>
-<!-- Cache Enabler by KeyCDN @ Sun, 26 May 2024 20:23:30 GMT (https-index.html.gz) -->
-<a href="<?php echo $domain; ?>/shop/category/product/">Sample</a>

@@ -2050,7 +2050,7 @@ p + .woocommerce-Addresses {
 
 .c-breadcrumbs__separator {
 	position:       relative;
-	font-size:      6px;
+	font-size:      12px;
 	vertical-align: middle;
 	margin-left:    10px;
 	margin-right:   10px;
@@ -12011,7 +12011,7 @@ input.c-product__quantity-value {
 	}
 
 	.c-breadcrumbs__list {
-		justify-content: center;
+		justify-content: left;
 		align-items:     center;
 	}
 
