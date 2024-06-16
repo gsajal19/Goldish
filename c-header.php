@@ -85,7 +85,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                   <img
                     width="140"
                     height="14"
-                    src="asset/images/logos/whitelogo.png"
+                    src="asset/images/logos/goldlogo.png"
                     alt="Goldish"
                     class="c-header__logo-img c-header__logo-img--mobile c-header__logo-img--svg"
                   />
@@ -940,7 +940,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                         <li
                           class="c-top-menu__subitem menu-item-1949 c-top-menu__subitem--expand js-menu-item"
                         >
-                          <span class="a">Shop layout</span>
+                          <span class="a">Necklace</span>
                           <ul
                             class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
                           >
@@ -949,7 +949,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                             >
                               <a
                                 href="https://parkofideas.com/goldish/demo/shop/?set=4,6,37"
-                                >With sidebar</a
+                                >Necklace</a
                               >
                             </li>
                             <li
@@ -957,7 +957,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                             >
                               <a
                                 href="https://parkofideas.com/goldish/demo/shop/?set=2,40"
-                                >2 per row</a
+                                >Long Haar</a
                               >
                             </li>
                             <li
@@ -965,7 +965,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                             >
                               <a
                                 href="https://parkofideas.com/goldish/demo/shop/?set=3,38,39"
-                                >3 per row</a
+                                >Choker</a
                               >
                             </li>
                             <li
@@ -973,77 +973,76 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                             >
                               <a
                                 href="https://parkofideas.com/goldish/demo/shop/?set=4"
-                                >4 per row</a
+                                >Mangalsutra</a
+                              >
+                            </li>
+                          
+                          </ul>
+                          <span class="a">Pendants</span>
+                          <ul
+                            class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
+                          >
+                            <li
+                              class="c-top-menu__subitem menu-item-2038 c-top-menu__subitem--collapse js-menu-item"
+                            >
+                              <a
+                                href="https://parkofideas.com/goldish/demo/shop/?set=4,6,37"
+                                >Pendant</a
                               >
                             </li>
                             <li
-                              class="c-top-menu__subitem menu-item-1995 c-top-menu__subitem--collapse js-menu-item"
+                              class="c-top-menu__subitem menu-item-1994 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=1,37"
-                                >Compact</a
+                                href="https://parkofideas.com/goldish/demo/shop/?set=2,40"
+                                >God Pendant</a
                               >
                             </li>
                             <li
-                              class="c-top-menu__subitem menu-item-2039 c-top-menu__subitem--collapse js-menu-item"
+                              class="c-top-menu__subitem menu-item-1993 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=3,22,6"
-                                >Boxed</a
+                                href="https://parkofideas.com/goldish/demo/shop/?set=3,38,39"
+                                >Pendant Set</a
                               >
                             </li>
                             <li
-                              class="c-top-menu__subitem menu-item-2037 c-top-menu__subitem--collapse js-menu-item"
+                              class="c-top-menu__subitem menu-item-1992 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=35"
-                                >Inverse</a
+                                href="https://parkofideas.com/goldish/demo/shop/?set=4"
+                                >Mangalsutra</a
+                              >
+                            </li>
+                          
+                          </ul>
+                          <span class="a">Chains</span>
+                          <ul
+                            class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
+                          >
+                            <li
+                              class="c-top-menu__subitem menu-item-2038 c-top-menu__subitem--collapse js-menu-item"
+                            >
+                              <a
+                                href="https://parkofideas.com/goldish/demo/shop/?set=4,6,37"
+                                >Chain "Gents"</a
                               >
                             </li>
                             <li
-                              class="c-top-menu__subitem menu-item-3092 c-top-menu__subitem--collapse js-menu-item"
+                              class="c-top-menu__subitem menu-item-1994 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=4,40"
-                                >With faded layer</a
+                                href="https://parkofideas.com/goldish/demo/shop/?set=2,40"
+                                >Chain "Ladies"</a
                               >
                             </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-3463 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=42"
-                                ><span class="c-menu-badge__wrap"
-                                  >Custom Shop Page<span
-                                    class="c-menu-badge"
-                                    style="--badge-color: #cc4122"
-                                    >HOT</span
-                                  ></span
-                                ></a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-3503 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=55"
-                                >Sidebar cart</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-4871 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/product-category/rings/"
-                                >Inline Video</a
-                              >
-                            </li>
+                            
                           </ul>
                         </li>
                         <li
                           class="c-top-menu__subitem menu-item-1950 c-top-menu__subitem--expand js-menu-item"
                         >
-                          <span class="a">Product layout</span>
+                          <span class="a">Earrings</span>
                           <ul
                             class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
                           >
@@ -1052,7 +1051,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                             >
                               <a
                                 href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/?set=14"
-                                >Layout &#8220;Goldish&#8221;</a
+                                >Studs</a
                               >
                             </li>
                             <li
@@ -1060,7 +1059,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                             >
                               <a
                                 href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/?set=13"
-                                >Layout &#8220;Classic&#8221;</a
+                                >Bali</a
                               >
                             </li>
                             <li
@@ -1068,7 +1067,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                             >
                               <a
                                 href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/?set=15"
-                                >Layout &#8220;Modern&#8221;</a
+                                >Jhala</a
                               >
                             </li>
                             <li
@@ -1076,77 +1075,47 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                             >
                               <a
                                 href="https://parkofideas.com/goldish/demo/shop/diamond-vine-climber-earrings/?set=34,13"
-                                >Product image zoom</a
+                                >Jhumki</a
+                              >
+                            </li>
+                            
+                          </ul>
+                          <span class="a">Bangles & Kada</span>
+                          <ul
+                            class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
+                          >
+                            <li
+                              class="c-top-menu__subitem menu-item-2038 c-top-menu__subitem--collapse js-menu-item"
+                            >
+                              <a
+                                href="https://parkofideas.com/goldish/demo/shop/?set=4,6,37"
+                                >Kada "Gents"</a
                               >
                             </li>
                             <li
-                              class="c-top-menu__subitem menu-item-3500 c-top-menu__subitem--collapse js-menu-item"
+                              class="c-top-menu__subitem menu-item-1994 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/green-rhombus/?set=53,13"
-                                >Fullwidth tabs</a
+                                href="https://parkofideas.com/goldish/demo/shop/?set=2,40"
+                                >Kada "Ladies"</a
                               >
                             </li>
                             <li
-                              class="c-top-menu__subitem menu-item-3501 c-top-menu__subitem--collapse js-menu-item"
+                              class="c-top-menu__subitem menu-item-1993 c-top-menu__subitem--collapse js-menu-item"
                             >
                               <a
-                                href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/?set=54,13"
-                                >Expanded tabs</a
+                                href="https://parkofideas.com/goldish/demo/shop/?set=3,38,39"
+                                >Baby Kada </a
                               >
                             </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-3499 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/?set=52"
-                                >With Features</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-3502 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/?set=48,51"
-                                >Recently Viewed Products</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-4146 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/diamond-vine-ring-in-platinum/"
-                                >Bought Together 1</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-4147 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/diamond-vine-ring-in-platinum/?set=60"
-                                >Bought Together 2</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-4870 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/diamond-vine-ring-in-platinum/"
-                                ><span class="c-menu-badge__wrap"
-                                  >Inline Video<span
-                                    class="c-menu-badge"
-                                    style="--badge-color: #5bab6d"
-                                    >NEW</span
-                                  ></span
-                                ></a
-                              >
-                            </li>
+                          
+                          
                           </ul>
                         </li>
                         <li
                           class="c-top-menu__subitem menu-item-3494 c-top-menu__subitem--expand js-menu-item"
                         >
-                          <span class="a">Pagination</span>
+                          <span class="a">Watches</span>
                           <ul
                             class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
                           >
@@ -1155,7 +1124,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                             >
                               <a
                                 href="https://parkofideas.com/goldish/demo/shop/?set=43"
-                                >Load More</a
+                                >Watch "Gents"</a
                               >
                             </li>
                             <li
@@ -1163,7 +1132,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                             >
                               <a
                                 href="https://parkofideas.com/goldish/demo/shop/?set=44"
-                                >Infinity</a
+                                >Watch "Ladies"</a
                               >
                             </li>
                           </ul>
@@ -1171,7 +1140,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                         <li
                           class="c-top-menu__subitem menu-item-1951 c-top-menu__subitem--expand js-menu-item"
                         >
-                          <span class="a">Product type</span>
+                          <span class="a">Bracelet</span>
                           <ul
                             class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
                           >
@@ -1180,7 +1149,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                             >
                               <a
                                 href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/"
-                                >Simple product</a
+                                >Bracelet "Gents"</a
                               >
                             </li>
                             <li
@@ -1188,45 +1157,16 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                             >
                               <a
                                 href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/"
-                                >Variable product</a
+                                >Bracelet "Ladies"</a
                               >
                             </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-1956 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/necklace-stacking-set/"
-                                >Grouped product</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-1955 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/starfish-brooch/"
-                                >External &#038; affiliate product</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-3476 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/wire-bangle/"
-                                ><span class="c-menu-badge__wrap"
-                                  >Variation images gallery<span
-                                    class="c-menu-badge"
-                                    style="--badge-color: #cc4122"
-                                    >HOT</span
-                                  ></span
-                                ></a
-                              >
-                            </li>
+                            
                           </ul>
                         </li>
                         <li
                           class="c-top-menu__subitem menu-item-2040 c-top-menu__subitem--expand js-menu-item"
                         >
-                          <span class="a">Mobile shop layout</span>
+                          <span class="a">Anklet</span>
                           <ul
                             class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
                           >
@@ -1235,7 +1175,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                             >
                               <a
                                 href="https://parkofideas.com/goldish/demo/shop/?set=10"
-                                >1 per row</a
+                                >Anklet</a
                               >
                             </li>
                             <li
@@ -1243,23 +1183,16 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                             >
                               <a
                                 href="https://parkofideas.com/goldish/demo/shop/?set=11"
-                                >2 per row</a
+                                >Baby Anklet</a
                               >
                             </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-2043 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=12"
-                                >Compact</a
-                              >
-                            </li>
+                           
                           </ul>
                         </li>
                         <li
                           class="c-top-menu__subitem menu-item-1952 c-top-menu__subitem--expand js-menu-item"
                         >
-                          <span class="a">Brands</span>
+                          <span class="a">Rings</span>
                           <ul
                             class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
                           >
@@ -1268,7 +1201,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                             >
                               <a
                                 href="https://parkofideas.com/goldish/demo/brands-1/"
-                                >Brand list 1</a
+                                >Ring "Gents"</a
                               >
                             </li>
                             <li
@@ -1276,7 +1209,7 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                             >
                               <a
                                 href="https://parkofideas.com/goldish/demo/brands-2/"
-                                >Brand list 2</a
+                                >Ring "Ladies"</a
                               >
                             </li>
                             <li
@@ -1284,59 +1217,117 @@ if ($current_url == "http://$_SERVER[HTTP_HOST]/") {
                             >
                               <a
                                 href="https://parkofideas.com/goldish/demo/shop/heart-locket/?set=29"
-                                >Brand (product page)</a
+                                >Ring "Couple"</a
                               >
                             </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-2059 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=29"
-                                >Brands (product grid)</a
-                              >
-                            </li>
+                            
                           </ul>
+                          <span class="a">Toe Rings</span>
+                    <ul
+                      class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
+                    >
+                      <li
+                        class="c-top-menu__subitem menu-item-2041 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="https://parkofideas.com/goldish/demo/shop/?set=10"
+                          >Toe Ring </a
+                        >
+                      </li>
+                      
+                    </ul>
                         </li>
                         <li
                           class="c-top-menu__subitem menu-item-2044 c-top-menu__subitem--expand js-menu-item"
                         >
-                          <span class="a">Categories</span>
-                          <ul
-                            class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
-                          >
-                            <li
-                              class="c-top-menu__subitem menu-item-1986 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=31"
-                                >Categories in header</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-1988 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=30"
-                                >Categories in content</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-3094 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/?set=41"
-                                >Without categories</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-3169 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/product-category/earrings/"
-                                >With description</a
-                              >
-                            </li>
-                          </ul>
+                        <span class="a">Coins & Murti</span>
+                    <ul
+                      class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
+                    >
+                      <li
+                        class="c-top-menu__subitem menu-item-3495 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="https://parkofideas.com/goldish/demo/shop/?set=43"
+                          >"Gold" Coin </a
+                        >
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-3496 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="https://parkofideas.com/goldish/demo/shop/?set=44"
+                          >"Silver" Coin </a
+                        >
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-3496 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="https://parkofideas.com/goldish/demo/shop/?set=44"
+                          >Murti Emerald </a
+                        >
+                      </li>
+                    </ul>
+                    <span class="a">Utensils</span>
+                    <ul
+                      class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
+                    >
+                      <li
+                        class="c-top-menu__subitem menu-item-2057 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="https://parkofideas.com/goldish/demo/brands-1/"
+                          >Bowl</a
+                        >
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-2056 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="https://parkofideas.com/goldish/demo/brands-2/"
+                          >Glass</a
+                        >
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-2058 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="https://parkofideas.com/goldish/demo/shop/heart-locket/?set=29"
+                          >Plate</a
+                        >
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-2059 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="https://parkofideas.com/goldish/demo/shop/?set=29"
+                          >Spoon</a
+                        >
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-2059 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="https://parkofideas.com/goldish/demo/shop/?set=29"
+                          >Utensil "Set"</a
+                        >
+                      </li>
+                    </ul>
+                    <span class="a">Coughling</span>
+                    <ul
+                      class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
+                    >
+                      <li
+                        class="c-top-menu__subitem menu-item-1986 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="https://parkofideas.com/goldish/demo/shop/?set=31"
+                          >Coughling</a
+                        >
+                      </li>
+                      
+                    </ul>
                         </li>
                       </ul>
                     </li>

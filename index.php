@@ -1,3 +1,6 @@
+<?php
+include 'config.php';
+?>
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -7,8 +10,7 @@
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
     />
     <meta name="format-detection" content="telephone=no" />
-    <link rel="profile" href="//gmpg.org/xfn/11" />
-    <title>Home 10 &#8211; Goldish</title>
+    <title>Home </title>
     <meta name="robots" content="max-image-preview:large" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
@@ -33,18 +35,6 @@
         font-display: auto;
       }
     </style>
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Goldish &raquo; Feed"
-      href="https://parkofideas.com/goldish/demo/feed/"
-    />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Goldish &raquo; Comments Feed"
-      href="https://parkofideas.com/goldish/demo/comments/feed/"
-    />
     <style id="wp-emoji-styles-inline-css" type="text/css">
       img.wp-smiley,
       img.emoji {
@@ -279,7 +269,7 @@
       .c-top-menu__list {
         --top-menu-submenu-color: #000000;
         --top-menu-submenu-bg-color: #ffffff;
-        --top_menu_submenu_accent_color: #404040;
+        --top_menu_submenu_accent_color: #c6ad8a;
         --top-menu-font-size: 14px;
         --top-menu-item-space: 20px;
       }
@@ -306,7 +296,7 @@
         --header-color-mobile: #000000;
         --header-color-bg-mobile: #ffffff;
         --transparent-header-color: #ffffff;
-        --transparent-header-accent: #a1a1a1;
+        --transparent-header-accent: #c6ad8a;
         --header-height-mobile: 60px;
         --sticky-header-height-mobile: 60px;
       }
@@ -345,31 +335,7 @@
         font-weight: normal;
         font-style: normal;
       }
-      .ip-buy-now {
-        position: fixed;
-        z-index: 100001;
-        -webkit-transform-origin: right center;
-        transform-origin: right center;
-      }
-      .ip-buy-now.loading {
-        -webkit-transform: translateX(100%);
-        transform: translateX(100%);
-      }
-      .ip-buy-now {
-        right: 0;
-        bottom: 205px;
-        transition: transform 0.3s linear, box-shadow 0.3s linear;
-      }
-      .ip-buy-now:hover {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-        box-shadow: 10px 5px 12px rgba(0, 0, 0, 0.2);
-      }
-      @media (max-width: 767px) {
-        .ip-buy-now {
-          display: none;
-        }
-      }
+     
       @media (max-width: 1189px) {
         ul.c-lang-demo {
           display: none;
@@ -386,7 +352,7 @@
     <link
       rel="stylesheet"
       id="elementor-post-4619-css"
-      href="asset/goldish/demo/wp-content/uploads/elementor/css/post-4619.css"
+      href="asset/goldish/demo/wp-content/uploads/elementor/css/post-4619.css?cache=<?php echo uniqid(); ?>"
       type="text/css"
       media="all"
     />
@@ -423,7 +389,7 @@
     </script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js"
+      src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?cache=<?php echo uniqid(); ?>"
       id="wc-add-to-cart-js"
       defer="defer"
       data-wp-strategy="defer"
@@ -485,41 +451,10 @@
       defer="defer"
       data-wp-strategy="defer"
     ></script>
-    <link
-      rel="https://api.w.org/"
-      href="https://parkofideas.com/goldish/demo/wp-json/"
-    />
-    <link
-      rel="alternate"
-      type="application/json"
-      href="https://parkofideas.com/goldish/demo/wp-json/wp/v2/pages/4510"
-    />
-    <link
-      rel="edituri"
-      type="application/rsd+xml"
-      title="RSD"
-      href="https://parkofideas.com/goldish/demo/xmlrpc.php?rsd"
-    />
-    <meta name="generator" content="WordPress 6.5.3" />
-    <meta name="generator" content="Theme Plugin 3.30" />
-    <meta name="generator" content="WooCommerce 8.9.1" />
-    <meta name="generator" content="Goldish 3.30" />
-    <link
-      rel="canonical"
-      href="https://parkofideas.com/goldish/demo/home-10/"
-    />
-    <link rel="shortlink" href="https://parkofideas.com/goldish/demo/?p=4510" />
-    <link
-      rel="alternate"
-      type="application/json+oembed"
-      href="https://parkofideas.com/goldish/demo/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fparkofideas.com%2Fgoldish%2Fdemo%2Fhome-10%2F"
-    />
-    <link
-      rel="alternate"
-      type="text/xml+oembed"
-      href="https://parkofideas.com/goldish/demo/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fparkofideas.com%2Fgoldish%2Fdemo%2Fhome-10%2F&#038;format=xml"
-    />
-    <meta name="description" content="Jewelry Store WooCommerce Theme" />
+    <meta name="generator" content="Sajal Gupta" />
+
+    <meta name="description" content="Discover exquisite jewelry collections at OP Jewellers, your premier destination for high-quality diamonds, gemstones, and fine jewelry. Explore our stunning range of engagement rings, wedding bands, earrings, necklaces, and bracelets, handcrafted with precision and passion. Shop now for timeless elegance and make every moment unforgettable with OP Jewellers." />
+
     <noscript
       ><style>
         .woocommerce-product-gallery {
@@ -533,12 +468,12 @@
     />
     <link
       rel="icon"
-      href="asset/images/uploads/goldish-0759231255-32x32.png"
+      href="asset/images/favicon/favicon-32x32.ico?cache=<?php echo uniqid();?>"
       sizes="32x32"
     />
     <link
       rel="icon"
-      href="asset/images/uploads/goldish-0759231255-192x192.png"
+      href="asset/images/favicon/favicon-192x192.ico?cache=<?php echo uniqid();?>"
       sizes="192x192"
     />
 
@@ -546,6 +481,7 @@
   <body
     class="page-template page-template-elementor_header_footer page page-id-4510 theme-goldish woocommerce-no-js woo-variation-swatches wvs-behavior-blur wvs-theme-goldish wvs-tooltip elementor-default elementor-template-full-width elementor-kit-12 elementor-page elementor-page-4510 h-preload woocommerce-on h-ltr h-wpml"
   >
+  
     <div class="l-wrap">
       <?php  include 'header.php';   ?>
       <div class="l-inner">
@@ -554,6 +490,7 @@
           data-elementor-id="4510"
           class="elementor elementor-4510"
         >
+
         <section class="elementor-section elementor-top-section elementor-element elementor-element-c37be22 elementor-section-full_width h-full elementor-section-height-default elementor-section-height-default" data-id="c37be22" data-element_type="section">
                     <div class="elementor-container elementor-column-gap-default">
                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ab7c11e" data-id="ab7c11e" data-element_type="column">
@@ -609,37 +546,37 @@
                   <div class="c-page-header__sub-cat c-page-header__sub-cat--widget c-page-header__sub-cat--init">
                      <div class="c-page-header__sub-cat-list c-page-header__sub-cat-list--round js-header-subcat h-carousel h-carousel--dots-hide h-carousel--flex">
                         <div class="product-category product first c-page-header__sub-cat-item">
-                           <a aria-label="Visit product category Bracelets" href="https://parkofideas.com/goldish/demo/product-category/bracelets/">
+                           <a aria-label="Visit product category Bracelets" href="<?php echo $domain;?>">
                               <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="asset/images/store_collection/1-100x100.jpg" alt="Bracelets" width="100" height="100" srcset="asset/images/store_collection/1-100x100.jpg 100w, asset/images/store_collection/1-145x145.jpg 145w, asset/images/store_collection/1.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
                               <h2 class="woocommerce-loop-category__title"> Bracelets <mark class="count">4</mark> </h2>
                            </a>
                         </div>
                         <div class="product-category product c-page-header__sub-cat-item">
-                           <a aria-label="Visit product category Earrings" href="https://parkofideas.com/goldish/demo/product-category/earrings/">
+                           <a aria-label="Visit product category Earrings" href="<?php echo $domain;?>">
                               <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="asset/images/store_collection/2-100x100.jpg" alt="Earrings" width="100" height="100" srcset="asset/images/store_collection/2-100x100.jpg 100w, asset/images/store_collection/2-145x145.jpg 145w, asset/images/store_collection/2.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
                               <h2 class="woocommerce-loop-category__title"> Earrings <mark class="count">4</mark> </h2>
                            </a>
                         </div>
                         <div class="product-category product c-page-header__sub-cat-item">
-                           <a aria-label="Visit product category Necklaces" href="https://parkofideas.com/goldish/demo/product-category/necklaces/">
+                           <a aria-label="Visit product category Necklaces" href="<?php echo $domain;?>">
                               <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="asset/images/store_collection/3-100x100.jpg" alt="Necklaces" width="100" height="100" srcset="asset/images/store_collection/3-100x100.jpg 100w, asset/images/store_collection/3-145x145.jpg 145w, asset/images/store_collection/3.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
                               <h2 class="woocommerce-loop-category__title"> Necklaces <mark class="count">4</mark> </h2>
                            </a>
                         </div>
                         <div class="product-category product last c-page-header__sub-cat-item">
-                           <a aria-label="Visit product category Other" href="https://parkofideas.com/goldish/demo/product-category/other/">
+                           <a aria-label="Visit product category Other" href="<?php echo $domain;?>">
                               <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="asset/images/store_collection/0-100x100.jpg" alt="0" width="100" height="100" srcset="asset/images/store_collection/0-100x100.jpg 100w, asset/images/store_collection/0-145x145.jpg 145w, asset/images/store_collection/0.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
                               <h2 class="woocommerce-loop-category__title"> Other <mark class="count">11</mark> </h2>
                            </a>
                         </div>
                         <div class="product-category product first c-page-header__sub-cat-item">
-                           <a aria-label="Visit product category Rings" href="https://parkofideas.com/goldish/demo/product-category/rings/">
+                           <a aria-label="Visit product category Rings" href="<?php echo $domain;?>">
                               <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="asset/images/store_collection/5-100x100.jpg" alt="5s" width="100" height="100" srcset="asset/images/store_collection/5-100x100.jpg 100w, asset/images/store_collection/5-145x145.jpg 145w, asset/images/store_collection/5.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
                               <h2 class="woocommerce-loop-category__title"> Rings <mark class="count">4</mark> </h2>
                            </a>
                         </div>
                         <div class="product-category product c-page-header__sub-cat-item">
-                           <a aria-label="Visit product category Sets" href="https://parkofideas.com/goldish/demo/product-category/sets/">
+                           <a aria-label="Visit product category Sets" href="<?php echo $domain;?>">
                               <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="asset/images/store_collection/5-100x100.jpg" alt="Sets" width="100" height="100" srcset="asset/images/store_collection/5-100x100.jpg 100w, asset/images/store_collection/5-145x145.jpg 145w, asset/images/store_collection/5.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
                               <h2 class="woocommerce-loop-category__title"> Sets <mark class="count">4</mark> </h2>
                            </a>
@@ -673,7 +610,7 @@
           <div class="elementor-element elementor-element-09d18b3 elementor-align-center elementor-tablet-align-center elementor-widget elementor-widget-button" data-id="09d18b3" data-element_type="widget" data-widget_type="button.default">
             <div class="elementor-widget-container">
               <div class="elementor-button-wrapper">
-                <a class="elementor-button elementor-button-link elementor-size-sm" href="https://parkofideas.com/goldish/demo/shop/">
+                <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                   <span class="elementor-button-content-wrapper">
                     <span class="elementor-button-text">Shop now</span>
                   </span>
@@ -684,7 +621,9 @@
         </div>
       </div>
       <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-abc1459" data-id="abc1459" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+
         <div class="elementor-widget-wrap elementor-element-populated" style="background-image: url('asset/images/collection_shop/20.jpg');">
+
           <div class="elementor-element elementor-element-086c592 elementor-widget elementor-widget-spacer" data-id="086c592" data-element_type="widget" data-widget_type="spacer.default">
             <div class="elementor-widget-container">
               <div class="elementor-spacer">
@@ -702,7 +641,7 @@
           <div class="elementor-element elementor-element-a318ce6 elementor-align-center elementor-tablet-align-center elementor-widget elementor-widget-button" data-id="a318ce6" data-element_type="widget" data-widget_type="button.default">
             <div class="elementor-widget-container">
               <div class="elementor-button-wrapper">
-                <a class="elementor-button elementor-button-link elementor-size-sm" href="https://parkofideas.com/goldish/demo/shop/">
+                <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                   <span class="elementor-button-content-wrapper">
                     <span class="elementor-button-text">Shop now</span>
                   </span>
@@ -738,7 +677,7 @@
           <div class="elementor-element elementor-element-e0ad2eb elementor-align-center elementor-tablet-align-center elementor-widget elementor-widget-button" data-id="e0ad2eb" data-element_type="widget" data-widget_type="button.default">
             <div class="elementor-widget-container">
               <div class="elementor-button-wrapper">
-                <a class="elementor-button elementor-button-link elementor-size-sm" href="https://parkofideas.com/goldish/demo/shop/">
+                <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                   <span class="elementor-button-content-wrapper">
                     <span class="elementor-button-text">Shop now</span>
                   </span>
@@ -873,7 +812,7 @@
                       <div class="elementor-button-wrapper">
                         <a
                           class="elementor-button elementor-button-link elementor-size-sm"
-                          href="https://parkofideas.com/goldish/demo/shop/"
+                          href="#"
                         >
                           <span class="elementor-button-content-wrapper">
                             <span class="elementor-button-text">View Full</span>
@@ -915,7 +854,7 @@
                       <div class="elementor-button-wrapper">
                         <a
                           class="elementor-button elementor-button-link elementor-size-sm"
-                          href="https://parkofideas.com/goldish/demo/shop/"
+                          href="#"
                         >
                           <span class="elementor-button-content-wrapper">
                             <span class="elementor-button-text">View All</span>
@@ -957,7 +896,7 @@
                                         class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons"
                                       >
                                         <a
-                                          href="https://parkofideas.com/goldish/demo/shop/fleur-de-lis-key-brooch/"
+                                          href="#"
                                           class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                           ><img
                                             loading="lazy"
@@ -1068,19 +1007,19 @@
                                           >
                                             <a
                                               class="c-product-grid__category-item"
-                                              href="https://parkofideas.com/goldish/demo/product-category/other/brooches/"
+                                              href="#"
                                               title="View all posts in Brooches"
                                               >Brooches</a
                                             ><span class="h-bullet"></span
                                             ><a
                                               class="c-product-grid__category-item"
-                                              href="https://parkofideas.com/goldish/demo/product-category/other/"
+                                              href="#"
                                               title="View all posts in Other"
                                               >Other</a
                                             >
                                           </div>
                                           <a
-                                            href="https://parkofideas.com/goldish/demo/shop/fleur-de-lis-key-brooch/"
+                                            href="#"
                                             class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                             ><h2
                                               class="woocommerce-loop-product__title"
@@ -1088,7 +1027,7 @@
                                               Fleur de Lis Key Brooch
                                             </h2></a
                                           ><a
-                                            href="https://parkofideas.com/goldish/demo/shop/fleur-de-lis-key-brooch/"
+                                            href="#"
                                             class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                           >
                                             <div
@@ -1128,7 +1067,7 @@
                                         class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons"
                                       >
                                         <a
-                                          href="https://parkofideas.com/goldish/demo/shop/starfish-brooch/"
+                                          href="#"
                                           class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                           ><img
                                             loading="lazy"
@@ -1241,19 +1180,19 @@
                                           >
                                             <a
                                               class="c-product-grid__category-item"
-                                              href="https://parkofideas.com/goldish/demo/product-category/other/brooches/"
+                                              href="#"
                                               title="View all posts in Brooches"
                                               >Brooches</a
                                             ><span class="h-bullet"></span
                                             ><a
                                               class="c-product-grid__category-item"
-                                              href="https://parkofideas.com/goldish/demo/product-category/other/"
+                                              href="#"
                                               title="View all posts in Other"
                                               >Other</a
                                             >
                                           </div>
                                           <a
-                                            href="https://parkofideas.com/goldish/demo/shop/starfish-brooch/"
+                                            href="#"
                                             class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                             ><h2
                                               class="woocommerce-loop-product__title"
@@ -1261,7 +1200,7 @@
                                               Starfish Brooch
                                             </h2></a
                                           ><a
-                                            href="https://parkofideas.com/goldish/demo/shop/starfish-brooch/"
+                                            href="#"
                                             class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                           >
                                             <div
@@ -1301,7 +1240,7 @@
                                         class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons"
                                       >
                                         <a
-                                          href="https://parkofideas.com/goldish/demo/shop/layer-cake-necklace-set/"
+                                          href="#"
                                           class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                           ><img
                                             loading="lazy"
@@ -1412,13 +1351,13 @@
                                           >
                                             <a
                                               class="c-product-grid__category-item"
-                                              href="https://parkofideas.com/goldish/demo/product-category/sets/"
+                                              href="#"
                                               title="View all posts in Sets"
                                               >Sets</a
                                             >
                                           </div>
                                           <a
-                                            href="https://parkofideas.com/goldish/demo/shop/layer-cake-necklace-set/"
+                                            href="#"
                                             class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                             ><h2
                                               class="woocommerce-loop-product__title"
@@ -1426,7 +1365,7 @@
                                               Layer Cake Necklace Set
                                             </h2></a
                                           ><a
-                                            href="https://parkofideas.com/goldish/demo/shop/layer-cake-necklace-set/"
+                                            href="#"
                                             class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                           >
                                             <div
@@ -1466,7 +1405,7 @@
                                         class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons"
                                       >
                                         <a
-                                          href="https://parkofideas.com/goldish/demo/shop/the-texture-ring-set/"
+                                          href="#"
                                           class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                           ><img
                                             loading="lazy"
@@ -1577,13 +1516,13 @@
                                           >
                                             <a
                                               class="c-product-grid__category-item"
-                                              href="https://parkofideas.com/goldish/demo/product-category/sets/"
+                                              href="#"
                                               title="View all posts in Sets"
                                               >Sets</a
                                             >
                                           </div>
                                           <a
-                                            href="https://parkofideas.com/goldish/demo/shop/the-texture-ring-set/"
+                                            href="#"
                                             class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                             ><h2
                                               class="woocommerce-loop-product__title"
@@ -1591,7 +1530,7 @@
                                               The Texture Ring Set
                                             </h2></a
                                           ><a
-                                            href="https://parkofideas.com/goldish/demo/shop/the-texture-ring-set/"
+                                            href="#"
                                             class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                           >
                                             <div
@@ -1633,7 +1572,7 @@
                                         class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons"
                                       >
                                         <a
-                                          href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/"
+                                          href="#"
                                           class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                           ><img
                                             loading="lazy"
@@ -1720,7 +1659,7 @@
                                         </div>
                                       </div>
                                       <a
-                                        href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/"
+                                        href="#"
                                         data-quantity="1"
                                         class="h-cb c-product-grid__atc button product_type_variable add_to_cart_button"
                                         data-product_id="125"
@@ -1743,13 +1682,13 @@
                                           >
                                             <a
                                               class="c-product-grid__category-item"
-                                              href="https://parkofideas.com/goldish/demo/product-category/necklaces/"
+                                              href="#"
                                               title="View all posts in Necklaces"
                                               >Necklaces</a
                                             >
                                           </div>
                                           <a
-                                            href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/"
+                                            href="#"
                                             class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                             ><h2
                                               class="woocommerce-loop-product__title"
@@ -1757,7 +1696,7 @@
                                               Color by the Yard Emerald Pendant
                                             </h2></a
                                           ><a
-                                            href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/"
+                                            href="#"
                                             class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                           >
                                             <div
@@ -1844,7 +1783,7 @@
                                         class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons"
                                       >
                                         <a
-                                          href="https://parkofideas.com/goldish/demo/shop/heart-locket/"
+                                          href="#"
                                           class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                           ><img
                                             loading="lazy"
@@ -1951,19 +1890,19 @@
                                           >
                                             <a
                                               class="c-product-grid__category-item"
-                                              href="https://parkofideas.com/goldish/demo/product-category/other/locket/"
+                                              href="#"
                                               title="View all posts in Locket"
                                               >Locket</a
                                             ><span class="h-bullet"></span
                                             ><a
                                               class="c-product-grid__category-item"
-                                              href="https://parkofideas.com/goldish/demo/product-category/other/"
+                                              href="#"
                                               title="View all posts in Other"
                                               >Other</a
                                             >
                                           </div>
                                           <a
-                                            href="https://parkofideas.com/goldish/demo/shop/heart-locket/"
+                                            href="#"
                                             class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                             ><h2
                                               class="woocommerce-loop-product__title"
@@ -1971,7 +1910,7 @@
                                               Heart Locket
                                             </h2></a
                                           ><a
-                                            href="https://parkofideas.com/goldish/demo/shop/heart-locket/"
+                                            href="#"
                                             class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                           >
                                             <div
@@ -2010,7 +1949,7 @@
                                         class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons"
                                       >
                                         <a
-                                          href="https://parkofideas.com/goldish/demo/shop/flower-earring-stacking-set/"
+                                          href="#"
                                           class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                           ><img
                                             loading="lazy"
@@ -2117,13 +2056,13 @@
                                           >
                                             <a
                                               class="c-product-grid__category-item"
-                                              href="https://parkofideas.com/goldish/demo/product-category/sets/"
+                                              href=""
                                               title="View all posts in Sets"
                                               >Sets</a
                                             >
                                           </div>
                                           <a
-                                            href="https://parkofideas.com/goldish/demo/shop/flower-earring-stacking-set/"
+                                            href="#"
                                             class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                             ><h2
                                               class="woocommerce-loop-product__title"
@@ -2131,7 +2070,7 @@
                                               Flower Earring Stacking Set
                                             </h2></a
                                           ><a
-                                            href="https://parkofideas.com/goldish/demo/shop/flower-earring-stacking-set/"
+                                            href="#"
                                             class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                           >
                                             <div
@@ -2170,7 +2109,7 @@
                                         class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons"
                                       >
                                         <a
-                                          href="https://parkofideas.com/goldish/demo/shop/necklace-stacking-set/"
+                                          href="#"
                                           class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                           ><img
                                             loading="lazy"
@@ -2348,187 +2287,68 @@
           </section>
           
 
-          <section
-  class="elementor-section elementor-top-section elementor-element elementor-element-302b45b elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-  data-id="302b45b"
-  data-element_type="section"
-  data-settings='{"background_background":"classic"}'
->
+          <section class="elementor-section elementor-top-section elementor-element elementor-element-302b45b elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="302b45b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
   <div class="elementor-container elementor-column-gap-default">
-    <div
-      class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3aa5eeb"
-      data-id="3aa5eeb"
-      data-element_type="column"
-    >
+    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3aa5eeb" data-id="3aa5eeb" data-element_type="column">
       <div class="elementor-widget-wrap elementor-element-populated">
-        <div
-          class="elementor-element elementor-element-fd27a8c elementor-widget elementor-widget-ideapark-heading"
-          data-id="fd27a8c"
-          data-element_type="widget"
-          data-widget_type="ideapark-heading.default"
-        >
+        <div class="elementor-element elementor-element-fd27a8c elementor-widget elementor-widget-ideapark-heading" data-id="fd27a8c" data-element_type="widget" data-widget_type="ideapark-heading.default">
           <div class="elementor-widget-container">
-            <div
-              class="c-ip-heading c-ip-heading--large c-ip-heading--center c-ip-heading--bullet-hide" style="text-align-last: center;margin-bottom:40px;"
-            >
+            <div class="c-ip-heading c-ip-heading--large c-ip-heading--center c-ip-heading--bullet-hide" style="text-align-last: center;margin-bottom:40px;">
               <div class="c-ip-heading__inner">Store</div>
             </div>
           </div>
         </div>
-        <div
-          class="elementor-element elementor-element-eb5c55c elementor-widget elementor-widget-ideapark-product-tabs"
-          data-id="eb5c55c"
-          data-element_type="widget"
-          data-widget_type="ideapark-product-tabs.default"
-        >
+        <div class="elementor-element elementor-element-eb5c55c elementor-widget elementor-widget-ideapark-product-tabs" data-id="eb5c55c" data-element_type="widget" data-widget_type="ideapark-product-tabs.default">
           <div class="elementor-widget-container">
             <div class="c-ip-product-tabs js-ip-tabs">
              
               <div class="c-ip-product-tabs__list">
-                <div
-                  class="c-ip-product-tabs__item visible active"
-                  
-                >
+                <div class="c-ip-product-tabs__item visible active">
                   <div class="l-section l-section--container-wide">
                     <div class="woocommerce columns-4">
-                      <div
-                        class="c-product-grid__wrap c-product-grid__wrap--4-per-row c-product-grid__wrap--1-per-row-mobile c-product-grid__wrap--fullwidth c-product-grid__wrap--cnt-8"
-                      >
-                        <div
-                          class="c-product-grid__list c-product-grid__list--4-per-row c-product-grid__list--fullwidth c-product-grid__list--1-per-row-mobile c-product-grid__list--below c-product-grid__list--below-mobile"
-                          data-count="8"
-                          data-layout="4-per-row"
-                          data-layout-width="fullwidth"
-                          data-layout-mobile="1-per-row-mobile"
-                        >
-                          <div
-                            class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-135 status-publish first instock product_cat-brooches product_cat-other product_tag-key product_tag-other has-post-thumbnail shipping-taxable purchasable product-type-simple"
-                          >
-                            <div
-                              class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/fleur-de-lis-key-brooch/"
-                                class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                ><img
-                                  loading="lazy"
-                                  decoding="async"
-                                  width="900"
-                                  height="900"
-                                  src="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041903639-900x900.jpg"
-                                  class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base"
-                                  alt=""
-                                  srcset="
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041903639-900x900.jpg 900w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041903639-300x300.jpg 300w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041903639-100x100.jpg 100w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041903639-600x600.jpg 600w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041903639-200x200.jpg 200w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041903639-145x145.jpg 145w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041903639.jpg         960w
-                                  "
-                                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw" /><img
-                                  loading="lazy"
-                                  decoding="async"
-                                  width="900"
-                                  height="900"
-                                  src="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041444939-900x900.jpg"
-                                  class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover"
-                                  alt=""
-                                  srcset="
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041444939-900x900.jpg 900w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041444939-300x300.jpg 300w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041444939-100x100.jpg 100w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041444939-600x600.jpg 600w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041444939-200x200.jpg 200w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041444939-145x145.jpg 145w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041444939.jpg         960w
-                                  "
-                                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"
-                              /></a>
+                      <div class="c-product-grid__wrap c-product-grid__wrap--4-per-row c-product-grid__wrap--1-per-row-mobile c-product-grid__wrap--fullwidth c-product-grid__wrap--cnt-8">
+                        <div class="c-product-grid__list c-product-grid__list--4-per-row c-product-grid__list--fullwidth c-product-grid__list--1-per-row-mobile c-product-grid__list--below c-product-grid__list--below-mobile" data-count="8" data-layout="4-per-row" data-layout-width="fullwidth" data-layout-mobile="1-per-row-mobile">
+                          <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-135 status-publish first instock product_cat-brooches product_cat-other product_tag-key product_tag-other has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                            <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
+                              <a href="https://parkofideas.com/goldish/demo/shop/fleur-de-lis-key-brooch/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041903639-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
+                                    /goldish-1041903639-900x900.jpg 900w,
+                                    /goldish-1041903639-300x300.jpg 300w,
+                                    /goldish-1041903639-100x100.jpg 100w,
+                                    /goldish-1041903639-600x600.jpg 600w,
+                                    /goldish-1041903639-200x200.jpg 200w,
+                                    /goldish-1041903639-145x145.jpg 145w,
+                                    /goldish-1041903639.jpg         960w
+                                  " sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041444939-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover" alt="" srcset="
+                                    /goldish-1041444939-900x900.jpg 900w,
+                                    /goldish-1041444939-300x300.jpg 300w,
+                                    /goldish-1041444939-100x100.jpg 100w,
+                                    /goldish-1041444939-600x600.jpg 600w,
+                                    /goldish-1041444939-200x200.jpg 200w,
+                                    /goldish-1041444939-145x145.jpg 145w,
+                                    /goldish-1041444939.jpg         960w
+                                  " sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"></a>
                               <div class="c-product-grid__badges c-badge__list">
                                 <span class="c-badge c-badge--new">New</span>
                               </div>
                               <div class="c-product-grid__thumb-button-list">
-                                <button
-                                  class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom"
-                                  type="button"
-                                  data-lang="en_US"
-                                  data-product-id="135"
-                                  aria-label="Quick view"
-                                >
-                                  <i
-                                    class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"
-                                  ></i>
-                                  <span class="c-product-grid__icon-text"
-                                    >Quick view</span
-                                  >
+                                <button class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom" type="button" data-lang="en_US" data-product-id="135" aria-label="Quick view">
+                                  <i class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"></i>
+                                  <span class="c-product-grid__icon-text">Quick view</span>
                                 </button>
-                                <button
-                                  data-size=""
-                                  class="js-wishlist-btn c-wishlist__btn c-wishlist__item-135-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist"
-                                  data-product-id="135"
-                                  data-title="Wishlist"
-                                  aria-label="Wishlist"
-                                >
-                                  <i
-                                    class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"
-                                  ></i
-                                  ><i
-                                    class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"
-                                  ></i
-                                  ><span
-                                    class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add"
-                                    >Add to Wishlist</span
-                                  ><span
-                                    class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove"
-                                    >Remove from Wishlist</span
-                                  >
+                                <button data-size="" class="js-wishlist-btn c-wishlist__btn c-wishlist__item-135-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist" data-product-id="135" data-title="Wishlist" aria-label="Wishlist">
+                                  <i class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"></i><i class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"></i><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add">Add to Wishlist</span><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove">Remove from Wishlist</span>
                                 </button>
                               </div>
                             </div>
-                            <a
-                              href="https://parkofideas.com/?add-to-cart=135"
-                              data-quantity="1"
-                              class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart"
-                              data-product_id="135"
-                              data-product_sku="6565422348"
-                              aria-label="Add to cart: “Fleur de Lis Key Brooch”"
-                              aria-describedby=""
-                              rel="nofollow"
-                              ><i class="ip-plus c-product-grid__atc-icon"></i
-                              ><span class="c-product-grid__atc-text"
-                                >Add to cart</span
-                              ></a
-                            >
-                            <div
-                              class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile"
-                            >
+                            <a href="https://parkofideas.com/?add-to-cart=135" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="135" data-product_sku="6565422348" aria-label="Add to cart: “Fleur de Lis Key Brooch”" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
+                            <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                               <div class="c-product-grid__title-wrap">
                                 <div class="c-product-grid__category-list">
-                                  <a
-                                    class="c-product-grid__category-item"
-                                    href="https://parkofideas.com/goldish/demo/product-category/other/brooches/"
-                                    title="View all posts in Brooches"
-                                    >Brooches</a
-                                  ><span class="h-bullet"></span
-                                  ><a
-                                    class="c-product-grid__category-item"
-                                    href="https://parkofideas.com/goldish/demo/product-category/other/"
-                                    title="View all posts in Other"
-                                    >Other</a
-                                  >
+                                  <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/other/brooches/" title="View all posts in Brooches">Brooches</a><span class="h-bullet"></span><a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/other/" title="View all posts in Other">Other</a>
                                 </div>
-                                <a
-                                  href="https://parkofideas.com/goldish/demo/shop/fleur-de-lis-key-brooch/"
-                                  class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                  ><h2 class="woocommerce-loop-product__title">
+                                <a href="https://parkofideas.com/goldish/demo/shop/fleur-de-lis-key-brooch/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
                                     Fleur de Lis Key Brooch
-                                  </h2></a
-                                ><a
-                                  href="https://parkofideas.com/goldish/demo/shop/fleur-de-lis-key-brooch/"
-                                  class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                >
+                                  </h2></a><a href="https://parkofideas.com/goldish/demo/shop/fleur-de-lis-key-brooch/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                   <div class="c-product-grid__short-desc">
                                     <p>
                                       Brilliant beacons of optimism and hope,
@@ -2539,151 +2359,52 @@
                                 </a>
                               </div>
                               <div class="c-product-grid__price-wrap">
-                                <span class="price"
-                                  ><span class="woocommerce-Price-amount amount"
-                                    ><bdi
-                                      ><span
-                                        class="woocommerce-Price-currencySymbol"
-                                        >$</span
-                                      >750</bdi
-                                    ></span
-                                  ></span
-                                >
+                                <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>750</bdi></span></span>
                               </div>
                               <div class="c-product-grid__star-rating"></div>
                             </div>
                           </div>
-                          <div
-                            class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-131 status-publish instock product_cat-brooches product_cat-other product_tag-brooch product_tag-other has-post-thumbnail featured shipping-taxable product-type-external"
-                          >
-                            <div
-                              class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/starfish-brooch/"
-                                class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                ><img
-                                  loading="lazy"
-                                  decoding="async"
-                                  width="900"
-                                  height="900"
-                                  src="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041826433-900x900.jpg"
-                                  class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base"
-                                  alt=""
-                                  srcset="
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041826433-900x900.jpg 900w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041826433-300x300.jpg 300w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041826433-100x100.jpg 100w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041826433-600x600.jpg 600w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041826433-200x200.jpg 200w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041826433-145x145.jpg 145w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041826433.jpg         960w
-                                  "
-                                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw" /><img
-                                  loading="lazy"
-                                  decoding="async"
-                                  width="900"
-                                  height="900"
-                                  src="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041129267-900x900.jpg"
-                                  class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover"
-                                  alt=""
-                                  srcset="
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041129267-900x900.jpg 900w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041129267-300x300.jpg 300w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041129267-100x100.jpg 100w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041129267-600x600.jpg 600w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041129267-200x200.jpg 200w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041129267-145x145.jpg 145w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041129267.jpg         960w
-                                  "
-                                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"
-                              /></a>
+                          <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-131 status-publish instock product_cat-brooches product_cat-other product_tag-brooch product_tag-other has-post-thumbnail featured shipping-taxable product-type-external">
+                            <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
+                              <a href="https://parkofideas.com/goldish/demo/shop/starfish-brooch/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041826433-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
+                                    /goldish-1041826433-900x900.jpg 900w,
+                                    /goldish-1041826433-300x300.jpg 300w,
+                                    /goldish-1041826433-100x100.jpg 100w,
+                                    /goldish-1041826433-600x600.jpg 600w,
+                                    /goldish-1041826433-200x200.jpg 200w,
+                                    /goldish-1041826433-145x145.jpg 145w,
+                                    /goldish-1041826433.jpg         960w
+                                  " sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041129267-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover" alt="" srcset="
+                                    /goldish-1041129267-900x900.jpg 900w,
+                                    /goldish-1041129267-300x300.jpg 300w,
+                                    /goldish-1041129267-100x100.jpg 100w,
+                                    /goldish-1041129267-600x600.jpg 600w,
+                                    /goldish-1041129267-200x200.jpg 200w,
+                                    /goldish-1041129267-145x145.jpg 145w,
+                                    /goldish-1041129267.jpg         960w
+                                  " sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"></a>
                               <div class="c-product-grid__badges c-badge__list">
-                                <span class="c-badge c-badge--featured"
-                                  >Featured</span
-                                ><span class="c-badge c-badge--new">New</span>
+                                <span class="c-badge c-badge--featured">Featured</span><span class="c-badge c-badge--new">New</span>
                               </div>
                               <div class="c-product-grid__thumb-button-list">
-                                <button
-                                  class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom"
-                                  type="button"
-                                  data-lang="en_US"
-                                  data-product-id="131"
-                                  aria-label="Quick view"
-                                >
-                                  <i
-                                    class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"
-                                  ></i>
-                                  <span class="c-product-grid__icon-text"
-                                    >Quick view</span
-                                  >
+                                <button class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom" type="button" data-lang="en_US" data-product-id="131" aria-label="Quick view">
+                                  <i class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"></i>
+                                  <span class="c-product-grid__icon-text">Quick view</span>
                                 </button>
-                                <button
-                                  data-size=""
-                                  class="js-wishlist-btn c-wishlist__btn c-wishlist__item-131-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist"
-                                  data-product-id="131"
-                                  data-title="Wishlist"
-                                  aria-label="Wishlist"
-                                >
-                                  <i
-                                    class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"
-                                  ></i
-                                  ><i
-                                    class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"
-                                  ></i
-                                  ><span
-                                    class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add"
-                                    >Add to Wishlist</span
-                                  ><span
-                                    class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove"
-                                    >Remove from Wishlist</span
-                                  >
+                                <button data-size="" class="js-wishlist-btn c-wishlist__btn c-wishlist__item-131-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist" data-product-id="131" data-title="Wishlist" aria-label="Wishlist">
+                                  <i class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"></i><i class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"></i><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add">Add to Wishlist</span><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove">Remove from Wishlist</span>
                                 </button>
                               </div>
                             </div>
-                            <a
-                              href="https://parkofideas.com/#"
-                              data-quantity="1"
-                              class="h-cb c-product-grid__atc button product_type_external"
-                              data-product_id="131"
-                              data-product_sku="465653211389"
-                              aria-label="Buy on Amazon"
-                              aria-describedby=""
-                              rel="nofollow"
-                              ><span class="c-product-grid__atc-text"
-                                >Buy on Amazon</span
-                              ><i
-                                class="ip-button-more c-product-grid__atc-icon"
-                              ></i
-                            ></a>
-                            <div
-                              class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile"
-                            >
+                            <a href="https://parkofideas.com/#" data-quantity="1" class="h-cb c-product-grid__atc button product_type_external" data-product_id="131" data-product_sku="465653211389" aria-label="Buy on Amazon" aria-describedby="" rel="nofollow"><span class="c-product-grid__atc-text">Buy on Amazon</span><i class="ip-button-more c-product-grid__atc-icon"></i></a>
+                            <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                               <div class="c-product-grid__title-wrap">
                                 <div class="c-product-grid__category-list">
-                                  <a
-                                    class="c-product-grid__category-item"
-                                    href="https://parkofideas.com/goldish/demo/product-category/other/brooches/"
-                                    title="View all posts in Brooches"
-                                    >Brooches</a
-                                  ><span class="h-bullet"></span
-                                  ><a
-                                    class="c-product-grid__category-item"
-                                    href="https://parkofideas.com/goldish/demo/product-category/other/"
-                                    title="View all posts in Other"
-                                    >Other</a
-                                  >
+                                  <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/other/brooches/" title="View all posts in Brooches">Brooches</a><span class="h-bullet"></span><a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/other/" title="View all posts in Other">Other</a>
                                 </div>
-                                <a
-                                  href="https://parkofideas.com/goldish/demo/shop/starfish-brooch/"
-                                  class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                  ><h2 class="woocommerce-loop-product__title">
+                                <a href="https://parkofideas.com/goldish/demo/shop/starfish-brooch/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
                                     Starfish Brooch
-                                  </h2></a
-                                ><a
-                                  href="https://parkofideas.com/goldish/demo/shop/starfish-brooch/"
-                                  class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                >
+                                  </h2></a><a href="https://parkofideas.com/goldish/demo/shop/starfish-brooch/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                   <div class="c-product-grid__short-desc">
                                     <p>
                                       The starfish evokes life beneath the waves
@@ -2694,142 +2415,52 @@
                                 </a>
                               </div>
                               <div class="c-product-grid__price-wrap">
-                                <span class="price"
-                                  ><span class="woocommerce-Price-amount amount"
-                                    ><bdi
-                                      ><span
-                                        class="woocommerce-Price-currencySymbol"
-                                        >$</span
-                                      >850</bdi
-                                    ></span
-                                  ></span
-                                >
+                                <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>850</bdi></span></span>
                               </div>
                               <div class="c-product-grid__star-rating"></div>
                             </div>
                           </div>
-                          <div
-                            class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-130 status-publish instock product_cat-sets product_tag-gold product_tag-set has-post-thumbnail shipping-taxable purchasable product-type-simple"
-                          >
-                            <div
-                              class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/layer-cake-necklace-set/"
-                                class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                ><img
-                                  loading="lazy"
-                                  decoding="async"
-                                  width="900"
-                                  height="900"
-                                  src="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041207655-900x900.jpg"
-                                  class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base"
-                                  alt=""
-                                  srcset="
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041207655-900x900.jpg 900w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041207655-300x300.jpg 300w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041207655-100x100.jpg 100w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041207655-600x600.jpg 600w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041207655-200x200.jpg 200w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041207655-145x145.jpg 145w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041207655.jpg         960w
-                                  "
-                                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw" /><img
-                                  loading="lazy"
-                                  decoding="async"
-                                  width="900"
-                                  height="900"
-                                  src="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1042394199-900x900.jpg"
-                                  class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover"
-                                  alt=""
-                                  srcset="
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1042394199-900x900.jpg 900w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1042394199-300x300.jpg 300w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1042394199-100x100.jpg 100w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1042394199-600x600.jpg 600w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1042394199-200x200.jpg 200w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1042394199-145x145.jpg 145w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1042394199.jpg         960w
-                                  "
-                                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"
-                              /></a>
+                          <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-130 status-publish instock product_cat-sets product_tag-gold product_tag-set has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                            <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
+                              <a href="https://parkofideas.com/goldish/demo/shop/layer-cake-necklace-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041207655-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
+                                    /goldish-1041207655-900x900.jpg 900w,
+                                    /goldish-1041207655-300x300.jpg 300w,
+                                    /goldish-1041207655-100x100.jpg 100w,
+                                    /goldish-1041207655-600x600.jpg 600w,
+                                    /goldish-1041207655-200x200.jpg 200w,
+                                    /goldish-1041207655-145x145.jpg 145w,
+                                    /goldish-1041207655.jpg         960w
+                                  " sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1042394199-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover" alt="" srcset="
+                                    /goldish-1042394199-900x900.jpg 900w,
+                                    /goldish-1042394199-300x300.jpg 300w,
+                                    /goldish-1042394199-100x100.jpg 100w,
+                                    /goldish-1042394199-600x600.jpg 600w,
+                                    /goldish-1042394199-200x200.jpg 200w,
+                                    /goldish-1042394199-145x145.jpg 145w,
+                                    /goldish-1042394199.jpg         960w
+                                  " sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"></a>
                               <div class="c-product-grid__badges c-badge__list">
                                 <span class="c-badge c-badge--new">New</span>
                               </div>
                               <div class="c-product-grid__thumb-button-list">
-                                <button
-                                  class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom"
-                                  type="button"
-                                  data-lang="en_US"
-                                  data-product-id="130"
-                                  aria-label="Quick view"
-                                >
-                                  <i
-                                    class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"
-                                  ></i>
-                                  <span class="c-product-grid__icon-text"
-                                    >Quick view</span
-                                  >
+                                <button class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom" type="button" data-lang="en_US" data-product-id="130" aria-label="Quick view">
+                                  <i class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"></i>
+                                  <span class="c-product-grid__icon-text">Quick view</span>
                                 </button>
-                                <button
-                                  data-size=""
-                                  class="js-wishlist-btn c-wishlist__btn c-wishlist__item-130-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist"
-                                  data-product-id="130"
-                                  data-title="Wishlist"
-                                  aria-label="Wishlist"
-                                >
-                                  <i
-                                    class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"
-                                  ></i
-                                  ><i
-                                    class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"
-                                  ></i
-                                  ><span
-                                    class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add"
-                                    >Add to Wishlist</span
-                                  ><span
-                                    class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove"
-                                    >Remove from Wishlist</span
-                                  >
+                                <button data-size="" class="js-wishlist-btn c-wishlist__btn c-wishlist__item-130-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist" data-product-id="130" data-title="Wishlist" aria-label="Wishlist">
+                                  <i class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"></i><i class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"></i><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add">Add to Wishlist</span><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove">Remove from Wishlist</span>
                                 </button>
                               </div>
                             </div>
-                            <a
-                              href="https://parkofideas.com/?add-to-cart=130"
-                              data-quantity="1"
-                              class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart"
-                              data-product_id="130"
-                              data-product_sku="4564687923"
-                              aria-label="Add to cart: “Layer Cake Necklace Set”"
-                              aria-describedby=""
-                              rel="nofollow"
-                              ><i class="ip-plus c-product-grid__atc-icon"></i
-                              ><span class="c-product-grid__atc-text"
-                                >Add to cart</span
-                              ></a
-                            >
-                            <div
-                              class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile"
-                            >
+                            <a href="https://parkofideas.com/?add-to-cart=130" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="130" data-product_sku="4564687923" aria-label="Add to cart: “Layer Cake Necklace Set”" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
+                            <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                               <div class="c-product-grid__title-wrap">
                                 <div class="c-product-grid__category-list">
-                                  <a
-                                    class="c-product-grid__category-item"
-                                    href="https://parkofideas.com/goldish/demo/product-category/sets/"
-                                    title="View all posts in Sets"
-                                    >Sets</a
-                                  >
+                                  <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/sets/" title="View all posts in Sets">Sets</a>
                                 </div>
-                                <a
-                                  href="https://parkofideas.com/goldish/demo/shop/layer-cake-necklace-set/"
-                                  class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                  ><h2 class="woocommerce-loop-product__title">
+                                <a href="https://parkofideas.com/goldish/demo/shop/layer-cake-necklace-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
                                     Layer Cake Necklace Set
-                                  </h2></a
-                                ><a
-                                  href="https://parkofideas.com/goldish/demo/shop/layer-cake-necklace-set/"
-                                  class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                >
+                                  </h2></a><a href="https://parkofideas.com/goldish/demo/shop/layer-cake-necklace-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                   <div class="c-product-grid__short-desc">
                                     <p>
                                       Fine jewelry deserves fair prices. And so
@@ -2840,142 +2471,52 @@
                                 </a>
                               </div>
                               <div class="c-product-grid__price-wrap">
-                                <span class="price"
-                                  ><span class="woocommerce-Price-amount amount"
-                                    ><bdi
-                                      ><span
-                                        class="woocommerce-Price-currencySymbol"
-                                        >$</span
-                                      >1,400</bdi
-                                    ></span
-                                  ></span
-                                >
+                                <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>1,400</bdi></span></span>
                               </div>
                               <div class="c-product-grid__star-rating"></div>
                             </div>
                           </div>
-                          <div
-                            class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-128 status-publish last instock product_cat-sets product_tag-gold product_tag-set has-post-thumbnail shipping-taxable purchasable product-type-simple"
-                          >
-                            <div
-                              class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/the-texture-ring-set/"
-                                class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                ><img
-                                  loading="lazy"
-                                  decoding="async"
-                                  width="900"
-                                  height="900"
-                                  src="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041595440-900x900.jpg"
-                                  class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base"
-                                  alt=""
-                                  srcset="
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041595440-900x900.jpg 900w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041595440-300x300.jpg 300w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041595440-100x100.jpg 100w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041595440-600x600.jpg 600w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041595440-200x200.jpg 200w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041595440-145x145.jpg 145w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041595440.jpg         960w
-                                  "
-                                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw" /><img
-                                  loading="lazy"
-                                  decoding="async"
-                                  width="900"
-                                  height="900"
-                                  src="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041775245-900x900.jpg"
-                                  class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover"
-                                  alt=""
-                                  srcset="
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041775245-900x900.jpg 900w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041775245-300x300.jpg 300w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041775245-100x100.jpg 100w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041775245-600x600.jpg 600w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041775245-200x200.jpg 200w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041775245-145x145.jpg 145w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041775245.jpg         960w
-                                  "
-                                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"
-                              /></a>
+                          <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-128 status-publish last instock product_cat-sets product_tag-gold product_tag-set has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                            <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
+                              <a href="https://parkofideas.com/goldish/demo/shop/the-texture-ring-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041595440-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
+                                    /goldish-1041595440-900x900.jpg 900w,
+                                    /goldish-1041595440-300x300.jpg 300w,
+                                    /goldish-1041595440-100x100.jpg 100w,
+                                    /goldish-1041595440-600x600.jpg 600w,
+                                    /goldish-1041595440-200x200.jpg 200w,
+                                    /goldish-1041595440-145x145.jpg 145w,
+                                    /goldish-1041595440.jpg         960w
+                                  " sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041775245-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover" alt="" srcset="
+                                    /goldish-1041775245-900x900.jpg 900w,
+                                    /goldish-1041775245-300x300.jpg 300w,
+                                    /goldish-1041775245-100x100.jpg 100w,
+                                    /goldish-1041775245-600x600.jpg 600w,
+                                    /goldish-1041775245-200x200.jpg 200w,
+                                    /goldish-1041775245-145x145.jpg 145w,
+                                    /goldish-1041775245.jpg         960w
+                                  " sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"></a>
                               <div class="c-product-grid__badges c-badge__list">
                                 <span class="c-badge c-badge--new">New</span>
                               </div>
                               <div class="c-product-grid__thumb-button-list">
-                                <button
-                                  class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom"
-                                  type="button"
-                                  data-lang="en_US"
-                                  data-product-id="128"
-                                  aria-label="Quick view"
-                                >
-                                  <i
-                                    class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"
-                                  ></i>
-                                  <span class="c-product-grid__icon-text"
-                                    >Quick view</span
-                                  >
+                                <button class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom" type="button" data-lang="en_US" data-product-id="128" aria-label="Quick view">
+                                  <i class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"></i>
+                                  <span class="c-product-grid__icon-text">Quick view</span>
                                 </button>
-                                <button
-                                  data-size=""
-                                  class="js-wishlist-btn c-wishlist__btn c-wishlist__item-128-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist"
-                                  data-product-id="128"
-                                  data-title="Wishlist"
-                                  aria-label="Wishlist"
-                                >
-                                  <i
-                                    class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"
-                                  ></i
-                                  ><i
-                                    class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"
-                                  ></i
-                                  ><span
-                                    class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add"
-                                    >Add to Wishlist</span
-                                  ><span
-                                    class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove"
-                                    >Remove from Wishlist</span
-                                  >
+                                <button data-size="" class="js-wishlist-btn c-wishlist__btn c-wishlist__item-128-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist" data-product-id="128" data-title="Wishlist" aria-label="Wishlist">
+                                  <i class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"></i><i class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"></i><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add">Add to Wishlist</span><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove">Remove from Wishlist</span>
                                 </button>
                               </div>
                             </div>
-                            <a
-                              href="https://parkofideas.com/?add-to-cart=128"
-                              data-quantity="1"
-                              class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart"
-                              data-product_id="128"
-                              data-product_sku="8486543322"
-                              aria-label="Add to cart: “The Texture Ring Set”"
-                              aria-describedby=""
-                              rel="nofollow"
-                              ><i class="ip-plus c-product-grid__atc-icon"></i
-                              ><span class="c-product-grid__atc-text"
-                                >Add to cart</span
-                              ></a
-                            >
-                            <div
-                              class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile"
-                            >
+                            <a href="https://parkofideas.com/?add-to-cart=128" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="128" data-product_sku="8486543322" aria-label="Add to cart: “The Texture Ring Set”" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
+                            <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                               <div class="c-product-grid__title-wrap">
                                 <div class="c-product-grid__category-list">
-                                  <a
-                                    class="c-product-grid__category-item"
-                                    href="https://parkofideas.com/goldish/demo/product-category/sets/"
-                                    title="View all posts in Sets"
-                                    >Sets</a
-                                  >
+                                  <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/sets/" title="View all posts in Sets">Sets</a>
                                 </div>
-                                <a
-                                  href="https://parkofideas.com/goldish/demo/shop/the-texture-ring-set/"
-                                  class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                  ><h2 class="woocommerce-loop-product__title">
+                                <a href="https://parkofideas.com/goldish/demo/shop/the-texture-ring-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
                                     The Texture Ring Set
-                                  </h2></a
-                                ><a
-                                  href="https://parkofideas.com/goldish/demo/shop/the-texture-ring-set/"
-                                  class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                >
+                                  </h2></a><a href="https://parkofideas.com/goldish/demo/shop/the-texture-ring-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                   <div class="c-product-grid__short-desc">
                                     <p>
                                       You play with patterns, now it’s time to
@@ -2988,143 +2529,52 @@
                                 </a>
                               </div>
                               <div class="c-product-grid__price-wrap">
-                                <span class="price"
-                                  ><span class="woocommerce-Price-amount amount"
-                                    ><bdi
-                                      ><span
-                                        class="woocommerce-Price-currencySymbol"
-                                        >$</span
-                                      >2,500</bdi
-                                    ></span
-                                  ></span
-                                >
+                                <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>2,500</bdi></span></span>
                               </div>
                               <div class="c-product-grid__star-rating"></div>
                             </div>
                           </div>
-                          <div
-                            class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-125 status-publish first instock product_cat-necklaces product_tag-emerald product_tag-gold product_tag-necklace has-post-thumbnail shipping-taxable purchasable product-type-variable has-default-attributes"
-                          >
-                            <div
-                              class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/"
-                                class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                ><img
-                                  loading="lazy"
-                                  decoding="async"
-                                  width="900"
-                                  height="900"
-                                  src="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041366681-900x900.jpg"
-                                  class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base"
-                                  alt=""
-                                  srcset="
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041366681-900x900.jpg 900w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041366681-300x300.jpg 300w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041366681-100x100.jpg 100w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041366681-600x600.jpg 600w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041366681-200x200.jpg 200w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041366681-145x145.jpg 145w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041366681.jpg         960w
-                                  "
-                                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw" /><img
-                                  loading="lazy"
-                                  decoding="async"
-                                  width="900"
-                                  height="900"
-                                  src="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041553111-900x900.jpg"
-                                  class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover"
-                                  alt=""
-                                  srcset="
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041553111-900x900.jpg 900w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041553111-300x300.jpg 300w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041553111-100x100.jpg 100w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041553111-600x600.jpg 600w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041553111-200x200.jpg 200w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041553111-145x145.jpg 145w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041553111.jpg         960w
-                                  "
-                                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"
-                              /></a>
+                          <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-125 status-publish first instock product_cat-necklaces product_tag-emerald product_tag-gold product_tag-necklace has-post-thumbnail shipping-taxable purchasable product-type-variable has-default-attributes">
+                            <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
+                              <a href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041366681-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
+                                    /goldish-1041366681-900x900.jpg 900w,
+                                    /goldish-1041366681-300x300.jpg 300w,
+                                    /goldish-1041366681-100x100.jpg 100w,
+                                    /goldish-1041366681-600x600.jpg 600w,
+                                    /goldish-1041366681-200x200.jpg 200w,
+                                    /goldish-1041366681-145x145.jpg 145w,
+                                    /goldish-1041366681.jpg         960w
+                                  " sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041553111-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover" alt="" srcset="
+                                    /goldish-1041553111-900x900.jpg 900w,
+                                    /goldish-1041553111-300x300.jpg 300w,
+                                    /goldish-1041553111-100x100.jpg 100w,
+                                    /goldish-1041553111-600x600.jpg 600w,
+                                    /goldish-1041553111-200x200.jpg 200w,
+                                    /goldish-1041553111-145x145.jpg 145w,
+                                    /goldish-1041553111.jpg         960w
+                                  " sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"></a>
                               <div class="c-product-grid__badges c-badge__list">
                                 <span class="c-badge c-badge--new">New</span>
                               </div>
                               <div class="c-product-grid__thumb-button-list">
-                                <button
-                                  class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom"
-                                  type="button"
-                                  data-lang="en_US"
-                                  data-product-id="125"
-                                  aria-label="Quick view"
-                                >
-                                  <i
-                                    class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"
-                                  ></i>
-                                  <span class="c-product-grid__icon-text"
-                                    >Quick view</span
-                                  >
+                                <button class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom" type="button" data-lang="en_US" data-product-id="125" aria-label="Quick view">
+                                  <i class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"></i>
+                                  <span class="c-product-grid__icon-text">Quick view</span>
                                 </button>
-                                <button
-                                  data-size=""
-                                  class="js-wishlist-btn c-wishlist__btn c-wishlist__item-125-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist"
-                                  data-product-id="125"
-                                  data-title="Wishlist"
-                                  aria-label="Wishlist"
-                                >
-                                  <i
-                                    class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"
-                                  ></i
-                                  ><i
-                                    class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"
-                                  ></i
-                                  ><span
-                                    class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add"
-                                    >Add to Wishlist</span
-                                  ><span
-                                    class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove"
-                                    >Remove from Wishlist</span
-                                  >
+                                <button data-size="" class="js-wishlist-btn c-wishlist__btn c-wishlist__item-125-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist" data-product-id="125" data-title="Wishlist" aria-label="Wishlist">
+                                  <i class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"></i><i class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"></i><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add">Add to Wishlist</span><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove">Remove from Wishlist</span>
                                 </button>
                               </div>
                             </div>
-                            <a
-                              href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/"
-                              data-quantity="1"
-                              class="h-cb c-product-grid__atc button product_type_variable add_to_cart_button"
-                              data-product_id="125"
-                              data-product_sku="981563121"
-                              aria-label="Select options for “Color by the Yard Emerald Pendant”"
-                              aria-describedby="This product has multiple variants. The options may be chosen on the product page"
-                              rel="nofollow"
-                              ><span class="c-product-grid__atc-text"
-                                >Select options</span
-                              ><i
-                                class="ip-button-more c-product-grid__atc-icon"
-                              ></i
-                            ></a>
-                            <div
-                              class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile"
-                            >
+                            <a href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/" data-quantity="1" class="h-cb c-product-grid__atc button product_type_variable add_to_cart_button" data-product_id="125" data-product_sku="981563121" aria-label="Select options for “Color by the Yard Emerald Pendant”" aria-describedby="This product has multiple variants. The options may be chosen on the product page" rel="nofollow"><span class="c-product-grid__atc-text">Select options</span><i class="ip-button-more c-product-grid__atc-icon"></i></a>
+                            <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                               <div class="c-product-grid__title-wrap">
                                 <div class="c-product-grid__category-list">
-                                  <a
-                                    class="c-product-grid__category-item"
-                                    href="https://parkofideas.com/goldish/demo/product-category/necklaces/"
-                                    title="View all posts in Necklaces"
-                                    >Necklaces</a
-                                  >
+                                  <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/necklaces/" title="View all posts in Necklaces">Necklaces</a>
                                 </div>
-                                <a
-                                  href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/"
-                                  class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                  ><h2 class="woocommerce-loop-product__title">
+                                <a href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
                                     Color by the Yard Emerald Pendant
-                                  </h2></a
-                                ><a
-                                  href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/"
-                                  class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                >
+                                  </h2></a><a href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                   <div class="c-product-grid__short-desc">
                                     <p>
                                       Style this adjustable chain with other
@@ -3135,158 +2585,53 @@
                                 </a>
                               </div>
                               <div class="c-product-grid__price-wrap">
-                                <span class="price"
-                                  ><span class="woocommerce-Price-amount amount"
-                                    ><bdi
-                                      ><span
-                                        class="woocommerce-Price-currencySymbol"
-                                        >$</span
-                                      >1,700</bdi
-                                    ></span
-                                  >
+                                <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>1,700</bdi></span>
                                   –
-                                  <span class="woocommerce-Price-amount amount"
-                                    ><bdi
-                                      ><span
-                                        class="woocommerce-Price-currencySymbol"
-                                        >$</span
-                                      >1,800</bdi
-                                    ></span
-                                  ></span
-                                >
+                                  <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>1,800</bdi></span></span>
                               </div>
                               
                               <div class="c-product-grid__star-rating"></div>
                             </div>
                           </div>
-                          <div
-                            class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-140 status-publish instock product_cat-locket product_cat-other product_tag-gold product_tag-heart has-post-thumbnail shipping-taxable purchasable product-type-simple"
-                          >
-                            <div
-                              class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/heart-locket/"
-                                class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                ><img
-                                  loading="lazy"
-                                  decoding="async"
-                                  width="900"
-                                  height="900"
-                                  src="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041747986-900x900.jpg"
-                                  class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base"
-                                  alt=""
-                                  srcset="
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041747986-900x900.jpg 900w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041747986-300x300.jpg 300w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041747986-100x100.jpg 100w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041747986-600x600.jpg 600w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041747986-200x200.jpg 200w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041747986-145x145.jpg 145w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041747986.jpg         960w
-                                  "
-                                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw" /><img
-                                  loading="lazy"
-                                  decoding="async"
-                                  width="900"
-                                  height="900"
-                                  src="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041822382-900x900.jpg"
-                                  class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover"
-                                  alt=""
-                                  srcset="
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041822382-900x900.jpg 900w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041822382-300x300.jpg 300w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041822382-100x100.jpg 100w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041822382-600x600.jpg 600w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041822382-200x200.jpg 200w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041822382-145x145.jpg 145w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041822382.jpg         960w
-                                  "
-                                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"
-                              /></a>
-                              <div
-                                class="c-product-grid__badges c-badge__list"
-                              ></div>
+                          <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-140 status-publish instock product_cat-locket product_cat-other product_tag-gold product_tag-heart has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                            <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
+                              <a href="https://parkofideas.com/goldish/demo/shop/heart-locket/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041747986-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
+                                    /goldish-1041747986-900x900.jpg 900w,
+                                    /goldish-1041747986-300x300.jpg 300w,
+                                    /goldish-1041747986-100x100.jpg 100w,
+                                    /goldish-1041747986-600x600.jpg 600w,
+                                    /goldish-1041747986-200x200.jpg 200w,
+                                    /goldish-1041747986-145x145.jpg 145w,
+                                    /goldish-1041747986.jpg         960w
+                                  " sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041822382-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover" alt="" srcset="
+                                    /goldish-1041822382-900x900.jpg 900w,
+                                    /goldish-1041822382-300x300.jpg 300w,
+                                    /goldish-1041822382-100x100.jpg 100w,
+                                    /goldish-1041822382-600x600.jpg 600w,
+                                    /goldish-1041822382-200x200.jpg 200w,
+                                    /goldish-1041822382-145x145.jpg 145w,
+                                    /goldish-1041822382.jpg         960w
+                                  " sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"></a>
+                              <div class="c-product-grid__badges c-badge__list"></div>
                               <div class="c-product-grid__thumb-button-list">
-                                <button
-                                  class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom"
-                                  type="button"
-                                  data-lang="en_US"
-                                  data-product-id="140"
-                                  aria-label="Quick view"
-                                >
-                                  <i
-                                    class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"
-                                  ></i>
-                                  <span class="c-product-grid__icon-text"
-                                    >Quick view</span
-                                  >
+                                <button class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom" type="button" data-lang="en_US" data-product-id="140" aria-label="Quick view">
+                                  <i class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"></i>
+                                  <span class="c-product-grid__icon-text">Quick view</span>
                                 </button>
-                                <button
-                                  data-size=""
-                                  class="js-wishlist-btn c-wishlist__btn c-wishlist__item-140-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist"
-                                  data-product-id="140"
-                                  data-title="Wishlist"
-                                  aria-label="Wishlist"
-                                >
-                                  <i
-                                    class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"
-                                  ></i
-                                  ><i
-                                    class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"
-                                  ></i
-                                  ><span
-                                    class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add"
-                                    >Add to Wishlist</span
-                                  ><span
-                                    class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove"
-                                    >Remove from Wishlist</span
-                                  >
+                                <button data-size="" class="js-wishlist-btn c-wishlist__btn c-wishlist__item-140-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist" data-product-id="140" data-title="Wishlist" aria-label="Wishlist">
+                                  <i class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"></i><i class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"></i><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add">Add to Wishlist</span><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove">Remove from Wishlist</span>
                                 </button>
                               </div>
                             </div>
-                            <a
-                              href="https://parkofideas.com/?add-to-cart=140"
-                              data-quantity="1"
-                              class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart"
-                              data-product_id="140"
-                              data-product_sku="6545648998"
-                              aria-label="Add to cart: “Heart Locket”"
-                              aria-describedby=""
-                              rel="nofollow"
-                              ><i class="ip-plus c-product-grid__atc-icon"></i
-                              ><span class="c-product-grid__atc-text"
-                                >Add to cart</span
-                              ></a
-                            >
-                            <div
-                              class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile"
-                            >
+                            <a href="https://parkofideas.com/?add-to-cart=140" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="140" data-product_sku="6545648998" aria-label="Add to cart: “Heart Locket”" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
+                            <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                               <div class="c-product-grid__title-wrap">
                                 <div class="c-product-grid__category-list">
-                                  <a
-                                    class="c-product-grid__category-item"
-                                    href="https://parkofideas.com/goldish/demo/product-category/other/locket/"
-                                    title="View all posts in Locket"
-                                    >Locket</a
-                                  ><span class="h-bullet"></span
-                                  ><a
-                                    class="c-product-grid__category-item"
-                                    href="https://parkofideas.com/goldish/demo/product-category/other/"
-                                    title="View all posts in Other"
-                                    >Other</a
-                                  >
+                                  <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/other/locket/" title="View all posts in Locket">Locket</a><span class="h-bullet"></span><a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/other/" title="View all posts in Other">Other</a>
                                 </div>
-                                <a
-                                  href="https://parkofideas.com/goldish/demo/shop/heart-locket/"
-                                  class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                  ><h2 class="woocommerce-loop-product__title">
+                                <a href="https://parkofideas.com/goldish/demo/shop/heart-locket/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
                                     Heart Locket
-                                  </h2></a
-                                ><a
-                                  href="https://parkofideas.com/goldish/demo/shop/heart-locket/"
-                                  class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                >
+                                  </h2></a><a href="https://parkofideas.com/goldish/demo/shop/heart-locket/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                   <div class="c-product-grid__short-desc">
                                     <p>
                                       This Tiffany locket will become your new
@@ -3296,142 +2641,50 @@
                                 </a>
                               </div>
                               <div class="c-product-grid__price-wrap">
-                                <span class="price"
-                                  ><span class="woocommerce-Price-amount amount"
-                                    ><bdi
-                                      ><span
-                                        class="woocommerce-Price-currencySymbol"
-                                        >$</span
-                                      >550</bdi
-                                    ></span
-                                  ></span
-                                >
+                                <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>550</bdi></span></span>
                               </div>
                               <div class="c-product-grid__star-rating"></div>
                             </div>
                           </div>
-                          <div
-                            class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-127 status-publish instock product_cat-sets product_tag-gold product_tag-set has-post-thumbnail shipping-taxable purchasable product-type-simple"
-                          >
-                            <div
-                              class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/flower-earring-stacking-set/"
-                                class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                ><img
-                                  loading="lazy"
-                                  decoding="async"
-                                  width="900"
-                                  height="900"
-                                  src="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041097481-900x900.jpg"
-                                  class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base"
-                                  alt=""
-                                  srcset="
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041097481-900x900.jpg 900w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041097481-300x300.jpg 300w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041097481-100x100.jpg 100w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041097481-600x600.jpg 600w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041097481-200x200.jpg 200w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041097481-145x145.jpg 145w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041097481.jpg         960w
-                                  "
-                                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw" /><img
-                                  loading="lazy"
-                                  decoding="async"
-                                  width="900"
-                                  height="900"
-                                  src="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041300830-900x900.jpg"
-                                  class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover"
-                                  alt=""
-                                  srcset="
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041300830-900x900.jpg 900w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041300830-300x300.jpg 300w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041300830-100x100.jpg 100w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041300830-600x600.jpg 600w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041300830-200x200.jpg 200w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041300830-145x145.jpg 145w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041300830.jpg         960w
-                                  "
-                                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"
-                              /></a>
-                              <div
-                                class="c-product-grid__badges c-badge__list"
-                              ></div>
+                          <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-127 status-publish instock product_cat-sets product_tag-gold product_tag-set has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                            <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
+                              <a href="https://parkofideas.com/goldish/demo/shop/flower-earring-stacking-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041097481-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
+                                    /goldish-1041097481-900x900.jpg 900w,
+                                    /goldish-1041097481-300x300.jpg 300w,
+                                    /goldish-1041097481-100x100.jpg 100w,
+                                    /goldish-1041097481-600x600.jpg 600w,
+                                    /goldish-1041097481-200x200.jpg 200w,
+                                    /goldish-1041097481-145x145.jpg 145w,
+                                    /goldish-1041097481.jpg         960w
+                                  " sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041300830-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover" alt="" srcset="
+                                    /goldish-1041300830-900x900.jpg 900w,
+                                    /goldish-1041300830-300x300.jpg 300w,
+                                    /goldish-1041300830-100x100.jpg 100w,
+                                    /goldish-1041300830-600x600.jpg 600w,
+                                    /goldish-1041300830-200x200.jpg 200w,
+                                    /goldish-1041300830-145x145.jpg 145w,
+                                    /goldish-1041300830.jpg         960w
+                                  " sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"></a>
+                              <div class="c-product-grid__badges c-badge__list"></div>
                               <div class="c-product-grid__thumb-button-list">
-                                <button
-                                  class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom"
-                                  type="button"
-                                  data-lang="en_US"
-                                  data-product-id="127"
-                                  aria-label="Quick view"
-                                >
-                                  <i
-                                    class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"
-                                  ></i>
-                                  <span class="c-product-grid__icon-text"
-                                    >Quick view</span
-                                  >
+                                <button class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom" type="button" data-lang="en_US" data-product-id="127" aria-label="Quick view">
+                                  <i class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"></i>
+                                  <span class="c-product-grid__icon-text">Quick view</span>
                                 </button>
-                                <button
-                                  data-size=""
-                                  class="js-wishlist-btn c-wishlist__btn c-wishlist__item-127-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist"
-                                  data-product-id="127"
-                                  data-title="Wishlist"
-                                  aria-label="Wishlist"
-                                >
-                                  <i
-                                    class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"
-                                  ></i
-                                  ><i
-                                    class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"
-                                  ></i
-                                  ><span
-                                    class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add"
-                                    >Add to Wishlist</span
-                                  ><span
-                                    class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove"
-                                    >Remove from Wishlist</span
-                                  >
+                                <button data-size="" class="js-wishlist-btn c-wishlist__btn c-wishlist__item-127-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist" data-product-id="127" data-title="Wishlist" aria-label="Wishlist">
+                                  <i class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"></i><i class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"></i><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add">Add to Wishlist</span><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove">Remove from Wishlist</span>
                                 </button>
                               </div>
                             </div>
-                            <a
-                              href="https://parkofideas.com/?add-to-cart=127"
-                              data-quantity="1"
-                              class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart"
-                              data-product_id="127"
-                              data-product_sku="98454654"
-                              aria-label="Add to cart: “Flower Earring Stacking Set”"
-                              aria-describedby=""
-                              rel="nofollow"
-                              ><i class="ip-plus c-product-grid__atc-icon"></i
-                              ><span class="c-product-grid__atc-text"
-                                >Add to cart</span
-                              ></a
-                            >
-                            <div
-                              class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile"
-                            >
+                            <a href="https://parkofideas.com/?add-to-cart=127" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="127" data-product_sku="98454654" aria-label="Add to cart: “Flower Earring Stacking Set”" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
+                            <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                               <div class="c-product-grid__title-wrap">
                                 <div class="c-product-grid__category-list">
-                                  <a
-                                    class="c-product-grid__category-item"
-                                    href="https://parkofideas.com/goldish/demo/product-category/sets/"
-                                    title="View all posts in Sets"
-                                    >Sets</a
-                                  >
+                                  <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/sets/" title="View all posts in Sets">Sets</a>
                                 </div>
-                                <a
-                                  href="https://parkofideas.com/goldish/demo/shop/flower-earring-stacking-set/"
-                                  class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                  ><h2 class="woocommerce-loop-product__title">
+                                <a href="https://parkofideas.com/goldish/demo/shop/flower-earring-stacking-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
                                     Flower Earring Stacking Set
-                                  </h2></a
-                                ><a
-                                  href="https://parkofideas.com/goldish/demo/shop/flower-earring-stacking-set/"
-                                  class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                >
+                                  </h2></a><a href="https://parkofideas.com/goldish/demo/shop/flower-earring-stacking-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                   <div class="c-product-grid__short-desc">
                                     <p>
                                       Add a bit of edge to your flowerbeds with
@@ -3442,143 +2695,50 @@
                                 </a>
                               </div>
                               <div class="c-product-grid__price-wrap">
-                                <span class="price"
-                                  ><span class="woocommerce-Price-amount amount"
-                                    ><bdi
-                                      ><span
-                                        class="woocommerce-Price-currencySymbol"
-                                        >$</span
-                                      >1,500</bdi
-                                    ></span
-                                  ></span
-                                >
+                                <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>1,500</bdi></span></span>
                               </div>
                               <div class="c-product-grid__star-rating"></div>
                             </div>
                           </div>
-                          <div
-                            class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-126 status-publish last instock product_cat-sets product_tag-gold product_tag-set has-post-thumbnail shipping-taxable product-type-grouped"
-                          >
-                            <div
-                              class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons"
-                            >
-                              <a
-                                href="https://parkofideas.com/goldish/demo/shop/necklace-stacking-set/"
-                                class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                ><img
-                                  loading="lazy"
-                                  decoding="async"
-                                  width="900"
-                                  height="900"
-                                  src="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041910511-900x900.jpg"
-                                  class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base"
-                                  alt=""
-                                  srcset="
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041910511-900x900.jpg 900w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041910511-300x300.jpg 300w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041910511-100x100.jpg 100w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041910511-600x600.jpg 600w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041910511-200x200.jpg 200w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041910511-145x145.jpg 145w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041910511.jpg         960w
-                                  "
-                                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw" /><img
-                                  loading="lazy"
-                                  decoding="async"
-                                  width="900"
-                                  height="900"
-                                  src="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041993166-900x900.jpg"
-                                  class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover"
-                                  alt=""
-                                  srcset="
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041993166-900x900.jpg 900w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041993166-300x300.jpg 300w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041993166-100x100.jpg 100w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041993166-600x600.jpg 600w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041993166-200x200.jpg 200w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041993166-145x145.jpg 145w,
-                                    https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041993166.jpg         960w
-                                  "
-                                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"
-                              /></a>
-                              <div
-                                class="c-product-grid__badges c-badge__list"
-                              ></div>
+                          <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-126 status-publish last instock product_cat-sets product_tag-gold product_tag-set has-post-thumbnail shipping-taxable product-type-grouped">
+                            <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
+                              <a href="https://parkofideas.com/goldish/demo/shop/necklace-stacking-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041910511-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
+                                    /goldish-1041910511-900x900.jpg 900w,
+                                    /goldish-1041910511-300x300.jpg 300w,
+                                    /goldish-1041910511-100x100.jpg 100w,
+                                    /goldish-1041910511-600x600.jpg 600w,
+                                    /goldish-1041910511-200x200.jpg 200w,
+                                    /goldish-1041910511-145x145.jpg 145w,
+                                    /goldish-1041910511.jpg         960w
+                                  " sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041993166-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover" alt="" srcset="
+                                    /goldish-1041993166-900x900.jpg 900w,
+                                    /goldish-1041993166-300x300.jpg 300w,
+                                    /goldish-1041993166-100x100.jpg 100w,
+                                    /goldish-1041993166-600x600.jpg 600w,
+                                    /goldish-1041993166-200x200.jpg 200w,
+                                    /goldish-1041993166-145x145.jpg 145w,
+                                    /goldish-1041993166.jpg         960w
+                                  " sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 100vw"></a>
+                              <div class="c-product-grid__badges c-badge__list"></div>
                               <div class="c-product-grid__thumb-button-list">
-                                <button
-                                  class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom"
-                                  type="button"
-                                  data-lang="en_US"
-                                  data-product-id="126"
-                                  aria-label="Quick view"
-                                >
-                                  <i
-                                    class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"
-                                  ></i>
-                                  <span class="c-product-grid__icon-text"
-                                    >Quick view</span
-                                  >
+                                <button class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom" type="button" data-lang="en_US" data-product-id="126" aria-label="Quick view">
+                                  <i class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"></i>
+                                  <span class="c-product-grid__icon-text">Quick view</span>
                                 </button>
-                                <button
-                                  data-size=""
-                                  class="js-wishlist-btn c-wishlist__btn c-wishlist__item-126-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist"
-                                  data-product-id="126"
-                                  data-title="Wishlist"
-                                  aria-label="Wishlist"
-                                >
-                                  <i
-                                    class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"
-                                  ></i
-                                  ><i
-                                    class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"
-                                  ></i
-                                  ><span
-                                    class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add"
-                                    >Add to Wishlist</span
-                                  ><span
-                                    class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove"
-                                    >Remove from Wishlist</span
-                                  >
+                                <button data-size="" class="js-wishlist-btn c-wishlist__btn c-wishlist__item-126-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist" data-product-id="126" data-title="Wishlist" aria-label="Wishlist">
+                                  <i class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"></i><i class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"></i><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add">Add to Wishlist</span><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove">Remove from Wishlist</span>
                                 </button>
                               </div>
                             </div>
-                            <a
-                              href="https://parkofideas.com/goldish/demo/shop/necklace-stacking-set/"
-                              data-quantity="1"
-                              class="h-cb c-product-grid__atc button product_type_grouped"
-                              data-product_id="126"
-                              data-product_sku="89654538646"
-                              aria-label="View products in the “Necklace Stacking Set” group"
-                              aria-describedby=""
-                              rel="nofollow"
-                              ><span class="c-product-grid__atc-text"
-                                >View products</span
-                              ><i
-                                class="ip-button-more c-product-grid__atc-icon"
-                              ></i
-                            ></a>
-                            <div
-                              class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile"
-                            >
+                            <a href="https://parkofideas.com/goldish/demo/shop/necklace-stacking-set/" data-quantity="1" class="h-cb c-product-grid__atc button product_type_grouped" data-product_id="126" data-product_sku="89654538646" aria-label="View products in the “Necklace Stacking Set” group" aria-describedby="" rel="nofollow"><span class="c-product-grid__atc-text">View products</span><i class="ip-button-more c-product-grid__atc-icon"></i></a>
+                            <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                               <div class="c-product-grid__title-wrap">
                                 <div class="c-product-grid__category-list">
-                                  <a
-                                    class="c-product-grid__category-item"
-                                    href="https://parkofideas.com/goldish/demo/product-category/sets/"
-                                    title="View all posts in Sets"
-                                    >Sets</a
-                                  >
+                                  <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/sets/" title="View all posts in Sets">Sets</a>
                                 </div>
-                                <a
-                                  href="https://parkofideas.com/goldish/demo/shop/necklace-stacking-set/"
-                                  class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                  ><h2 class="woocommerce-loop-product__title">
+                                <a href="https://parkofideas.com/goldish/demo/shop/necklace-stacking-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
                                     Necklace Stacking Set
-                                  </h2></a
-                                ><a
-                                  href="https://parkofideas.com/goldish/demo/shop/necklace-stacking-set/"
-                                  class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                                >
+                                  </h2></a><a href="https://parkofideas.com/goldish/demo/shop/necklace-stacking-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                   <div class="c-product-grid__short-desc">
                                     <p>
                                       A pure gold bar associated with the
@@ -3589,25 +2749,9 @@
                                 </a>
                               </div>
                               <div class="c-product-grid__price-wrap">
-                                <span class="price"
-                                  ><span class="woocommerce-Price-amount amount"
-                                    ><bdi
-                                      ><span
-                                        class="woocommerce-Price-currencySymbol"
-                                        >$</span
-                                      >1,400</bdi
-                                    ></span
-                                  >
+                                <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>1,400</bdi></span>
                                   –
-                                  <span class="woocommerce-Price-amount amount"
-                                    ><bdi
-                                      ><span
-                                        class="woocommerce-Price-currencySymbol"
-                                        >$</span
-                                      >1,750</bdi
-                                    ></span
-                                  ></span
-                                >
+                                  <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>1,750</bdi></span></span>
                               </div>
                               <div class="c-product-grid__star-rating"></div>
                             </div>
@@ -3625,11 +2769,7 @@
     </div>
   </div>
   <div><div class="c-ip-button__wrap" style="text-align-last: center;margin:20px;">
-                      <a
-                        href="https://parkofideas.com/goldish/demo/shop/"
-                        class="c-button c-ip-button c-button--default"
-                        role="button"
-                      >
+                      <a href="https://parkofideas.com/goldish/demo/shop/" class="c-button c-ip-button c-button--default" role="button">
                         <span class="c-ip-button__text">Load More</span>
                       </a>
                     </div></div>
@@ -4695,3 +3835,4 @@
   </body>
 </html>
 <!-- Cache Enabler by KeyCDN @ Sun, 26 May 2024 20:23:30 GMT (https-index.html.gz) -->
+<a href="<?php echo $domain; ?>/shop/category/product/">Sample</a>
