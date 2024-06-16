@@ -53,7 +53,7 @@
                         <ul class="elementor-icon-list-items">
                           <li class="elementor-icon-list-item">
                             <a
-                              href="<?php echo $domain; ?>/my-account/"
+                              href="<?php echo $domain; ?>account/"
                             >
                               <span class="elementor-icon-list-text"
                                 >My account</span
@@ -62,7 +62,7 @@
                           </li>
                           <li class="elementor-icon-list-item">
                             <a
-                              href="<?php echo $domain; ?>/wishlist/"
+                              href="<?php echo $domain; ?>shop/wishlist/"
                             >
                               <span class="elementor-icon-list-text"
                                 >Wishlist</span
@@ -71,30 +71,21 @@
                           </li>
                           <li class="elementor-icon-list-item">
                             <a
-                              href="<?php echo $domain; ?>/cart/"
+                              href="<?php echo $domain; ?>shop/cart/"
                             >
                               <span class="elementor-icon-list-text">Cart</span>
                             </a>
                           </li>
                           <li class="elementor-icon-list-item">
                             <a
-                              href="<?php echo $domain; ?>/checkout/"
+                              href="#"
                             >
                               <span class="elementor-icon-list-text"
-                                >Checkout</span
+                                >Engagement</span
                               >
                             </a>
                           </li>
-                          <li class="elementor-icon-list-item">
-                            <a
-                              href="<?php echo $domain; ?>/maintenance-mode/"
-                              target="_blank"
-                            >
-                              <span class="elementor-icon-list-text"
-                                >Maintenance Mode</span
-                              >
-                            </a>
-                          </li>
+                          
                           <li class="elementor-icon-list-item">
                             <a
                               href="<?php echo $domain; ?>/my-account/"
@@ -143,30 +134,22 @@
                         <ul class="elementor-icon-list-items">
                           <li class="elementor-icon-list-item">
                             <a
-                              href="<?php echo $domain; ?>/about/"
+                              href="<?php echo $domain; ?>about-us/"
                             >
                               <span class="elementor-icon-list-text"
                                 >About Us</span
                               >
                             </a>
                           </li>
+                          
                           <li class="elementor-icon-list-item">
-                            <a
-                              href="<?php echo $domain; ?>/blog/"
-                            >
-                              <span class="elementor-icon-list-text"
-                                >Our Blog</span
-                              >
-                            </a>
-                          </li>
-                          <li class="elementor-icon-list-item">
-                            <a href="<?php echo $domain; ?>/faq/">
+                            <a href="<?php echo $domain; ?>help/">
                               <span class="elementor-icon-list-text">FAQ</span>
                             </a>
                           </li>
                           <li class="elementor-icon-list-item">
                             <a
-                              href="<?php echo $domain; ?>/contacts/"
+                              href="<?php echo $domain; ?>help/contact/"
                             >
                               <span class="elementor-icon-list-text"
                                 >Contacts</span
@@ -175,7 +158,7 @@
                           </li>
                           <li class="elementor-icon-list-item">
                             <a
-                              href="<?php echo $domain; ?>/privacy-policy/"
+                              href="<?php echo $domain; ?>tc/"
                             >
                               <span class="elementor-icon-list-text"
                                 >Terms & Conditions</span
@@ -184,7 +167,7 @@
                           </li>
                           <li class="elementor-icon-list-item">
                             <a
-                              href="<?php echo $domain; ?>/refund_returns/"
+                              href="<?php echo $domain; ?>policy/"
                             >
                               <span class="elementor-icon-list-text"
                                 >Refund and Returns Policy</span
@@ -355,7 +338,7 @@
                         >
                           <div class="c-ip-heading__inner">
                             <p class="c-ip-heading_p">
-                              © 2024 All rights reserved.
+                              © 2024 Copyright. All rights reserved.
                             </p>
                           </div>
                         </div>

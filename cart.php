@@ -1,9 +1,6 @@
 <?php
 
-define( 'WP_DEBUG', true );
-define( 'WP_DEBUG_LOG', true );
-define( 'WP_DEBUG_DISPLAY', false );
-@ini_set( 'display_errors', 0 );
+include 'config.php';
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
@@ -24,7 +21,7 @@ define( 'WP_DEBUG_DISPLAY', false );
     />
     <link
       rel="stylesheet"
-      href="asset/goldish/demo/wp-content/themes/goldish/assets/font/theme-icons.css"
+      href="<?php echo $domain;?>asset/goldish/demo/wp-content/themes/goldish/assets/font/theme-icons.css"
     />
     <style>
       @font-face {
@@ -86,14 +83,14 @@ define( 'WP_DEBUG_DISPLAY', false );
     <link
       rel="stylesheet"
       id="contact-form-7-css"
-      href="asset/goldish/demo/wp-content/plugins/contact-form-7/includes/css/styles.css"
+      href="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/contact-form-7/includes/css/styles.css"
       type="text/css"
       media="all"
     />
     <link
       rel="stylesheet"
       id="select2-css"
-      href="asset/goldish/demo/wp-content/plugins/woocommerce/assets/css/select2.css"
+      href="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/css/select2.css"
       type="text/css"
       media="all"
     />
@@ -105,7 +102,7 @@ define( 'WP_DEBUG_DISPLAY', false );
     <link
       rel="stylesheet"
       id="woo-variation-swatches-css"
-      href="asset/goldish/demo/wp-content/plugins/woo-variation-swatches/assets/css/frontend.min.css"
+      href="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/woo-variation-swatches/assets/css/frontend.min.css"
       type="text/css"
       media="all"
     />
@@ -122,49 +119,49 @@ define( 'WP_DEBUG_DISPLAY', false );
     <link
       rel="stylesheet"
       id="woobt-frontend-css"
-      href="asset/goldish/demo/wp-content/plugins/woo-bought-together/assets/css/frontend.css"
+      href="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/woo-bought-together/assets/css/frontend.css"
       type="text/css"
       media="all"
     />
     <link
       rel="stylesheet"
       id="ideapark_fonts-icons-css"
-      href="asset/goldish/demo/wp-content/uploads/ideapark_fonts/font-style-c6af5625.min.css"
+      href="<?php echo $domain;?>asset/goldish/demo/wp-content/uploads/ideapark_fonts/font-style-c6af5625.min.css"
       type="text/css"
       media="all"
     />
     <link
       rel="stylesheet"
       id="ideapark-core-css"
-      href="asset/goldish/demo/wp-content/themes/goldish/style.css"
+      href="<?php echo $domain;?>asset/goldish/demo/wp-content/themes/goldish/style.css"
       type="text/css"
       media="all"
     />
     <link
       rel="stylesheet"
       id="elementor-post-4619-css"
-      href="asset/goldish/demo/wp-content/uploads/elementor/css/post-4619.css"
+      href="<?php echo $domain;?>asset/goldish/demo/wp-content/uploads/elementor/css/post-4619.css"
       type="text/css"
       media="all"
     />
     <link
       rel="stylesheet"
       id="ideapark-elementor-css"
-      href="asset/goldish/demo/wp-content/plugins/ideapark-goldish/assets/css/style.min.css?cache=<?php echo uniqid(); ?>"
+      href="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/ideapark-goldish/assets/css/style.min.css?cache=<?php echo uniqid(); ?>"
       type="text/css"
       media="all"
     />
     <link
       rel="stylesheet"
       id="ideapark-entry-content-css"
-      href="asset/goldish/demo/wp-content/themes/goldish/assets/css/entry-content.css"
+      href="<?php echo $domain;?>asset/goldish/demo/wp-content/themes/goldish/assets/css/entry-content.css"
       type="text/css"
       media="all"
     />
     <link
       rel="stylesheet"
       id="ideapark-core-css"
-      href="asset/goldish/demo/wp-content/uploads/goldish/min.css"
+      href="<?php echo $domain;?>asset/goldish/demo/wp-content/uploads/goldish/min.css"
       type="text/css"
       media="all"
     />
@@ -217,7 +214,7 @@ define( 'WP_DEBUG_DISPLAY', false );
     <link
       rel="stylesheet"
       id="elementor-frontend-css"
-      href="asset/goldish/demo/wp-content/uploads/elementor/css/custom-frontend-lite.min.css"
+      href="<?php echo $domain;?>asset/goldish/demo/wp-content/uploads/elementor/css/custom-frontend-lite.min.css"
       type="text/css"
       media="all"
     />
@@ -241,7 +238,7 @@ define( 'WP_DEBUG_DISPLAY', false );
     <link
       rel="stylesheet"
       id="elementor-post-1664-css"
-      href="asset/goldish/demo/wp-content/uploads/elementor/css/post-1664.css"
+      href="<?php echo $domain;?>asset/goldish/demo/wp-content/uploads/elementor/css/post-1664.css"
       type="text/css"
       media="all"
     />
@@ -255,12 +252,12 @@ define( 'WP_DEBUG_DISPLAY', false );
     </script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-includes/js/jquery/jquery.min.js"
+      src="<?php echo $domain;?>asset/goldish/demo/wp-includes/js/jquery/jquery.min.js"
       id="jquery-core-js"
     ></script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"
+      src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"
       id="jquery-blockui-js"
       data-wp-strategy="defer"
     ></script>
@@ -278,14 +275,14 @@ define( 'WP_DEBUG_DISPLAY', false );
     </script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js"
+      src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js"
       id="wc-add-to-cart-js"
       defer="defer"
       data-wp-strategy="defer"
     ></script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js"
+      src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js"
       id="js-cookie-js"
       defer="defer"
       data-wp-strategy="defer"
@@ -300,7 +297,7 @@ define( 'WP_DEBUG_DISPLAY', false );
     </script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js"
+      src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js"
       id="woocommerce-js"
       defer="defer"
       data-wp-strategy="defer"
@@ -326,7 +323,7 @@ define( 'WP_DEBUG_DISPLAY', false );
     </script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/country-select.min.js"
+      src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/country-select.min.js"
       id="wc-country-select-js"
       defer="defer"
       data-wp-strategy="defer"
@@ -345,7 +342,7 @@ define( 'WP_DEBUG_DISPLAY', false );
     </script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/address-i18n.min.js"
+      src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/address-i18n.min.js"
       id="wc-address-i18n-js"
       defer="defer"
       data-wp-strategy="defer"
@@ -363,21 +360,21 @@ define( 'WP_DEBUG_DISPLAY', false );
     </script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/cart.min.js"
+      src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/cart.min.js"
       id="wc-cart-js"
       defer="defer"
       data-wp-strategy="defer"
     ></script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js"
+      src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js"
       id="selectWoo-js"
       defer="defer"
       data-wp-strategy="defer"
     ></script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-includes/js/underscore.min.js"
+      src="<?php echo $domain;?>asset/goldish/demo/wp-includes/js/underscore.min.js"
       id="underscore-js"
     ></script>
     <script type="text/javascript" id="wp-util-js-extra">
@@ -389,7 +386,7 @@ define( 'WP_DEBUG_DISPLAY', false );
     </script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-includes/js/wp-util.min.js"
+      src="<?php echo $domain;?>asset/goldish/demo/wp-includes/js/wp-util.min.js"
       id="wp-util-js"
     ></script>
     <script type="text/javascript" id="wc-cart-fragments-js-extra">
@@ -405,7 +402,7 @@ define( 'WP_DEBUG_DISPLAY', false );
     </script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js"
+      src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js"
       id="wc-cart-fragments-js"
       defer="defer"
       data-wp-strategy="defer"
@@ -455,22 +452,19 @@ define( 'WP_DEBUG_DISPLAY', false );
     />
     <link
       rel="icon"
-      href="<?php echo $domain ?>wp-content/uploads/2021/09/goldish-0759231255-32x32.png"
+      href="<?php echo $domain;?>asset/images/favicon/favicon-32x32.ico?c=<?php echo uniqid();?>"
       sizes="32x32"
     />
     <link
       rel="icon"
-      href="<?php echo $domain ?>wp-content/uploads/2021/09/goldish-0759231255-192x192.png"
+      href="<?php echo $domain ?>asset/images/favicon/favicon-32x32.ico?c=<?php echo uniqid();?>"
       sizes="192x192"
     />
     <link
       rel="apple-touch-icon"
-      href="<?php echo $domain ?>wp-content/uploads/2021/09/goldish-0759231255-180x180.png"
+      href="<?php echo $domain ?>asset/images/favicon/favicon-192x192.ico?c=<?php echo uniqid();?>"
     />
-    <meta
-      name="msapplication-TileImage"
-      content="<?php echo $domain ?>wp-content/uploads/2021/09/goldish-0759231255-270x270.png"
-    />
+   
   </head>
   <body
     class="page-template-default page page-id-8 theme-goldish woocommerce-cart woocommerce-page woocommerce-no-js woo-variation-swatches wvs-behavior-blur wvs-theme-goldish wvs-tooltip elementor-default elementor-kit-12 h-preload woocommerce-on h-ltr h-wpml"
@@ -635,48 +629,48 @@ define( 'WP_DEBUG_DISPLAY', false );
       <link
         rel="stylesheet"
         id="wc-blocks-style-css"
-        href="asset/goldish/demo/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css"
+        href="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css"
         type="text/css"
         media="all"
       />
       <link
         rel="stylesheet"
         id="elementor-post-2225-css"
-        href="asset/goldish/demo/wp-content/uploads/elementor/css/post-2225.css"
+        href="<?php echo $domain;?>asset/goldish/demo/wp-content/uploads/elementor/css/post-2225.css"
         type="text/css"
         media="all"
       />
       <link
         rel="stylesheet"
         id="elementor-post-2297-css"
-        href="asset/goldish/demo/wp-content/uploads/elementor/css/post-2297.css"
+        href="<?php echo $domain;?>asset/goldish/demo/wp-content/uploads/elementor/css/post-2297.css"
         type="text/css"
         media="all"
       />
       <link
         rel="stylesheet"
         id="swiper-css"
-        href="asset/goldish/demo/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?cache=<?php echo uniqid();?>"
+        href="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?cache=<?php echo uniqid();?>"
         type="text/css"
         media="all"
       />
       <link
         rel="stylesheet"
         id="elementor-post-12-css"
-        href="asset/goldish/demo/wp-content/uploads/elementor/css/post-12.css"
+        href="<?php echo $domain;?>asset/goldish/demo/wp-content/uploads/elementor/css/post-12.css"
         type="text/css"
         media="all"
       />
       <link
       rel="stylesheet"
       id="elementor-post-4510-css"
-      href="asset/goldish/demo/wp-content/uploads/elementor/css/post-4510.css?cache=<?php echo uniqid();?>"
+      href="<?php echo $domain;?>asset/goldish/demo/wp-content/uploads/elementor/css/post-4510.css?cache=<?php echo uniqid();?>"
       type="text/css"
       media="all"
     />
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
         id="swv-js"
       ></script>
       <script type="text/javascript" id="contact-form-7-js-extra">
@@ -692,12 +686,12 @@ define( 'WP_DEBUG_DISPLAY', false );
       </script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/plugins/contact-form-7/includes/js/index.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/contact-form-7/includes/js/index.js"
         id="contact-form-7-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js"
         id="sourcebuster-js-js"
       ></script>
       <script type="text/javascript" id="wc-order-attribution-js-extra">
@@ -731,7 +725,7 @@ define( 'WP_DEBUG_DISPLAY', false );
       </script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js"
         id="wc-order-attribution-js"
       ></script>
       <script type="text/javascript" id="wp-api-request-js-extra">
@@ -745,32 +739,32 @@ define( 'WP_DEBUG_DISPLAY', false );
       </script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-includes/js/api-request.min.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-includes/js/api-request.min.js"
         id="wp-api-request-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js"
         id="wp-polyfill-inert-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-includes/js/dist/vendor/regenerator-runtime.min.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-includes/js/dist/vendor/regenerator-runtime.min.js"
         id="regenerator-runtime-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-includes/js/dist/vendor/wp-polyfill.min.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-includes/js/dist/vendor/wp-polyfill.min.js"
         id="wp-polyfill-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-includes/js/dist/hooks.min.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-includes/js/dist/hooks.min.js"
         id="wp-hooks-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-includes/js/dist/i18n.min.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-includes/js/dist/i18n.min.js"
         id="wp-i18n-js"
       ></script>
       <script type="text/javascript" id="wp-i18n-js-after">
@@ -780,12 +774,12 @@ define( 'WP_DEBUG_DISPLAY', false );
       </script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-includes/js/dist/url.min.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-includes/js/dist/url.min.js"
         id="wp-url-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-includes/js/dist/api-fetch.min.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-includes/js/dist/api-fetch.min.js"
         id="wp-api-fetch-js"
       ></script>
       <script type="text/javascript" id="wp-api-fetch-js-after">
@@ -821,7 +815,7 @@ define( 'WP_DEBUG_DISPLAY', false );
       </script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/plugins/woo-variation-swatches/assets/js/frontend.min.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/woo-variation-swatches/assets/js/frontend.min.js"
         id="woo-variation-swatches-js"
       ></script>
       <script type="text/javascript" id="woobt-frontend-js-extra">
@@ -852,7 +846,7 @@ define( 'WP_DEBUG_DISPLAY', false );
       </script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/plugins/woo-bought-together/assets/js/frontend.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/woo-bought-together/assets/js/frontend.js"
         id="woobt-frontend-js"
       ></script>
       <script type="text/javascript" id="ideapark-core-js-extra">
@@ -899,7 +893,7 @@ define( 'WP_DEBUG_DISPLAY', false );
       </script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/uploads/goldish/min.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-content/uploads/goldish/min.js"
         id="ideapark-core-js"
       ></script>
       <script type="text/javascript" id="ideapark-core-js-after">
@@ -951,33 +945,33 @@ define( 'WP_DEBUG_DISPLAY', false );
       </script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js"
         id="wc-add-to-cart-variation-js"
         data-wp-strategy="defer"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/themes/goldish/assets/js/add-to-cart-variation-fix.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-content/themes/goldish/assets/js/add-to-cart-variation-fix.js"
         id="wc-add-to-cart-variation-fix-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
         id="elementor-webpack-runtime-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/plugins/elementor/assets/js/frontend-modules.min.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/elementor/assets/js/frontend-modules.min.js"
         id="elementor-frontend-modules-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js"
         id="elementor-waypoints-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-includes/js/jquery/ui/core.min.js"
+        src="<?php echo $domain;?>asset/goldish/demo/wp-includes/js/jquery/ui/core.min.js"
         id="jquery-ui-core-js"
       ></script>
       <input

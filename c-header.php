@@ -73,7 +73,7 @@
                   <img
                     width="140"
                     height="14"
-                    src="asset/images/logos/goldlogo.png"
+                    src="<?php echo $domain;?>asset/images/logos/goldlogo.png"
                     alt="Goldish"
                     class="c-header__logo-img c-header__logo-img--mobile c-header__logo-img--svg"
                   />
@@ -801,7 +801,7 @@
                       loading="lazy"
                       width="140"
                       height="14"
-                      src="asset/images/logos/goldlogo.png"
+                      src="<?php echo $domain;?>asset/images/logos/goldlogo.png"
                       alt="Goldish"
                       class="c-header__logo-img c-header__logo-img--desktop c-header__logo-img--svg"
                     />

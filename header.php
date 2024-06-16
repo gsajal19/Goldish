@@ -65,20 +65,20 @@
           class="c-header__logo c-header__logo--mobile c-header__logo--sticky"
         >
           <a
-            href="https://parkofideas.com/goldish/demo/"
+            href="<?php echo $domain;?>"
             class="c-header__logo-link"
           >
             <img
               width="140"
               height="14"
-              src="asset/images/logos/goldlogo.png"
+              src="<?php echo $domain; ?>asset/images/logos/goldlogo.png"
               alt="Goldish"
               class="c-header__logo-img c-header__logo-img--mobile c-header__logo-img--svg"
             />
             <img
               width="140"
               height="14"
-              src="asset/images/logos/whitelogo.png"
+              src="<?php echo $domain; ?>asset/images/logos/whitelogo.png"
               alt="Goldish"
               class="c-header__logo-img c-header__logo-img--sticky c-header__logo-img--svg"
             />
@@ -90,7 +90,7 @@
           <div class="c-header__cart c-header__cart--default js-cart">
             <a
               class="c-header__button-link js-cart-sidebar-open"
-              href="<?php echo $domain;?>/shop/cart/"
+              href="<?php echo $domain;?>shop/cart/"
               aria-label="Shopping cart"
             >
               <i class="fa fa-shopping-cart c-header__cart-icon h-hide-mobile"></i
@@ -178,7 +178,7 @@
                     class="c-mobile-menu__subitem menu-item-2038"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=4,6,37"
+                      href="<?php echo $domain; ?>shop/products/necklace/"
                       >Necklace</a
                     >
                   </li>
@@ -187,7 +187,7 @@
                     class="c-mobile-menu__subitem menu-item-1994"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=2,40"
+                      href="<?php echo $domain; ?>shop/products/necklace/<?php echo urlencode("long haar");?>/"
                       >Long Haar</a
                     >
                   </li>
@@ -196,7 +196,7 @@
                     class="c-mobile-menu__subitem menu-item-1993"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=3,38,39"
+                      href="<?php echo $domain; ?>shop/products/necklace/<?php echo urlencode("choker");?>/"
                       >Choker</a
                     >
                   </li>
@@ -205,7 +205,7 @@
                     class="c-mobile-menu__subitem menu-item-1992"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=4"
+                      href="<?php echo $domain; ?>shop/products/necklace/<?php echo urlencode("Mangalsutra");?>/"
                       >Mangalsutra</a
                     >
                   </li>
@@ -225,7 +225,7 @@
                     class="c-mobile-menu__subitem menu-item-3510"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/?set=14"
+                      href="<?php echo $domain; ?>shop/products/<?php echo urlencode("pendants");?>/"
                       >Pendants</a
                     >
                   </li>
@@ -234,7 +234,7 @@
                     class="c-mobile-menu__subitem menu-item-1958"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/?set=13"
+                      href="<?php echo $domain; ?>shop/products/pendants/<?php echo urlencode("god");?>/"
                       >God Pendants</a
                     >
                   </li>
@@ -243,7 +243,7 @@
                     class="c-mobile-menu__subitem menu-item-1963"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/?set=15"
+                      href="<?php echo $domain; ?>shop/products/pendants/<?php echo urlencode("set");?>/"
                       >Pendant Set</a
                     >
                   </li>
@@ -263,7 +263,7 @@
                     class="c-mobile-menu__subitem menu-item-3495"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=43"
+                      href="<?php echo $domain; ?>shop/products/<?php echo urlencode("chains");?>/?g=m"
                       >Chains "Gents"</a
                     >
                   </li>
@@ -272,7 +272,7 @@
                     class="c-mobile-menu__subitem menu-item-3496"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=44"
+                      href="<?php echo $domain; ?>shop/products/<?php echo urlencode("chains");?>/?g=l"
                       >Chains "Ladies"</a
                     >
                   </li>
@@ -291,7 +291,7 @@
                     class="c-mobile-menu__subitem menu-item-1953"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/"
+                      href="<?php echo $domain; ?>shop/products/earrings/studs/>"
                       >Studs</a
                     >
                   </li>
@@ -300,7 +300,7 @@
                     class="c-mobile-menu__subitem menu-item-1954"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/"
+                      href="<?php echo $domain; ?>shop/products/earrings/bali/"
                       >Bali</a
                     >
                   </li>
@@ -309,7 +309,7 @@
                     class="c-mobile-menu__subitem menu-item-1956"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/necklace-stacking-set/"
+                      href="<?php echo $domain; ?>shop/products/earrings/jhala/"
                       >Jhala</a
                     >
                   </li>
@@ -318,7 +318,7 @@
                     class="c-mobile-menu__subitem menu-item-1955"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/starfish-brooch/"
+                      href="<?php echo $domain; ?>shop/products/earrings/jhumki/"
                       >Jhumki</a
                     >
                   </li>
@@ -338,7 +338,7 @@
                     class="c-mobile-menu__subitem menu-item-2041"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=10"
+                      href="<?php echo $domain; ?>shop/products/kada/?g=m"
                       >Kada "Gents"</a
                     >
                   </li>
@@ -347,7 +347,7 @@
                     class="c-mobile-menu__subitem menu-item-2042"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=11"
+                      href="<?php echo $domain; ?>shop/products/kada/?g=l"
                       >Kada "Ladies"</a
                     >
                   </li>
@@ -356,8 +356,8 @@
                     class="c-mobile-menu__subitem menu-item-2043"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=12"
-                      >Baby kada</a
+                      href="<?php echo $domain; ?>shop/products/kada/?g=baby"
+                      >kada "Baby" </a
                     >
                   </li>
                 </ul>
@@ -375,7 +375,7 @@
                     class="c-mobile-menu__subitem menu-item-2057"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/brands-1/"
+                      href="<?php echo $domain; ?>shop/products/watches/?g=m"
                       >Watch "Gents"</a
                     >
                   </li>
@@ -384,7 +384,7 @@
                     class="c-mobile-menu__subitem menu-item-2056"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/brands-2/"
+                      href="<?php echo $domain; ?>shop/products/watches/?g=l"
                       >Watch "Ladies"</a
                     >
                   </li>
@@ -404,7 +404,7 @@
                     class="c-mobile-menu__subitem menu-item-1986"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=31"
+                      href="<?php echo $domain; ?>shop/products/bracelet/?g=m"
                       >Bracelet "Gents"</a
                     >
                   </li>
@@ -413,7 +413,7 @@
                     class="c-mobile-menu__subitem menu-item-1988"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=30"
+                      href="<?php echo $domain; ?>shop/products/bracelet/?g=l"
                       >Bracelet "Ladies"</a
                     >
                   </li>
@@ -433,7 +433,7 @@
                     class="c-mobile-menu__subitem menu-item-1986"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=31"
+                      href="<?php echo $domain; ?>shop/products/anklet/"
                       >Anklet</a
                     >
                   </li>
@@ -442,7 +442,7 @@
                     class="c-mobile-menu__subitem menu-item-1988"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=30"
+                      href="<?php echo $domain; ?>shop/products/anklet/?g=baby"
                       >Baby Anklet</a
                     >
                   </li>
@@ -462,7 +462,7 @@
                     class="c-mobile-menu__subitem menu-item-1986"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=31"
+                      href="<?php echo $domain; ?>shop/products/rings/?g=m"
                       >Ring "Gents"</a
                     >
                   </li>
@@ -471,7 +471,7 @@
                     class="c-mobile-menu__subitem menu-item-1988"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=30"
+                      href="<?php echo $domain; ?>shop/products/?g=l"
                       >Ring "Ladies"</a
                     >
                   </li>
@@ -480,7 +480,7 @@
                     class="c-mobile-menu__subitem menu-item-1988"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=30"
+                      href="<?php echo $domain; ?>shop/products/rings/?g=couple"
                       >Ring "Couple"</a
                     >
                   </li>
@@ -489,7 +489,7 @@
                     class="c-mobile-menu__subitem menu-item-1988"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=30"
+                      href="<?php echo $domain; ?>shop/products/rings/toe/"
                       ></a
                     >Toe Ring
                   </li>
@@ -508,7 +508,7 @@
                     class="c-mobile-menu__subitem menu-item-1986"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=31"
+                      href="<?php echo $domain; ?>shop/products/coins/?type=gold"
                       >"Gold" Coin</a
                     >
                   </li>
@@ -517,7 +517,7 @@
                     class="c-mobile-menu__subitem menu-item-1988"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=30"
+                      href="<?php echo $domain; ?>shop/products/coins/?type=silver"
                       >"Silver" Coin</a
                     >
                   </li>
@@ -526,19 +526,11 @@
                     class="c-mobile-menu__subitem menu-item-1988"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=30"
+                      href="<?php echo $domain; ?>shop/products/<?php echo urlencode("murti emerald");?>/"
                       >Murti Emerald</a
                     >
                   </li>
-                  <li
-                    id="menu-item-1988"
-                    class="c-mobile-menu__subitem menu-item-1988"
-                  >
-                    <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=30"
-                      ></a
-                    >Toe Ring
-                  </li>
+                  
                 </ul>
               </li>
               <li
@@ -554,7 +546,7 @@
                     class="c-mobile-menu__subitem menu-item-1986"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=31"
+                      href="<?php echo $domain; ?>shop/products/utensils/bowl/"
                       >Bowl</a
                     >
                   </li>
@@ -563,7 +555,7 @@
                     class="c-mobile-menu__subitem menu-item-1988"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=30"
+                      href="<?php echo $domain; ?>shop/products/utensils/glass/"
                       >Glass</a
                     >
                   </li>
@@ -572,7 +564,7 @@
                     class="c-mobile-menu__subitem menu-item-1988"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=30"
+                      href="<?php echo $domain; ?>shop/products/utensils/plate/"
                       >Plate</a
                     >
                   </li>
@@ -581,7 +573,7 @@
                     class="c-mobile-menu__subitem menu-item-1988"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=30"
+                      href="<?php echo $domain; ?>shop/products/utensils/spoon/"
                       ></a
                     >Spoon
                   </li>
@@ -590,7 +582,7 @@
                     class="c-mobile-menu__subitem menu-item-1988"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=30"
+                      href="<?php echo $domain; ?>shop/products/utensils/set/"
                       ></a
                     >Utensil Set
                   </li>
@@ -609,7 +601,7 @@
                     class="c-mobile-menu__subitem menu-item-1986"
                   >
                     <a
-                      href="https://parkofideas.com/goldish/demo/shop/?set=31"
+                      href="<?php echo $domain; ?>shop/products/coughling/"
                       >Coughling</a
                     >
                   </li>
@@ -639,7 +631,7 @@
             id="menu-item-223"
             class="c-mobile-menu__item menu-item-223"
           >
-            <a href="https://parkofideas.com/goldish/demo/contacts/"
+            <a href="<?php echo $domain;?>help/contact/"
               >Contacts</a
             >
           </li>
@@ -654,7 +646,7 @@
               <i
                 class="fa fa-phone c-header__top-row-icon c-header__top-row-icon--phone"
               ></i>
-              <a href="https://parkofideas.com/tel:<?php echo $phone;?>"
+              <a href="<?php echo $domain; ?>tel:<?php echo $phone;?>"
                 ><?php echo $phone;?></a
               >
             </div>
@@ -665,7 +657,7 @@
                 class="fa fa-envelope-o c-header__top-row-icon c-header__top-row-icon--email"
               ></i>
               <a
-                href="https://parkofideas.com/mailto:<?php echo $email;?>"
+                href="<?php echo $domain; ?>mailto:<?php echo $email;?>"
                 ><?php echo $email;?></a
               >
             </div>
@@ -693,7 +685,7 @@
             >
               <div class="c-soc">
                 <a
-                  href="https://parkofideas.com/#"
+                  href="<?php echo $facebook_url; ?>"
                   class="c-soc__link"
                   target="_blank"
                   aria-label="Facebook"
@@ -702,7 +694,7 @@
                   ></i
                 ></a>
                 <a
-                  href="https://parkofideas.com/#"
+                  href="<?php echo $instagram_url; ?>"
                   class="c-soc__link"
                   target="_blank"
                   aria-label="Instagram"
@@ -711,7 +703,7 @@
                   ></i
                 ></a>
                 <a
-                  href="https://parkofideas.com/#"
+                  href="<?php echo $twitter_url; ?>"
                   class="c-soc__link"
                   target="_blank"
                   aria-label="Twitter"
@@ -720,7 +712,7 @@
                   ></i
                 ></a>
                 <a
-                  href="https://parkofideas.com/#"
+                  href="<?php echo $youtube_url; ?>"
                   class="c-soc__link"
                   target="_blank"
                   aria-label="YouTube"
@@ -769,7 +761,7 @@
       <div class="c-header__cart c-header__cart--default js-cart">
         <a
           class="c-header__button-link js-cart-sidebar-open"
-          href="<?php echo $domain;?>/shop/cart/"
+          href="<?php echo $domain;?>shop/cart/"
           aria-label="Shopping cart"
         >
           <i class="fa fa-shopping-cart c-header__cart-icon h-hide-mobile"></i
@@ -802,21 +794,21 @@
             class="c-header__logo c-header__logo--desktop c-header__logo--sticky"
           >
             <a
-              href="https://parkofideas.com/goldish/demo/"
+              href="<?php echo $domain;?>"
               class="c-header__logo-link"
             >
               <img
                 loading="lazy"
                 width="140"
                 height="14"
-                src="asset/images/logos/goldlogo.png"
+                src="<?php echo $domain; ?>asset/images/logos/goldlogo.png"
                 alt="Goldish"
                 class="c-header__logo-img c-header__logo-img--desktop c-header__logo-img--svg"
               />
               <img
                 width="140"
                 height="14"
-                src="asset/images/logos/whitelogo.png"
+                src="<?php echo $domain; ?>asset/images/logos/whitelogo.png"
                 alt="Goldish"
                 class="c-header__logo-img c-header__logo-img--sticky c-header__logo-img--svg"
               />
@@ -836,7 +828,7 @@
             <a
               class="c-header__button-link c-header__button-link--account"
               title="Login"
-              href="<?php echo $domain;?>/account/"
+              href="<?php echo $domain;?>account/"
               rel="nofollow"
               aria-label="My Account"
               ><i class="fa fa-user-o h-hide-mobile"></i
@@ -859,7 +851,7 @@
             <div class="c-header__cart c-header__cart--default js-cart">
               <a
                 class="c-header__button-link"
-                href="<?php echo $domain;?>/shop/cart/"
+                href="<?php echo $domain;?>shop/cart/"
                 aria-label="Shopping cart"
               >
                 <i class="fa fa-shopping-cart c-header__cart-icon h-hide-mobile"></i
@@ -881,7 +873,7 @@
             <i
               class="fa fa-phone c-header__top-row-icon c-header__top-row-icon--phone"
             ></i>
-            <a href="https://parkofideas.com/tel:<?php echo $phone;?>"
+            <a href="<?php echo $domain; ?>tel:<?php echo $phone;?>"
               >              <?php echo $phone;?>
               </a
             >
@@ -922,7 +914,7 @@
                         class="c-top-menu__subitem menu-item-2038 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=4,6,37"
+                          href="<?php echo $domain; ?>shop/products/necklace"
                           >Necklace</a
                         >
                       </li>
@@ -930,7 +922,7 @@
                         class="c-top-menu__subitem menu-item-1994 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=2,40"
+                          href="<?php echo $domain; ?>shop/products/necklace/<?php echo urlencode("Long Haar") ?>"
                           >Long Haar</a
                         >
                       </li>
@@ -938,7 +930,7 @@
                         class="c-top-menu__subitem menu-item-1993 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=3,38,39"
+                          href="<?php echo $domain; ?>shop/products/necklace/choker/"
                           >Choker</a
                         >
                       </li>
@@ -946,7 +938,7 @@
                         class="c-top-menu__subitem menu-item-1993 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=3,38,39"
+                          href="<?php echo $domain; ?>shop/products/necklace/mangalsutra/"
                           >Mangalsutra</a
                         >
                       </li>
@@ -960,15 +952,15 @@
                         class="c-top-menu__subitem menu-item-2038 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=4,6,37"
-                          >Pendant</a
+                          href="<?php echo $domain; ?>shop/products/pendants/"
+                          >Pendants</a
                         >
                       </li>
                       <li
                         class="c-top-menu__subitem menu-item-1994 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=2,40"
+                          href="<?php echo $domain; ?>shop/products/pendants/god/"
                           >God Pendant</a
                         >
                       </li>
@@ -976,7 +968,7 @@
                         class="c-top-menu__subitem menu-item-1993 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=3,38,39"
+                          href="<?php echo $domain; ?>shop/products/pendants/set/"
                           >Pendant Set</a
                         >
                       </li>
@@ -990,7 +982,7 @@
                         class="c-top-menu__subitem menu-item-2038 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=4,6,37"
+                          href="<?php echo $domain; ?>shop/products/chains/?g=m"
                           > Chain "Gents"</a
                         >
                       </li>
@@ -998,7 +990,7 @@
                         class="c-top-menu__subitem menu-item-1994 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=2,40"
+                          href="<?php echo $domain; ?>shop/products/chains/?g=l"
                           > Chain "Ladies"</a
                         >
                       </li>
@@ -1017,7 +1009,7 @@
                         class="c-top-menu__subitem menu-item-3510 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/?set=14"
+                          href="<?php echo $domain; ?>shop/products/earrings/studs/"
                           >Studs</a
                         >
                       </li>
@@ -1025,7 +1017,7 @@
                         class="c-top-menu__subitem menu-item-1958 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/?set=13"
+                          href="<?php echo $domain; ?>shop/products/earrings/bali/"
                           >Bali</a
                         >
                       </li>
@@ -1033,7 +1025,7 @@
                         class="c-top-menu__subitem menu-item-1963 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/?set=15"
+                          href="<?php echo $domain; ?>shop/products/earrings/jhala/"
                           >Jhala</a
                         >
                       </li>
@@ -1041,7 +1033,7 @@
                         class="c-top-menu__subitem menu-item-1967 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/diamond-vine-climber-earrings/?set=34,13"
+                          href="<?php echo $domain; ?>shop/products/earrings/jhumki/"
                           >Jhumki</a
                         >
                       </li>
@@ -1055,7 +1047,7 @@
                         class="c-top-menu__subitem menu-item-3510 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/?set=14"
+                          href="<?php echo $domain; ?>shop/products/kada/?g=m"
                           >Kada "Gents"</a
                         >
                       </li>
@@ -1063,7 +1055,7 @@
                         class="c-top-menu__subitem menu-item-3510 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/?set=14"
+                          href="<?php echo $domain; ?>shop/products/kada/g=l"
                           >Kada "Ladies"</a
                         >
                       </li>
@@ -1071,7 +1063,7 @@
                         class="c-top-menu__subitem menu-item-1958 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/?set=13"
+                          href="<?php echo $domain; ?>shop/products/kada/?g=baby"
                           >Baby Kada</a
                         >
                       </li>
@@ -1090,7 +1082,7 @@
                         class="c-top-menu__subitem menu-item-1986 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=31"
+                          href="<?php echo $domain; ?>shop/products/watches/?g=m"
                           >Watch "Gents"</a
                         >
                       </li>
@@ -1098,7 +1090,7 @@
                         class="c-top-menu__subitem menu-item-1988 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=30"
+                          href="<?php echo $domain; ?>shop/products/watches/?g=l;"
                           >Watch "Ladies"</a
                         >
                       </li>
@@ -1117,7 +1109,7 @@
                         class="c-top-menu__subitem menu-item-1953 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/"
+                          href="<?php echo $domain; ?>shop/products/bracelet/?g=m"
                           >Bracelet "Gents"</a
                         >
                       </li>
@@ -1125,7 +1117,7 @@
                         class="c-top-menu__subitem menu-item-1954 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/"
+                          href="<?php echo $domain; ?>shop/products/bracelet/?g=l"
                           >Bracelet "Ladies"</a
                         >
                       </li>
@@ -1139,7 +1131,7 @@
                         class="c-top-menu__subitem menu-item-1953 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/"
+                          href="<?php echo $domain; ?>shop/products/anklet/"
                           >Anklet</a
                         >
                       </li>
@@ -1147,7 +1139,7 @@
                         class="c-top-menu__subitem menu-item-1954 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/"
+                          href="<?php echo $domain; ?>shop/products/ankle?g=baby/"
                           >Baby Anklet</a
                         >
                       </li>
@@ -1166,7 +1158,7 @@
                         class="c-top-menu__subitem menu-item-2041 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=10"
+                          href="<?php echo $domain; ?>shop/products/rings/?g=m"
                           >Ring "Gents"</a
                         >
                       </li>
@@ -1174,7 +1166,7 @@
                         class="c-top-menu__subitem menu-item-2042 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=11"
+                          href="<?php echo $domain; ?>shop/products/rings/?g=l"
                           >Ring "Ladies"</a
                         >
                       </li>
@@ -1182,7 +1174,7 @@
                         class="c-top-menu__subitem menu-item-2043 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=12"
+                          href="<?php echo $domain; ?>shop/products/rings/?g=couple"
                           >Ring "Couple"</a
                         >
                       </li>
@@ -1195,7 +1187,7 @@
                         class="c-top-menu__subitem menu-item-2041 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=10"
+                          href="<?php echo $domain; ?>shop/products/rings/toe/"
                           >Toe Ring </a
                         >
                       </li>
@@ -1213,7 +1205,7 @@
                         class="c-top-menu__subitem menu-item-3495 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=43"
+                          href="<?php echo $domain; ?>shop/products/coins/?type=gold"
                           >"Gold" Coin </a
                         >
                       </li>
@@ -1221,7 +1213,7 @@
                         class="c-top-menu__subitem menu-item-3496 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=44"
+                          href="<?php echo $domain; ?>shop/products/coins/?type=silver"
                           >"Silver" Coin </a
                         >
                       </li>
@@ -1229,7 +1221,7 @@
                         class="c-top-menu__subitem menu-item-3496 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=44"
+                          href="<?php echo $domain; ?>shop/products/<?php echo urlencode("murti emerald");?>/"
                           >Murti Emerald </a
                         >
                       </li>
@@ -1242,7 +1234,7 @@
                         class="c-top-menu__subitem menu-item-2057 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/brands-1/"
+                          href="<?php echo $domain; ?>shop/products/utensils/bowl/"
                           >Bowl</a
                         >
                       </li>
@@ -1250,7 +1242,7 @@
                         class="c-top-menu__subitem menu-item-2056 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/brands-2/"
+                          href="<?php echo $domain; ?>shop/products/utensils/glass/"
                           >Glass</a
                         >
                       </li>
@@ -1258,7 +1250,7 @@
                         class="c-top-menu__subitem menu-item-2058 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/heart-locket/?set=29"
+                          href="<?php echo $domain; ?>shop/products/utensils/plate/"
                           >Plate</a
                         >
                       </li>
@@ -1266,7 +1258,7 @@
                         class="c-top-menu__subitem menu-item-2059 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=29"
+                          href="<?php echo $domain; ?>shop/products/utensils/spoon/"
                           >Spoon</a
                         >
                       </li>
@@ -1274,7 +1266,7 @@
                         class="c-top-menu__subitem menu-item-2059 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=29"
+                          href="<?php echo $domain; ?>shop/products/utensils/set/"
                           >Utensil "Set"</a
                         >
                       </li>
@@ -1292,7 +1284,7 @@
                         class="c-top-menu__subitem menu-item-1986 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href="https://parkofideas.com/goldish/demo/shop/?set=31"
+                          href="<?php echo $domain; ?>shop/products/coughling/"
                           >Coughling</a
                         >
                       </li>
@@ -1322,7 +1314,7 @@
                 
               </li>
               <li class="c-top-menu__item menu-item-223 js-menu-item">
-                <a href="https://parkofideas.com/goldish/demo/contacts/"
+                <a href="<?php echo $domain; ?>help/contact/"
                   >Contacts</a
                 >
               </li>

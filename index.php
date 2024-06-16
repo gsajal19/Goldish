@@ -19,22 +19,9 @@ include 'config.php';
     />
     <link
       rel="stylesheet"
-      href="asset/goldish/demo/wp-content/themes/goldish/assets/font/theme-icons.css"
+      href="<?php echo $domain; ?>asset/goldish/demo/wp-content/themes/goldish/assets/font/theme-icons.css"
     />
-    <style>
-      @font-face {
-        font-family: "Boska Light";
-        src: url(https://parkofideas.com/goldish/demo/wp-content/uploads/2023/03/goldish-1203323592.woff2)
-          format("woff2");
-        font-display: auto;
-      }
-      @font-face {
-        font-family: "Boska Regular";
-        src: url(https://parkofideas.com/goldish/demo/wp-content/uploads/2023/03/goldish-1323852144.woff2)
-          format("woff2");
-        font-display: auto;
-      }
-    </style>
+    
     <style id="wp-emoji-styles-inline-css" type="text/css">
       img.wp-smiley,
       img.emoji {
@@ -72,7 +59,7 @@ include 'config.php';
     <link
       rel="stylesheet"
       id="contact-form-7-css"
-      href="asset/goldish/demo/wp-content/plugins/contact-form-7/includes/css/styles.css"
+      href="<?php echo $domain; ?>asset/goldish/demo/wp-content/plugins/contact-form-7/includes/css/styles.css"
       type="text/css"
       media="all"
     />
@@ -84,7 +71,7 @@ include 'config.php';
     <link
       rel="stylesheet"
       id="woo-variation-swatches-css"
-      href="asset/goldish/demo/wp-content/plugins/woo-variation-swatches/assets/css/frontend.min.css"
+      href="<?php echo $domain; ?>asset/goldish/demo/wp-content/plugins/woo-variation-swatches/assets/css/frontend.min.css"
       type="text/css"
       media="all"
     />
@@ -101,7 +88,7 @@ include 'config.php';
     <link
       rel="stylesheet"
       id="elementor-frontend-css"
-      href="asset/goldish/demo/wp-content/uploads/elementor/css/custom-frontend-lite.min.css"
+      href="<?php echo $domain; ?>asset/goldish/demo/wp-content/uploads/elementor/css/custom-frontend-lite.min.css"
       type="text/css"
       media="all"
     />
@@ -125,42 +112,42 @@ include 'config.php';
     <link
       rel="stylesheet"
       id="swiper-css"
-      href="asset/goldish/demo/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css"
+      href="<?php echo $domain; ?>asset/goldish/demo/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css"
       type="text/css"
       media="all"
     />
     <link
       rel="stylesheet"
       id="elementor-post-12-css"
-      href="asset/goldish/demo/wp-content/uploads/elementor/css/post-12.css"
+      href="<?php echo $domain; ?>asset/goldish/demo/wp-content/uploads/elementor/css/post-12.css"
       type="text/css"
       media="all"
     />
     <link
       rel="stylesheet"
       id="elementor-post-4510-css"
-      href="asset/goldish/demo/wp-content/uploads/elementor/css/post-4510.css?cache=<?php echo uniqid();?>"
+      href="<?php echo $domain; ?>asset/goldish/demo/wp-content/uploads/elementor/css/post-4510.css?cache=<?php echo uniqid();?>"
       type="text/css"
       media="all"
     />
     <link
       rel="stylesheet"
       id="ideapark_fonts-icons-css"
-      href="asset/goldish/demo/wp-content/uploads/ideapark_fonts/font-style-c6af5625.min.css"
+      href="<?php echo $domain; ?>asset/goldish/demo/wp-content/uploads/ideapark_fonts/font-style-c6af5625.min.css"
       type="text/css"
       media="all"
     />
     <link
       rel="stylesheet"
       id="elementor-post-3299-css"
-      href="asset/goldish/demo/wp-content/uploads/elementor/css/post-3299.css"
+      href="<?php echo $domain; ?>asset/goldish/demo/wp-content/uploads/elementor/css/post-3299.css"
       type="text/css"
       media="all"
     />
     <link
       rel="stylesheet"
       id="elementor-post-3214-css"
-      href="asset/goldish/demo/wp-content/uploads/elementor/css/post-3214.css"
+      href="<?php echo $domain; ?>asset/goldish/demo/wp-content/uploads/elementor/css/post-3214.css"
       type="text/css"
       media="all"
     />
@@ -168,14 +155,14 @@ include 'config.php';
     <link
       rel="stylesheet"
       id="ideapark-entry-content-css"
-      href="asset/goldish/demo/wp-content/themes/goldish/assets/css/entry-content.css"
+      href="<?php echo $domain; ?>asset/goldish/demo/wp-content/themes/goldish/assets/css/entry-content.css"
       type="text/css"
       media="all"
     />
     <link
       rel="stylesheet"
       id="ideapark-core-css"
-      href="asset/goldish/demo/wp-content/themes/goldish/style.css?cache=<?php echo uniqid();?>"
+      href="<?php echo $domain; ?>asset/goldish/demo/wp-content/themes/goldish/style.css?cache=<?php echo uniqid();?>"
       type="text/css"
       media="all"
     />
@@ -353,14 +340,14 @@ include 'config.php';
     <link
       rel="stylesheet"
       id="ideapark-elementor-css"
-      href="asset/goldish/demo/wp-content/plugins/ideapark-goldish/assets/css/style.min.css?cache=<?php echo uniqid(); ?>"
+      href="<?php echo $domain; ?>asset/goldish/demo/wp-content/plugins/ideapark-goldish/assets/css/style.min.css?cache=<?php echo uniqid(); ?>"
       type="text/css"
       media="all"
     />
     <link
       rel="stylesheet"
       id="elementor-post-4619-css"
-      href="asset/goldish/demo/wp-content/uploads/elementor/css/post-4619.css?cache=<?php echo uniqid(); ?>"
+      href="<?php echo $domain; ?>asset/goldish/demo/wp-content/uploads/elementor/css/post-4619.css?cache=<?php echo uniqid(); ?>"
       type="text/css"
       media="all"
     />
@@ -374,12 +361,12 @@ include 'config.php';
     </script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-includes/js/jquery/jquery.min.js"
+      src="<?php echo $domain; ?>asset/goldish/demo/wp-includes/js/jquery/jquery.min.js"
       id="jquery-core-js"
     ></script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"
+      src="<?php echo $domain; ?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"
       id="jquery-blockui-js"
       data-wp-strategy="defer"
     ></script>
@@ -397,14 +384,14 @@ include 'config.php';
     </script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?cache=<?php echo uniqid(); ?>"
+      src="<?php echo $domain; ?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?cache=<?php echo uniqid(); ?>"
       id="wc-add-to-cart-js"
       defer="defer"
       data-wp-strategy="defer"
     ></script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js"
+      src="<?php echo $domain; ?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js"
       id="js-cookie-js"
       defer="defer"
       data-wp-strategy="defer"
@@ -419,14 +406,14 @@ include 'config.php';
     </script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js"
+      src="<?php echo $domain; ?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js"
       id="woocommerce-js"
       defer="defer"
       data-wp-strategy="defer"
     ></script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-includes/js/underscore.min.js"
+      src="<?php echo $domain; ?>asset/goldish/demo/wp-includes/js/underscore.min.js"
       id="underscore-js"
     ></script>
     <script type="text/javascript" id="wp-util-js-extra">
@@ -438,7 +425,7 @@ include 'config.php';
     </script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-includes/js/wp-util.min.js"
+      src="<?php echo $domain; ?>asset/goldish/demo/wp-includes/js/wp-util.min.js"
       id="wp-util-js"
     ></script>
     <script type="text/javascript" id="wc-cart-fragments-js-extra">
@@ -454,7 +441,7 @@ include 'config.php';
     </script>
     <script
       type="text/javascript"
-      src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js"
+      src="<?php echo $domain; ?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js"
       id="wc-cart-fragments-js"
       defer="defer"
       data-wp-strategy="defer"
@@ -477,12 +464,12 @@ include 'config.php';
     />
     <link
       rel="icon"
-      href="asset/images/favicon/favicon-32x32.ico?cache=<?php echo uniqid();?>"
+      href="<?php echo $domain; ?>asset/images/favicon/favicon-32x32.ico?cache=<?php echo uniqid();?>"
       sizes="32x32"
     />
     <link
       rel="icon"
-      href="asset/images/favicon/favicon-192x192.ico?cache=<?php echo uniqid();?>"
+      href="<?php echo $domain; ?>asset/images/favicon/favicon-192x192.ico?cache=<?php echo uniqid();?>"
       sizes="192x192"
     />
 
@@ -508,22 +495,22 @@ include 'config.php';
                                     <div class="elementor-widget-container">
                                         <div class="c-ip-slider c-ip-slider--header-type-1 c-ip-slider--layout-2 js-slider">
                                             <div class="c-ip-slider__list c-ip-slider__list--layout-2 js-slider-carousel h-carousel h-carousel--big-dots c-ip-slider__list--dots h-carousel--dot-animated" data-autoplay="yes" data-animation="owl-fade-scale" data-animation-timeout="5000" data-widget-id="b1b923b">
-                                                <div class="c-ip-slider__item c-ip-slider__item--layout-2 elementor-repeater-item-5049669" data-dot="&lt;svg role=&quot;button&quot; data-index=&quot;0&quot; class=&quot;c-ip-slider__circle&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid&quot;&gt;&lt;path d=&quot;M0,0 &quot; id=&quot;arc-b1b923b-0&quot; fill=&quot;none&quot; stroke=&quot;inherit&quot; stroke-width=&quot;1&quot;/&gt;&lt;/svg&gt;&lt;button role=&quot;button&quot; class=&quot;h-cb c-ip-slider__dot&quot; &gt;&lt;/button&gt;" data-index="0"> <img decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--desktop" width="3360" height="2080" src="asset/images/slider/6.jpg" srcset="asset/images/slider/6.jpg 3360w, asset/images/slider/6.jpg 300w, asset/images/slider/6.jpg 900w, asset/images/slider/6.jpg 600w, asset/images/slider/6.jpg 1536w, asset/images/slider/6.jpg 2048w, asset/images/slider/6.jpg 145w" sizes="(max-width: 3360px) 100vw, 3360px" alt="slider-2-1@2x-pichi" loading="eager" data-index="0" /><img decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--mobile" width="720" height="1200" src="asset/images/slider/6.jpg" srcset="asset/images/slider/6.jpg 720w, asset/images/slider/6.jpg 300w, asset/images//slider/6.jpg 600w, asset/images/slider/6.jpg 145w" sizes="(max-width: 720px) 100vw, 720px" alt="slider-2-1-mobile@2x-pichi" loading="eager" data-index="0" />
+                                                <div class="c-ip-slider__item c-ip-slider__item--layout-2 elementor-repeater-item-5049669" data-dot="&lt;svg role=&quot;button&quot; data-index=&quot;0&quot; class=&quot;c-ip-slider__circle&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid&quot;&gt;&lt;path d=&quot;M0,0 &quot; id=&quot;arc-b1b923b-0&quot; fill=&quot;none&quot; stroke=&quot;inherit&quot; stroke-width=&quot;1&quot;/&gt;&lt;/svg&gt;&lt;button role=&quot;button&quot; class=&quot;h-cb c-ip-slider__dot&quot; &gt;&lt;/button&gt;" data-index="0"> <img decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--desktop" width="3360" height="2080" src="<?php echo $domain; ?>asset/images/slider/6.jpg" srcset="<?php echo $domain; ?>asset/images/slider/6.jpg 3360w, <?php echo $domain; ?>asset/images/slider/6.jpg 300w, <?php echo $domain; ?>asset/images/slider/6.jpg 900w, <?php echo $domain; ?>asset/images/slider/6.jpg 600w, <?php echo $domain; ?>asset/images/slider/6.jpg 1536w, <?php echo $domain; ?>asset/images/slider/6.jpg 2048w, <?php echo $domain; ?>asset/images/slider/6.jpg 145w" sizes="(max-width: 3360px) 100vw, 3360px" alt="slider-2-1@2x-pichi" loading="eager" data-index="0" /><img decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--mobile" width="720" height="1200" src="<?php echo $domain; ?>asset/images/slider/6.jpg" srcset="<?php echo $domain; ?>asset/images/slider/6.jpg 720w, <?php echo $domain; ?>asset/images/slider/6.jpg 300w, <?php echo $domain; ?>asset/images//slider/6.jpg 600w, <?php echo $domain; ?>asset/images/slider/6.jpg 145w" sizes="(max-width: 720px) 100vw, 720px" alt="slider-2-1-mobile@2x-pichi" loading="eager" data-index="0" />
                                                     <div class="c-ip-slider__wrap c-ip-slider__wrap--layout-2 slider-layer2-pg1-position" > 
                                                         <div class="c-ip-slider__title c-ip-slider__title--layout-2 " ><span class="c-ip-slider__title-inner">Amadeus Jewelry Collection</span></div>
-                                                        <div class="c-ip-slider__subtitle c-ip-slider__subtitle--layout-2"><span class="c-ip-slider__subtitle-inner">New in our shop</span></div> <a href="https://parkofideas.com/#" class="c-button c-button--default c-ip-slider__button c-ip-slider__button--layout-2">Shop now</a>
+                                                        <div class="c-ip-slider__subtitle c-ip-slider__subtitle--layout-2"><span class="c-ip-slider__subtitle-inner">New in our shop</span></div> <a href="<?php echo $domain;?>#" class="c-button c-button--default c-ip-slider__button c-ip-slider__button--layout-2">Shop now</a>
                                                     </div>
                                                 </div>
-                                                <div class="c-ip-slider__item c-ip-slider__item--layout-2 elementor-repeater-item-141ccf7" data-dot="&lt;svg role=&quot;button&quot; data-index=&quot;1&quot; class=&quot;c-ip-slider__circle&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid&quot;&gt;&lt;path d=&quot;M0,0 &quot; id=&quot;arc-b1b923b-1&quot; fill=&quot;none&quot; stroke=&quot;inherit&quot; stroke-width=&quot;1&quot;/&gt;&lt;/svg&gt;&lt;button role=&quot;button&quot; class=&quot;h-cb c-ip-slider__dot&quot; &gt;&lt;/button&gt;" data-index="1"> <img loading="lazy" decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--desktop" width="3360" height="2080" src="asset/images/slider/3.jpg" srcset="asset/images/slider/3.jpg 3360w, asset/images/slider/3.jpg 300w, asset/images/slider/3.jpg 900w, asset/images/slider/3.jpg 600w, asset/images/slider/3.jpg 1536w, asset/images/slider/3.jpg 2048w, asset/images/slider/3.jpg 145w" sizes="(max-width: 3360px) 100vw, 3360px" alt="slide-2-2@2x-pichi"><img loading="lazy" decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--mobile" width="720" height="1300" src="asset/images/slider/3.jpg" srcset="asset/images/slider/3.jpg 720w, asset/images/slider/3.jpg 300w, asset/images/slider/3.jpg 600w, asset/images/slider/3.jpg 145w" sizes="(max-width: 720px) 100vw, 720px" alt="slide-2-2-mobile@2x-pichi">
+                                                <div class="c-ip-slider__item c-ip-slider__item--layout-2 elementor-repeater-item-141ccf7" data-dot="&lt;svg role=&quot;button&quot; data-index=&quot;1&quot; class=&quot;c-ip-slider__circle&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid&quot;&gt;&lt;path d=&quot;M0,0 &quot; id=&quot;arc-b1b923b-1&quot; fill=&quot;none&quot; stroke=&quot;inherit&quot; stroke-width=&quot;1&quot;/&gt;&lt;/svg&gt;&lt;button role=&quot;button&quot; class=&quot;h-cb c-ip-slider__dot&quot; &gt;&lt;/button&gt;" data-index="1"> <img loading="lazy" decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--desktop" width="3360" height="2080" src="<?php echo $domain; ?>asset/images/slider/3.jpg" srcset="<?php echo $domain; ?>asset/images/slider/3.jpg 3360w, <?php echo $domain; ?>asset/images/slider/3.jpg 300w, <?php echo $domain; ?>asset/images/slider/3.jpg 900w, <?php echo $domain; ?>asset/images/slider/3.jpg 600w, <?php echo $domain; ?>asset/images/slider/3.jpg 1536w, <?php echo $domain; ?>asset/images/slider/3.jpg 2048w, <?php echo $domain; ?>asset/images/slider/3.jpg 145w" sizes="(max-width: 3360px) 100vw, 3360px" alt="slide-2-2@2x-pichi"><img loading="lazy" decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--mobile" width="720" height="1300" src="<?php echo $domain; ?>asset/images/slider/3.jpg" srcset="<?php echo $domain; ?>asset/images/slider/3.jpg 720w, <?php echo $domain; ?>asset/images/slider/3.jpg 300w, <?php echo $domain; ?>asset/images/slider/3.jpg 600w, <?php echo $domain; ?>asset/images/slider/3.jpg 145w" sizes="(max-width: 720px) 100vw, 720px" alt="slide-2-2-mobile@2x-pichi">
                                                     <div class="c-ip-slider__wrap c-ip-slider__wrap--layout-2 slider-layer2-pg2-position"> 
                                                       <div class="c-ip-slider__title c-ip-slider__title--layout-2"><span class="c-ip-slider__title-inner">Diamond Sisters</span></div>
-                                                        <div class="c-ip-slider__subtitle c-ip-slider__subtitle--layout-2"><span class="c-ip-slider__subtitle-inner">New Collection Set</span></div> <a href="https://parkofideas.com/#" class="c-button c-button--default c-ip-slider__button c-ip-slider__button--layout-2">Shop now</a>
+                                                        <div class="c-ip-slider__subtitle c-ip-slider__subtitle--layout-2"><span class="c-ip-slider__subtitle-inner">New Collection Set</span></div> <a href="<?php echo $domain;?>#" class="c-button c-button--default c-ip-slider__button c-ip-slider__button--layout-2">Shop now</a>
                                                     </div>
                                                 </div>
-                                                <div class="c-ip-slider__item c-ip-slider__item--layout-2 elementor-repeater-item-3121379" data-dot="&lt;svg role=&quot;button&quot; data-index=&quot;2&quot; class=&quot;c-ip-slider__circle&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid&quot;&gt;&lt;path d=&quot;M0,0 &quot; id=&quot;arc-b1b923b-2&quot; fill=&quot;none&quot; stroke=&quot;inherit&quot; stroke-width=&quot;1&quot;/&gt;&lt;/svg&gt;&lt;button role=&quot;button&quot; class=&quot;h-cb c-ip-slider__dot&quot; &gt;&lt;/button&gt;" data-index="2"> <img loading="lazy" decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--desktop" width="3360" height="2080" src="asset/images/slider/7.jpg" srcset="asset/images/slider/7.jpg 3360w, asset/images/slider/7.jpg 300w, asset/images/slider/7.jpg 900w, asset/images/slider/7.jpg 600w, asset/images/slider/7.jpg 1536w, asset/images/slider/7.jpg 2048w, asset/images/slider/7.jpg 145w" sizes="(max-width: 3360px) 100vw, 3360px" alt="slide-2-1@2x-pichi"><img loading="lazy" decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--mobile" width="720" height="1300" src="asset/images/slider/7.jpg" srcset="asset/images/slider/7.jpg 720w, asset/images/slider/7.jpg 300w, asset/images/slider/7.jpg 600w, asset/images/slider/7.jpg 145w" sizes="(max-width: 720px) 100vw, 720px" alt="slide-2-1-mobile@2x-pichi">
+                                                <div class="c-ip-slider__item c-ip-slider__item--layout-2 elementor-repeater-item-3121379" data-dot="&lt;svg role=&quot;button&quot; data-index=&quot;2&quot; class=&quot;c-ip-slider__circle&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; preserveAspectRatio=&quot;xMidYMid&quot;&gt;&lt;path d=&quot;M0,0 &quot; id=&quot;arc-b1b923b-2&quot; fill=&quot;none&quot; stroke=&quot;inherit&quot; stroke-width=&quot;1&quot;/&gt;&lt;/svg&gt;&lt;button role=&quot;button&quot; class=&quot;h-cb c-ip-slider__dot&quot; &gt;&lt;/button&gt;" data-index="2"> <img loading="lazy" decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--desktop" width="3360" height="2080" src="<?php echo $domain; ?>asset/images/slider/7.jpg" srcset="<?php echo $domain; ?>asset/images/slider/7.jpg 3360w, <?php echo $domain; ?>asset/images/slider/7.jpg 300w, <?php echo $domain; ?>asset/images/slider/7.jpg 900w, <?php echo $domain; ?>asset/images/slider/7.jpg 600w, <?php echo $domain; ?>asset/images/slider/7.jpg 1536w, <?php echo $domain; ?>asset/images/slider/7.jpg 2048w, <?php echo $domain; ?>asset/images/slider/7.jpg 145w" sizes="(max-width: 3360px) 100vw, 3360px" alt="slide-2-1@2x-pichi"><img loading="lazy" decoding="async" class="c-ip-slider__image c-ip-slider__image--layout-2 c-ip-slider__image--mobile" width="720" height="1300" src="<?php echo $domain; ?>asset/images/slider/7.jpg" srcset="<?php echo $domain; ?>asset/images/slider/7.jpg 720w, <?php echo $domain; ?>asset/images/slider/7.jpg 300w, <?php echo $domain; ?>asset/images/slider/7.jpg 600w, <?php echo $domain; ?>asset/images/slider/7.jpg 145w" sizes="(max-width: 720px) 100vw, 720px" alt="slide-2-1-mobile@2x-pichi">
                                                     <div class="c-ip-slider__wrap c-ip-slider__wrap--layout-2 slider-layer2-pg3-position"> 
                                                         <div class="c-ip-slider__title c-ip-slider__title--layout-2"><span class="c-ip-slider__title-inner">Golden Sphere</span></div>
-                                                        <div class="c-ip-slider__subtitle c-ip-slider__subtitle--layout-2"><span class="c-ip-slider__subtitle-inner">Necklace With History</span></div> <a href="https://parkofideas.com/#" class="c-button c-button--default c-ip-slider__button c-ip-slider__button--layout-2">Shop now</a>
+                                                        <div class="c-ip-slider__subtitle c-ip-slider__subtitle--layout-2"><span class="c-ip-slider__subtitle-inner">Necklace With History</span></div> <a href="<?php echo $domain;?>#" class="c-button c-button--default c-ip-slider__button c-ip-slider__button--layout-2">Shop now</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -556,37 +543,37 @@ include 'config.php';
                      <div class="c-page-header__sub-cat-list c-page-header__sub-cat-list--round js-header-subcat h-carousel h-carousel--dots-hide h-carousel--flex">
                         <div class="product-category product first c-page-header__sub-cat-item">
                            <a aria-label="Visit product category Bracelets" href="<?php echo $domain;?>">
-                              <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="asset/images/store_collection/1-100x100.jpg" alt="Bracelets" width="100" height="100" srcset="asset/images/store_collection/1-100x100.jpg 100w, asset/images/store_collection/1-145x145.jpg 145w, asset/images/store_collection/1.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
+                              <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="<?php echo $domain; ?>asset/images/store_collection/1-100x100.jpg" alt="Bracelets" width="100" height="100" srcset="<?php echo $domain; ?>asset/images/store_collection/1-100x100.jpg 100w, <?php echo $domain; ?>asset/images/store_collection/1-145x145.jpg 145w, <?php echo $domain; ?>asset/images/store_collection/1.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
                               <h2 class="woocommerce-loop-category__title"> Bracelets <mark class="count">4</mark> </h2>
                            </a>
                         </div>
                         <div class="product-category product c-page-header__sub-cat-item">
                            <a aria-label="Visit product category Earrings" href="<?php echo $domain;?>">
-                              <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="asset/images/store_collection/2-100x100.jpg" alt="Earrings" width="100" height="100" srcset="asset/images/store_collection/2-100x100.jpg 100w, asset/images/store_collection/2-145x145.jpg 145w, asset/images/store_collection/2.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
+                              <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="<?php echo $domain; ?>asset/images/store_collection/2-100x100.jpg" alt="Earrings" width="100" height="100" srcset="<?php echo $domain; ?>asset/images/store_collection/2-100x100.jpg 100w, <?php echo $domain; ?>asset/images/store_collection/2-145x145.jpg 145w, <?php echo $domain; ?>asset/images/store_collection/2.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
                               <h2 class="woocommerce-loop-category__title"> Earrings <mark class="count">4</mark> </h2>
                            </a>
                         </div>
                         <div class="product-category product c-page-header__sub-cat-item">
                            <a aria-label="Visit product category Necklaces" href="<?php echo $domain;?>">
-                              <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="asset/images/store_collection/3-100x100.jpg" alt="Necklaces" width="100" height="100" srcset="asset/images/store_collection/3-100x100.jpg 100w, asset/images/store_collection/3-145x145.jpg 145w, asset/images/store_collection/3.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
+                              <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="<?php echo $domain; ?>asset/images/store_collection/3-100x100.jpg" alt="Necklaces" width="100" height="100" srcset="<?php echo $domain; ?>asset/images/store_collection/3-100x100.jpg 100w, <?php echo $domain; ?>asset/images/store_collection/3-145x145.jpg 145w, <?php echo $domain; ?>asset/images/store_collection/3.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
                               <h2 class="woocommerce-loop-category__title"> Necklaces <mark class="count">4</mark> </h2>
                            </a>
                         </div>
                         <div class="product-category product last c-page-header__sub-cat-item">
                            <a aria-label="Visit product category Other" href="<?php echo $domain;?>">
-                              <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="asset/images/store_collection/0-100x100.jpg" alt="0" width="100" height="100" srcset="asset/images/store_collection/0-100x100.jpg 100w, asset/images/store_collection/0-145x145.jpg 145w, asset/images/store_collection/0.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
+                              <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="<?php echo $domain; ?>asset/images/store_collection/0-100x100.jpg" alt="0" width="100" height="100" srcset="<?php echo $domain; ?>asset/images/store_collection/0-100x100.jpg 100w, <?php echo $domain; ?>asset/images/store_collection/0-145x145.jpg 145w, <?php echo $domain; ?>asset/images/store_collection/0.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
                               <h2 class="woocommerce-loop-category__title"> Other <mark class="count">11</mark> </h2>
                            </a>
                         </div>
                         <div class="product-category product first c-page-header__sub-cat-item">
                            <a aria-label="Visit product category Rings" href="<?php echo $domain;?>">
-                              <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="asset/images/store_collection/5-100x100.jpg" alt="5s" width="100" height="100" srcset="asset/images/store_collection/5-100x100.jpg 100w, asset/images/store_collection/5-145x145.jpg 145w, asset/images/store_collection/5.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
+                              <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="<?php echo $domain; ?>asset/images/store_collection/5-100x100.jpg" alt="5s" width="100" height="100" srcset="<?php echo $domain; ?>asset/images/store_collection/5-100x100.jpg 100w, <?php echo $domain; ?>asset/images/store_collection/5-145x145.jpg 145w, <?php echo $domain; ?>asset/images/store_collection/5.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
                               <h2 class="woocommerce-loop-category__title"> Rings <mark class="count">4</mark> </h2>
                            </a>
                         </div>
                         <div class="product-category product c-page-header__sub-cat-item">
                            <a aria-label="Visit product category Sets" href="<?php echo $domain;?>">
-                              <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="asset/images/store_collection/6-100x100.jpg" alt="Sets" width="100" height="100" srcset="asset/images/store_collection/6-100x100.jpg 100w, asset/images/store_collection/6-145x145.jpg 145w, asset/images/store_collection/6.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
+                              <span class="c-sub-categories__thumb-wrap c-sub-categories__thumb-wrap--header"><img loading="lazy" decoding="async" src="<?php echo $domain; ?>asset/images/store_collection/6-100x100.jpg" alt="Sets" width="100" height="100" srcset="<?php echo $domain; ?>asset/images/store_collection/6-100x100.jpg 100w, <?php echo $domain; ?>asset/images/store_collection/6-145x145.jpg 145w, <?php echo $domain; ?>asset/images/store_collection/6.jpg 200w" sizes="(max-width: 100px) 100vw, 100px"></span> 
                               <h2 class="woocommerce-loop-category__title"> Sets <mark class="count">4</mark> </h2>
                            </a>
                         </div>
@@ -601,7 +588,7 @@ include 'config.php';
 <section class="elementor-section elementor-top-section elementor-element elementor-element-9a0abdb elementor-section-full_width elementor-section-height-min-height elementor-section-items-stretch elementor-section-height-default" data-id="9a0abdb" data-element_type="section">
     <div class="elementor-container elementor-column-gap-no">
       <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2cff52d" data-id="2cff52d" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-        <div class="elementor-widget-wrap elementor-element-populated" style="background-image: url('asset/images/collection_shop/7.jpg');">
+        <div class="elementor-widget-wrap elementor-element-populated" style="background-image: url('<?php echo $domain; ?>asset/images/collection_shop/7.jpg');">
           <div class="elementor-element elementor-element-de39f35 elementor-widget elementor-widget-spacer" data-id="de39f35" data-element_type="widget" data-widget_type="spacer.default">
             <div class="elementor-widget-container">
               <div class="elementor-spacer">
@@ -631,7 +618,7 @@ include 'config.php';
       </div>
       <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-abc1459" data-id="abc1459" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 
-        <div class="elementor-widget-wrap elementor-element-populated" style="background-image: url('asset/images/collection_shop/20.jpg');">
+        <div class="elementor-widget-wrap elementor-element-populated" style="background-image: url('<?php echo $domain; ?>asset/images/collection_shop/20.jpg');">
 
           <div class="elementor-element elementor-element-086c592 elementor-widget elementor-widget-spacer" data-id="086c592" data-element_type="widget" data-widget_type="spacer.default">
             <div class="elementor-widget-container">
@@ -661,7 +648,7 @@ include 'config.php';
         </div>
       </div>
       <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-5b2bdf2" data-id="5b2bdf2" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-        <div class="elementor-widget-wrap elementor-element-populated" style="background-image: url('asset/images/collection_shop/13.jpg');">
+        <div class="elementor-widget-wrap elementor-element-populated" style="background-image: url('<?php echo $domain; ?>asset/images/collection_shop/13.jpg');">
           <div class="elementor-element elementor-element-815cfbd elementor-widget elementor-widget-spacer" data-id="815cfbd" data-element_type="widget" data-widget_type="spacer.default">
             <div class="elementor-widget-container">
               <div class="elementor-spacer">
@@ -710,7 +697,7 @@ include 'config.php';
                 data-element_type="column"
                 data-settings='{"background_background":"classic"}'
               >
-                <div class="elementor-widget-wrap elementor-element-populated" style="background-image: url(asset/images/uploads/background.jpg);">
+                <div class="elementor-widget-wrap elementor-element-populated" style="background-image: url(<?php echo $domain; ?>asset/images/uploads/background.jpg);">
                   <div
                     class="elementor-element elementor-element-93bd9a7 elementor-widget elementor-widget-image"
                     data-id="93bd9a7"
@@ -723,13 +710,13 @@ include 'config.php';
                         decoding="async"
                         width="444"
                         height="592"
-                        src="asset/images/collection_shop/1.jpg"
+                        src="<?php echo $domain; ?>asset/images/collection_shop/1.jpg"
                         class="attachment-full size-full wp-image-4826"
                         alt=""
                         srcset="
-                          asset/images/collection_shop/1.jpg         444w,
-                          asset/images/collection_shop/1.jpg 300w,
-                          asset/images/collection_shop/1.jpg 145w
+                          <?php echo $domain; ?>asset/images/collection_shop/1.jpg         444w,
+                          <?php echo $domain; ?>asset/images/collection_shop/1.jpg 300w,
+                          <?php echo $domain; ?>asset/images/collection_shop/1.jpg 145w
                         "
                         sizes="(max-width: 444px) 100vw, 444px"
                       />
@@ -912,34 +899,34 @@ include 'config.php';
                                             decoding="async"
                                             width="900"
                                             height="900"
-                                            src="asset/images/uploads/goldish-1041903639-900x900.jpg"
+                                            src="<?php echo $domain; ?>asset/images/uploads/goldish-1041903639-900x900.jpg"
                                             class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base"
                                             alt=""
                                             srcset="
-                                              asset/images/uploads/goldish-1041903639-900x900.jpg 900w,
-                                              asset/images/uploads/goldish-1041903639-300x300.jpg 300w,
-                                              asset/images/uploads/goldish-1041903639-100x100.jpg 100w,
-                                              asset/images/uploads/goldish-1041903639-600x600.jpg 600w,
-                                              asset/images/uploads/goldish-1041903639-200x200.jpg 200w,
-                                              asset/images/uploads/goldish-1041903639-145x145.jpg 145w,
-                                              asset/images/uploads/goldish-1041903639.jpg         960w
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041903639-900x900.jpg 900w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041903639-300x300.jpg 300w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041903639-100x100.jpg 100w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041903639-600x600.jpg 600w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041903639-200x200.jpg 200w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041903639-145x145.jpg 145w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041903639.jpg         960w
                                             "
                                             sizes="(min-width: 768px) 33vw, 100vw" /><img
                                             loading="lazy"
                                             decoding="async"
                                             width="900"
                                             height="900"
-                                            src="asset/images/uploads/goldish-1041444939-900x900.jpg"
+                                            src="<?php echo $domain; ?>asset/images/uploads/goldish-1041444939-900x900.jpg"
                                             class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover"
                                             alt=""
                                             srcset="
-                                              asset/images/uploads/goldish-1041444939-900x900.jpg 900w,
-                                              asset/images/uploads/goldish-1041444939-300x300.jpg 300w,
-                                              asset/images/uploads/goldish-1041444939-100x100.jpg 100w,
-                                              asset/images/uploads/goldish-1041444939-600x600.jpg 600w,
-                                              asset/images/uploads/goldish-1041444939-200x200.jpg 200w,
-                                              asset/images/uploads/goldish-1041444939-145x145.jpg 145w,
-                                              asset/images/uploads/goldish-1041444939.jpg         960w
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041444939-900x900.jpg 900w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041444939-300x300.jpg 300w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041444939-100x100.jpg 100w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041444939-600x600.jpg 600w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041444939-200x200.jpg 200w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041444939-145x145.jpg 145w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041444939.jpg         960w
                                             "
                                             sizes="(min-width: 768px) 33vw, 100vw"
                                         /></a>
@@ -992,7 +979,7 @@ include 'config.php';
                                         </div>
                                       </div>
                                       <a
-                                        href="https://parkofideas.com/?add-to-cart=135"
+                                        href="<?php echo $domain;?>?add-to-cart=135"
                                         data-quantity="1"
                                         class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart"
                                         data-product_id="135"
@@ -1083,34 +1070,34 @@ include 'config.php';
                                             decoding="async"
                                             width="900"
                                             height="900"
-                                            src="asset/images/uploads/goldish-1041826433-900x900.jpg"
+                                            src="<?php echo $domain; ?>asset/images/uploads/goldish-1041826433-900x900.jpg"
                                             class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base"
                                             alt=""
                                             srcset="
-                                              asset/images/uploads/goldish-1041826433-900x900.jpg 900w,
-                                              asset/images/uploads/goldish-1041826433-300x300.jpg 300w,
-                                              asset/images/uploads/goldish-1041826433-100x100.jpg 100w,
-                                              asset/images/uploads/goldish-1041826433-600x600.jpg 600w,
-                                              asset/images/uploads/goldish-1041826433-200x200.jpg 200w,
-                                              asset/images/uploads/goldish-1041826433-145x145.jpg 145w,
-                                              asset/images/uploads/goldish-1041826433.jpg         960w
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041826433-900x900.jpg 900w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041826433-300x300.jpg 300w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041826433-100x100.jpg 100w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041826433-600x600.jpg 600w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041826433-200x200.jpg 200w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041826433-145x145.jpg 145w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041826433.jpg         960w
                                             "
                                             sizes="(min-width: 768px) 33vw, 100vw" /><img
                                             loading="lazy"
                                             decoding="async"
                                             width="900"
                                             height="900"
-                                            src="asset/images/uploads/goldish-1041129267-900x900.jpg"
+                                            src="<?php echo $domain; ?>asset/images/uploads/goldish-1041129267-900x900.jpg"
                                             class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover"
                                             alt=""
                                             srcset="
-                                              asset/images/uploads/goldish-1041129267-900x900.jpg 900w,
-                                              asset/images/uploads/goldish-1041129267-300x300.jpg 300w,
-                                              asset/images/uploads/goldish-1041129267-100x100.jpg 100w,
-                                              asset/images/uploads/goldish-1041129267-600x600.jpg 600w,
-                                              asset/images/uploads/goldish-1041129267-200x200.jpg 200w,
-                                              asset/images/uploads/goldish-1041129267-145x145.jpg 145w,
-                                              asset/images/uploads/goldish-1041129267.jpg         960w
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041129267-900x900.jpg 900w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041129267-300x300.jpg 300w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041129267-100x100.jpg 100w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041129267-600x600.jpg 600w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041129267-200x200.jpg 200w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041129267-145x145.jpg 145w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041129267.jpg         960w
                                             "
                                             sizes="(min-width: 768px) 33vw, 100vw"
                                         /></a>
@@ -1166,7 +1153,7 @@ include 'config.php';
                                         </div>
                                       </div>
                                       <a
-                                        href="https://parkofideas.com/#"
+                                        href="<?php echo $domain;?>#"
                                         data-quantity="1"
                                         class="h-cb c-product-grid__atc button product_type_external"
                                         data-product_id="131"
@@ -1256,34 +1243,34 @@ include 'config.php';
                                             decoding="async"
                                             width="900"
                                             height="900"
-                                            src="asset/images/uploads/goldish-1041207655-900x900.jpg"
+                                            src="<?php echo $domain; ?>asset/images/uploads/goldish-1041207655-900x900.jpg"
                                             class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base"
                                             alt=""
                                             srcset="
-                                              asset/images/uploads/goldish-1041207655-900x900.jpg 900w,
-                                              asset/images/uploads/goldish-1041207655-300x300.jpg 300w,
-                                              asset/images/uploads/goldish-1041207655-100x100.jpg 100w,
-                                              asset/images/uploads/goldish-1041207655-600x600.jpg 600w,
-                                              asset/images/uploads/goldish-1041207655-200x200.jpg 200w,
-                                              asset/images/uploads/goldish-1041207655-145x145.jpg 145w,
-                                              asset/images/uploads/goldish-1041207655.jpg         960w
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041207655-900x900.jpg 900w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041207655-300x300.jpg 300w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041207655-100x100.jpg 100w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041207655-600x600.jpg 600w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041207655-200x200.jpg 200w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041207655-145x145.jpg 145w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041207655.jpg         960w
                                             "
                                             sizes="(min-width: 768px) 33vw, 100vw" /><img
                                             loading="lazy"
                                             decoding="async"
                                             width="900"
                                             height="900"
-                                            src="asset/images/uploads/goldish-1042394199-900x900.jpg"
+                                            src="<?php echo $domain; ?>asset/images/uploads/goldish-1042394199-900x900.jpg"
                                             class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover"
                                             alt=""
                                             srcset="
-                                              asset/images/uploads/goldish-1042394199-900x900.jpg 900w,
-                                              asset/images/uploads/goldish-1042394199-300x300.jpg 300w,
-                                              asset/images/uploads/goldish-1042394199-100x100.jpg 100w,
-                                              asset/images/uploads/goldish-1042394199-600x600.jpg 600w,
-                                              asset/images/uploads/goldish-1042394199-200x200.jpg 200w,
-                                              asset/images/uploads/goldish-1042394199-145x145.jpg 145w,
-                                              asset/images/uploads/goldish-1042394199.jpg         960w
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1042394199-900x900.jpg 900w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1042394199-300x300.jpg 300w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1042394199-100x100.jpg 100w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1042394199-600x600.jpg 600w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1042394199-200x200.jpg 200w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1042394199-145x145.jpg 145w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1042394199.jpg         960w
                                             "
                                             sizes="(min-width: 768px) 33vw, 100vw"
                                         /></a>
@@ -1336,7 +1323,7 @@ include 'config.php';
                                         </div>
                                       </div>
                                       <a
-                                        href="https://parkofideas.com/?add-to-cart=130"
+                                        href="<?php echo $domain;?>?add-to-cart=130"
                                         data-quantity="1"
                                         class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart"
                                         data-product_id="130"
@@ -1421,34 +1408,34 @@ include 'config.php';
                                             decoding="async"
                                             width="900"
                                             height="900"
-                                            src="asset/images/uploads/goldish-1041595440-900x900.jpg"
+                                            src="<?php echo $domain; ?>asset/images/uploads/goldish-1041595440-900x900.jpg"
                                             class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base"
                                             alt=""
                                             srcset="
-                                              asset/images/uploads/goldish-1041595440-900x900.jpg 900w,
-                                              asset/images/uploads/goldish-1041595440-300x300.jpg 300w,
-                                              asset/images/uploads/goldish-1041595440-100x100.jpg 100w,
-                                              asset/images/uploads/goldish-1041595440-600x600.jpg 600w,
-                                              asset/images/uploads/goldish-1041595440-200x200.jpg 200w,
-                                              asset/images/uploads/goldish-1041595440-145x145.jpg 145w,
-                                              asset/images/uploads/goldish-1041595440.jpg         960w
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041595440-900x900.jpg 900w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041595440-300x300.jpg 300w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041595440-100x100.jpg 100w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041595440-600x600.jpg 600w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041595440-200x200.jpg 200w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041595440-145x145.jpg 145w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041595440.jpg         960w
                                             "
                                             sizes="(min-width: 768px) 33vw, 100vw" /><img
                                             loading="lazy"
                                             decoding="async"
                                             width="900"
                                             height="900"
-                                            src="asset/images/uploads/goldish-1041775245-900x900.jpg"
+                                            src="<?php echo $domain; ?>asset/images/uploads/goldish-1041775245-900x900.jpg"
                                             class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover"
                                             alt=""
                                             srcset="
-                                              asset/images/uploads/goldish-1041775245-900x900.jpg 900w,
-                                              asset/images/uploads/goldish-1041775245-300x300.jpg 300w,
-                                              asset/images/uploads/goldish-1041775245-100x100.jpg 100w,
-                                              asset/images/uploads/goldish-1041775245-600x600.jpg 600w,
-                                              asset/images/uploads/goldish-1041775245-200x200.jpg 200w,
-                                              asset/images/uploads/goldish-1041775245-145x145.jpg 145w,
-                                              asset/images/uploads/goldish-1041775245.jpg         960w
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041775245-900x900.jpg 900w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041775245-300x300.jpg 300w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041775245-100x100.jpg 100w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041775245-600x600.jpg 600w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041775245-200x200.jpg 200w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041775245-145x145.jpg 145w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041775245.jpg         960w
                                             "
                                             sizes="(min-width: 768px) 33vw, 100vw"
                                         /></a>
@@ -1501,7 +1488,7 @@ include 'config.php';
                                         </div>
                                       </div>
                                       <a
-                                        href="https://parkofideas.com/?add-to-cart=128"
+                                        href="<?php echo $domain;?>?add-to-cart=128"
                                         data-quantity="1"
                                         class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart"
                                         data-product_id="128"
@@ -1588,34 +1575,34 @@ include 'config.php';
                                             decoding="async"
                                             width="900"
                                             height="900"
-                                            src="asset/images/uploads/goldish-1041366681-900x900.jpg"
+                                            src="<?php echo $domain; ?>asset/images/uploads/goldish-1041366681-900x900.jpg"
                                             class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base"
                                             alt=""
                                             srcset="
-                                              asset/images/uploads/goldish-1041366681-900x900.jpg 900w,
-                                              asset/images/uploads/goldish-1041366681-300x300.jpg 300w,
-                                              asset/images/uploads/goldish-1041366681-100x100.jpg 100w,
-                                              asset/images/uploads/goldish-1041366681-600x600.jpg 600w,
-                                              asset/images/uploads/goldish-1041366681-200x200.jpg 200w,
-                                              asset/images/uploads/goldish-1041366681-145x145.jpg 145w,
-                                              asset/images/uploads/goldish-1041366681.jpg         960w
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041366681-900x900.jpg 900w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041366681-300x300.jpg 300w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041366681-100x100.jpg 100w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041366681-600x600.jpg 600w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041366681-200x200.jpg 200w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041366681-145x145.jpg 145w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041366681.jpg         960w
                                             "
                                             sizes="(min-width: 768px) 33vw, 100vw" /><img
                                             loading="lazy"
                                             decoding="async"
                                             width="900"
                                             height="900"
-                                            src="asset/images/uploads/goldish-1041553111-900x900.jpg"
+                                            src="<?php echo $domain; ?>asset/images/uploads/goldish-1041553111-900x900.jpg"
                                             class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover"
                                             alt=""
                                             srcset="
-                                              asset/images/uploads/goldish-1041553111-900x900.jpg 900w,
-                                              asset/images/uploads/goldish-1041553111-300x300.jpg 300w,
-                                              asset/images/uploads/goldish-1041553111-100x100.jpg 100w,
-                                              asset/images/uploads/goldish-1041553111-600x600.jpg 600w,
-                                              asset/images/uploads/goldish-1041553111-200x200.jpg 200w,
-                                              asset/images/uploads/goldish-1041553111-145x145.jpg 145w,
-                                              asset/images/uploads/goldish-1041553111.jpg         960w
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041553111-900x900.jpg 900w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041553111-300x300.jpg 300w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041553111-100x100.jpg 100w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041553111-600x600.jpg 600w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041553111-200x200.jpg 200w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041553111-145x145.jpg 145w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041553111.jpg         960w
                                             "
                                             sizes="(min-width: 768px) 33vw, 100vw"
                                         /></a>
@@ -1747,8 +1734,8 @@ include 'config.php';
                                           class="c-product-grid__color-list c-product-grid__color-list--color"
                                         >
                                           <li
-                                            data-src="asset/images/uploads/goldish-1041299922.jpg"
-                                            data-srcset="asset/images/uploads/goldish-1041299922.jpg 960w, asset/images/uploads/goldish-1041299922-300x300.jpg 300w, asset/images/uploads/goldish-1041299922-900x900.jpg 900w, asset/images/uploads/goldish-1041299922-100x100.jpg 100w, asset/images/uploads/goldish-1041299922-600x600.jpg 600w, asset/images/uploads/goldish-1041299922-200x200.jpg 200w, asset/images/uploads/goldish-1041299922-145x145.jpg 145w"
+                                            data-src="<?php echo $domain; ?>asset/images/uploads/goldish-1041299922.jpg"
+                                            data-srcset="<?php echo $domain; ?>asset/images/uploads/goldish-1041299922.jpg 960w, <?php echo $domain; ?>asset/images/uploads/goldish-1041299922-300x300.jpg 300w, <?php echo $domain; ?>asset/images/uploads/goldish-1041299922-900x900.jpg 900w, <?php echo $domain; ?>asset/images/uploads/goldish-1041299922-100x100.jpg 100w, <?php echo $domain; ?>asset/images/uploads/goldish-1041299922-600x600.jpg 600w, <?php echo $domain; ?>asset/images/uploads/goldish-1041299922-200x200.jpg 200w, <?php echo $domain; ?>asset/images/uploads/goldish-1041299922-145x145.jpg 145w"
                                             class="c-product-grid__color-item c-product-grid__color-item--color c-product-grid__color-item--var js-grid-color-var"
                                             style="background-color: #ffffff"
                                           >
@@ -1758,8 +1745,8 @@ include 'config.php';
                                             >
                                           </li>
                                           <li
-                                            data-src="asset/images/uploads/goldish-1041132777.jpg"
-                                            data-srcset="asset/images/uploads/goldish-1041132777.jpg 960w, asset/images/uploads/goldish-1041132777-300x300.jpg 300w, asset/images/uploads/goldish-1041132777-900x900.jpg 900w, asset/images/uploads/goldish-1041132777-100x100.jpg 100w, asset/images/uploads/goldish-1041132777-600x600.jpg 600w, asset/images/uploads/goldish-1041132777-200x200.jpg 200w, asset/images/uploads/goldish-1041132777-145x145.jpg 145w"
+                                            data-src="<?php echo $domain; ?>asset/images/uploads/goldish-1041132777.jpg"
+                                            data-srcset="<?php echo $domain; ?>asset/images/uploads/goldish-1041132777.jpg 960w, <?php echo $domain; ?>asset/images/uploads/goldish-1041132777-300x300.jpg 300w, <?php echo $domain; ?>asset/images/uploads/goldish-1041132777-900x900.jpg 900w, <?php echo $domain; ?>asset/images/uploads/goldish-1041132777-100x100.jpg 100w, <?php echo $domain; ?>asset/images/uploads/goldish-1041132777-600x600.jpg 600w, <?php echo $domain; ?>asset/images/uploads/goldish-1041132777-200x200.jpg 200w, <?php echo $domain; ?>asset/images/uploads/goldish-1041132777-145x145.jpg 145w"
                                             class="c-product-grid__color-item c-product-grid__color-item--color c-product-grid__color-item--var js-grid-color-var"
                                             style="background-color: #e53939"
                                           >
@@ -1769,8 +1756,8 @@ include 'config.php';
                                             >
                                           </li>
                                           <li
-                                            data-src="asset/images/uploads/goldish-1041366681.jpg"
-                                            data-srcset="asset/images/uploads/goldish-1041366681.jpg 960w, asset/images/uploads/goldish-1041366681-300x300.jpg 300w, asset/images/uploads/goldish-1041366681-900x900.jpg 900w, asset/images/uploads/goldish-1041366681-100x100.jpg 100w, asset/images/uploads/goldish-1041366681-600x600.jpg 600w, asset/images/uploads/goldish-1041366681-200x200.jpg 200w, asset/images/uploads/goldish-1041366681-145x145.jpg 145w"
+                                            data-src="<?php echo $domain; ?>asset/images/uploads/goldish-1041366681.jpg"
+                                            data-srcset="<?php echo $domain; ?>asset/images/uploads/goldish-1041366681.jpg 960w, <?php echo $domain; ?>asset/images/uploads/goldish-1041366681-300x300.jpg 300w, <?php echo $domain; ?>asset/images/uploads/goldish-1041366681-900x900.jpg 900w, <?php echo $domain; ?>asset/images/uploads/goldish-1041366681-100x100.jpg 100w, <?php echo $domain; ?>asset/images/uploads/goldish-1041366681-600x600.jpg 600w, <?php echo $domain; ?>asset/images/uploads/goldish-1041366681-200x200.jpg 200w, <?php echo $domain; ?>asset/images/uploads/goldish-1041366681-145x145.jpg 145w"
                                             class="c-product-grid__color-item c-product-grid__color-item--color c-product-grid__color-item--var js-grid-color-var"
                                             style="background-color: #31c47a"
                                           >
@@ -1799,34 +1786,34 @@ include 'config.php';
                                             decoding="async"
                                             width="900"
                                             height="900"
-                                            src="asset/images/uploads/goldish-1041747986-900x900.jpg"
+                                            src="<?php echo $domain; ?>asset/images/uploads/goldish-1041747986-900x900.jpg"
                                             class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base"
                                             alt=""
                                             srcset="
-                                              asset/images/uploads/goldish-1041747986-900x900.jpg 900w,
-                                              asset/images/uploads/goldish-1041747986-300x300.jpg 300w,
-                                              asset/images/uploads/goldish-1041747986-100x100.jpg 100w,
-                                              asset/images/uploads/goldish-1041747986-600x600.jpg 600w,
-                                              asset/images/uploads/goldish-1041747986-200x200.jpg 200w,
-                                              asset/images/uploads/goldish-1041747986-145x145.jpg 145w,
-                                              asset/images/uploads/goldish-1041747986.jpg         960w
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041747986-900x900.jpg 900w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041747986-300x300.jpg 300w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041747986-100x100.jpg 100w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041747986-600x600.jpg 600w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041747986-200x200.jpg 200w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041747986-145x145.jpg 145w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041747986.jpg         960w
                                             "
                                             sizes="(min-width: 768px) 33vw, 100vw" /><img
                                             loading="lazy"
                                             decoding="async"
                                             width="900"
                                             height="900"
-                                            src="asset/images/uploads/goldish-1041822382-900x900.jpg"
+                                            src="<?php echo $domain; ?>asset/images/uploads/goldish-1041822382-900x900.jpg"
                                             class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover"
                                             alt=""
                                             srcset="
-                                              asset/images/uploads/goldish-1041822382-900x900.jpg 900w,
-                                              asset/images/uploads/goldish-1041822382-300x300.jpg 300w,
-                                              asset/images/uploads/goldish-1041822382-100x100.jpg 100w,
-                                              asset/images/uploads/goldish-1041822382-600x600.jpg 600w,
-                                              asset/images/uploads/goldish-1041822382-200x200.jpg 200w,
-                                              asset/images/uploads/goldish-1041822382-145x145.jpg 145w,
-                                              asset/images/uploads/goldish-1041822382.jpg         960w
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041822382-900x900.jpg 900w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041822382-300x300.jpg 300w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041822382-100x100.jpg 100w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041822382-600x600.jpg 600w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041822382-200x200.jpg 200w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041822382-145x145.jpg 145w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041822382.jpg         960w
                                             "
                                             sizes="(min-width: 768px) 33vw, 100vw"
                                         /></a>
@@ -1875,7 +1862,7 @@ include 'config.php';
                                         </div>
                                       </div>
                                       <a
-                                        href="https://parkofideas.com/?add-to-cart=140"
+                                        href="<?php echo $domain;?>?add-to-cart=140"
                                         data-quantity="1"
                                         class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart"
                                         data-product_id="140"
@@ -1965,34 +1952,34 @@ include 'config.php';
                                             decoding="async"
                                             width="900"
                                             height="900"
-                                            src="asset/images/uploads/goldish-1041097481-900x900.jpg"
+                                            src="<?php echo $domain; ?>asset/images/uploads/goldish-1041097481-900x900.jpg"
                                             class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base"
                                             alt=""
                                             srcset="
-                                              asset/images/uploads/goldish-1041097481-900x900.jpg 900w,
-                                              asset/images/uploads/goldish-1041097481-300x300.jpg 300w,
-                                              asset/images/uploads/goldish-1041097481-100x100.jpg 100w,
-                                              asset/images/uploads/goldish-1041097481-600x600.jpg 600w,
-                                              asset/images/uploads/goldish-1041097481-200x200.jpg 200w,
-                                              asset/images/uploads/goldish-1041097481-145x145.jpg 145w,
-                                              asset/images/uploads/goldish-1041097481.jpg         960w
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041097481-900x900.jpg 900w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041097481-300x300.jpg 300w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041097481-100x100.jpg 100w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041097481-600x600.jpg 600w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041097481-200x200.jpg 200w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041097481-145x145.jpg 145w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041097481.jpg         960w
                                             "
                                             sizes="(min-width: 768px) 33vw, 100vw" /><img
                                             loading="lazy"
                                             decoding="async"
                                             width="900"
                                             height="900"
-                                            src="asset/images/uploads/goldish-1041300830-900x900.jpg"
+                                            src="<?php echo $domain; ?>asset/images/uploads/goldish-1041300830-900x900.jpg"
                                             class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover"
                                             alt=""
                                             srcset="
-                                              asset/images/uploads/goldish-1041300830-900x900.jpg 900w,
-                                              asset/images/uploads/goldish-1041300830-300x300.jpg 300w,
-                                              asset/images/uploads/goldish-1041300830-100x100.jpg 100w,
-                                              asset/images/uploads/goldish-1041300830-600x600.jpg 600w,
-                                              asset/images/uploads/goldish-1041300830-200x200.jpg 200w,
-                                              asset/images/uploads/goldish-1041300830-145x145.jpg 145w,
-                                              asset/images/uploads/goldish-1041300830.jpg         960w
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041300830-900x900.jpg 900w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041300830-300x300.jpg 300w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041300830-100x100.jpg 100w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041300830-600x600.jpg 600w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041300830-200x200.jpg 200w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041300830-145x145.jpg 145w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041300830.jpg         960w
                                             "
                                             sizes="(min-width: 768px) 33vw, 100vw"
                                         /></a>
@@ -2041,7 +2028,7 @@ include 'config.php';
                                         </div>
                                       </div>
                                       <a
-                                        href="https://parkofideas.com/?add-to-cart=127"
+                                        href="<?php echo $domain;?>?add-to-cart=127"
                                         data-quantity="1"
                                         class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart"
                                         data-product_id="127"
@@ -2125,34 +2112,34 @@ include 'config.php';
                                             decoding="async"
                                             width="900"
                                             height="900"
-                                            src="asset/images/uploads/goldish-1041910511-900x900.jpg"
+                                            src="<?php echo $domain; ?>asset/images/uploads/goldish-1041910511-900x900.jpg"
                                             class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base"
                                             alt=""
                                             srcset="
-                                              asset/images/uploads/goldish-1041910511-900x900.jpg 900w,
-                                              asset/images/uploads/goldish-1041910511-300x300.jpg 300w,
-                                              asset/images/uploads/goldish-1041910511-100x100.jpg 100w,
-                                              asset/images/uploads/goldish-1041910511-600x600.jpg 600w,
-                                              asset/images/uploads/goldish-1041910511-200x200.jpg 200w,
-                                              asset/images/uploads/goldish-1041910511-145x145.jpg 145w,
-                                              asset/images/uploads/goldish-1041910511.jpg         960w
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041910511-900x900.jpg 900w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041910511-300x300.jpg 300w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041910511-100x100.jpg 100w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041910511-600x600.jpg 600w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041910511-200x200.jpg 200w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041910511-145x145.jpg 145w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041910511.jpg         960w
                                             "
                                             sizes="(min-width: 768px) 33vw, 100vw" /><img
                                             loading="lazy"
                                             decoding="async"
                                             width="900"
                                             height="900"
-                                            src="asset/images/uploads/goldish-1041993166-900x900.jpg"
+                                            src="<?php echo $domain; ?>asset/images/uploads/goldish-1041993166-900x900.jpg"
                                             class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--hover"
                                             alt=""
                                             srcset="
-                                              asset/images/uploads/goldish-1041993166-900x900.jpg 900w,
-                                              asset/images/uploads/goldish-1041993166-300x300.jpg 300w,
-                                              asset/images/uploads/goldish-1041993166-100x100.jpg 100w,
-                                              asset/images/uploads/goldish-1041993166-600x600.jpg 600w,
-                                              asset/images/uploads/goldish-1041993166-200x200.jpg 200w,
-                                              asset/images/uploads/goldish-1041993166-145x145.jpg 145w,
-                                              asset/images/uploads/goldish-1041993166.jpg         960w
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041993166-900x900.jpg 900w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041993166-300x300.jpg 300w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041993166-100x100.jpg 100w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041993166-600x600.jpg 600w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041993166-200x200.jpg 200w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041993166-145x145.jpg 145w,
+                                              <?php echo $domain; ?>asset/images/uploads/goldish-1041993166.jpg         960w
                                             "
                                             sizes="(min-width: 768px) 33vw, 100vw"
                                         /></a>
@@ -2201,7 +2188,7 @@ include 'config.php';
                                         </div>
                                       </div>
                                       <a
-                                        href="https://parkofideas.com/goldish/demo/shop/necklace-stacking-set/"
+                                        href="<?php echo $domain;?>goldish/demo/shop/necklace-stacking-set/"
                                         data-quantity="1"
                                         class="h-cb c-product-grid__atc button product_type_grouped"
                                         data-product_id="126"
@@ -2224,13 +2211,13 @@ include 'config.php';
                                           >
                                             <a
                                               class="c-product-grid__category-item"
-                                              href="https://parkofideas.com/goldish/demo/product-category/sets/"
+                                              href="<?php echo $domain;?>goldish/demo/product-category/sets/"
                                               title="View all posts in Sets"
                                               >Sets</a
                                             >
                                           </div>
                                           <a
-                                            href="https://parkofideas.com/goldish/demo/shop/necklace-stacking-set/"
+                                            href="<?php echo $domain;?>goldish/demo/shop/necklace-stacking-set/"
                                             class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                             ><h2
                                               class="woocommerce-loop-product__title"
@@ -2238,7 +2225,7 @@ include 'config.php';
                                               Necklace Stacking Set
                                             </h2></a
                                           ><a
-                                            href="https://parkofideas.com/goldish/demo/shop/necklace-stacking-set/"
+                                            href="<?php echo $domain;?>goldish/demo/shop/necklace-stacking-set/"
                                             class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                           >
                                             <div
@@ -2319,7 +2306,7 @@ include 'config.php';
                         <div class="c-product-grid__list c-product-grid__list--4-per-row c-product-grid__list--fullwidth c-product-grid__list--1-per-row-mobile c-product-grid__list--below c-product-grid__list--below-mobile" data-count="8" data-layout="4-per-row" data-layout-width="fullwidth" data-layout-mobile="1-per-row-mobile">
                           <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-135 status-publish first instock product_cat-brooches product_cat-other product_tag-key product_tag-other has-post-thumbnail shipping-taxable purchasable product-type-simple">
                             <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
-                              <a href="https://parkofideas.com/goldish/demo/shop/fleur-de-lis-key-brooch/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041903639-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
+                              <a href="<?php echo $domain;?>goldish/demo/shop/fleur-de-lis-key-brooch/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041903639-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
                                     /goldish-1041903639-900x900.jpg 900w,
                                     /goldish-1041903639-300x300.jpg 300w,
                                     /goldish-1041903639-100x100.jpg 100w,
@@ -2349,15 +2336,15 @@ include 'config.php';
                                 </button>
                               </div>
                             </div>
-                            <a href="https://parkofideas.com/?add-to-cart=135" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="135" data-product_sku="6565422348" aria-label="Add to cart: “Fleur de Lis Key Brooch”" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
+                            <a href="<?php echo $domain;?>?add-to-cart=135" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="135" data-product_sku="6565422348" aria-label="Add to cart: “Fleur de Lis Key Brooch”" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
                             <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                               <div class="c-product-grid__title-wrap">
                                 <div class="c-product-grid__category-list">
-                                  <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/other/brooches/" title="View all posts in Brooches">Brooches</a><span class="h-bullet"></span><a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/other/" title="View all posts in Other">Other</a>
+                                  <a class="c-product-grid__category-item" href="<?php echo $domain;?>goldish/demo/product-category/other/brooches/" title="View all posts in Brooches">Brooches</a><span class="h-bullet"></span><a class="c-product-grid__category-item" href="<?php echo $domain;?>goldish/demo/product-category/other/" title="View all posts in Other">Other</a>
                                 </div>
-                                <a href="https://parkofideas.com/goldish/demo/shop/fleur-de-lis-key-brooch/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
+                                <a href="<?php echo $domain;?>goldish/demo/shop/fleur-de-lis-key-brooch/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
                                     Fleur de Lis Key Brooch
-                                  </h2></a><a href="https://parkofideas.com/goldish/demo/shop/fleur-de-lis-key-brooch/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                  </h2></a><a href="<?php echo $domain;?>goldish/demo/shop/fleur-de-lis-key-brooch/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                   <div class="c-product-grid__short-desc">
                                     <p>
                                       Brilliant beacons of optimism and hope,
@@ -2375,7 +2362,7 @@ include 'config.php';
                           </div>
                           <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-131 status-publish instock product_cat-brooches product_cat-other product_tag-brooch product_tag-other has-post-thumbnail featured shipping-taxable product-type-external">
                             <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
-                              <a href="https://parkofideas.com/goldish/demo/shop/starfish-brooch/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041826433-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
+                              <a href="<?php echo $domain;?>goldish/demo/shop/starfish-brooch/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041826433-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
                                     /goldish-1041826433-900x900.jpg 900w,
                                     /goldish-1041826433-300x300.jpg 300w,
                                     /goldish-1041826433-100x100.jpg 100w,
@@ -2405,15 +2392,15 @@ include 'config.php';
                                 </button>
                               </div>
                             </div>
-                            <a href="https://parkofideas.com/#" data-quantity="1" class="h-cb c-product-grid__atc button product_type_external" data-product_id="131" data-product_sku="465653211389" aria-label="Buy on Amazon" aria-describedby="" rel="nofollow"><span class="c-product-grid__atc-text">Buy on Amazon</span><i class="ip-button-more c-product-grid__atc-icon"></i></a>
+                            <a href="<?php echo $domain;?>#" data-quantity="1" class="h-cb c-product-grid__atc button product_type_external" data-product_id="131" data-product_sku="465653211389" aria-label="Buy on Amazon" aria-describedby="" rel="nofollow"><span class="c-product-grid__atc-text">Buy on Amazon</span><i class="ip-button-more c-product-grid__atc-icon"></i></a>
                             <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                               <div class="c-product-grid__title-wrap">
                                 <div class="c-product-grid__category-list">
-                                  <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/other/brooches/" title="View all posts in Brooches">Brooches</a><span class="h-bullet"></span><a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/other/" title="View all posts in Other">Other</a>
+                                  <a class="c-product-grid__category-item" href="<?php echo $domain;?>goldish/demo/product-category/other/brooches/" title="View all posts in Brooches">Brooches</a><span class="h-bullet"></span><a class="c-product-grid__category-item" href="<?php echo $domain;?>goldish/demo/product-category/other/" title="View all posts in Other">Other</a>
                                 </div>
-                                <a href="https://parkofideas.com/goldish/demo/shop/starfish-brooch/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
+                                <a href="<?php echo $domain;?>goldish/demo/shop/starfish-brooch/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
                                     Starfish Brooch
-                                  </h2></a><a href="https://parkofideas.com/goldish/demo/shop/starfish-brooch/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                  </h2></a><a href="<?php echo $domain;?>goldish/demo/shop/starfish-brooch/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                   <div class="c-product-grid__short-desc">
                                     <p>
                                       The starfish evokes life beneath the waves
@@ -2431,7 +2418,7 @@ include 'config.php';
                           </div>
                           <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-130 status-publish instock product_cat-sets product_tag-gold product_tag-set has-post-thumbnail shipping-taxable purchasable product-type-simple">
                             <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
-                              <a href="https://parkofideas.com/goldish/demo/shop/layer-cake-necklace-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041207655-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
+                              <a href="<?php echo $domain;?>goldish/demo/shop/layer-cake-necklace-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041207655-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
                                     /goldish-1041207655-900x900.jpg 900w,
                                     /goldish-1041207655-300x300.jpg 300w,
                                     /goldish-1041207655-100x100.jpg 100w,
@@ -2461,15 +2448,15 @@ include 'config.php';
                                 </button>
                               </div>
                             </div>
-                            <a href="https://parkofideas.com/?add-to-cart=130" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="130" data-product_sku="4564687923" aria-label="Add to cart: “Layer Cake Necklace Set”" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
+                            <a href="<?php echo $domain;?>?add-to-cart=130" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="130" data-product_sku="4564687923" aria-label="Add to cart: “Layer Cake Necklace Set”" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
                             <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                               <div class="c-product-grid__title-wrap">
                                 <div class="c-product-grid__category-list">
-                                  <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/sets/" title="View all posts in Sets">Sets</a>
+                                  <a class="c-product-grid__category-item" href="<?php echo $domain;?>goldish/demo/product-category/sets/" title="View all posts in Sets">Sets</a>
                                 </div>
-                                <a href="https://parkofideas.com/goldish/demo/shop/layer-cake-necklace-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
+                                <a href="<?php echo $domain;?>goldish/demo/shop/layer-cake-necklace-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
                                     Layer Cake Necklace Set
-                                  </h2></a><a href="https://parkofideas.com/goldish/demo/shop/layer-cake-necklace-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                  </h2></a><a href="<?php echo $domain;?>goldish/demo/shop/layer-cake-necklace-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                   <div class="c-product-grid__short-desc">
                                     <p>
                                       Fine jewelry deserves fair prices. And so
@@ -2487,7 +2474,7 @@ include 'config.php';
                           </div>
                           <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-128 status-publish last instock product_cat-sets product_tag-gold product_tag-set has-post-thumbnail shipping-taxable purchasable product-type-simple">
                             <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
-                              <a href="https://parkofideas.com/goldish/demo/shop/the-texture-ring-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041595440-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
+                              <a href="<?php echo $domain;?>goldish/demo/shop/the-texture-ring-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041595440-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
                                     /goldish-1041595440-900x900.jpg 900w,
                                     /goldish-1041595440-300x300.jpg 300w,
                                     /goldish-1041595440-100x100.jpg 100w,
@@ -2517,15 +2504,15 @@ include 'config.php';
                                 </button>
                               </div>
                             </div>
-                            <a href="https://parkofideas.com/?add-to-cart=128" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="128" data-product_sku="8486543322" aria-label="Add to cart: “The Texture Ring Set”" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
+                            <a href="<?php echo $domain;?>?add-to-cart=128" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="128" data-product_sku="8486543322" aria-label="Add to cart: “The Texture Ring Set”" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
                             <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                               <div class="c-product-grid__title-wrap">
                                 <div class="c-product-grid__category-list">
-                                  <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/sets/" title="View all posts in Sets">Sets</a>
+                                  <a class="c-product-grid__category-item" href="<?php echo $domain;?>goldish/demo/product-category/sets/" title="View all posts in Sets">Sets</a>
                                 </div>
-                                <a href="https://parkofideas.com/goldish/demo/shop/the-texture-ring-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
+                                <a href="<?php echo $domain;?>goldish/demo/shop/the-texture-ring-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
                                     The Texture Ring Set
-                                  </h2></a><a href="https://parkofideas.com/goldish/demo/shop/the-texture-ring-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                  </h2></a><a href="<?php echo $domain;?>goldish/demo/shop/the-texture-ring-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                   <div class="c-product-grid__short-desc">
                                     <p>
                                       You play with patterns, now it’s time to
@@ -2545,7 +2532,7 @@ include 'config.php';
                           </div>
                           <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-125 status-publish first instock product_cat-necklaces product_tag-emerald product_tag-gold product_tag-necklace has-post-thumbnail shipping-taxable purchasable product-type-variable has-default-attributes">
                             <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
-                              <a href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041366681-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
+                              <a href="<?php echo $domain;?>goldish/demo/shop/color-by-the-yard-emerald-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041366681-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
                                     /goldish-1041366681-900x900.jpg 900w,
                                     /goldish-1041366681-300x300.jpg 300w,
                                     /goldish-1041366681-100x100.jpg 100w,
@@ -2575,15 +2562,15 @@ include 'config.php';
                                 </button>
                               </div>
                             </div>
-                            <a href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/" data-quantity="1" class="h-cb c-product-grid__atc button product_type_variable add_to_cart_button" data-product_id="125" data-product_sku="981563121" aria-label="Select options for “Color by the Yard Emerald Pendant”" aria-describedby="This product has multiple variants. The options may be chosen on the product page" rel="nofollow"><span class="c-product-grid__atc-text">Select options</span><i class="ip-button-more c-product-grid__atc-icon"></i></a>
+                            <a href="<?php echo $domain;?>goldish/demo/shop/color-by-the-yard-emerald-pendant/" data-quantity="1" class="h-cb c-product-grid__atc button product_type_variable add_to_cart_button" data-product_id="125" data-product_sku="981563121" aria-label="Select options for “Color by the Yard Emerald Pendant”" aria-describedby="This product has multiple variants. The options may be chosen on the product page" rel="nofollow"><span class="c-product-grid__atc-text">Select options</span><i class="ip-button-more c-product-grid__atc-icon"></i></a>
                             <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                               <div class="c-product-grid__title-wrap">
                                 <div class="c-product-grid__category-list">
-                                  <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/necklaces/" title="View all posts in Necklaces">Necklaces</a>
+                                  <a class="c-product-grid__category-item" href="<?php echo $domain;?>goldish/demo/product-category/necklaces/" title="View all posts in Necklaces">Necklaces</a>
                                 </div>
-                                <a href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
+                                <a href="<?php echo $domain;?>goldish/demo/shop/color-by-the-yard-emerald-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
                                     Color by the Yard Emerald Pendant
-                                  </h2></a><a href="https://parkofideas.com/goldish/demo/shop/color-by-the-yard-emerald-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                  </h2></a><a href="<?php echo $domain;?>goldish/demo/shop/color-by-the-yard-emerald-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                   <div class="c-product-grid__short-desc">
                                     <p>
                                       Style this adjustable chain with other
@@ -2604,7 +2591,7 @@ include 'config.php';
                           </div>
                           <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-140 status-publish instock product_cat-locket product_cat-other product_tag-gold product_tag-heart has-post-thumbnail shipping-taxable purchasable product-type-simple">
                             <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
-                              <a href="https://parkofideas.com/goldish/demo/shop/heart-locket/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041747986-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
+                              <a href="<?php echo $domain;?>goldish/demo/shop/heart-locket/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041747986-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
                                     /goldish-1041747986-900x900.jpg 900w,
                                     /goldish-1041747986-300x300.jpg 300w,
                                     /goldish-1041747986-100x100.jpg 100w,
@@ -2632,15 +2619,15 @@ include 'config.php';
                                 </button>
                               </div>
                             </div>
-                            <a href="https://parkofideas.com/?add-to-cart=140" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="140" data-product_sku="6545648998" aria-label="Add to cart: “Heart Locket”" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
+                            <a href="<?php echo $domain;?>?add-to-cart=140" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="140" data-product_sku="6545648998" aria-label="Add to cart: “Heart Locket”" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
                             <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                               <div class="c-product-grid__title-wrap">
                                 <div class="c-product-grid__category-list">
-                                  <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/other/locket/" title="View all posts in Locket">Locket</a><span class="h-bullet"></span><a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/other/" title="View all posts in Other">Other</a>
+                                  <a class="c-product-grid__category-item" href="<?php echo $domain;?>goldish/demo/product-category/other/locket/" title="View all posts in Locket">Locket</a><span class="h-bullet"></span><a class="c-product-grid__category-item" href="<?php echo $domain;?>goldish/demo/product-category/other/" title="View all posts in Other">Other</a>
                                 </div>
-                                <a href="https://parkofideas.com/goldish/demo/shop/heart-locket/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
+                                <a href="<?php echo $domain;?>goldish/demo/shop/heart-locket/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
                                     Heart Locket
-                                  </h2></a><a href="https://parkofideas.com/goldish/demo/shop/heart-locket/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                  </h2></a><a href="<?php echo $domain;?>goldish/demo/shop/heart-locket/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                   <div class="c-product-grid__short-desc">
                                     <p>
                                       This Tiffany locket will become your new
@@ -2657,7 +2644,7 @@ include 'config.php';
                           </div>
                           <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-127 status-publish instock product_cat-sets product_tag-gold product_tag-set has-post-thumbnail shipping-taxable purchasable product-type-simple">
                             <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
-                              <a href="https://parkofideas.com/goldish/demo/shop/flower-earring-stacking-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041097481-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
+                              <a href="<?php echo $domain;?>goldish/demo/shop/flower-earring-stacking-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041097481-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
                                     /goldish-1041097481-900x900.jpg 900w,
                                     /goldish-1041097481-300x300.jpg 300w,
                                     /goldish-1041097481-100x100.jpg 100w,
@@ -2685,15 +2672,15 @@ include 'config.php';
                                 </button>
                               </div>
                             </div>
-                            <a href="https://parkofideas.com/?add-to-cart=127" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="127" data-product_sku="98454654" aria-label="Add to cart: “Flower Earring Stacking Set”" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
+                            <a href="<?php echo $domain;?>?add-to-cart=127" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="127" data-product_sku="98454654" aria-label="Add to cart: “Flower Earring Stacking Set”" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
                             <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                               <div class="c-product-grid__title-wrap">
                                 <div class="c-product-grid__category-list">
-                                  <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/sets/" title="View all posts in Sets">Sets</a>
+                                  <a class="c-product-grid__category-item" href="<?php echo $domain;?>goldish/demo/product-category/sets/" title="View all posts in Sets">Sets</a>
                                 </div>
-                                <a href="https://parkofideas.com/goldish/demo/shop/flower-earring-stacking-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
+                                <a href="<?php echo $domain;?>goldish/demo/shop/flower-earring-stacking-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
                                     Flower Earring Stacking Set
-                                  </h2></a><a href="https://parkofideas.com/goldish/demo/shop/flower-earring-stacking-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                  </h2></a><a href="<?php echo $domain;?>goldish/demo/shop/flower-earring-stacking-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                   <div class="c-product-grid__short-desc">
                                     <p>
                                       Add a bit of edge to your flowerbeds with
@@ -2711,7 +2698,7 @@ include 'config.php';
                           </div>
                           <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-126 status-publish last instock product_cat-sets product_tag-gold product_tag-set has-post-thumbnail shipping-taxable product-type-grouped">
                             <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
-                              <a href="https://parkofideas.com/goldish/demo/shop/necklace-stacking-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041910511-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
+                              <a href="<?php echo $domain;?>goldish/demo/shop/necklace-stacking-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="900" height="900" src="/goldish-1041910511-900x900.jpg" class="c-product-grid__thumb c-product-grid__thumb--cover c-product-grid__thumb--base" alt="" srcset="
                                     /goldish-1041910511-900x900.jpg 900w,
                                     /goldish-1041910511-300x300.jpg 300w,
                                     /goldish-1041910511-100x100.jpg 100w,
@@ -2739,15 +2726,15 @@ include 'config.php';
                                 </button>
                               </div>
                             </div>
-                            <a href="https://parkofideas.com/goldish/demo/shop/necklace-stacking-set/" data-quantity="1" class="h-cb c-product-grid__atc button product_type_grouped" data-product_id="126" data-product_sku="89654538646" aria-label="View products in the “Necklace Stacking Set” group" aria-describedby="" rel="nofollow"><span class="c-product-grid__atc-text">View products</span><i class="ip-button-more c-product-grid__atc-icon"></i></a>
+                            <a href="<?php echo $domain;?>goldish/demo/shop/necklace-stacking-set/" data-quantity="1" class="h-cb c-product-grid__atc button product_type_grouped" data-product_id="126" data-product_sku="89654538646" aria-label="View products in the “Necklace Stacking Set” group" aria-describedby="" rel="nofollow"><span class="c-product-grid__atc-text">View products</span><i class="ip-button-more c-product-grid__atc-icon"></i></a>
                             <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                               <div class="c-product-grid__title-wrap">
                                 <div class="c-product-grid__category-list">
-                                  <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/sets/" title="View all posts in Sets">Sets</a>
+                                  <a class="c-product-grid__category-item" href="<?php echo $domain;?>goldish/demo/product-category/sets/" title="View all posts in Sets">Sets</a>
                                 </div>
-                                <a href="https://parkofideas.com/goldish/demo/shop/necklace-stacking-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
+                                <a href="<?php echo $domain;?>goldish/demo/shop/necklace-stacking-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">
                                     Necklace Stacking Set
-                                  </h2></a><a href="https://parkofideas.com/goldish/demo/shop/necklace-stacking-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                  </h2></a><a href="<?php echo $domain;?>goldish/demo/shop/necklace-stacking-set/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                   <div class="c-product-grid__short-desc">
                                     <p>
                                       A pure gold bar associated with the
@@ -2778,7 +2765,7 @@ include 'config.php';
     </div>
   </div>
   <div><div class="c-ip-button__wrap" style="text-align-last: center;margin:20px;">
-                      <a href="https://parkofideas.com/goldish/demo/shop/" class="c-button c-ip-button c-button--default" role="button">
+                      <a href="<?php echo $domain;?>shop/" class="c-button c-ip-button c-button--default" role="button">
                         <span class="c-ip-button__text">Load More</span>
                       </a>
                     </div></div>
@@ -2816,7 +2803,7 @@ include 'config.php';
               data-element_type="column"
               data-settings='{"background_background":"classic"}'
             >
-              <div class="elementor-widget-wrap elementor-element-populated" style="background-image: url('asset/images/grid_collage/1.jpg');">
+              <div class="elementor-widget-wrap elementor-element-populated" style="background-image: url('<?php echo $domain; ?>asset/images/grid_collage/1.jpg');">
                 <div class="elementor-background-overlay"></div>
                 <div
                   class="elementor-element elementor-element-5546447 elementor-widget elementor-widget-ideapark-heading"
@@ -2890,7 +2877,7 @@ include 'config.php';
                   <div class="elementor-widget-container">
                     <div class="c-ip-button__wrap">
                       <a
-                        href="https://parkofideas.com/goldish/demo/shop/"
+                        href="<?php echo $domain;?>shop/products/<?php echo urlencode("wood jewellery");?>/"
                         class="c-button c-ip-button c-button--default"
                         role="button"
                       >
@@ -2923,7 +2910,7 @@ include 'config.php';
               data-element_type="column"
               data-settings='{"background_background":"classic"}'
             >
-              <div class="elementor-widget-wrap elementor-element-populated" style="background-image: url('asset/images/grid_collage/2.jpg');">
+              <div class="elementor-widget-wrap elementor-element-populated" style="background-image: url('<?php echo $domain; ?>asset/images/grid_collage/2.jpg');">
                 <div class="elementor-background-overlay"></div>
                 <div
                   class="elementor-element elementor-element-d666c3f elementor-widget elementor-widget-ideapark-heading"
@@ -2962,7 +2949,7 @@ include 'config.php';
                   <div class="elementor-widget-container">
                     <div class="c-ip-button__wrap">
                       <a
-                        href="https://parkofideas.com/goldish/demo/shop/"
+                        href="#"
                         class="c-button c-ip-button c-button--default"
                         role="button"
                       >
@@ -2987,7 +2974,7 @@ include 'config.php';
               data-element_type="column"
               data-settings='{"background_background":"classic"}'
             >
-              <div class="elementor-widget-wrap elementor-element-populated" style="background-image: url('asset/images/grid_collage/3.jpg');">
+              <div class="elementor-widget-wrap elementor-element-populated" style="background-image: url('<?php echo $domain; ?>asset/images/grid_collage/3.jpg');">
                 <div class="elementor-background-overlay"></div>
                 <div
                   class="elementor-element elementor-element-7faa157 elementor-widget elementor-widget-ideapark-heading"
@@ -3026,7 +3013,7 @@ include 'config.php';
                   <div class="elementor-widget-container">
                     <div class="c-ip-button__wrap">
                       <a
-                        href="https://parkofideas.com/goldish/demo/shop/"
+                        href="<?php echo $domain;?>shop/products/watches/?g=m"
                         class="c-button c-ip-button c-button--default"
                         role="button"
                       >
@@ -3043,7 +3030,7 @@ include 'config.php';
               data-element_type="column"
               data-settings='{"background_background":"classic"}'
             >
-              <div class="elementor-widget-wrap elementor-element-populated" style="background-image: url('asset/images/grid_collage/4.jpg');">
+              <div class="elementor-widget-wrap elementor-element-populated" style="background-image: url('<?php echo $domain; ?>asset/images/grid_collage/4.jpg');">
                 <div class="elementor-background-overlay"></div>
                 <div
                   class="elementor-element elementor-element-98404a3 elementor-widget elementor-widget-ideapark-heading"
@@ -3082,7 +3069,7 @@ include 'config.php';
                   <div class="elementor-widget-container">
                     <div class="c-ip-button__wrap">
                       <a
-                        href="https://parkofideas.com/goldish/demo/shop/"
+                        href="<?php echo $domain;?>shop/products/wedding/"
                         class="c-button c-ip-button c-button--default"
                         role="button"
                       >
@@ -3158,12 +3145,12 @@ include 'config.php';
                                   class="c-ip-reviews__image"
                                   width="100"
                                   height="100"
-                                  src="asset/images/testimonial/1.jpg"
+                                  src="<?php echo $domain; ?>asset/images/testimonial/1.jpg"
                                   srcset="
-                                    asset/images/testimonial/1.jpg 100w,
-                                    asset/images/testimonial/1.jpg 200w,
-                                    asset/images/testimonial/1.jpg 145w,
-                                    asset/images/testimonial/1.jpg  220w
+                                    <?php echo $domain; ?>asset/images/testimonial/1.jpg 100w,
+                                    <?php echo $domain; ?>asset/images/testimonial/1.jpg 200w,
+                                    <?php echo $domain; ?>asset/images/testimonial/1.jpg 145w,
+                                    <?php echo $domain; ?>asset/images/testimonial/1.jpg  220w
                                   "
                                   sizes="110px"
                                   alt="ava-1@2x"
@@ -3194,12 +3181,12 @@ include 'config.php';
                                   class="c-ip-reviews__image"
                                   width="100"
                                   height="100"
-                                  src="asset/images/testimonial/5.jpg"
+                                  src="<?php echo $domain; ?>asset/images/testimonial/5.jpg"
                                   srcset="
-                                    asset/images/testimonial/5.jpg 100w,
-                                    asset/images/testimonial/5.jpg 200w,
-                                    asset/images/testimonial/5.jpg 145w,
-                                    asset/images/testimonial/5.jpg  220w
+                                    <?php echo $domain; ?>asset/images/testimonial/5.jpg 100w,
+                                    <?php echo $domain; ?>asset/images/testimonial/5.jpg 200w,
+                                    <?php echo $domain; ?>asset/images/testimonial/5.jpg 145w,
+                                    <?php echo $domain; ?>asset/images/testimonial/5.jpg  220w
                                   "
                                   sizes="110px"
                                   alt="ava-1@2x"
@@ -3230,12 +3217,12 @@ include 'config.php';
                                   class="c-ip-reviews__image"
                                   width="100"
                                   height="100"
-                                  src="asset/images/testimonial/2.jpg"
+                                  src="<?php echo $domain; ?>asset/images/testimonial/2.jpg"
                                   srcset="
-                                    asset/images/testimonial/2.jpg 100w,
-                                    asset/images/testimonial/2.jpg 200w,
-                                    asset/images/testimonial/2.jpg 145w,
-                                    asset/images/testimonial/2.jpg 220w
+                                    <?php echo $domain; ?>asset/images/testimonial/2.jpg 100w,
+                                    <?php echo $domain; ?>asset/images/testimonial/2.jpg 200w,
+                                    <?php echo $domain; ?>asset/images/testimonial/2.jpg 145w,
+                                    <?php echo $domain; ?>asset/images/testimonial/2.jpg 220w
                                   "
                                   sizes="110px"
                                   alt="ava-2@2x"
@@ -3266,12 +3253,12 @@ include 'config.php';
                                   class="c-ip-reviews__image"
                                   width="100"
                                   height="100"
-                                  src="asset/images/testimonial/3.jpg"
+                                  src="<?php echo $domain; ?>asset/images/testimonial/3.jpg"
                                   srcset="
-                                    asset/images/testimonial/3.jpg 100w,
-                                    asset/images/testimonial/3.jpg 200w,
-                                    asset/images/testimonial/3.jpg 145w,
-                                    asset/images/testimonial/3.jpg 220w
+                                    <?php echo $domain; ?>asset/images/testimonial/3.jpg 100w,
+                                    <?php echo $domain; ?>asset/images/testimonial/3.jpg 200w,
+                                    <?php echo $domain; ?>asset/images/testimonial/3.jpg 145w,
+                                    <?php echo $domain; ?>asset/images/testimonial/3.jpg 220w
                                   "
                                   sizes="110px"
                                   alt="ava-3@2x"
@@ -3302,12 +3289,12 @@ include 'config.php';
                                   class="c-ip-reviews__image"
                                   width="100"
                                   height="100"
-                                  src="asset/images/testimonial/4.jpg"
+                                  src="<?php echo $domain; ?>asset/images/testimonial/4.jpg"
                                   srcset="
-                                    asset/images/testimonial/4.jpg 100w,
-                                    asset/images/testimonial/4.jpg 200w,
-                                    asset/images/testimonial/4.jpg 145w,
-                                    asset/images/testimonial/4.jpg 220w
+                                    <?php echo $domain; ?>asset/images/testimonial/4.jpg 100w,
+                                    <?php echo $domain; ?>asset/images/testimonial/4.jpg 200w,
+                                    <?php echo $domain; ?>asset/images/testimonial/4.jpg 145w,
+                                    <?php echo $domain; ?>asset/images/testimonial/4.jpg 220w
                                   "
                                   sizes="110px"
                                   alt="ava-3@2x"
@@ -3530,28 +3517,28 @@ include 'config.php';
       <link
         rel="stylesheet"
         id="wc-blocks-style-css"
-        href="asset/goldish/demo/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css"
+        href="<?php echo $domain; ?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css"
         type="text/css"
         media="all"
       />
       <link
         rel="stylesheet"
         id="elementor-post-2225-css"
-        href="asset/goldish/demo/wp-content/uploads/elementor/css/post-2225.css"
+        href="<?php echo $domain; ?>asset/goldish/demo/wp-content/uploads/elementor/css/post-2225.css"
         type="text/css"
         media="all"
       />
-      <link rel='stylesheet' id='elementor-post-1664-css' href='asset/goldish/demo/wp-content/uploads/elementor/css/post-1664.css?cache=<?php echo uniqid();?>' type='text/css' media='all' />
+      <link rel='stylesheet' id='elementor-post-1664-css' href='<?php echo $domain; ?>asset/goldish/demo/wp-content/uploads/elementor/css/post-1664.css?cache=<?php echo uniqid();?>' type='text/css' media='all' />
       <link
         rel="stylesheet"
         id="elementor-post-2297-css"
-        href="asset/goldish/demo/wp-content/uploads/elementor/css/post-2297.css"
+        href="<?php echo $domain; ?>asset/goldish/demo/wp-content/uploads/elementor/css/post-2297.css"
         type="text/css"
         media="all"
       />
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
         id="swv-js"
       ></script>
       <script type="text/javascript" id="contact-form-7-js-extra">
@@ -3567,12 +3554,12 @@ include 'config.php';
       </script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/plugins/contact-form-7/includes/js/index.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-content/plugins/contact-form-7/includes/js/index.js"
         id="contact-form-7-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js"
         id="sourcebuster-js-js"
       ></script>
       <script type="text/javascript" id="wc-order-attribution-js-extra">
@@ -3606,7 +3593,7 @@ include 'config.php';
       </script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js"
         id="wc-order-attribution-js"
       ></script>
       <script type="text/javascript" id="wp-api-request-js-extra">
@@ -3620,32 +3607,32 @@ include 'config.php';
       </script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-includes/js/api-request.min.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-includes/js/api-request.min.js"
         id="wp-api-request-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js"
         id="wp-polyfill-inert-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-includes/js/dist/vendor/regenerator-runtime.min.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-includes/js/dist/vendor/regenerator-runtime.min.js"
         id="regenerator-runtime-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-includes/js/dist/vendor/wp-polyfill.min.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-includes/js/dist/vendor/wp-polyfill.min.js"
         id="wp-polyfill-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-includes/js/dist/hooks.min.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-includes/js/dist/hooks.min.js"
         id="wp-hooks-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-includes/js/dist/i18n.min.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-includes/js/dist/i18n.min.js"
         id="wp-i18n-js"
       ></script>
       <script type="text/javascript" id="wp-i18n-js-after">
@@ -3655,28 +3642,16 @@ include 'config.php';
       </script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-includes/js/dist/url.min.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-includes/js/dist/url.min.js"
         id="wp-url-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-includes/js/dist/api-fetch.min.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-includes/js/dist/api-fetch.min.js"
         id="wp-api-fetch-js"
       ></script>
       <script type="text/javascript" id="wp-api-fetch-js-after">
-        /* <![CDATA[ */
-        wp.apiFetch.use(
-          wp.apiFetch.createRootURLMiddleware(
-            "https://parkofideas.com/goldish/demo/wp-json/"
-          )
-        );
-        wp.apiFetch.nonceMiddleware =
-          wp.apiFetch.createNonceMiddleware("e449aa1843");
-        wp.apiFetch.use(wp.apiFetch.nonceMiddleware);
-        wp.apiFetch.use(wp.apiFetch.mediaUploadMiddleware);
-        wp.apiFetch.nonceEndpoint =
-          "https://parkofideas.com/goldish/demo/wp-admin/admin-ajax.php?action=rest-nonce";
-        /* ]]> */
+      
       </script>
       <script type="text/javascript" id="woo-variation-swatches-js-extra">
         /* <![CDATA[ */
@@ -3696,7 +3671,7 @@ include 'config.php';
       </script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/plugins/woo-variation-swatches/assets/js/frontend.min.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-content/plugins/woo-variation-swatches/assets/js/frontend.min.js"
         id="woo-variation-swatches-js"
       ></script>
       <script type="text/javascript" id="ideapark-core-js-extra">
@@ -3743,7 +3718,7 @@ include 'config.php';
       </script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/uploads/goldish/min.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-content/uploads/goldish/min.js"
         id="ideapark-core-js"
       ></script>
       <script type="text/javascript" id="ideapark-core-js-after">
@@ -3795,33 +3770,33 @@ include 'config.php';
       </script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js"
         id="wc-add-to-cart-variation-js"
         data-wp-strategy="defer"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/themes/goldish/assets/js/add-to-cart-variation-fix.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-content/themes/goldish/assets/js/add-to-cart-variation-fix.js"
         id="wc-add-to-cart-variation-fix-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
         id="elementor-webpack-runtime-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/plugins/elementor/assets/js/frontend-modules.min.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-content/plugins/elementor/assets/js/frontend-modules.min.js"
         id="elementor-frontend-modules-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js"
         id="elementor-waypoints-js"
       ></script>
       <script
         type="text/javascript"
-        src="asset/goldish/demo/wp-includes/js/jquery/ui/core.min.js"
+        src="<?php echo $domain; ?>asset/goldish/demo/wp-includes/js/jquery/ui/core.min.js"
         id="jquery-ui-core-js"
       ></script>
       <input

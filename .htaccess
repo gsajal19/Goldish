@@ -1,20 +1,20 @@
 RewriteEngine On
-
+RewriteBase /goldish/
 # Disable directory browsing
 Options -Indexes
 
 # Deny access to all PHP files
 
 # Prevent direct access to header.php
-RewriteCond %{REQUEST_URI} header\.php$
-RewriteRule ^ - [F]
+# RewriteCond %{REQUEST_URI} header\.php$
+# RewriteRule ^ - [F]
 
 RewriteCond %{REQUEST_URI} c-header\.php$
 RewriteRule ^ - [F]
 
 # Prevent direct access to footer.php
-RewriteCond %{REQUEST_URI} footer\.php$
-RewriteRule ^ - [F]
+# RewriteCond %{REQUEST_URI} footer\.php$
+# RewriteRule ^ - [F]
 
 # Prevent direct access to forbidden.php
 RewriteCond %{REQUEST_URI} forbidden\.php$
@@ -25,27 +25,62 @@ RewriteCond %{REQUEST_URI} ^/404\.php$
 RewriteRule ^ - [F]
 
 # Redirect to 404.php for non-existent URLs
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ 404.php [L]
 
-RewriteCond %{REQUEST_URI} config\.php$
-RewriteRule ^ - [F]
+
+# RewriteCond %{REQUEST_URI} config\.php$
+# RewriteRule ^ - [F]
 
 # RewriteCond %{REQUEST_FILENAME} \.php$
 # RewriteCond %{THE_REQUEST} \s/([^.]+)\.php\s
 # RewriteRule ^ forbidden.php [L]
 
+# RewriteBase /goldish/my-account.php
 RewriteRule account/?$ my-account.php [L]
+
+# RewriteBase /goldish/wishlist.php
 RewriteRule shop/wishlist/?$ wishlist.php [L]
+
+# RewriteBase /goldish/cart.php
 RewriteRule shop/cart/?$ cart.php [L]
+
+# RewriteBase /goldish/help.php
 RewriteRule help/?$ help.php [L]
+
+RewriteRule shop/products/p1/(.*)/(.*)/(.*)/?$ product.php?category=$1&product=$2&id=$3 [L]
+
+# RewriteBase /goldish/shop.php
+RewriteRule shop/?$ shop.php [L]
+RewriteRule shop/products/?$ shop.php [L]
+RewriteRule shop/products/(.*)/?$ shop.php?category=$1 [L]
+RewriteRule shop/products/(.*)/(.*)/?$ shop.php?category=$1&subcategory=$2 [L]
+# Below is for searching in special ocassions by using collection_type = {wedding,engagement,birthday,anniversary, etc}
+RewriteRule shop/products/(.*)/?$ shop.php?collection_type=$1 [L]
+RewriteRule shop/products/(.*)/(.*)/?$ shop.php?collection_type=$1&category=$2 [L]
+RewriteRule ^shop/products/(.*)/(.*)/(.*)?$ shop.php?collection_type=$1&category=$2&subcategory=$3 [L]
+
+# RewriteBase /goldish/contact-us.php
 RewriteRule help/contact/?$ contact-us.php [L]
+
+# RewriteBase /goldish/checkout.php
 RewriteRule shop/cart/checkout/?$ checkout.php [L]
+
+# RewriteBase /goldish/about.php
 RewriteRule about-us/?$ about.php [L]
+
+# RewriteBase /goldish/policy.php
 RewriteRule policy/?$ policy.php [L]
+
+# RewriteBase /goldish/tc.php
 RewriteRule tc/?$ tc.php [L]
-RewriteRule shop/product/(.*)/(.*)/(.*)/?$ product.php?category=$1&product=$2&id=$3 [L]
+
+
+# RewriteBase /goldish/product.php
+
+# RewriteBase /goldish/order-received.php
 RewriteRule account/order/thank-you/(.*)/?$ order-received.php?oid=$1 [L]
 
-<?php echo $domain;?>
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ 404.php [L]

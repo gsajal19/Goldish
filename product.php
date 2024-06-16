@@ -15,10 +15,6 @@
       <meta name='robots' content='max-image-preview:large' />
       <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Jost%3A200%2Cregular%2Citalic%2C500%2C600%2C700%2C900%26subset%3Dlatin%2Clatin-ext&#038;display=swap">
       <link rel="stylesheet" href="<?php echo $domain;?>/asset/goldish/demo/wp-content/themes/goldish/assets/font/theme-icons.css">
-      <style>@font-face { font-family:"Boska Light";src:url(https://parkofideas.com/goldish/demo/wp-content/uploads/2023/03/goldish-1203323592.woff2) format('woff2');font-display: auto;}@font-face { font-family:"Boska Regular";src:url(https://parkofideas.com/goldish/demo/wp-content/uploads/2023/03/goldish-1323852144.woff2) format('woff2');font-display: auto;}</style>
-      <link rel="alternate" type="application/rss+xml" title="Goldish &raquo; Feed" href="https://parkofideas.com/goldish/demo/feed/" />
-      <link rel="alternate" type="application/rss+xml" title="Goldish &raquo; Comments Feed" href="https://parkofideas.com/goldish/demo/comments/feed/" />
-      <link rel="alternate" type="application/rss+xml" title="Goldish &raquo; T1 Circle Pendant Comments Feed" href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/feed/" />
       <link
       rel="stylesheet"
       id="elementor-post-4619-css"
@@ -114,26 +110,14 @@
          var wc_cart_fragments_params = {"ajax_url":"\/goldish\/demo\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/goldish\/demo\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_2bfaa0db018ed7d4de7313c6cef366a0","fragment_name":"wc_fragments_2bfaa0db018ed7d4de7313c6cef366a0","request_timeout":"5000"};
          /* ]]> */
       </script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js" id="wc-cart-fragments-js" defer="defer" data-wp-strategy="defer"></script> 
-      <link rel="https://api.w.org/" href="https://parkofideas.com/goldish/demo/wp-json/" />
-      <link rel="alternate" type="application/json" href="https://parkofideas.com/goldish/demo/wp-json/wp/v2/product/121" />
-      <link rel="edituri" type="application/rsd+xml" title="RSD" href="https://parkofideas.com/goldish/demo/xmlrpc.php?rsd" />
-      <meta name="generator" content="WordPress 6.5.4" />
-      <meta name="generator" content="Theme Plugin 3.30" />
-      <meta name="generator" content="WooCommerce 8.9.2" />
-      <meta name="generator" content="Goldish 3.30" />
-      <link rel="canonical" href="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/" />
-
-      <link rel="alternate" type="application/json+oembed" href="https://parkofideas.com/goldish/demo/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fparkofideas.com%2Fgoldish%2Fdemo%2Fshop%2Ft1-circle-pendant%2F" />
-      <link rel="alternate" type="text/xml+oembed" href="https://parkofideas.com/goldish/demo/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fparkofideas.com%2Fgoldish%2Fdemo%2Fshop%2Ft1-circle-pendant%2F&#038;format=xml" />
-      <meta name="description" content="Jewelry Store WooCommerce Theme" />
+ <meta name="description" content="Jewelry Store WooCommerce Theme" />
       <noscript>
          <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
       </noscript>
       <meta name="generator" content="Elementor 3.21.8; features: e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
-      <link rel="icon" href="asset/images/uploads/#" sizes="32x32" />
-      <link rel="icon" href="asset/images/uploads/#" sizes="192x192" />
-      <link rel="apple-touch-icon" href="asset/images/uploads/#" />
-      <meta name="msapplication-TileImage" content="asset/images/uploads/#" />
+      <link rel="icon" href="<?php echo $domain;?>asset/images/favicon/favicon-32x32.ico?c=<?php echo uniqid();?>" sizes="32x32" />
+      <link rel="icon" href="<?php echo $domain;?>asset/images/favicon/favicon-192x192.ico?c=<?php echo uniqid();?>" sizes="192x192" />
+      <link rel="apple-touch-icon" href="<?php echo $domain;?>asset/images/favicon/favicon-192x192.ico?c=<?php echo uniqid();?>" />
    </head>
    <body class="product-template-default single single-product postid-121 theme-goldish woocommerce woocommerce-page woocommerce-no-js woo-variation-swatches wvs-behavior-blur wvs-theme-goldish wvs-tooltip elementor-default elementor-kit-12 h-preload woocommerce-on h-ltr h-wpml">
       <div class="l-wrap">
@@ -143,9 +127,9 @@
             <div id="product-121" class="c-product c-product--layout-1 l-section c-product--tabs-compact c-product--additional-inline l-section--container product type-product post-121 status-publish first instock product_cat-necklaces product_tag-diamond product_tag-gold product_tag-necklace has-post-thumbnail shipping-taxable purchasable product-type-simple">
                <nav class="c-breadcrumbs">
                   <ol class="c-breadcrumbs__list">
-                     <li class="c-breadcrumbs__item"><a href="https://parkofideas.com/goldish/demo/">Home</a><i class="fa fa-angle-right c-breadcrumbs__separator"></i></li>
-                     <li class="c-breadcrumbs__item"><a href="https://parkofideas.com/goldish/demo/shop/">Shop</a><i class="fa fa-angle-right c-breadcrumbs__separator"></i></li>
-                     <li class="c-breadcrumbs__item"><a href="https://parkofideas.com/goldish/demo/product-category/necklaces/">Necklaces</a><i class="fa fa-angle-right c-breadcrumbs__separator"></i></li>
+                     <li class="c-breadcrumbs__item"><a href="<?php echo $domain;?>">Home</a><i class="fa fa-angle-right c-breadcrumbs__separator"></i></li>
+                     <li class="c-breadcrumbs__item"><a href="<?php echo $domain;?>shop/">Shop</a><i class="fa fa-angle-right c-breadcrumbs__separator"></i></li>
+                     <li class="c-breadcrumbs__item"><a href="<?php echo $domain;?>shop/products/necklace">Necklaces</a><i class="fa fa-angle-right c-breadcrumbs__separator"></i></li>
                      <li class="c-breadcrumbs__item">T1 Circle Pendant</li>
                   </ol>
                </nav>
@@ -154,18 +138,18 @@
                      <div class="c-product__gallery">
                         <div class="c-badge__list c-product__badges"></div>
                         <div data-hash="29afd746" data-layout="layout-1" class="c-product__slider h-fade c-product__slider--carousel h-carousel h-carousel--inner h-carousel--hover h-carousel--dots-hide h-carousel--round js-single-product-carousel">
-                           <div class="c-product__slider-item c-product__slider-item--zoom woocommerce-product-gallery__image"><a download href="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1040574216.jpg" class="c-product__image-link js-product-modal" data-size="960x960" data-index="0" data-product-id="121" data-elementor-open-lightbox="no" onclick="return false;"><img loading="lazy" src="https://parkofideas.com/"><span class="c-product__round"></span><span class="c-product__loading js-loading-wrap"></span></a></div>
-                           <div class="c-product__slider-item c-product__slider-item--zoom woocommerce-product-gallery__image"><a download href="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041815908.jpg" class="c-product__image-link js-product-modal" data-size="960x960" data-index="1" data-product-id="121" data-elementor-open-lightbox="no" onclick="return false;"><img loading="lazy" src="https://parkofideas.com/"><span class="c-product__round"></span><span class="c-product__loading js-loading-wrap"></span></a></div>
-                           <div class="c-product__slider-item c-product__slider-item--zoom woocommerce-product-gallery__image"><a download href="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041272294.jpg" class="c-product__image-link js-product-modal" data-size="960x960" data-index="2" data-product-id="121" data-elementor-open-lightbox="no" onclick="return false;"><img loading="lazy" src="https://parkofideas.com/"><span class="c-product__round"></span><span class="c-product__loading js-loading-wrap"></span></a></div>
-                           <div class="c-product__slider-item c-product__slider-item--zoom woocommerce-product-gallery__image"><a download href="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041907079.jpg" class="c-product__image-link js-product-modal" data-size="960x960" data-index="4" data-product-id="121" data-elementor-open-lightbox="no" onclick="return false;"><img loading="lazy" src="https://parkofideas.com/"><span class="c-product__round"></span><span class="c-product__loading js-loading-wrap"></span></a></div>
-                           <div class="c-product__slider-item c-product__slider-item--zoom woocommerce-product-gallery__image"><a download href="https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1041103247.jpg" class="c-product__image-link js-product-modal" data-size="960x960" data-index="5" data-product-id="121" data-elementor-open-lightbox="no" onclick="return false;"><img loading="lazy" src="https://parkofideas.com/"><span class="c-product__round"></span><span class="c-product__loading js-loading-wrap"></span></a></div>
+                           <div class="c-product__slider-item c-product__slider-item--zoom woocommerce-product-gallery__image"><a download href="#wp-content/uploads/2021/09/goldish-1040574216.jpg" class="c-product__image-link js-product-modal" data-size="960x960" data-index="0" data-product-id="121" data-elementor-open-lightbox="no" onclick="return false;"><img loading="lazy" src="#/"><span class="c-product__round"></span><span class="c-product__loading js-loading-wrap"></span></a></div>
+                           <div class="c-product__slider-item c-product__slider-item--zoom woocommerce-product-gallery__image"><a download href="#wp-content/uploads/2021/09/goldish-1041815908.jpg" class="c-product__image-link js-product-modal" data-size="960x960" data-index="1" data-product-id="121" data-elementor-open-lightbox="no" onclick="return false;"><img loading="lazy" src="#/"><span class="c-product__round"></span><span class="c-product__loading js-loading-wrap"></span></a></div>
+                           <div class="c-product__slider-item c-product__slider-item--zoom woocommerce-product-gallery__image"><a download href="#wp-content/uploads/2021/09/goldish-1041272294.jpg" class="c-product__image-link js-product-modal" data-size="960x960" data-index="2" data-product-id="121" data-elementor-open-lightbox="no" onclick="return false;"><img loading="lazy" src="#/"><span class="c-product__round"></span><span class="c-product__loading js-loading-wrap"></span></a></div>
+                           <div class="c-product__slider-item c-product__slider-item--zoom woocommerce-product-gallery__image"><a download href="#wp-content/uploads/2021/09/goldish-1041907079.jpg" class="c-product__image-link js-product-modal" data-size="960x960" data-index="4" data-product-id="121" data-elementor-open-lightbox="no" onclick="return false;"><img loading="lazy" src="#/"><span class="c-product__round"></span><span class="c-product__loading js-loading-wrap"></span></a></div>
+                           <div class="c-product__slider-item c-product__slider-item--zoom woocommerce-product-gallery__image"><a download href="#wp-content/uploads/2021/09/goldish-1041103247.jpg" class="c-product__image-link js-product-modal" data-size="960x960" data-index="5" data-product-id="121" data-elementor-open-lightbox="no" onclick="return false;"><img loading="lazy" src="#/"><span class="c-product__round"></span><span class="c-product__loading js-loading-wrap"></span></a></div>
                         </div>
                         <div data-layout="layout-1" data-cnt="6" class="c-product__thumbs h-fade c-product__thumbs--6 h-carousel h-carousel--nav-hide h-carousel--dots-hide js-product-thumbs-carousel">
-                           <div class="c-product__thumbs-item active"><button type="button" class="h-cb js-single-product-thumb" data-index="0" ><img loading="lazy" src="https://parkofideas.com/"></button></div>
-                           <div class="c-product__thumbs-item"><button type="button" class="h-cb js-single-product-thumb" data-index="1" ><img loading="lazy" src="https://parkofideas.com/"></button></div>
-                           <div class="c-product__thumbs-item"><button type="button" class="h-cb js-single-product-thumb" data-index="2" ><img loading="lazy" src="https://parkofideas.com/"></button></div>
-                           <div class="c-product__thumbs-item"><button type="button" class="h-cb js-single-product-thumb" data-index="4" ><img loading="lazy" src="https://parkofideas.com/"></button></div>
-                           <div class="c-product__thumbs-item"><button type="button" class="h-cb js-single-product-thumb" data-index="5" ><img loading="lazy" src="https://parkofideas.com/"></button></div>
+                           <div class="c-product__thumbs-item active"><button type="button" class="h-cb js-single-product-thumb" data-index="0" ><img loading="lazy" src="#/"></button></div>
+                           <div class="c-product__thumbs-item"><button type="button" class="h-cb js-single-product-thumb" data-index="1" ><img loading="lazy" src="#/"></button></div>
+                           <div class="c-product__thumbs-item"><button type="button" class="h-cb js-single-product-thumb" data-index="2" ><img loading="lazy" src="#/"></button></div>
+                           <div class="c-product__thumbs-item"><button type="button" class="h-cb js-single-product-thumb" data-index="4" ><img loading="lazy" src="#/"></button></div>
+                           <div class="c-product__thumbs-item"><button type="button" class="h-cb js-single-product-thumb" data-index="5" ><img loading="lazy" src="#/"></button></div>
                         </div>
                      </div>
                   </div>
@@ -180,10 +164,10 @@
                            <div class="c-product__sub-col-1">
                               <div class="woocommerce-product-rating">
                                  <div class="star-rating" role="img" aria-label="Rated 4.50 out of 5"><span style="width:90%">Rated <strong class="rating">4.50</strong> out of 5 based on <span class="rating">2</span> customer ratings</span></div>
-                                 <a href="https://parkofideas.com/#reviews" class="woocommerce-review-link" rel="nofollow"><span class="count">2</span> customer reviews</a> 
+                                 <a href="#/#reviews" class="woocommerce-review-link" rel="nofollow"><span class="count">2</span> customer reviews</a> 
                               </div>
                               <div class="c-product__atc-wrap">
-                                 <form class="cart" action="https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/" method="post" enctype='multipart/form-data'>
+                                 <form class="cart" action="#shop/t1-circle-pendant/" method="post" enctype='multipart/form-data'>
                                     <div class="c-product__quantity quantity"> <label class="screen-reader-text" for="quantity_666171e34a9b8">T1 Circle Pendant quantity</label> <input type="number" id="quantity_666171e34a9b8" class="input-text qty text c-product__quantity-value" name="quantity" value="1" title="Qty" size="4" min="1" max="" step="1" placeholder="" inputmode="numeric" autocomplete="off" /> <button class="h-cb c-product__quantity-minus js-quantity-minus" type="button"><i class="fa fa-minus"></i></button> <button class="h-cb c-product__quantity-plus js-quantity-plus" type="button"><i class="fa fa-plus"></i></button> </div>
                                     <button type="submit" name="add-to-cart" value="121" class="single_add_to_cart_button button alt">Add to cart</button> 
                                  </form>
@@ -193,12 +177,12 @@
                                  <div class="c-product__share">
                                     <i class="fa fa-share c-product__share-icon"></i> 
                                     <div class="c-product__share-title">Share</div>
-                                    <div class="c-post-share"><a class="c-post-share__link" target="_blank" href="//www.facebook.com/sharer.php?u=https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/" title="Share on Facebook"><i class="ip-facebook c-post-share__icon c-post-share__icon--facebook"></i></a><a class="c-post-share__link" target="_blank" href="//twitter.com/share?url=https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/" title="Share on Twitter"><i class="ip-twitter c-post-share__icon c-post-share__icon--twitter"></i></a><a class="c-post-share__link" target="_blank" href="//pinterest.com/pin/create/button/?url=https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/&amp;media=https://parkofideas.com/goldish/demo/wp-content/uploads/2021/09/goldish-1040574216.jpg&amp;description=T1+Circle+Pendant" title="Pin on Pinterest"><i class="ip-pinterest c-post-share__icon c-post-share__icon--pinterest"></i></a><a class="c-post-share__link" target="_blank" href="//wa.me/?text=https://parkofideas.com/goldish/demo/shop/t1-circle-pendant/" title="Share on Whatsapp"><i class="ip-whatsapp c-post-share__icon c-post-share__icon--whatsapp"></i></a></div>
+                                    <div class="c-post-share"><a class="c-post-share__link" target="_blank" href="//www.facebook.com/sharer.php?u=#shop/t1-circle-pendant/" title="Share on Facebook"><i class="ip-facebook c-post-share__icon c-post-share__icon--facebook"></i></a><a class="c-post-share__link" target="_blank" href="//twitter.com/share?url=#shop/t1-circle-pendant/" title="Share on Twitter"><i class="ip-twitter c-post-share__icon c-post-share__icon--twitter"></i></a><a class="c-post-share__link" target="_blank" href="//pinterest.com/pin/create/button/?url=#shop/t1-circle-pendant/&amp;media=#wp-content/uploads/2021/09/goldish-1040574216.jpg&amp;description=T1+Circle+Pendant" title="Pin on Pinterest"><i class="ip-pinterest c-post-share__icon c-post-share__icon--pinterest"></i></a><a class="c-post-share__link" target="_blank" href="//wa.me/?text=#shop/t1-circle-pendant/" title="Share on Whatsapp"><i class="ip-whatsapp c-post-share__icon c-post-share__icon--whatsapp"></i></a></div>
                                  </div>
                               </div>
                            </div>
                            <div class="c-product__sub-col-2">
-                              <div class="product_meta"> <span class="sku_wrapper">SKU: <span class="sku">651231894894</span></span> <span class="posted_in">Category: <a href="https://parkofideas.com/goldish/demo/product-category/necklaces/" rel="tag">Necklaces</a></span> <span class="tagged_as">Tags: <a href="https://parkofideas.com/goldish/demo/product-tag/diamond/" rel="tag">diamond</a>, <a href="https://parkofideas.com/goldish/demo/product-tag/gold/" rel="tag">gold</a>, <a href="https://parkofideas.com/goldish/demo/product-tag/necklace/" rel="tag">necklace</a></span> </div>
+                              <div class="product_meta"> <span class="sku_wrapper">SKU: <span class="sku">651231894894</span></span> <span class="posted_in">Category: <a href="#product-category/necklaces/" rel="tag">Necklaces</a></span> <span class="tagged_as">Tags: <a href="#product-tag/diamond/" rel="tag">diamond</a>, <a href="#product-tag/gold/" rel="tag">gold</a>, <a href="#product-tag/necklace/" rel="tag">necklace</a></span> </div>
                            </div>
                         </div>
                      </div>
@@ -207,7 +191,7 @@
                <div class="c-product__tabs">
                   <div class="c-product__tabs-list js-tabs-list">
                      <div class="c-product__tabs-item description_tab">
-                        <a onclick="return false" class="c-product__tabs-item-link js-tabs-item-link" href="https://parkofideas.com/#tab-description">
+                        <a onclick="return false" class="c-product__tabs-item-link js-tabs-item-link" href="#/#tab-description">
                            <div class="c-product__tabs-item-header"> Description </div>
                            <i class="fa fa-plus c-product__tabs-item-expand"></i> 
                         </a>
@@ -216,7 +200,7 @@
                         </div>
                      </div>
                      <div class="c-product__tabs-item additional_information_tab">
-                        <a onclick="return false" class="c-product__tabs-item-link js-tabs-item-link" href="https://parkofideas.com/#tab-additional_information">
+                        <a onclick="return false" class="c-product__tabs-item-link js-tabs-item-link" href="#/#tab-additional_information">
                            <div class="c-product__tabs-item-header"> Additional information </div>
                            <i class="fa fa-plus c-product__tabs-item-expand"></i> 
                         </a>
@@ -225,14 +209,14 @@
                               <tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_pa_brand">
                                  <th class="woocommerce-product-attributes-item__label">Brand</th>
                                  <td class="woocommerce-product-attributes-item__value">
-                                    <p><a href="https://parkofideas.com/goldish/demo/brand/tiffany/" rel="tag">Tiffany</a></p>
+                                    <p><a href="#brand/tiffany/" rel="tag">Tiffany</a></p>
                                  </td>
                               </tr>
                            </table>
                         </div>
                      </div>
                      <div class="c-product__tabs-item reviews_tab">
-                        <a onclick="return false" class="c-product__tabs-item-link js-tabs-item-link" href="https://parkofideas.com/#tab-reviews">
+                        <a onclick="return false" class="c-product__tabs-item-link js-tabs-item-link" href="#/#tab-reviews">
                            <div class="c-product__tabs-item-header"> Reviews (2) </div>
                            <i class="fa fa-plus c-product__tabs-item-expand"></i> 
                         </a>
@@ -270,8 +254,8 @@
                               <div id="review_form_wrapper">
                                  <div id="review_form">
                                     <div id="respond" class="comment-respond">
-                                       <span id="reply-title" class="comment-reply-title">Add a review <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://parkofideas.com//goldish/demo/shop/t1-circle-pendant/?set=13#respond" style="display:none;">Cancel reply</a></small></span>
-                                       <form action="https://parkofideas.com/goldish/demo/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+                                       <span id="reply-title" class="comment-reply-title">Add a review <small><a rel="nofollow" id="cancel-comment-reply-link" href="#//goldish/demo/shop/t1-circle-pendant/?set=13#respond" style="display:none;">Cancel reply</a></small></span>
+                                       <form action="#wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
                                           <p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span></p>
                                           <div class="comment-form-rating">
                                              <label for="rating">Your rating&nbsp;<span class="required">*</span></label>
@@ -306,18 +290,18 @@
                         <div class="c-product-grid__list c-product-grid__list--4-per-row c-product-grid__list--fullwidth c-product-grid__list--1-per-row-mobile c-product-grid__list--below c-product-grid__list--below-mobile c-product-grid__list--carousel js-product-grid-carousel h-carousel h-carousel--border h-carousel--round h-carousel--hover h-carousel--default-dots h-carousel--flex" data-count="4" data-layout="4-per-row" data-layout-width="fullwidth" data-layout-mobile="1-per-row-mobile">
                         <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-123 status-publish instock product_cat-necklaces product_tag-gold product_tag-necklace has-post-thumbnail featured shipping-taxable purchasable product-type-simple">
                               <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
-                                 <a href="https://parkofideas.com/goldish/demo/shop/x-closed-interlocking-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" src="https://parkofideas.com/"><img loading="lazy" src="https://parkofideas.com/"></a>
+                                 <a href="#shop/x-closed-interlocking-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" src="#/"><img loading="lazy" src="#/"></a>
                                  <div class="c-product-grid__badges c-badge__list"><span class="c-badge c-badge--featured">Featured</span></div>
                                  <div class="c-product-grid__thumb-button-list"> <button class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom" type="button" data-lang="en_US" data-product-id="123" aria-label="Quick view"> <i class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"></i> <span class="c-product-grid__icon-text">Quick view</span> </button> <button data-size="" class="js-wishlist-btn c-wishlist__btn c-wishlist__item-123-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist" data-product-id="123" data-title="Wishlist" aria-label="Wishlist"><i class="fa fa-heart-o c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"></i><i class="fa fa-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"></i><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add">Add to Wishlist</span><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove">Remove from Wishlist</span></button> </div>
                               </div>
-                              <a href="https://parkofideas.com/?add-to-cart=123" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="123" data-product_sku="6513561132" aria-label="Add to cart: &ldquo;X Closed Interlocking Pendant&rdquo;" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
+                              <a href="#/?add-to-cart=123" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="123" data-product_sku="6513561132" aria-label="Add to cart: &ldquo;X Closed Interlocking Pendant&rdquo;" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
                               <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                                  <div class="c-product-grid__title-wrap">
-                                    <div class="c-product-grid__category-list"> <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/necklaces/" title="View all posts in Necklaces" >Necklaces</a> </div>
-                                    <a href="https://parkofideas.com/goldish/demo/shop/x-closed-interlocking-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                    <div class="c-product-grid__category-list"> <a class="c-product-grid__category-item" href="#product-category/necklaces/" title="View all posts in Necklaces" >Necklaces</a> </div>
+                                    <a href="#shop/x-closed-interlocking-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                        <h2 class="woocommerce-loop-product__title">X Closed Interlocking Pendant</h2>
                                     </a>
-                                    <a href="https://parkofideas.com/goldish/demo/shop/x-closed-interlocking-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                    <a href="#shop/x-closed-interlocking-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                        <div class="c-product-grid__short-desc">
                                           <p>A delicate 18k yellow gold chain combined with two interlocking circles defines this modern pendant.</p>
                                        </div>
@@ -329,18 +313,18 @@
                            </div>
                            <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-123 status-publish instock product_cat-necklaces product_tag-gold product_tag-necklace has-post-thumbnail featured shipping-taxable purchasable product-type-simple">
                               <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
-                                 <a href="https://parkofideas.com/goldish/demo/shop/x-closed-interlocking-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" src="https://parkofideas.com/"><img loading="lazy" src="https://parkofideas.com/"></a>
+                                 <a href="#shop/x-closed-interlocking-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" src="#/"><img loading="lazy" src="#/"></a>
                                  <div class="c-product-grid__badges c-badge__list"><span class="c-badge c-badge--featured">Featured</span></div>
                                  <div class="c-product-grid__thumb-button-list"> <button class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom" type="button" data-lang="en_US" data-product-id="123" aria-label="Quick view"> <i class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"></i> <span class="c-product-grid__icon-text">Quick view</span> </button> <button data-size="" class="js-wishlist-btn c-wishlist__btn c-wishlist__item-123-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist" data-product-id="123" data-title="Wishlist" aria-label="Wishlist"><i class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"></i><i class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"></i><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add">Add to Wishlist</span><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove">Remove from Wishlist</span></button> </div>
                               </div>
-                              <a href="https://parkofideas.com/?add-to-cart=123" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="123" data-product_sku="6513561132" aria-label="Add to cart: &ldquo;X Closed Interlocking Pendant&rdquo;" aria-describedby="" rel="nofollow"><i class="fa fa-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
+                              <a href="#/?add-to-cart=123" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="123" data-product_sku="6513561132" aria-label="Add to cart: &ldquo;X Closed Interlocking Pendant&rdquo;" aria-describedby="" rel="nofollow"><i class="fa fa-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
                               <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                                  <div class="c-product-grid__title-wrap">
-                                    <div class="c-product-grid__category-list"> <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/necklaces/" title="View all posts in Necklaces" >Necklaces</a> </div>
-                                    <a href="https://parkofideas.com/goldish/demo/shop/x-closed-interlocking-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                    <div class="c-product-grid__category-list"> <a class="c-product-grid__category-item" href="#product-category/necklaces/" title="View all posts in Necklaces" >Necklaces</a> </div>
+                                    <a href="#shop/x-closed-interlocking-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                        <h2 class="woocommerce-loop-product__title">X Closed Interlocking Pendant</h2>
                                     </a>
-                                    <a href="https://parkofideas.com/goldish/demo/shop/x-closed-interlocking-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                    <a href="#shop/x-closed-interlocking-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                        <div class="c-product-grid__short-desc">
                                           <p>A delicate 18k yellow gold chain combined with two interlocking circles defines this modern pendant.</p>
                                        </div>
@@ -352,18 +336,18 @@
                            </div>
                            <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-113 status-publish instock product_cat-rings product_tag-gold product_tag-leaf product_tag-ring has-post-thumbnail shipping-taxable purchasable product-type-simple">
                               <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
-                                 <a href="https://parkofideas.com/goldish/demo/shop/olive-leaf-band-ring/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" src="https://parkofideas.com/"><img loading="lazy" src="https://parkofideas.com/"></a>
+                                 <a href="#shop/olive-leaf-band-ring/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" src="#/"><img loading="lazy" src="#/"></a>
                                  <div class="c-product-grid__badges c-badge__list"></div>
                                  <div class="c-product-grid__thumb-button-list"> <button class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom" type="button" data-lang="en_US" data-product-id="113" aria-label="Quick view"> <i class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"></i> <span class="c-product-grid__icon-text">Quick view</span> </button> <button data-size="" class="js-wishlist-btn c-wishlist__btn c-wishlist__item-113-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist" data-product-id="113" data-title="Wishlist" aria-label="Wishlist"><i class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"></i><i class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"></i><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add">Add to Wishlist</span><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove">Remove from Wishlist</span></button> </div>
                               </div>
-                              <a href="https://parkofideas.com/?add-to-cart=113" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="113" data-product_sku="78078686" aria-label="Add to cart: &ldquo;Olive Leaf Band Ring&rdquo;" aria-describedby="" rel="nofollow"><i class="fa fa-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
+                              <a href="#/?add-to-cart=113" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="113" data-product_sku="78078686" aria-label="Add to cart: &ldquo;Olive Leaf Band Ring&rdquo;" aria-describedby="" rel="nofollow"><i class="fa fa-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Add to cart</span></a>
                               <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                                  <div class="c-product-grid__title-wrap">
-                                    <div class="c-product-grid__category-list"> <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/rings/" title="View all posts in Rings" >Rings</a> </div>
-                                    <a href="https://parkofideas.com/goldish/demo/shop/olive-leaf-band-ring/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                    <div class="c-product-grid__category-list"> <a class="c-product-grid__category-item" href="#product-category/rings/" title="View all posts in Rings" >Rings</a> </div>
+                                    <a href="#shop/olive-leaf-band-ring/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                        <h2 class="woocommerce-loop-product__title">Olive Leaf Band Ring</h2>
                                     </a>
-                                    <a href="https://parkofideas.com/goldish/demo/shop/olive-leaf-band-ring/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                    <a href="#shop/olive-leaf-band-ring/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                        <div class="c-product-grid__short-desc">
                                           <p>With beautifully sculpted leaves in 18k gold, Paloma honors the olive branch, a symbol of peace and abundance.</p>
                                        </div>
@@ -375,18 +359,18 @@
                            </div>
                            <div class="c-product-grid__item c-product-grid__item--4-per-row c-product-grid__item--1-per-row-mobile c-product-grid__item--not-compact-mobile c-product-grid__item--buttons-2 c-product-grid__item--buttons-2-mobile c-product-grid__item--below c-product-grid__item--below-mobile product type-product post-124 status-publish last outofstock product_cat-necklaces product_tag-gold product_tag-necklace has-post-thumbnail shipping-taxable purchasable product-type-simple">
                               <div class="c-product-grid__thumb-wrap c-product-grid__thumb-wrap--buttons">
-                                 <a href="https://parkofideas.com/goldish/demo/shop/olive-leaf-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" src="https://parkofideas.com/"><img loading="lazy" src="https://parkofideas.com/"></a>
+                                 <a href="#shop/olive-leaf-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" src="#/"><img loading="lazy" src="#/"></a>
                                  <div class="c-product-grid__badges c-badge__list"><span class="c-badge c-badge--out-of-stock out-of-stock">Out of stock</span></div>
                                  <div class="c-product-grid__thumb-button-list"> <button class="h-cb c-product-grid__thumb-button c-product-grid__thumb-button--quickview js-grid-zoom" type="button" data-lang="en_US" data-product-id="124" aria-label="Quick view"> <i class="ip-eye c-product-grid__icon c-product-grid__icon--quickview"></i> <span class="c-product-grid__icon-text">Quick view</span> </button> <button data-size="" class="js-wishlist-btn c-wishlist__btn c-wishlist__item-124-btn h-cb c-product-grid__thumb-button c-product-grid__thumb-button--wishlist" data-product-id="124" data-title="Wishlist" aria-label="Wishlist"><i class="ip-heart c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--normal"></i><i class="ip-heart-active c-product-grid__icon c-product-grid__icon--wishlist c-wishlist__btn-icon c-wishlist__btn-icon--active"></i><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-add">Add to Wishlist</span><span class="c-product-grid__icon-text c-product-grid__icon-text--buttons-2 c-wishlist__btn-text-remove">Remove from Wishlist</span></button> </div>
                               </div>
-                              <a href="https://parkofideas.com/goldish/demo/shop/olive-leaf-pendant/" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple" data-product_id="124" data-product_sku="8946531321" aria-label="Read more about &ldquo;Olive Leaf Pendant&rdquo;" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Read more</span></a>
+                              <a href="#shop/olive-leaf-pendant/" data-quantity="1" class="h-cb c-product-grid__atc button product_type_simple" data-product_id="124" data-product_sku="8946531321" aria-label="Read more about &ldquo;Olive Leaf Pendant&rdquo;" aria-describedby="" rel="nofollow"><i class="ip-plus c-product-grid__atc-icon"></i><span class="c-product-grid__atc-text">Read more</span></a>
                               <div class="c-product-grid__details c-product-grid__details--below c-product-grid__details--below-mobile">
                                  <div class="c-product-grid__title-wrap">
-                                    <div class="c-product-grid__category-list"> <a class="c-product-grid__category-item" href="https://parkofideas.com/goldish/demo/product-category/necklaces/" title="View all posts in Necklaces" >Necklaces</a> </div>
-                                    <a href="https://parkofideas.com/goldish/demo/shop/olive-leaf-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                    <div class="c-product-grid__category-list"> <a class="c-product-grid__category-item" href="#product-category/necklaces/" title="View all posts in Necklaces" >Necklaces</a> </div>
+                                    <a href="#shop/olive-leaf-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                        <h2 class="woocommerce-loop-product__title">Olive Leaf Pendant</h2>
                                     </a>
-                                    <a href="https://parkofideas.com/goldish/demo/shop/olive-leaf-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                    <a href="#shop/olive-leaf-pendant/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                        <div class="c-product-grid__short-desc">
                                           <p>Inspired by the olive branch, a symbol of peace and abundance. In 18k gold with a round brilliant diamond.</p>
                                        </div>
@@ -476,11 +460,11 @@
             /* ]]> */
          </script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/dist/url.min.js" id="wp-url-js"></script> <script type="text/javascript" src="<?php echo $domain;?>/asset/goldish/demo/wp-includes/js/dist/api-fetch.min.js" id="wp-api-fetch-js"></script> <script type="text/javascript" id="wp-api-fetch-js-after">
             /* <![CDATA[ */
-            wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://parkofideas.com/goldish/demo/wp-json/" ) );
+            wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "#wp-json/" ) );
             wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "e93d5860a6" );
             wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
             wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
-            wp.apiFetch.nonceEndpoint = "https://parkofideas.com/goldish/demo/wp-admin/admin-ajax.php?action=rest-nonce";
+            wp.apiFetch.nonceEndpoint = "#wp-admin/admin-ajax.php?action=rest-nonce";
             /* ]]> */
          </script> <script type="text/javascript" id="woo-variation-swatches-js-extra">
             /* <![CDATA[ */
