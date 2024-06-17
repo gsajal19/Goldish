@@ -50,13 +50,15 @@ RewriteRule shop/products/p1/(.*)/(.*)/(.*)/?$ product.php?category=$1&product=$
 
 # RewriteBase /goldish/shop.php
 RewriteRule shop/?$ shop.php [L]
+RewriteRule shop/(.*)/?$ occasion.php?occasion_type=$1 [L]
+RewriteRule shop/(.*)/(.*)/?$ occasion.php?occasion_type=$1&category=$2 [L]
 RewriteRule shop/products/?$ shop.php [L]
 RewriteRule shop/products/(.*)/?$ shop.php?category=$1 [L]
 RewriteRule shop/products/(.*)/(.*)/?$ shop.php?category=$1&subcategory=$2 [L]
 # Below is for searching in special ocassions by using collection_type = {wedding,engagement,birthday,anniversary, etc}
-RewriteRule shop/products/(.*)/?$ shop.php?collection_type=$1 [L]
-RewriteRule shop/products/(.*)/(.*)/?$ shop.php?collection_type=$1&category=$2 [L]
-RewriteRule ^shop/products/(.*)/(.*)/(.*)?$ shop.php?collection_type=$1&category=$2&subcategory=$3 [L]
+RewriteRule shop/products/(.*)/?$ shop.php?occasion_type=$1 [L]
+RewriteRule shop/products/(.*)/(.*)/?$ shop.php?occasion_type=$1&category=$2 [L]
+RewriteRule ^shop/products/(.*)/(.*)/(.*)?$ shop.php?occasion_type=$1&category=$2&subcategory=$3 [L]
 
 # RewriteBase /goldish/contact-us.php
 RewriteRule help/contact/?$ contact-us.php [L]

@@ -67,7 +67,7 @@
               </button>
               <div class="c-header__logo c-header__logo--mobile">
                 <a
-                  href=" /"
+                  href="<?php echo $domain;?>"
                   class="c-header__logo-link"
                 >
                   <img
@@ -151,472 +151,469 @@
                   id="menu-item-209"
                   class="c-mobile-menu__item menu-item-209"
                 >
-                  <a href=" /blog/">Shop</a>
+                  <a href="<?php echo $domain;?>shop/">Shop</a>
                   
                 </li>
                 <li
                   id="menu-item-208"
                   class="c-mobile-menu__item c-mobile-menu__item--has-children menu-item-208"
                 >
-                  <a href=" /shop/">Explore</a>
+                  <a href="#">Explore</a>
                   <ul class="c-mobile-menu__submenu">
-                    <li
-                      id="menu-item-1949"
-                      class="c-mobile-menu__subitem c-mobile-menu__subitem--has-children menu-item-1949"
+              <li
+                id="menu-item-1949"
+                class="c-mobile-menu__subitem c-mobile-menu__subitem--has-children menu-item-1949"
+              >
+                <span class="a">Necklace</span>
+                <ul
+                  class="c-mobile-menu__submenu c-mobile-menu__submenu--inner"
+                >
+                  <li
+                    id="menu-item-2038"
+                    class="c-mobile-menu__subitem menu-item-2038"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/necklace/"
+                      >Necklace</a
                     >
-                      <span class="a">Shop layout</span>
-                      <ul
-                        class="c-mobile-menu__submenu c-mobile-menu__submenu--inner"
-                      >
-                        <li
-                          id="menu-item-2038"
-                          class="c-mobile-menu__subitem menu-item-2038"
-                        >
-                          <a
-                            href=" /shop/?set=4,6,37"
-                            >With sidebar</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-1994"
-                          class="c-mobile-menu__subitem menu-item-1994"
-                        >
-                          <a
-                            href=" /shop/?set=2,40"
-                            >2 per row</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-1993"
-                          class="c-mobile-menu__subitem menu-item-1993"
-                        >
-                          <a
-                            href=" /shop/?set=3,38,39"
-                            >3 per row</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-1992"
-                          class="c-mobile-menu__subitem menu-item-1992"
-                        >
-                          <a
-                            href=" /shop/?set=4"
-                            >4 per row</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-1995"
-                          class="c-mobile-menu__subitem menu-item-1995"
-                        >
-                          <a
-                            href=" /shop/?set=1,37"
-                            >Compact</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-2039"
-                          class="c-mobile-menu__subitem menu-item-2039"
-                        >
-                          <a
-                            href=" /shop/?set=3,22,6"
-                            >Boxed</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-2037"
-                          class="c-mobile-menu__subitem menu-item-2037"
-                        >
-                          <a
-                            href=" /shop/?set=35"
-                            >Inverse</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-3092"
-                          class="c-mobile-menu__subitem menu-item-3092"
-                        >
-                          <a
-                            href=" /shop/?set=4,40"
-                            >With faded layer</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-3463"
-                          class="c-mobile-menu__subitem menu-item-3463"
-                        >
-                          <a
-                            href=" /shop/?set=42"
-                            ><span class="c-menu-badge__wrap"
-                              >Custom Shop Page<span
-                                class="c-menu-badge"
-                                style="--badge-color: #cc4122"
-                                >HOT</span
-                              ></span
-                            ></a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-3503"
-                          class="c-mobile-menu__subitem menu-item-3503"
-                        >
-                          <a
-                            href="$domain/shop/?set=55"
-                            >Sidebar cart</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-4871"
-                          class="c-mobile-menu__subitem menu-item-4871"
-                        >
-                          <a
-                            href=" /product-category/rings/"
-                            >Inline Video</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                    <li
-                      id="menu-item-1950"
-                      class="c-mobile-menu__subitem c-mobile-menu__subitem--has-children menu-item-1950"
+                  </li>
+                  <li
+                    id="menu-item-1994"
+                    class="c-mobile-menu__subitem menu-item-1994"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/necklace/<?php echo urlencode("long haar");?>/"
+                      >Long Haar</a
                     >
-                      <span class="a">Product layout</span>
-                      <ul
-                        class="c-mobile-menu__submenu c-mobile-menu__submenu--inner"
-                      >
-                        <li
-                          id="menu-item-3510"
-                          class="c-mobile-menu__subitem menu-item-3510"
-                        >
-                          <a
-                            href=" /shop/t1-circle-pendant/?set=14"
-                            >Layout &#8220;Goldish&#8221;</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-1958"
-                          class="c-mobile-menu__subitem menu-item-1958"
-                        >
-                          <a
-                            href=" /shop/t1-circle-pendant/?set=13"
-                            >Layout &#8220;Classic&#8221;</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-1963"
-                          class="c-mobile-menu__subitem menu-item-1963"
-                        >
-                          <a
-                            href=" /shop/color-by-the-yard-emerald-pendant/?set=15"
-                            >Layout &#8220;Modern&#8221;</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-1967"
-                          class="c-mobile-menu__subitem menu-item-1967"
-                        >
-                          <a
-                            href=" /shop/diamond-vine-climber-earrings/?set=34,13"
-                            >Product image zoom</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-3500"
-                          class="c-mobile-menu__subitem menu-item-3500"
-                        >
-                          <a
-                            href=" /shop/green-rhombus/?set=53,13"
-                            >Fullwidth tabs</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-3501"
-                          class="c-mobile-menu__subitem menu-item-3501"
-                        >
-                          <a
-                            href=" /shop/t1-circle-pendant/?set=54,13"
-                            >Expanded tabs</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-3499"
-                          class="c-mobile-menu__subitem menu-item-3499"
-                        >
-                          <a
-                            href=" /shop/t1-circle-pendant/?set=52"
-                            >With Features</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-3502"
-                          class="c-mobile-menu__subitem menu-item-3502"
-                        >
-                          <a
-                            href=" /shop/t1-circle-pendant/?set=48,51"
-                            >Recently Viewed Products</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-4146"
-                          class="c-mobile-menu__subitem menu-item-4146"
-                        >
-                          <a
-                            href=" /shop/diamond-vine-ring-in-platinum/"
-                            >Bought Together 1</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-4147"
-                          class="c-mobile-menu__subitem menu-item-4147"
-                        >
-                          <a
-                            href=" /shop/diamond-vine-ring-in-platinum/?set=60"
-                            >Bought Together 2</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-4870"
-                          class="c-mobile-menu__subitem menu-item-4870"
-                        >
-                          <a
-                            href=" /shop/diamond-vine-ring-in-platinum/"
-                            ><span class="c-menu-badge__wrap"
-                              >Inline Video<span
-                                class="c-menu-badge"
-                                style="--badge-color: #5bab6d"
-                                >NEW</span
-                              ></span
-                            ></a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                    <li
-                      id="menu-item-3494"
-                      class="c-mobile-menu__subitem c-mobile-menu__subitem--has-children menu-item-3494"
+                  </li>
+                  <li
+                    id="menu-item-1993"
+                    class="c-mobile-menu__subitem menu-item-1993"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/necklace/<?php echo urlencode("choker");?>/"
+                      >Choker</a
                     >
-                      <span class="a">Pagination</span>
-                      <ul
-                        class="c-mobile-menu__submenu c-mobile-menu__submenu--inner"
-                      >
-                        <li
-                          id="menu-item-3495"
-                          class="c-mobile-menu__subitem menu-item-3495"
-                        >
-                          <a
-                            href=" /shop/?set=43"
-                            >Load More</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-3496"
-                          class="c-mobile-menu__subitem menu-item-3496"
-                        >
-                          <a
-                            href=" /shop/?set=44"
-                            >Infinity</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                    <li
-                      id="menu-item-1951"
-                      class="c-mobile-menu__subitem c-mobile-menu__subitem--has-children menu-item-1951"
+                  </li>
+                  <li
+                    id="menu-item-1992"
+                    class="c-mobile-menu__subitem menu-item-1992"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/necklace/<?php echo urlencode("Mangalsutra");?>/"
+                      >Mangalsutra</a
                     >
-                      <span class="a">Product type</span>
-                      <ul
-                        class="c-mobile-menu__submenu c-mobile-menu__submenu--inner"
-                      >
-                        <li
-                          id="menu-item-1953"
-                          class="c-mobile-menu__subitem menu-item-1953"
-                        >
-                          <a
-                            href=" /shop/t1-circle-pendant/"
-                            >Simple product</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-1954"
-                          class="c-mobile-menu__subitem menu-item-1954"
-                        >
-                          <a
-                            href=" /shop/color-by-the-yard-emerald-pendant/"
-                            >Variable product</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-1956"
-                          class="c-mobile-menu__subitem menu-item-1956"
-                        >
-                          <a
-                            href=" /shop/necklace-stacking-set/"
-                            >Grouped product</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-1955"
-                          class="c-mobile-menu__subitem menu-item-1955"
-                        >
-                          <a
-                            href=" /shop/starfish-brooch/"
-                            >External &#038; affiliate product</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-3476"
-                          class="c-mobile-menu__subitem menu-item-3476"
-                        >
-                          <a
-                            href=" /shop/wire-bangle/"
-                            ><span class="c-menu-badge__wrap"
-                              >Variation images gallery<span
-                                class="c-menu-badge"
-                                style="--badge-color: #cc4122"
-                                >HOT</span
-                              ></span
-                            ></a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                    <li
-                      id="menu-item-2040"
-                      class="c-mobile-menu__subitem c-mobile-menu__subitem--has-children menu-item-2040"
+                  </li>
+                 
+                </ul>
+              </li>
+              <li
+                id="menu-item-1950"
+                class="c-mobile-menu__subitem c-mobile-menu__subitem--has-children menu-item-1950"
+              >
+                <span class="a">Pendants</span>
+                <ul
+                  class="c-mobile-menu__submenu c-mobile-menu__submenu--inner"
+                >
+                  <li
+                    id="menu-item-3510"
+                    class="c-mobile-menu__subitem menu-item-3510"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/<?php echo urlencode("pendants");?>/"
+                      >Pendants</a
                     >
-                      <span class="a">Mobile shop layout</span>
-                      <ul
-                        class="c-mobile-menu__submenu c-mobile-menu__submenu--inner"
-                      >
-                        <li
-                          id="menu-item-2041"
-                          class="c-mobile-menu__subitem menu-item-2041"
-                        >
-                          <a
-                            href=" /shop/?set=10"
-                            >1 per row</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-2042"
-                          class="c-mobile-menu__subitem menu-item-2042"
-                        >
-                          <a
-                            href=" /shop/?set=11"
-                            >2 per row</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-2043"
-                          class="c-mobile-menu__subitem menu-item-2043"
-                        >
-                          <a
-                            href=" /shop/?set=12"
-                            >Compact</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                    <li
-                      id="menu-item-1952"
-                      class="c-mobile-menu__subitem c-mobile-menu__subitem--has-children menu-item-1952"
+                  </li>
+                  <li
+                    id="menu-item-1958"
+                    class="c-mobile-menu__subitem menu-item-1958"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/pendants/<?php echo urlencode("god");?>/"
+                      >God Pendants</a
                     >
-                      <span class="a">Brands</span>
-                      <ul
-                        class="c-mobile-menu__submenu c-mobile-menu__submenu--inner"
-                      >
-                        <li
-                          id="menu-item-2057"
-                          class="c-mobile-menu__subitem menu-item-2057"
-                        >
-                          <a
-                            href=" /brands-1/"
-                            >Brand list 1</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-2056"
-                          class="c-mobile-menu__subitem menu-item-2056"
-                        >
-                          <a
-                            href=" /brands-2/"
-                            >Brand list 2</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-2058"
-                          class="c-mobile-menu__subitem menu-item-2058"
-                        >
-                          <a
-                            href=" /shop/heart-locket/?set=29"
-                            >Brand (product page)</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-2059"
-                          class="c-mobile-menu__subitem menu-item-2059"
-                        >
-                          <a
-                            href=" /shop/?set=29"
-                            >Brands (product grid)</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                    <li
-                      id="menu-item-2044"
-                      class="c-mobile-menu__subitem c-mobile-menu__subitem--has-children menu-item-2044"
+                  </li>
+                  <li
+                    id="menu-item-1963"
+                    class="c-mobile-menu__subitem menu-item-1963"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/pendants/<?php echo urlencode("set");?>/"
+                      >Pendant Set</a
                     >
-                      <span class="a">Categories</span>
-                      <ul
-                        class="c-mobile-menu__submenu c-mobile-menu__submenu--inner"
-                      >
-                        <li
-                          id="menu-item-1986"
-                          class="c-mobile-menu__subitem menu-item-1986"
-                        >
-                          <a
-                            href=" /shop/?set=31"
-                            >Categories in header</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-1988"
-                          class="c-mobile-menu__subitem menu-item-1988"
-                        >
-                          <a
-                            href=" /shop/?set=30"
-                            >Categories in content</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-3094"
-                          class="c-mobile-menu__subitem menu-item-3094"
-                        >
-                          <a
-                            href=" /shop/?set=41"
-                            >Without categories</a
-                          >
-                        </li>
-                        <li
-                          id="menu-item-3169"
-                          class="c-mobile-menu__subitem menu-item-3169"
-                        >
-                          <a
-                            href=" /product-category/earrings/"
-                            >With description</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
+                  </li>
+                  
+                </ul>
+              </li>
+              <li
+                id="menu-item-3494"
+                class="c-mobile-menu__subitem c-mobile-menu__subitem--has-children menu-item-3494"
+              >
+                <span class="a">Chains</span>
+                <ul
+                  class="c-mobile-menu__submenu c-mobile-menu__submenu--inner"
+                >
+                  <li
+                    id="menu-item-3495"
+                    class="c-mobile-menu__subitem menu-item-3495"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/<?php echo urlencode("chains");?>/?g=m"
+                      >Chains "Gents"</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-3496"
+                    class="c-mobile-menu__subitem menu-item-3496"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/<?php echo urlencode("chains");?>/?g=l"
+                      >Chains "Ladies"</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li
+                id="menu-item-1951"
+                class="c-mobile-menu__subitem c-mobile-menu__subitem--has-children menu-item-1951"
+              >
+                <span class="a">Earrings</span>
+                <ul
+                  class="c-mobile-menu__submenu c-mobile-menu__submenu--inner"
+                >
+                  <li
+                    id="menu-item-1953"
+                    class="c-mobile-menu__subitem menu-item-1953"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/earrings/studs/>"
+                      >Studs</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1954"
+                    class="c-mobile-menu__subitem menu-item-1954"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/earrings/bali/"
+                      >Bali</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1956"
+                    class="c-mobile-menu__subitem menu-item-1956"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/earrings/jhala/"
+                      >Jhala</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1955"
+                    class="c-mobile-menu__subitem menu-item-1955"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/earrings/jhumki/"
+                      >Jhumki</a
+                    >
+                  </li>
+                  
+                </ul>
+              </li>
+              <li
+                id="menu-item-2040"
+                class="c-mobile-menu__subitem c-mobile-menu__subitem--has-children menu-item-2040"
+              >
+                <span class="a">Bangles & Kada</span>
+                <ul
+                  class="c-mobile-menu__submenu c-mobile-menu__submenu--inner"
+                >
+                  <li
+                    id="menu-item-2041"
+                    class="c-mobile-menu__subitem menu-item-2041"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/kada/?g=m"
+                      >Kada "Gents"</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-2042"
+                    class="c-mobile-menu__subitem menu-item-2042"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/kada/?g=l"
+                      >Kada "Ladies"</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-2043"
+                    class="c-mobile-menu__subitem menu-item-2043"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/kada/?g=baby"
+                      >kada "Baby" </a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li
+                id="menu-item-1952"
+                class="c-mobile-menu__subitem c-mobile-menu__subitem--has-children menu-item-1952"
+              >
+                <span class="a">Watches</span>
+                <ul
+                  class="c-mobile-menu__submenu c-mobile-menu__submenu--inner"
+                >
+                  <li
+                    id="menu-item-2057"
+                    class="c-mobile-menu__subitem menu-item-2057"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/watches/?g=m"
+                      >Watch "Gents"</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-2056"
+                    class="c-mobile-menu__subitem menu-item-2056"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/watches/?g=l"
+                      >Watch "Ladies"</a
+                    >
+                  </li>
+                  
+                </ul>
+              </li>
+              <li
+                id="menu-item-2044"
+                class="c-mobile-menu__subitem c-mobile-menu__subitem--has-children menu-item-2044"
+              >
+                <span class="a">Bracelet</span>
+                <ul
+                  class="c-mobile-menu__submenu c-mobile-menu__submenu--inner"
+                >
+                  <li
+                    id="menu-item-1986"
+                    class="c-mobile-menu__subitem menu-item-1986"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/bracelet/?g=m"
+                      >Bracelet "Gents"</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1988"
+                    class="c-mobile-menu__subitem menu-item-1988"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/bracelet/?g=l"
+                      >Bracelet "Ladies"</a
+                    >
+                  </li>
+                  
+                </ul>
+              </li>
+              <li
+                id="menu-item-2044"
+                class="c-mobile-menu__subitem c-mobile-menu__subitem--has-children menu-item-2044"
+              >
+                <span class="a">Anklet</span>
+                <ul
+                  class="c-mobile-menu__submenu c-mobile-menu__submenu--inner"
+                >
+                  <li
+                    id="menu-item-1986"
+                    class="c-mobile-menu__subitem menu-item-1986"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/anklet/"
+                      >Anklet</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1988"
+                    class="c-mobile-menu__subitem menu-item-1988"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/anklet/?g=baby"
+                      >Baby Anklet</a
+                    >
+                  </li>
+                  
+                </ul>
+              </li>
+              <li
+                id="menu-item-2044"
+                class="c-mobile-menu__subitem c-mobile-menu__subitem--has-children menu-item-2044"
+              >
+                <span class="a">Rings</span>
+                <ul
+                  class="c-mobile-menu__submenu c-mobile-menu__submenu--inner"
+                >
+                  <li
+                    id="menu-item-1986"
+                    class="c-mobile-menu__subitem menu-item-1986"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/rings/?g=m"
+                      >Ring "Gents"</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1988"
+                    class="c-mobile-menu__subitem menu-item-1988"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/?g=l"
+                      >Ring "Ladies"</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1988"
+                    class="c-mobile-menu__subitem menu-item-1988"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/rings/?g=couple"
+                      >Ring "Couple"</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1988"
+                    class="c-mobile-menu__subitem menu-item-1988"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/rings/toe/"
+                      ></a
+                    >Toe Ring
+                  </li>
+                </ul>
+              </li>
+              <li
+                id="menu-item-2044"
+                class="c-mobile-menu__subitem c-mobile-menu__subitem--has-children menu-item-2044"
+              >
+                <span class="a">Coins & Murti</span>
+                <ul
+                  class="c-mobile-menu__submenu c-mobile-menu__submenu--inner"
+                >
+                  <li
+                    id="menu-item-1986"
+                    class="c-mobile-menu__subitem menu-item-1986"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/coins/?type=gold"
+                      >"Gold" Coin</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1988"
+                    class="c-mobile-menu__subitem menu-item-1988"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/coins/?type=silver"
+                      >"Silver" Coin</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1988"
+                    class="c-mobile-menu__subitem menu-item-1988"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/<?php echo urlencode("murti emerald");?>/"
+                      >Murti Emerald</a
+                    >
+                  </li>
+                  
+                </ul>
+              </li>
+              <li
+                id="menu-item-2044"
+                class="c-mobile-menu__subitem c-mobile-menu__subitem--has-children menu-item-2044"
+              >
+                <span class="a">Utensils</span>
+                <ul
+                  class="c-mobile-menu__submenu c-mobile-menu__submenu--inner"
+                >
+                  <li
+                    id="menu-item-1986"
+                    class="c-mobile-menu__subitem menu-item-1986"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/utensils/bowl/"
+                      >Bowl</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1988"
+                    class="c-mobile-menu__subitem menu-item-1988"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/utensils/glass/"
+                      >Glass</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1988"
+                    class="c-mobile-menu__subitem menu-item-1988"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/utensils/plate/"
+                      >Plate</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1988"
+                    class="c-mobile-menu__subitem menu-item-1988"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/utensils/spoon/"
+                      ></a
+                    >Spoon
+                  </li>
+                  <li
+                    id="menu-item-1988"
+                    class="c-mobile-menu__subitem menu-item-1988"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/utensils/set/"
+                      ></a
+                    >Utensil Set
+                  </li>
+                </ul>
+              </li>
+              <li
+                id="menu-item-2044"
+                class="c-mobile-menu__subitem c-mobile-menu__subitem--has-children menu-item-2044"
+              >
+                <span class="a">Coughling</span>
+                <ul
+                  class="c-mobile-menu__submenu c-mobile-menu__submenu--inner"
+                >
+                  <li
+                    id="menu-item-1986"
+                    class="c-mobile-menu__subitem menu-item-1986"
+                  >
+                    <a
+                      href="<?php echo $domain; ?>shop/products/coughling/"
+                      >Coughling</a
+                    >
+                  </li>
+                  
+                  
+                </ul>
+              </li>
+            </ul>
                 </li>
                 
                 <li
                   id="menu-item-210"
                   class="c-mobile-menu__item  menu-item-210"
                 >
-                  <span class="a">Engagement</span>
-                  
+                <a href="<?php echo $domain; ?>shop/engagement/"
+                    >Engagement</a
+                  >
                 </li>
                 <li
                   id="menu-item-2318"
@@ -629,9 +626,9 @@
                   id="menu-item-223"
                   class="c-mobile-menu__item menu-item-223"
                 >
-                  <a href=" /contacts/"
-                    >Contacts</a
-                  >
+                <a href="<?php echo $domain;?>help/contact/"
+              >Contact</a
+            >
                 </li>
               </ul>
             </nav>
@@ -644,7 +641,7 @@
                     <i
                       class="fa fa-phone c-header__top-row-icon c-header__top-row-icon--phone"
                     ></i>
-                    <a href="<?php echo $domain;?>tel:7123399294"
+                    <a href="<?php echo $domain;?>tel:<?php echo $phone;?>"
                       ><?php echo $phone;?></a
                     >
                   </div>
@@ -655,7 +652,7 @@
                       class="fa fa-envelope-o c-header__top-row-icon c-header__top-row-icon--email"
                     ></i>
                     <a
-                      href="https://parkofideas.com/mailto:<?php echo $email;?>"
+                      href="<?php echo $domain;?>mailto:<?php echo $email;?>"
                       ><?php echo $email;?></a
                     >
                   </div>
@@ -686,7 +683,7 @@
                   >
                     <div class="c-soc">
                       <a
-                        href="https://parkofideas.com/#"
+                        href="<?php echo $facebook_url; ?>"
                         class="c-soc__link"
                         target="_blank"
                         aria-label="Facebook"
@@ -695,7 +692,7 @@
                         ></i
                       ></a>
                       <a
-                        href="https://parkofideas.com/#"
+                        href="<?php echo $instagram_url; ?>"
                         class="c-soc__link"
                         target="_blank"
                         aria-label="Instagram"
@@ -704,7 +701,7 @@
                         ></i
                       ></a>
                       <a
-                        href="https://parkofideas.com/#"
+                        href="<?php echo $twitter_url; ?>"
                         class="c-soc__link"
                         target="_blank"
                         aria-label="Twitter"
@@ -713,7 +710,7 @@
                         ></i
                       ></a>
                       <a
-                        href="https://parkofideas.com/#"
+                        href="<?php echo $youtube_url; ?>"
                         class="c-soc__link"
                         target="_blank"
                         aria-label="YouTube"
@@ -763,7 +760,7 @@
             <div class="c-header__cart c-header__cart--default js-cart">
               <a
                 class="c-header__button-link js-cart-sidebar-open"
-                href=" /cart/"
+                href="<?php echo $domain;?>shop/cart/"
                 aria-label="Shopping cart"
               >
               <i class="fa fa-shopping-cart c-header__cart-icon h-hide-mobile"></i
@@ -794,7 +791,7 @@
               <div class="c-header__cell c-header__cell--top-center">
                 <div class="c-header__logo c-header__logo--desktop">
                   <a
-                    href=" /"
+                    href="<?php echo $domain;?>"
                     class="c-header__logo-link"
                   >
                     <img
@@ -866,7 +863,7 @@
                   <i
                     class="fa fa-phone c-header__top-row-icon c-header__top-row-icon--phone"
                   ></i>
-                  <a href="<?php echo $domain;?>tel:7123399294"
+                  <a href="<?php echo $domain;?>tel:<?php echo $phone;?>"
                     ><?php echo $phone;?></a
                   >
                 </div>
@@ -894,294 +891,255 @@
                         >Explore</a
                       >
                       <ul
-                        class="c-top-menu__submenu c-top-menu__submenu--columns-4 c-top-menu__submenu--expand"
+                  class="c-top-menu__submenu c-top-menu__submenu--columns-4 c-top-menu__submenu--expand">
+                  <li
+                    class="c-top-menu__subitem menu-item-1949 c-top-menu__subitem--expand js-menu-item"
+                  >
+                    <span class="a">Necklaces</span>
+                    <ul
+                      class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
+                    >
+                      <li
+                        class="c-top-menu__subitem menu-item-2038 c-top-menu__subitem--collapse js-menu-item"
                       >
-                        <li
-                          class="c-top-menu__subitem menu-item-1949 c-top-menu__subitem--expand js-menu-item"
+                        <a
+                          href="<?php echo $domain; ?>shop/products/necklace"
+                          >Necklace</a
                         >
-                          <span class="a">Necklace</span>
-                          <ul
-                            class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
-                          >
-                            <li
-                              class="c-top-menu__subitem menu-item-2038 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/?set=4,6,37"
-                                >Necklace</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-1994 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/?set=2,40"
-                                >Long Haar</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-1993 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/?set=3,38,39"
-                                >Choker</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-1992 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/?set=4"
-                                >Mangalsutra</a
-                              >
-                            </li>
-                          
-                          </ul>
-                          <span class="a">Pendants</span>
-                          <ul
-                            class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
-                          >
-                            <li
-                              class="c-top-menu__subitem menu-item-2038 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/?set=4,6,37"
-                                >Pendant</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-1994 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/?set=2,40"
-                                >God Pendant</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-1993 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/?set=3,38,39"
-                                >Pendant Set</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-1992 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/?set=4"
-                                >Mangalsutra</a
-                              >
-                            </li>
-                          
-                          </ul>
-                          <span class="a">Chains</span>
-                          <ul
-                            class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
-                          >
-                            <li
-                              class="c-top-menu__subitem menu-item-2038 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/?set=4,6,37"
-                                >Chain "Gents"</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-1994 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/?set=2,40"
-                                >Chain "Ladies"</a
-                              >
-                            </li>
-                            
-                          </ul>
-                        </li>
-                        <li
-                          class="c-top-menu__subitem menu-item-1950 c-top-menu__subitem--expand js-menu-item"
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-1994 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/necklace/<?php echo urlencode("Long Haar") ?>"
+                          >Long Haar</a
                         >
-                          <span class="a">Earrings</span>
-                          <ul
-                            class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
-                          >
-                            <li
-                              class="c-top-menu__subitem menu-item-3510 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/t1-circle-pendant/?set=14"
-                                >Studs</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-1958 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/t1-circle-pendant/?set=13"
-                                >Bali</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-1963 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/color-by-the-yard-emerald-pendant/?set=15"
-                                >Jhala</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-1967 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/diamond-vine-climber-earrings/?set=34,13"
-                                >Jhumki</a
-                              >
-                            </li>
-                            
-                          </ul>
-                          <span class="a">Bangles & Kada</span>
-                          <ul
-                            class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
-                          >
-                            <li
-                              class="c-top-menu__subitem menu-item-2038 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/?set=4,6,37"
-                                >Kada "Gents"</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-1994 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/?set=2,40"
-                                >Kada "Ladies"</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-1993 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/?set=3,38,39"
-                                >Baby Kada </a
-                              >
-                            </li>
-                          
-                          
-                          </ul>
-                        </li>
-                        <li
-                          class="c-top-menu__subitem menu-item-3494 c-top-menu__subitem--expand js-menu-item"
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-1993 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/necklace/choker/"
+                          >Choker</a
                         >
-                          <span class="a">Watches</span>
-                          <ul
-                            class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
-                          >
-                            <li
-                              class="c-top-menu__subitem menu-item-3495 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/?set=43"
-                                >Watch "Gents"</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-3496 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/?set=44"
-                                >Watch "Ladies"</a
-                              >
-                            </li>
-                          </ul>
-                        </li>
-                        <li
-                          class="c-top-menu__subitem menu-item-1951 c-top-menu__subitem--expand js-menu-item"
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-1993 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/necklace/mangalsutra/"
+                          >Mangalsutra</a
                         >
-                          <span class="a">Bracelet</span>
-                          <ul
-                            class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
-                          >
-                            <li
-                              class="c-top-menu__subitem menu-item-1953 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/t1-circle-pendant/"
-                                >Bracelet "Gents"</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-1954 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/color-by-the-yard-emerald-pendant/"
-                                >Bracelet "Ladies"</a
-                              >
-                            </li>
-                            
-                          </ul>
-                        </li>
-                        <li
-                          class="c-top-menu__subitem menu-item-2040 c-top-menu__subitem--expand js-menu-item"
+                      </li>
+                      
+                    </ul>
+                    <span class="a">Pendants</span>
+                    <ul
+                      class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
+                    >
+                      <li
+                        class="c-top-menu__subitem menu-item-2038 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/pendants/"
+                          >Pendants</a
                         >
-                          <span class="a">Anklet</span>
-                          <ul
-                            class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
-                          >
-                            <li
-                              class="c-top-menu__subitem menu-item-2041 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/?set=10"
-                                >Anklet</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-2042 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/?set=11"
-                                >Baby Anklet</a
-                              >
-                            </li>
-                           
-                          </ul>
-                        </li>
-                        <li
-                          class="c-top-menu__subitem menu-item-1952 c-top-menu__subitem--expand js-menu-item"
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-1994 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/pendants/god/"
+                          >God Pendant</a
                         >
-                          <span class="a">Rings</span>
-                          <ul
-                            class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
-                          >
-                            <li
-                              class="c-top-menu__subitem menu-item-2057 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /brands-1/"
-                                >Ring "Gents"</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-2056 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /brands-2/"
-                                >Ring "Ladies"</a
-                              >
-                            </li>
-                            <li
-                              class="c-top-menu__subitem menu-item-2058 c-top-menu__subitem--collapse js-menu-item"
-                            >
-                              <a
-                                href=" /shop/heart-locket/?set=29"
-                                >Ring "Couple"</a
-                              >
-                            </li>
-                            
-                          </ul>
-                          <span class="a">Toe Rings</span>
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-1993 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/pendants/set/"
+                          >Pendant Set</a
+                        >
+                      </li>
+                      
+                    </ul>
+                    <span class="a">Chains</span>
+                    <ul
+                      class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
+                    >
+                      <li
+                        class="c-top-menu__subitem menu-item-2038 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/chains/?g=m"
+                          > Chain "Gents"</a
+                        >
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-1994 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/chains/?g=l"
+                          > Chain "Ladies"</a
+                        >
+                      </li>
+                      
+                      
+                    </ul>
+                  </li>
+                  <li
+                    class="c-top-menu__subitem menu-item-1950 c-top-menu__subitem--expand js-menu-item"
+                  >
+                    <span class="a">Earrings</span>
+                    <ul
+                      class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
+                    >
+                      <li
+                        class="c-top-menu__subitem menu-item-3510 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/earrings/studs/"
+                          >Studs</a
+                        >
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-1958 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/earrings/bali/"
+                          >Bali</a
+                        >
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-1963 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/earrings/jhala/"
+                          >Jhala</a
+                        >
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-1967 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/earrings/jhumki/"
+                          >Jhumki</a
+                        >
+                      </li>
+                     
+                    </ul>
+                    <span class="a">Bangles & Kada</span>
+                    <ul
+                      class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
+                    >
+                      <li
+                        class="c-top-menu__subitem menu-item-3510 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/kada/?g=m"
+                          >Kada "Gents"</a
+                        >
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-3510 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/kada/g=l"
+                          >Kada "Ladies"</a
+                        >
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-1958 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/kada/?g=baby"
+                          >Baby Kada</a
+                        >
+                      </li>
+                      
+                     
+                    </ul>
+                  </li>
+                  <li
+                    class="c-top-menu__subitem menu-item-3494 c-top-menu__subitem--expand js-menu-item"
+                  >
+                  <span class="a">Watches</span>
+                    <ul
+                      class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
+                    >
+                      <li
+                        class="c-top-menu__subitem menu-item-1986 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/watches/?g=m"
+                          >Watch "Gents"</a
+                        >
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-1988 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/watches/?g=l;"
+                          >Watch "Ladies"</a
+                        >
+                      </li>
+                      
+                    </ul>
+                    
+                  </li>
+                  <li
+                    class="c-top-menu__subitem menu-item-1951 c-top-menu__subitem--expand js-menu-item"
+                  >
+                  <span class="a">Bracelet</span>
+                    <ul
+                      class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
+                    >
+                      <li
+                        class="c-top-menu__subitem menu-item-1953 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/bracelet/?g=m"
+                          >Bracelet "Gents"</a
+                        >
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-1954 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/bracelet/?g=l"
+                          >Bracelet "Ladies"</a
+                        >
+                      </li>
+                      
+                    </ul>
+                    <span class="a">Anklet</span>
+                    <ul
+                      class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
+                    >
+                      <li
+                        class="c-top-menu__subitem menu-item-1953 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/anklet/"
+                          >Anklet</a
+                        >
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-1954 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/ankle?g=baby/"
+                          >Baby Anklet</a
+                        >
+                      </li>
+                      
+                    </ul>
+                    
+                  </li>
+                  <li
+                    class="c-top-menu__subitem menu-item-2040 c-top-menu__subitem--expand js-menu-item"
+                  >
+                    <span class="a">Rings</span>
                     <ul
                       class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
                     >
@@ -1189,17 +1147,46 @@
                         class="c-top-menu__subitem menu-item-2041 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href=" /shop/?set=10"
+                          href="<?php echo $domain; ?>shop/products/rings/?g=m"
+                          >Ring "Gents"</a
+                        >
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-2042 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/rings/?g=l"
+                          >Ring "Ladies"</a
+                        >
+                      </li>
+                      <li
+                        class="c-top-menu__subitem menu-item-2043 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/rings/?g=couple"
+                          >Ring "Couple"</a
+                        >
+                      </li>
+                    </ul>
+                    <span class="a">Toe Rings</span>
+                    <ul
+                      class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
+                    >
+                      <li
+                        class="c-top-menu__subitem menu-item-2041 c-top-menu__subitem--collapse js-menu-item"
+                      >
+                        <a
+                          href="<?php echo $domain; ?>shop/products/rings/toe/"
                           >Toe Ring </a
                         >
                       </li>
                       
                     </ul>
-                        </li>
-                        <li
-                          class="c-top-menu__subitem menu-item-2044 c-top-menu__subitem--expand js-menu-item"
-                        >
-                        <span class="a">Coins & Murti</span>
+                  </li>
+                  <li
+                    class="c-top-menu__subitem menu-item-1952 c-top-menu__subitem--expand js-menu-item"
+                  >
+                  <span class="a">Coins & Murti</span>
                     <ul
                       class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
                     >
@@ -1207,7 +1194,7 @@
                         class="c-top-menu__subitem menu-item-3495 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href=" /shop/?set=43"
+                          href="<?php echo $domain; ?>shop/products/coins/?type=gold"
                           >"Gold" Coin </a
                         >
                       </li>
@@ -1215,7 +1202,7 @@
                         class="c-top-menu__subitem menu-item-3496 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href=" /shop/?set=44"
+                          href="<?php echo $domain; ?>shop/products/coins/?type=silver"
                           >"Silver" Coin </a
                         >
                       </li>
@@ -1223,7 +1210,7 @@
                         class="c-top-menu__subitem menu-item-3496 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href=" /shop/?set=44"
+                          href="<?php echo $domain; ?>shop/products/<?php echo urlencode("murti emerald");?>/"
                           >Murti Emerald </a
                         >
                       </li>
@@ -1236,7 +1223,7 @@
                         class="c-top-menu__subitem menu-item-2057 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href=" /brands-1/"
+                          href="<?php echo $domain; ?>shop/products/utensils/bowl/"
                           >Bowl</a
                         >
                       </li>
@@ -1244,7 +1231,7 @@
                         class="c-top-menu__subitem menu-item-2056 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href=" /brands-2/"
+                          href="<?php echo $domain; ?>shop/products/utensils/glass/"
                           >Glass</a
                         >
                       </li>
@@ -1252,7 +1239,7 @@
                         class="c-top-menu__subitem menu-item-2058 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href=" /shop/heart-locket/?set=29"
+                          href="<?php echo $domain; ?>shop/products/utensils/plate/"
                           >Plate</a
                         >
                       </li>
@@ -1260,7 +1247,7 @@
                         class="c-top-menu__subitem menu-item-2059 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href=" /shop/?set=29"
+                          href="<?php echo $domain; ?>shop/products/utensils/spoon/"
                           >Spoon</a
                         >
                       </li>
@@ -1268,11 +1255,16 @@
                         class="c-top-menu__subitem menu-item-2059 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href=" /shop/?set=29"
+                          href="<?php echo $domain; ?>shop/products/utensils/set/"
                           >Utensil "Set"</a
                         >
                       </li>
                     </ul>
+                  </li>
+                  <li
+                    class="c-top-menu__subitem menu-item-2044 c-top-menu__subitem--expand js-menu-item"
+                  >
+                    
                     <span class="a">Coughling</span>
                     <ul
                       class="c-top-menu__submenu c-top-menu__submenu--columns-1 c-top-menu__submenu--expand c-top-menu__submenu--inner"
@@ -1281,19 +1273,19 @@
                         class="c-top-menu__subitem menu-item-1986 c-top-menu__subitem--collapse js-menu-item"
                       >
                         <a
-                          href=" /shop/?set=31"
+                          href="<?php echo $domain; ?>shop/products/coughling/"
                           >Coughling</a
                         >
                       </li>
                       
                     </ul>
-                        </li>
-                      </ul>
+                  </li>
+                </ul>
                     </li>
                     <li
                       class="c-top-menu__item menu-item-209 js-menu-item"
                     >
-                      <a href="#"
+                      <a href="<?php echo $domain; ?>shop/"
                         >Shop</a
                       >
                       
@@ -1301,8 +1293,9 @@
                     <li
                       class="c-top-menu__item  menu-item-210 js-menu-item"
                     >
-                      <span class="a">Engagement</span>
-                      
+                    <a href="<?php echo $domain; ?>shop/engagement/"
+                    >Engagement</a
+                  >
                     </li>
                     <li
                       class="c-top-menu__item menu-item-2318  js-menu-item"
@@ -1311,8 +1304,8 @@
                       
                     </li>
                     <li class="c-top-menu__item menu-item-223 js-menu-item">
-                      <a href=" /contacts/"
-                        >Contacts</a
+                      <a href="<?php echo $domain; ?>help/contact/"
+                        >Contact</a
                       >
                     </li>
                   </ul>

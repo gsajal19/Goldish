@@ -55,6 +55,7 @@ include 'config.php';
       .trust-bar{
         justify-content:space-around;
       }
+      
     </style>
     <link
       rel="stylesheet"

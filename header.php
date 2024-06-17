@@ -156,7 +156,7 @@
             id="menu-item-209"
             class="c-mobile-menu__item  menu-item-209"
           >
-            <a href="#">Shop</a>
+            <a href="<?php echo $domain; ?>shop/">Shop</a>
             
           </li>
           <li
@@ -617,8 +617,9 @@
             id="menu-item-210"
             class="c-mobile-menu__item  menu-item-210"
           >
-            <span class="a">Engagement</span>
-            
+          <a href="<?php echo $domain; ?>shop/engagement/"
+                    >Engagement</a
+                  >
           </li>
           <li
             id="menu-item-2318"
@@ -632,7 +633,7 @@
             class="c-mobile-menu__item menu-item-223"
           >
             <a href="<?php echo $domain;?>help/contact/"
-              >Contacts</a
+              >Contact</a
             >
           </li>
         </ul>
@@ -1296,7 +1297,7 @@
               <li
                 class="c-top-menu__item menu-item-209 js-menu-item"
               >
-                <a href="#"
+                <a href="<?php echo $domain; ?>shop/"
                   >Shop</a
                 >
                 
@@ -1304,8 +1305,9 @@
               <li
                 class="c-top-menu__item  menu-item-210 js-menu-item"
               >
-                <span class="a">Engagement</span>
-                
+              <a href="<?php echo $domain; ?>shop/engagement/"
+                    >Engagement</a
+                  >
               </li>
               <li
                 class="c-top-menu__item menu-item-2318  js-menu-item"
@@ -1315,7 +1317,7 @@
               </li>
               <li class="c-top-menu__item menu-item-223 js-menu-item">
                 <a href="<?php echo $domain; ?>help/contact/"
-                  >Contacts</a
+                  >Contact</a
                 >
               </li>
             </ul>

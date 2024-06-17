@@ -12,6 +12,13 @@ include 'config.php';
         <meta name='robots' content='max-image-preview:large' />
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Jost%3A200%2Cregular%2Citalic%2C500%2C600%2C700%2C900%26subset%3Dlatin%2Clatin-ext&#038;display=swap">
         <link rel="stylesheet" href="<?php echo $domain;?>asset/goldish/demo/wp-content/themes/goldish/assets/font/theme-icons.css">
+        <link
+      rel="stylesheet"
+      id="elementor-frontend-css"
+      href="<?php echo $domain; ?>asset/goldish/demo/wp-content/uploads/elementor/css/custom-widget-icon-list.min"
+      type="text/css"
+      media="all"
+    />
         <style>@font-face { font-family:"Boska Light";src:url(https://parkofideas.com/goldish/demo/wp-content/uploads/2023/03/goldish-1203323592.woff2) format('woff2');font-display: auto;}@font-face { font-family:"Boska Regular";src:url(https://parkofideas.com/goldish/demo/wp-content/uploads/2023/03/goldish-1323852144.woff2) format('woff2');font-display: auto;}</style>
         <link rel="alternate" type="application/rss+xml" title="Goldish &raquo; Feed" href="https://parkofideas.com/goldish/demo/feed/" />
         <link rel="alternate" type="application/rss+xml" title="Goldish &raquo; Comments Feed" href="https://parkofideas.com/goldish/demo/comments/feed/" />
@@ -107,13 +114,7 @@ include 'config.php';
             var wc_cart_fragments_params = {"ajax_url":"\/goldish\/demo\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/goldish\/demo\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_2bfaa0db018ed7d4de7313c6cef366a0","fragment_name":"wc_fragments_2bfaa0db018ed7d4de7313c6cef366a0","request_timeout":"5000"};
             /* ]]> */
         </script> <script type="text/javascript" src="<?php echo $domain;?>asset/goldish/demo/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js" id="wc-cart-fragments-js" defer="defer" data-wp-strategy="defer"></script> 
-        <link rel="https://api.w.org/" href="https://parkofideas.com/goldish/demo/wp-json/" />
-        <link rel="edituri" type="application/rsd+xml" title="RSD" href="https://parkofideas.com/goldish/demo/xmlrpc.php?rsd" />
-        <meta name="generator" content="WordPress 6.5.4" />
-        <meta name="generator" content="Theme Plugin 3.31" />
-        <meta name="generator" content="WooCommerce 8.9.3" />
-        <meta name="generator" content="Goldish 3.31" />
-        <meta name="description" content="Jewelry Store WooCommerce Theme" />
+         <meta name="description" content="Jewelry Store WooCommerce Theme" />
         <noscript>
             <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
         </noscript>
@@ -173,7 +174,7 @@ include 'config.php';
                                 <div class="c-shop-sidebar__content c-shop-sidebar__content--desktop-filter js-shop-sidebar-content-desktop">
                                     <div class="c-sidebar__wrap">
                                         <aside id="woocommerce_price_filter-2" class="widget woocommerce widget_price_filter">
-                                            <div class="widget-title">Price</d9iv>
+                                            <div class="widget-title">Price</div>
                                             <form method="get" action="https://parkofideas.com/goldish/demo/shop/">
                                                 <div class="price_slider_wrapper">
                                                     <div class="price_slider" style="display:none;"></div>
@@ -272,10 +273,10 @@ include 'config.php';
                                         <aside id="ip_attribute_filter-6" class="widget woocommerce widget_layered_nav woocommerce-widget-layered-nav">
                                             <h2 class="widget-title">Size</h2>
                                             <ul class="c-ip-attribute-filter__list">
-                                                <li class="c-ip-attribute-filter__item c-ip-attribute-filter__item--"><a rel="nofollow" href="<?php echo $domain;?>shop/?filter_size=extra-small"><span class="c-ip-attribute-filter__sw c-ip-attribute-filter__sw--checkbox"></span>Extra Small</a></li>
-                                                <li class="c-ip-attribute-filter__item c-ip-attribute-filter__item--"><a rel="nofollow" href="<?php echo $domain;?>shop/?filter_size=small"><span class="c-ip-attribute-filter__sw c-ip-attribute-filter__sw--checkbox"></span>Small</a></li>
-                                                <li class="c-ip-attribute-filter__item c-ip-attribute-filter__item--"><a rel="nofollow" href="<?php echo $domain;?>shop/?filter_size=medium"><span class="c-ip-attribute-filter__sw c-ip-attribute-filter__sw--checkbox"></span>Medium</a></li>
-                                                <li class="c-ip-attribute-filter__item c-ip-attribute-filter__item--"><a rel="nofollow" href="<?php echo $domain;?>shop/?filter_size=large"><span class="c-ip-attribute-filter__sw c-ip-attribute-filter__sw--checkbox"></span>Large</a></li>
+                                                <li class="c-ip-attribute-filter__item c-ip-attribute-filter__item--"><a rel="nofollow" href="https://parkofideas.com/goldish/demo/shop/?filter_size=extra-small"><span class="c-ip-attribute-filter__sw c-ip-attribute-filter__sw--checkbox"></span>Extra Small</a></li>
+                                                <li class="c-ip-attribute-filter__item c-ip-attribute-filter__item--"><a rel="nofollow" href="https://parkofideas.com/goldish/demo/shop/?filter_size=small"><span class="c-ip-attribute-filter__sw c-ip-attribute-filter__sw--checkbox"></span>Small</a></li>
+                                                <li class="c-ip-attribute-filter__item c-ip-attribute-filter__item--"><a rel="nofollow" href="https://parkofideas.com/goldish/demo/shop/?filter_size=medium"><span class="c-ip-attribute-filter__sw c-ip-attribute-filter__sw--checkbox"></span>Medium</a></li>
+                                                <li class="c-ip-attribute-filter__item c-ip-attribute-filter__item--"><a rel="nofollow" href="https://parkofideas.com/goldish/demo/shop/?filter_size=large"><span class="c-ip-attribute-filter__sw c-ip-attribute-filter__sw--checkbox"></span>Large</a></li>
                                                 <li class="c-ip-attribute-filter__item c-ip-attribute-filter__item--"><a rel="nofollow" href="https://parkofideas.com/goldish/demo/shop/?filter_size=extra-large"><span class="c-ip-attribute-filter__sw c-ip-attribute-filter__sw--checkbox"></span>Extra Large</a></li>
                                             </ul>
                                         </aside>

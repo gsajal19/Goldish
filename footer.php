@@ -1,5 +1,9 @@
 <!-- footer -->
- 
+ <style>
+.elementor-icon-list-items{
+        list-style-type:none !important;
+      }
+  </style>
 <footer class="l-section c-footer">
         <div class="l-section">
             
